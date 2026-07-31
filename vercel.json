@@ -24,6 +24,11 @@
       "statusCode": 301
     },
     {
+      "source": "/feed/",
+      "destination": "/",
+      "statusCode": 302
+    },
+    {
       "source": "/feed",
       "destination": "/",
       "statusCode": 302
