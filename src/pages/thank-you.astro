@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import Icon from '../components/Icon.astro';
+import { PAGE_META } from '../data/pages.ts';
+
+const meta = PAGE_META['/thank-you/'];
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Thank You' }];
+---
+
+<BaseLayout title={meta.title} description={meta.description} robots={meta.robots}>
+  <PageHeader title="Thank You" crumbs={crumbs} />
+
+  <section class="thanks">
+    <div class="container">
+      <div class="thanks__icon" aria-hidden="true"><Icon name="circle-check" size={64} /></div>
+      <p class="thanks__shout">THANK YOU!</p>
+      <p class="thanks__text">
+        Your message has been delivered to the Sales Department. We will process your request and
+        get back to you as soon as possible.
+      </p>
+      <a class="btn btn--primary" href="/">Back to Home</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .thanks {
+    text-align: center;
+    padding: 50px 10px 80px;
+  }
+  .thanks__icon {
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+  .thanks__shout {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .thanks__text {
+    font-size: 19px;
+    max-width: 620px;
+    margin: 0 auto 26px;
+    line-height: 1.6;
+  }
+  @media (max-width: 767px) {
+    .thanks__shout {
+      font-size: 28px;
+    }
+    .thanks__text {
+      font-size: 17px;
+    }
+  }
+</style>

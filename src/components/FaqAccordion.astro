@@ -1,0 +1,97 @@
+---
+import type { Faq } from '../lib/catalog.ts';
+
+/**
+ * Native <details>/<summary>, matching the widget the live site renders.
+ * Keyboard and screen-reader support comes from the platform — no JS.
+ */
+export interface Props {
+  faqs: Faq[];
+  class?: string;
+}
+const { faqs, class: className = '' } = Astro.props;
+---
+
+<div class={`faq ${className}`}>
+  {
+    faqs.map((f) => (
+      <details class="faq__item">
+        <summary class="faq__q">
+          <span class="faq__q-text">{f.q}</span>
+          <span class="faq__icon" aria-hidden="true" />
+        </summary>
+        <div class="faq__a" set:html={f.a} />
+      </details>
+    ))
+  }
+</div>
+
+<style>
+  .faq__item {
+    background: var(--white);
+    border: 1px solid var(--border);
+    margin-bottom: 10px;
+  }
+  .faq__q {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px 20px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    list-style: none;
+  }
+  .faq__q::-webkit-details-marker {
+    display: none;
+  }
+  .faq__q:hover .faq__q-text {
+    color: var(--red);
+  }
+  .faq__q:focus-visible {
+    outline: var(--focus);
+    outline-offset: -3px;
+  }
+  .faq__icon {
+    flex: none;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+  }
+  .faq__icon::before,
+  .faq__icon::after {
+    content: '';
+    position: absolute;
+    background: currentColor;
+    inset: 50% 3px auto 3px;
+    height: 1.5px;
+    transform: translateY(-50%);
+  }
+  .faq__icon::after {
+    inset: 3px 50% 3px auto;
+    width: 1.5px;
+    height: auto;
+    transform: translateX(50%);
+    transition: opacity 0.15s;
+  }
+  .faq__item[open] .faq__icon::after {
+    opacity: 0;
+  }
+  .faq__a {
+    padding: 0 20px 18px;
+    font-size: var(--text-size);
+    line-height: 1.7;
+  }
+  @media (max-width: 767px) {
+    .faq__q {
+      font-size: 15px;
+      padding: 14px 16px;
+    }
+    .faq__a {
+      padding: 0 16px 16px;
+    }
+  }
+</style>

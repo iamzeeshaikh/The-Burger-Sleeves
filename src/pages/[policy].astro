@@ -1,0 +1,56 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { PAGE_META } from '../data/pages.ts';
+import { DEFAULT_OG } from '../lib/og.ts';
+import { graph, organizationNode, websiteNode, breadcrumbNode } from '../lib/schema.ts';
+import policies from '../data/policies.json';
+
+/** Privacy, Terms, Shipping and Refund/Returns — plain WordPress content pages. */
+export const getStaticPaths = (() =>
+  Object.entries(policies).map(([slug, page]) => ({
+    params: { policy: slug },
+    props: { slug, page },
+  }))) satisfies GetStaticPaths;
+
+const { slug, page } = Astro.props;
+const meta = PAGE_META[`/${slug}/`];
+
+const crumbs = [{ name: 'Home', url: '/' }, { name: page.h1 }];
+const schema = graph([organizationNode(), websiteNode(), breadcrumbNode(crumbs)]);
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.description}
+  ogImage={DEFAULT_OG}
+  schema={schema}
+>
+  <article class="policy">
+    <div class="container">
+      <h1 class="prose-title">{page.h1}</h1>
+      <div class="prose" set:html={page.html} />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .policy {
+    padding: 40px 10px 60px;
+  }
+  .prose-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 24px;
+  }
+  @media (max-width: 1024px) {
+    .prose-title {
+      font-size: 32px;
+    }
+  }
+  @media (max-width: 767px) {
+    .prose-title {
+      font-size: 30px;
+    }
+  }
+</style>

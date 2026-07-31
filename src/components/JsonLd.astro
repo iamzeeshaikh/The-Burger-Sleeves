@@ -1,0 +1,15 @@
+---
+/**
+ * Emits one JSON-LD block. Callers pass a fully-built node array so a page can
+ * never accidentally ship two Product / FAQPage / BreadcrumbList graphs.
+ */
+export interface Props {
+  data: unknown;
+}
+const { data } = Astro.props;
+
+// `<` is escaped so a stray sequence in copy can never break out of the script.
+const json = JSON.stringify(data).replace(/</g, '\\u003c');
+---
+
+<script type="application/ld+json" is:inline set:html={json} />

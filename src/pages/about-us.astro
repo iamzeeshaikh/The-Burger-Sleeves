@@ -1,0 +1,81 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import { PAGE_META } from '../data/pages.ts';
+import { requireImage } from '../lib/images.ts';
+import { ogUrl } from '../lib/og.ts';
+import { graph, organizationNode, websiteNode, breadcrumbNode } from '../lib/schema.ts';
+import about from '../data/about.json';
+
+const meta = PAGE_META['/about-us/'];
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'About Us' }];
+const schema = graph([organizationNode(), websiteNode(), breadcrumbNode(crumbs)]);
+
+const panels = about.panels.map((p) => ({ ...p, img: requireImage(p.image) }));
+---
+
+<BaseLayout
+  title={meta.title}
+  description={meta.description}
+  ogImage={ogUrl(about.panels[0].image)}
+  schema={schema}
+>
+  <PageHeader title={about.h1} crumbs={crumbs} />
+
+  {
+    panels.map((p, i) => (
+      <section class="section section--tight section--flush">
+        <div class={`container container--wide split ${p.reverse ? 'split--reverse' : ''}`}>
+          <div class="split__copy">
+            <h2 class="section-title">{p.h2}</h2>
+            <div class="prose" set:html={p.html} />
+          </div>
+          <div class="split__media">
+            <Image
+              src={p.img}
+              alt={p.imageAlt}
+              widths={[400, 620]}
+              sizes="(max-width: 767px) 92vw, 45vw"
+              loading={i === 0 ? 'eager' : 'lazy'}
+              fetchpriority={i === 0 ? 'high' : undefined}
+            />
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  /* The live layout alternates which side the photo sits on. */
+  .split--reverse .split__copy {
+    order: 2;
+  }
+  .split__media :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+  .split__copy .section-title {
+    margin-bottom: 18px;
+  }
+  @media (max-width: 767px) {
+    .split {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .split--reverse .split__copy {
+      order: 0;
+    }
+  }
+</style>

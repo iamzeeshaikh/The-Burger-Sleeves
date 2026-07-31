@@ -1,0 +1,47 @@
+---
+import { Image } from 'astro:assets';
+import { getImage, PLACEHOLDER } from '../lib/images.ts';
+import type { Product } from '../lib/catalog.ts';
+
+export interface Props {
+  product: Product;
+  /** First row above the fold is eager; everything else lazy-loads. */
+  eager?: boolean;
+  sizes?: string;
+  /** h2 when the grid sits directly under the page H1, h3 under a section H2. */
+  headingLevel?: 'h2' | 'h3';
+  /**
+   * 'loop'  — the grey WooCommerce loop card (homepage, related products)
+   * 'plain' — the white Elementor "cards" skin used on category archives
+   */
+  variant?: 'loop' | 'plain';
+}
+
+const {
+  product,
+  eager = false,
+  sizes = '(max-width: 767px) 45vw, (max-width: 1024px) 30vw, 300px',
+  headingLevel = 'h3',
+  variant = 'loop',
+} = Astro.props;
+const Heading = headingLevel;
+
+const first = product.images[0];
+const img = getImage(first?.file) ?? getImage(PLACEHOLDER)!;
+const alt = first?.alt ?? `${product.name} — image coming soon`;
+---
+
+<li class={`product-card product-card--${variant}`}>
+  <a href={product.url}>
+    <Image
+      src={img}
+      alt={alt}
+      widths={[300, 600]}
+      sizes={sizes}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding={eager ? 'sync' : 'async'}
+      fetchpriority={eager ? 'high' : undefined}
+    />
+    <Heading class="product-card__title">{product.name}</Heading>
+  </a>
+</li>

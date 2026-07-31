@@ -1,0 +1,534 @@
+{
+ "/about-us/": {
+  "title": "About Us - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/about-us/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": null,
+  "status": 200
+ },
+ "/brand/the-burger-sleeves/": {
+  "title": "The Burger Sleeves Archives - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/brand/the-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "The Burger Sleeves",
+  "status": 200
+ },
+ "/contact-us/": {
+  "title": "Contact Us - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/contact-us/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": null,
+  "status": 200
+ },
+ "/get-free-quote/": {
+  "title": "Get Free Quote - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/get-free-quote/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": null,
+  "status": 200
+ },
+ "/": {
+  "title": "Custom Burger Sleeves | Printed & Kraft Food Packaging",
+  "description": "Order custom burger sleeves with logo printing, grease-resistant kraft material, and bulk wholesale options for restaurants, food trucks etc",
+  "canonical": "https://theburgersleeves.com/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Custom Burger Sleeves",
+  "status": 200
+ },
+ "/privacy-policy/": {
+  "title": "Privacy Policy - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/privacy-policy/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Privacy Policy",
+  "status": 200
+ },
+ "/product-category/burger-sleeves-combo/": {
+  "title": "Custom Burger Sleeves | Printed Packaging | The Burger Sleeves",
+  "description": "Custom printed burger sleeves and kraft food packaging. Get high-quality, branded burger wraps for your restaurant. Request a free quote today!",
+  "canonical": "https://theburgersleeves.com/product-category/burger-sleeves-combo/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves Combo",
+  "status": 200
+ },
+ "/product-category/burger-sleeves-materials/": {
+  "title": "Burger Sleeve Materials | Custom Food Packaging | TBS",
+  "description": "Explore premium burger sleeve materials: eco-friendly kraft paper, greaseproof, and custom printed options. Durable packaging for your restaurant!",
+  "canonical": "https://theburgersleeves.com/product-category/burger-sleeves-materials/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves Materials",
+  "status": 200
+ },
+ "/product-category/burger-sleeves-sizes/": {
+  "title": "Burger Sleeve Sizes | Custom Packaging | Free Quote | TBS",
+  "description": "Find the perfect burger sleeve size for your menu. Standard, large, and custom sizes available. Fits sliders to gourmet burgers. Order yours today!",
+  "canonical": "https://theburgersleeves.com/product-category/burger-sleeves-sizes/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves Sizes",
+  "status": 200
+ },
+ "/product-category/burger-sleeves-styles/": {
+  "title": "Burger Sleeve Styles | Custom Printed | The Burger Sleeves",
+  "description": "Explore burger sleeve styles: custom printed designs, natural kraft, windowed, and foil-lined options. Create unique packaging for your brand today!",
+  "canonical": "https://theburgersleeves.com/product-category/burger-sleeves-styles/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves Styles",
+  "status": 200
+ },
+ "/product-category/burger-sleeves-usage/": {
+  "title": "Burger Sleeves Usage | The Burger Sleeves | Order Now",
+  "description": "Learn how to use The Burger Sleeves for restaurants, food trucks & catering. Keep food fresh, grease-free & branded. Order Now for a Free Quote!",
+  "canonical": "https://theburgersleeves.com/product-category/burger-sleeves-usage/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves Usage",
+  "status": 200
+ },
+ "/product-category/customized-burger-sleeves/": {
+  "title": "Customized Burger Sleeves | Custom Printed | Free Quote",
+  "description": "Design customized burger sleeves that showcase your brand. Premium printing, unlimited colors, fast turnaround. Order custom packaging. Free Quote!",
+  "canonical": "https://theburgersleeves.com/product-category/customized-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Customized Burger Sleeves",
+  "status": 200
+ },
+ "/product-category/special-sleeves-uses/": {
+  "title": "Special Sleeve Uses | The Burger Sleeves | Free Quote",
+  "description": "The Burger Sleeves perfect for corporate events, food trucks, festivals & promotional campaigns. Creative packaging solutions. Order Now, Free Quote!",
+  "canonical": "https://theburgersleeves.com/product-category/special-sleeves-uses/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Special Sleeves Uses",
+  "status": 200
+ },
+ "/product/black-burger-sleeves/": {
+  "title": "Black Burger Sleeves | Strong Board | The Burger Sleeves",
+  "description": "Black burger sleeves made from sturdy paperboard with grease control and clear branding panels for takeaway service. Free design and shipping.",
+  "canonical": "https://theburgersleeves.com/product/black-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Black Burger Sleeves",
+  "status": 200
+ },
+ "/product/black-printed-burger-sleeves/": {
+  "title": "Black Printed Burger Sleeves | Dark Finish | The Burger Sleeves",
+  "description": "Black printed burger sleeves for modern presentation with sharp readability and grease control. Artwork assistance and flexible ordering options available.",
+  "canonical": "https://theburgersleeves.com/product/black-printed-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Black Printed Burger Sleeves",
+  "status": 200
+ },
+ "/product/branded-burger-sleeves/": {
+  "title": "Branded Burger Sleeves | Print Space | The Burger Sleeves",
+  "description": "Free artwork help and quick pricing for branded burger sleeves with clean hand-feel, clear branding space, grease control options, and flat pack handling.",
+  "canonical": "https://theburgersleeves.com/product/branded-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Branded Burger Sleeves",
+  "status": 200
+ },
+ "/product/burger-and-fries-sleeves/": {
+  "title": "Burger And Fries Sleeves Packaging | The Burger Sleeves",
+  "description": "Burger and fries sleeves packaging for combined serving with clean grip and grease control. Get custom quotes, free design, and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/burger-and-fries-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger and Fries Sleeves",
+  "status": 200
+ },
+ "/product/burger-sandwich-sleeves/": {
+  "title": "Burger Sandwich Sleeves For Quick Serve | The Burger Sleeves",
+  "description": "Burger sandwich sleeves for quick-serve service, built for cleaner grip and better wrap control with clear print panels that help streamline order handling.",
+  "canonical": "https://theburgersleeves.com/product/burger-sandwich-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sandwich Sleeves",
+  "status": 200
+ },
+ "/product/burger-sleeves/": {
+  "title": "Burger Sleeves | Fast Packing | The Burger Sleeves",
+  "description": "Free design help and a quick quote for burger sleeves built for fast packing, clean grip, and steady hold across counter, takeaway, and tray service.",
+  "canonical": "https://theburgersleeves.com/product/burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Sleeves",
+  "status": 200
+ },
+ "/product/burger-wrapping-sleeves/": {
+  "title": "Burger Wrapping Sleeves Packaging | The Burger Sleeves",
+  "description": "Burger wrapping sleeves that add clean grip support, help reduce grease transfer, and keep wraps steady during handoff, takeaway carry, and tray service.",
+  "canonical": "https://theburgersleeves.com/product/burger-wrapping-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Burger Wrapping Sleeves",
+  "status": 200
+ },
+ "/product/cafe-burger-sleeves/": {
+  "title": "Cafe Burger Sleeves Packaging | The Burger Sleeves",
+  "description": "Free design support for cafe burger sleeves built for clean handling and neat presentation. Request a custom quote and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/cafe-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Cafe Burger Sleeves",
+  "status": 200
+ },
+ "/product/cardboard-burger-sleeves/": {
+  "title": "Cardboard Burger Sleeve | Print Ready Panel | The Burger Sleeves",
+  "description": "Get pricing for cardboard burger sleeves built for steady grip and clean handling. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/cardboard-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Cardboard Burger Sleeves",
+  "status": 200
+ },
+ "/product/cheeseburger-sleeves/": {
+  "title": "Cheeseburger Sleeves | Moisture Control | The Burger Sleeves",
+  "description": "Cheeseburger sleeves for cheese heavy wraps with clean grip, neat presentation, and board options for moisture control. Free shipping and design help.",
+  "canonical": "https://theburgersleeves.com/product/cheeseburger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Cheeseburger Sleeves",
+  "status": 200
+ },
+ "/product/corrugated-burger-sleeves/": {
+  "title": "Corrugated Burger Sleeves | Fluted Board | The Burger Sleeves",
+  "description": "Get pricing for corrugated burger sleeves built for strong grip and stable hold during carry. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/corrugated-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Corrugated Burger Sleeves",
+  "status": 200
+ },
+ "/product/custom-burger-sleeves/": {
+  "title": "Custom Burger Sleeves | Size-Matched Burger Sleeve Packaging",
+  "description": "Custom burger sleeves matched to your burger dimensions and serving style. Options for paper type, barrier layers, and layout zones.",
+  "canonical": "https://theburgersleeves.com/product/custom-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Custom Burger Sleeves",
+  "status": 200
+ },
+ "/product/die-cut-burger-sleeves/": {
+  "title": "Die Cut Burger Sleeves | Quick Service | The Burger Sleeves",
+  "description": "Free design and custom quote for die cut burger sleeves with locking fit, clean grip handling, and sturdy board for fast packing and service.",
+  "canonical": "https://theburgersleeves.com/product/die-cut-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Die Cut Burger Sleeves",
+  "status": 200
+ },
+ "/product/disposable-burger-sleeves/": {
+  "title": "Disposable Burger Sleeves | Single Use Burger Paper Sleeves",
+  "description": "Get a quick quote for takeaway burger sleeves built for easy carry with secure grip, oil control, and labeling space, plus free shipping.",
+  "canonical": "https://theburgersleeves.com/product/disposable-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Disposable Burger Sleeves",
+  "status": 200
+ },
+ "/product/double-patty-burger-sleeves/": {
+  "title": "Double Patty Burger Sleeves | Tall Builds & Strong Hold",
+  "description": "Custom quote, free design, and free shipping on double patty burger sleeves for tall builds with stronger board option and optional barrier support handoff.",
+  "canonical": "https://theburgersleeves.com/product/double-patty-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Double Patty Burger Sleeves",
+  "status": 200
+ },
+ "/product/eco-friendly-burger-sleeves/": {
+  "title": "Eco Burger Sleeves | Responsible Packaging | The Burger Sleeves",
+  "description": "Request pricing for eco burger sleeves built for clean handling and reliable service use. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/eco-friendly-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Eco Friendly Burger Sleeves",
+  "status": 200
+ },
+ "/product/event-burger-sleeves/": {
+  "title": "Event Burger Sleeves Packaging | The Burger Sleeves",
+  "description": "Free layout support and a quick quote for event burger sleeves with steady grip, size fit planning, and grease control for busy food stations.",
+  "canonical": "https://theburgersleeves.com/product/event-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Event Burger Sleeves",
+  "status": 200
+ },
+ "/product/fast-food-burger-sleeves/": {
+  "title": "Fast Food Burger Sleeves | The Burger Sleeves",
+  "description": "Request pricing for fast food burger sleeves built for quick service with steady grip and clean handoff. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/fast-food-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Fast Food Burger Sleeves",
+  "status": 200
+ },
+ "/product/fast-food-sleeves-packaging/": {
+  "title": "Fast Food Sleeves Packaging Wholesale | The Burger Sleeves",
+  "description": "Fast food sleeves for wraps, burgers & snacks with custom sizes and clean print. Get a custom quote, free design, and free shipping for bulk orders.",
+  "canonical": "https://theburgersleeves.com/product/fast-food-sleeves-packaging/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Fast Food Sleeves Packaging",
+  "status": 200
+ },
+ "/product/food-grade-burger-sleeves/": {
+  "title": "Food Grade Burger Sleeves | Hygienic Serve | The Burger Sleeves",
+  "description": "Get a quick quote for food grade burger sleeves built for clean handling with food contact safe paper and inks. Design support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/food-grade-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Food Grade Burger Sleeves",
+  "status": 200
+ },
+ "/product/food-truck-burger-sleeves/": {
+  "title": "Food Truck Burger Sleeves | Grease Control | The Burger Sleeves",
+  "description": "Free design support for burger sleeves used in food trucks with stable grip and quick service. Request a custom quote and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/food-truck-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Food Truck Burger Sleeves",
+  "status": 200
+ },
+ "/product/full-color-burger-sleeves/": {
+  "title": "Full Color Burger Sleeves | Bold Patterns & Color | TBS",
+  "description": "Get a quick quote for full color burger sleeves built for rich visuals and bold designs. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/full-color-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Full Color Burger Sleeves",
+  "status": 200
+ },
+ "/product/gloss-finish-burger-sleeves/": {
+  "title": "Gloss Finish Burger Sleeves | Takeaway Use | The Burger Sleeves",
+  "description": "Free design support for gloss burger sleeves with smooth finish and strong hold. Request a custom quote and free shipping for bulk orders.",
+  "canonical": "https://theburgersleeves.com/product/gloss-finish-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Gloss Finish Burger Sleeves",
+  "status": 200
+ },
+ "/product/grease-resistant-burger-sleeves/": {
+  "title": "Grease Resistant Burger Sleeve | The Burger Sleeves",
+  "description": "Grease resistant burger sleeves with oil barrier paper options to reduce soak through, keep hands cleaner, and improve grip. Artwork help included.",
+  "canonical": "https://theburgersleeves.com/product/grease-resistant-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Grease Resistant Burger Sleeves",
+  "status": 200
+ },
+ "/product/hamburger-sleeves/": {
+  "title": "Hamburger Sleeves | Classic Builds | The Burger Sleeves",
+  "description": "Free design help and a quick quote for hamburger sleeves built for classic burgers with clean grip, tidy wrap appearance, and stable serving.",
+  "canonical": "https://theburgersleeves.com/product/hamburger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Hamburger Sleeves",
+  "status": 200
+ },
+ "/product/jumbo-burger-sleeves/": {
+  "title": "Jumbo Burger Sleeves | Large Size Fit | The Burger Sleeves",
+  "description": "Get a free quote on jumbo burger sleeves with custom design and free shipping, built for oversized burgers with firm grip and tidy presentation.",
+  "canonical": "https://theburgersleeves.com/product/jumbo-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Jumbo Burger Sleeves",
+  "status": 200
+ },
+ "/product/kraft-brown-burger-sleeves/": {
+  "title": "Kraft Burger Sleeves | Strong Grip | The Burger Sleeves",
+  "description": "Kraft brown burger sleeves made from sturdy kraft board for secure grip and cleaner handoff with warm fillings and sauces. Free design and shipping.",
+  "canonical": "https://theburgersleeves.com/product/kraft-brown-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Kraft Brown Burger Sleeves",
+  "status": 200
+ },
+ "/product/kraft-burger-sleeves/": {
+  "title": "Kraft Burger Sleeves | Natural Kraft Paper Burger Sleeves",
+  "description": "Kraft burger sleeves with a natural paper look, strong grip, and absorbent or barrier builds for clean printing. Free shipping and design help.",
+  "canonical": "https://theburgersleeves.com/product/kraft-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Kraft Burger Sleeves",
+  "status": 200
+ },
+ "/product/large-burger-sleeves/": {
+  "title": "Large Burger Sleeves | Tall Builds & Clean Handling | TBS",
+  "description": "Handle tall burgers with sleeves built for grip and structure during takeaway. Get a custom quote, free design support, and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/large-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Large Burger Sleeves",
+  "status": 200
+ },
+ "/product/logo-printed-burger-sleeves/": {
+  "title": "Logo Printed Burger Sleeves | Clean Spacing | The Burger Sleeves",
+  "description": "Free artwork help and quick pricing for logo printed burger sleeves with sharp placement, clean spacing, and paper or barrier options with stable folds.",
+  "canonical": "https://theburgersleeves.com/product/logo-printed-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Logo Printed Burger Sleeves",
+  "status": 200
+ },
+ "/product/matte-finish-burger-sleeves/": {
+  "title": "Matte Burger Sleeves | Smooth Print | The Burger Sleeves",
+  "description": "Matte finish burger sleeves with low shine surface, sturdy paperboard, and grease control for clean handling and print clarity. Free design and shipping.",
+  "canonical": "https://theburgersleeves.com/product/matte-finish-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Matte Finish Burger Sleeves",
+  "status": 200
+ },
+ "/product/medium-burger-sleeves/": {
+  "title": "Daily Service Burger Sleeves | Medium Size Fit | TBS",
+  "description": "Custom quote, free design, and free shipping on medium burger sleeves for regular burgers with balanced grip, wrap control, and clean presentation.",
+  "canonical": "https://theburgersleeves.com/product/medium-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Medium Burger Sleeves",
+  "status": 200
+ },
+ "/product/minimal-design-burger-sleeves/": {
+  "title": "Minimal Design Burger Sleeves | Clean Branding | TBS",
+  "description": "Minimal design burger sleeves with open print space and sturdy board for tidy wraps. Free quote, custom design, and free delivery included for bulk orders.",
+  "canonical": "https://theburgersleeves.com/product/minimal-design-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Minimal Design Burger Sleeves",
+  "status": 200
+ },
+ "/product/paper-burger-sleeves/": {
+  "title": "Paper Burger Sleeves | Food Grade Board | The Burger Sleeves",
+  "description": "Paper burger sleeves made from food grade board for steady holding, clean handoff, and controlled wrap in takeaway service. Free shipping and design help.",
+  "canonical": "https://theburgersleeves.com/product/paper-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Paper Burger Sleeves",
+  "status": 200
+ },
+ "/product/printed-burger-sleeves/": {
+  "title": "Printed Burger Sleeves | Brand Printed Burger Paper Sleeves",
+  "description": "Printed burger sleeves for clear branding and order communication. Supports logo blocks, patterns, and readable text areas.",
+  "canonical": "https://theburgersleeves.com/product/printed-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Printed Burger Sleeves",
+  "status": 200
+ },
+ "/product/promotional-burger-sleeves/": {
+  "title": "Promotional Burger Sleeves Packaging | The Burger Sleeves",
+  "description": "Promotional burger sleeves packaging for branded campaigns with clean grip support, grease control options, custom printing, and reliable fit for burgers.",
+  "canonical": "https://theburgersleeves.com/product/promotional-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Promotional Burger Sleeves",
+  "status": 200
+ },
+ "/product/recycled-burger-sleeves/": {
+  "title": "Recycled Burger Sleeves | Eco Board | The Burger Sleeves",
+  "description": "Recycled burger sleeves made from recycled board for steady grip and neat wrap control across counters and takeaway. Free shipping and artwork help.",
+  "canonical": "https://theburgersleeves.com/product/recycled-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Recycled Burger Sleeves",
+  "status": 200
+ },
+ "/product/restaurant-burger-sleeves/": {
+  "title": "Restaurant Burger Sleeves | Quick Service | The Burger Sleeves",
+  "description": "Get pricing for restaurant burger sleeves built for fast packing with clean grip and stable hold. Artwork support and free shipping available.",
+  "canonical": "https://theburgersleeves.com/product/restaurant-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Restaurant Burger Sleeves",
+  "status": 200
+ },
+ "/product/slider-burger-sleeves/": {
+  "title": "Mini Burger Sleeves | Slider Packaging Fit | The Burger Sleeves",
+  "description": "Double patty burger sleeves for taller builds with stronger board options and optional barrier support to keep heavy wraps stable, Free shipping.",
+  "canonical": "https://theburgersleeves.com/product/slider-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Slider Burger Sleeves",
+  "status": 200
+ },
+ "/product/small-burger-sleeves/": {
+  "title": "Sliders Packaging Sleeves | Small Burger Sleeves | TBS",
+  "description": "Small burger sleeves for mini burgers and sliders with neat grip control and clean tray presentation for sampler menus and events. Free design and shipping.",
+  "canonical": "https://theburgersleeves.com/product/small-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Small Burger Sleeves",
+  "status": 200
+ },
+ "/product/street-food-burger-sleeves/": {
+  "title": "Street Food Burger Sleeves | Busy Counters | The Burger Sleeves",
+  "description": "Street food burger sleeves for outdoor service with quick fit, clean grip, and grease control, plus custom artwork support and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/street-food-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Street Food Burger Sleeves",
+  "status": 200
+ },
+ "/product/takeaway-burger-sleeves/": {
+  "title": "Takeaway Burger Sleeves | On The Go | The Burger Sleeves",
+  "description": "Get a quick quote for takeaway burger sleeves built for easy carry with secure grip, oil control, and labeling space, plus free shipping.",
+  "canonical": "https://theburgersleeves.com/product/takeaway-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Takeaway Burger Sleeves",
+  "status": 200
+ },
+ "/product/white-burger-sleeves/": {
+  "title": "White Burger Sleeves | Sharp Logo Print | The Burger Sleeves",
+  "description": "Free design support for white burger sleeves built for crisp logo print and neat presentation. Request a custom quote and free shipping.",
+  "canonical": "https://theburgersleeves.com/product/white-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "White Burger Sleeves",
+  "status": 200
+ },
+ "/product/white-printed-burger-sleeves/": {
+  "title": "White Printed Burger Sleeves | Clean Look Burger Sleeves | TBS",
+  "description": "White printed burger sleeves for clean, bright presentation and strong contrast printing. Paper or barrier options flat packs.",
+  "canonical": "https://theburgersleeves.com/product/white-printed-burger-sleeves/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "White Printed Burger Sleeves",
+  "status": 200
+ },
+ "/refund_returns/": {
+  "title": "Refund and Returns Policy - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/refund_returns/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Refund and Returns Policy",
+  "status": 200
+ },
+ "/shipping-policy/": {
+  "title": "Shipping Policy - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/shipping-policy/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Shipping Policy",
+  "status": 200
+ },
+ "/shop/": {
+  "title": "Shop - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/shop/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Shop",
+  "status": 200
+ },
+ "/terms-and-conditions/": {
+  "title": "Terms and Conditions - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/terms-and-conditions/",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "h1": "Terms and Conditions",
+  "status": 200
+ },
+ "/thank-you/": {
+  "title": "Thank You - The Burger Sleeves",
+  "description": null,
+  "canonical": null,
+  "robots": "noindex, nofollow",
+  "h1": null,
+  "status": 200
+ },
+ "/shop/page/2/": {
+  "title": "Shop - Page 2 of 3 - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/shop/page/2/",
+  "robots": null,
+  "h1": "Shop",
+  "status": 200,
+  "note": "paginated archive: 200 on live, self-canonical, never listed in the Yoast sitemap"
+ },
+ "/shop/page/3/": {
+  "title": "Shop - Page 3 of 3 - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/shop/page/3/",
+  "robots": null,
+  "h1": "Shop",
+  "status": 200,
+  "note": "paginated archive: 200 on live, self-canonical, never listed in the Yoast sitemap"
+ },
+ "/brand/the-burger-sleeves/page/2/": {
+  "title": "The Burger Sleeves Archives - Page 2 of 3 - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/brand/the-burger-sleeves/page/2/",
+  "robots": null,
+  "h1": "The Burger Sleeves",
+  "status": 200,
+  "note": "paginated archive: 200 on live, self-canonical, never listed in the Yoast sitemap"
+ },
+ "/brand/the-burger-sleeves/page/3/": {
+  "title": "The Burger Sleeves Archives - Page 3 of 3 - The Burger Sleeves",
+  "description": null,
+  "canonical": "https://theburgersleeves.com/brand/the-burger-sleeves/page/3/",
+  "robots": null,
+  "h1": "The Burger Sleeves",
+  "status": 200,
+  "note": "paginated archive: 200 on live, self-canonical, never listed in the Yoast sitemap"
+ }
+}

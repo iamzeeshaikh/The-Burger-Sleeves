@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHeader from '../components/PageHeader.astro';
+import InquiryForm from '../components/InquiryForm.astro';
+import { PAGE_META } from '../data/pages.ts';
+import { DEFAULT_OG } from '../lib/og.ts';
+import { graph, organizationNode, websiteNode, breadcrumbNode } from '../lib/schema.ts';
+
+const meta = PAGE_META['/get-free-quote/'];
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'Get Free Quote' }];
+const schema = graph([organizationNode(), websiteNode(), breadcrumbNode(crumbs)]);
+---
+
+<BaseLayout title={meta.title} description={meta.description} ogImage={DEFAULT_OG} schema={schema}>
+  <PageHeader title="Get Free Quote" crumbs={crumbs} />
+
+  <section class="section section--tight section--flush quote-section">
+    <div class="container container--wide">
+      <InquiryForm variant="quote" id="quote" />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .quote-section {
+    padding-bottom: 70px;
+  }
+</style>

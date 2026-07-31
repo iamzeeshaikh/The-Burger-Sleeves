@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { categories } from '../lib/catalog.ts';
+---
+
+<BaseLayout
+  title="Page Not Found - The Burger Sleeves"
+  description="The page you were looking for is not here. Browse our burger sleeve categories or request a free quote."
+  robots="noindex, follow"
+>
+  <section class="notfound">
+    <div class="container">
+      <p class="notfound__code">404</p>
+      <h1 class="notfound__title">We couldn't find that page</h1>
+      <p class="notfound__text">
+        The page may have moved or never existed. Try one of our burger sleeve categories, or tell
+        us what you need and we'll quote it.
+      </p>
+
+      <ul class="notfound__links">
+        {categories.map((c) => <li><a href={c.url}>{c.name}</a></li>)}
+      </ul>
+
+      <div class="notfound__actions">
+        <a class="btn btn--primary" href="/get-free-quote/">Request Free Quote</a>
+        <a class="btn btn--outline-red" href="/shop/">Browse all products</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .notfound {
+    text-align: center;
+    padding: 70px 10px 90px;
+  }
+  .notfound__code {
+    font-size: 72px;
+    font-weight: 700;
+    color: var(--red);
+    line-height: 1;
+    margin: 0 0 10px;
+  }
+  .notfound__title {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0 0 14px;
+  }
+  .notfound__text {
+    max-width: 620px;
+    margin: 0 auto 28px;
+    line-height: 1.6;
+  }
+  .notfound__links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+    padding: 0;
+    margin: 0 0 30px;
+  }
+  .notfound__links a {
+    color: var(--red);
+    text-decoration: underline;
+  }
+  .notfound__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  @media (max-width: 767px) {
+    .notfound__code {
+      font-size: 56px;
+    }
+    .notfound__title {
+      font-size: 26px;
+    }
+  }
+</style>

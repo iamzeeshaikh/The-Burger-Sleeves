@@ -1,0 +1,139 @@
+---
+import { Image } from 'astro:assets';
+import { getImage, PLACEHOLDER } from '../lib/images.ts';
+import type { ProductImage } from '../lib/catalog.ts';
+
+/**
+ * Main image plus thumbnail strip, matching the WooCommerce gallery layout.
+ * Thumbnails are radio inputs so switching works with keyboard and without
+ * JavaScript; the CSS `:has()` selector reveals the matching main image.
+ */
+export interface Props {
+  images: ProductImage[];
+  productName: string;
+  id?: string;
+}
+const { images, productName, id = 'gallery' } = Astro.props;
+
+const shots = images.length
+  ? images
+  : [{ file: PLACEHOLDER, alt: `${productName} — product photography coming soon` }];
+const resolved = shots
+  .map((s) => ({ ...s, img: getImage(s.file) }))
+  .filter((s): s is ProductImage & { img: NonNullable<ReturnType<typeof getImage>> } => !!s.img);
+---
+
+<div class="gallery" data-gallery>
+  <div class="gallery__stage">
+    {
+      resolved.map((_s, i) => (
+        <input
+          type="radio"
+          name={`${id}-shot`}
+          id={`${id}-shot-${i}`}
+          class="gallery__radio visually-hidden"
+          checked={i === 0}
+        />
+      ))
+    }
+    {
+      resolved.map((s, i) => (
+        <figure class="gallery__figure" data-index={i}>
+          <Image
+            src={s.img}
+            alt={s.alt}
+            widths={[400, 800]}
+            sizes="(max-width: 900px) 92vw, 400px"
+            loading={i === 0 ? 'eager' : 'lazy'}
+            fetchpriority={i === 0 ? 'high' : undefined}
+            decoding={i === 0 ? 'sync' : 'async'}
+          />
+        </figure>
+      ))
+    }
+  </div>
+
+  {
+    resolved.length > 1 && (
+      <ul class="gallery__thumbs">
+        {resolved.map((s, i) => (
+          <li>
+            <label class="gallery__thumb" for={`${id}-shot-${i}`}>
+              <span class="visually-hidden">{`Show image ${i + 1} of ${resolved.length}: ${s.alt}`}</span>
+              <Image src={s.img} alt="" widths={[100]} sizes="80px" loading="lazy" />
+            </label>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</div>
+
+<style>
+  .gallery__stage {
+    position: relative;
+    display: grid;
+  }
+  .gallery__figure {
+    grid-area: 1 / 1;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .gallery__figure :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+
+  /* Only the checked radio's figure is visible. */
+  .gallery__radio:nth-of-type(1):checked ~ .gallery__figure[data-index='0'],
+  .gallery__radio:nth-of-type(2):checked ~ .gallery__figure[data-index='1'],
+  .gallery__radio:nth-of-type(3):checked ~ .gallery__figure[data-index='2'],
+  .gallery__radio:nth-of-type(4):checked ~ .gallery__figure[data-index='3'],
+  .gallery__radio:nth-of-type(5):checked ~ .gallery__figure[data-index='4'],
+  .gallery__radio:nth-of-type(6):checked ~ .gallery__figure[data-index='5'] {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .gallery__thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+  }
+  .gallery__thumb {
+    display: block;
+    width: 70px;
+    border: 1px solid transparent;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  .gallery__thumb:hover {
+    border-color: var(--border);
+  }
+  .gallery__radio:focus-visible + .gallery__figure,
+  .gallery__thumb:focus-within {
+    outline: var(--focus);
+    outline-offset: 2px;
+  }
+  /* Mark the active thumbnail. */
+  .gallery__radio:nth-of-type(1):checked ~ .gallery__thumbs li:nth-child(1) .gallery__thumb,
+  .gallery__radio:nth-of-type(2):checked ~ .gallery__thumbs li:nth-child(2) .gallery__thumb,
+  .gallery__radio:nth-of-type(3):checked ~ .gallery__thumbs li:nth-child(3) .gallery__thumb,
+  .gallery__radio:nth-of-type(4):checked ~ .gallery__thumbs li:nth-child(4) .gallery__thumb,
+  .gallery__radio:nth-of-type(5):checked ~ .gallery__thumbs li:nth-child(5) .gallery__thumb,
+  .gallery__radio:nth-of-type(6):checked ~ .gallery__thumbs li:nth-child(6) .gallery__thumb {
+    border-color: var(--red);
+    background: #f3f3f3;
+  }
+  .gallery__thumb :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+</style>

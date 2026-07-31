@@ -1,0 +1,11 @@
+source,destination,status,reason
+/sitemap_index.xml,/sitemap.xml,301,Yoast sitemap paths consolidated into a single sitemap
+/page-sitemap.xml,/sitemap.xml,301,Yoast sitemap paths consolidated into a single sitemap
+/product-sitemap.xml,/sitemap.xml,301,Yoast sitemap paths consolidated into a single sitemap
+/product_cat-sitemap.xml,/sitemap.xml,301,Yoast sitemap paths consolidated into a single sitemap
+/product_brand-sitemap.xml,/sitemap.xml,301,Yoast sitemap paths consolidated into a single sitemap
+/product-category/:slug/page/:n,/product-category/:slug/,301,WordPress served thin paginated category URLs that were never in the sitemap; no category exceeds one page of 16
+/feed,/,302,RSS feed retired; no blog content on this site
+http://theburgersleeves.com/*,https://theburgersleeves.com/*,301,HTTP to HTTPS (Vercel automatic)
+https://www.theburgersleeves.com/*,https://theburgersleeves.com/*,301,"www to apex, matching the live canonical host (configure in Vercel domain settings)"
+/:path (no trailing slash),/:path/,308,trailingSlash: always — matches the live URL shape

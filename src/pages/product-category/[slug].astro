@@ -1,0 +1,49 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArchiveLayout from '../../components/ArchiveLayout.astro';
+import { categories, productsInCategory, siteFaqs } from '../../lib/catalog.ts';
+import { ogUrl, DEFAULT_OG } from '../../lib/og.ts';
+import {
+  graph,
+  organizationNode,
+  websiteNode,
+  breadcrumbNode,
+  itemListNode,
+  faqNode,
+} from '../../lib/schema.ts';
+
+export const getStaticPaths = (() =>
+  categories.map((category) => ({
+    params: { slug: category.slug },
+    props: { category },
+  }))) satisfies GetStaticPaths;
+
+const { category } = Astro.props;
+const items = productsInCategory(category.slug);
+
+const crumbs = [{ name: 'Home', url: '/' }, { name: category.name }];
+
+const schema = graph([
+  organizationNode(),
+  websiteNode(),
+  breadcrumbNode(crumbs),
+  itemListNode(items.map((p) => ({ name: p.name, url: p.url }))),
+  faqNode(siteFaqs),
+]);
+
+const ogImage = ogUrl(items[0]?.images[0]?.file) ?? DEFAULT_OG;
+---
+
+<BaseLayout
+  title={category.metaTitle}
+  description={category.metaDescription}
+  ogImage={ogImage}
+  schema={schema}
+>
+  <ArchiveLayout
+    h1={category.h1}
+    crumbs={crumbs}
+    products={items}
+  />
+</BaseLayout>

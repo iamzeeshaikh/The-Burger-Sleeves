@@ -1,0 +1,382 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSlideshow from '../components/HeroSlideshow.astro';
+import InquiryForm from '../components/InquiryForm.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import FaqAccordion from '../components/FaqAccordion.astro';
+import CtaBanner from '../components/CtaBanner.astro';
+import Icon from '../components/Icon.astro';
+import { getProduct, siteFaqs } from '../lib/catalog.ts';
+import { requireImage } from '../lib/images.ts';
+import { getImage as astroImage } from 'astro:assets';
+import { ogUrl } from '../lib/og.ts';
+import { graph, organizationNode, websiteNode, faqNode } from '../lib/schema.ts';
+import home from '../data/homepage.json';
+
+const rangeProducts = home.range.slugs.map((s) => getProduct(s)!).filter(Boolean);
+const introImg = requireImage(home.intro.image);
+const printingImg = requireImage(home.printing.image);
+// Optimise the full-bleed background rather than shipping the 1080px original.
+const materialsBg = await astroImage({
+  src: requireImage(home.materials.bgImage),
+  format: 'webp',
+  width: 1600,
+  quality: 68,
+});
+
+const schema = graph([
+  organizationNode(),
+  websiteNode(),
+  faqNode(siteFaqs),
+]);
+---
+
+<BaseLayout
+  title="Custom Burger Sleeves | Printed & Kraft Food Packaging"
+  description="Order custom burger sleeves with logo printing, grease-resistant kraft material, and bulk wholesale options for restaurants, food trucks etc"
+  ogImage={ogUrl(home.intro.image)}
+  schema={schema}
+>
+  <!-- Hero -->
+  <section class="hero">
+    <HeroSlideshow slides={home.heroSlides} />
+    <div class="container container--wide hero__inner">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">{home.hero.eyebrow}</p>
+        <h1 class="hero__title">{home.hero.h1}</h1>
+        <p class="hero__text">{home.hero.text}</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/get-free-quote/">Get Free Quote</a>
+          <a class="btn btn--white" href="/shop/">View Products</a>
+        </div>
+      </div>
+      <div class="hero__form">
+        <InquiryForm variant="compact" heading={home.hero.formHeading} headingLevel="h2" id="hero" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="section section--tight">
+    <div class="container container--wide split">
+      <div class="split__media">
+        <Image
+          src={introImg}
+          alt={home.intro.imageAlt}
+          widths={[400, 620]}
+          sizes="(max-width: 767px) 92vw, 45vw"
+          loading="lazy"
+        />
+      </div>
+      <div class="split__copy">
+        <h2 class="section-title">{home.intro.h2}</h2>
+        <div class="prose" set:html={home.intro.html} />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why choose -->
+  <section class="section section--tight">
+    <div class="container container--wide">
+      <h2 class="section-title">{home.why.h2}</h2>
+      <p class="section-subtitle">{home.why.sub}</p>
+      <div class="grid-3">
+        {
+          home.why.cards.map((c) => (
+            <div class="card">
+              <div class="card__icon">
+                <Icon name="box-open" size={25} />
+              </div>
+              <h3 class="card__title">{c.title}</h3>
+              <p class="card__text">{c.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Product range -->
+  <section class="section section--tight">
+    <div class="container container--wide">
+      <h2 class="section-title">{home.range.h2}</h2>
+      <p class="section-subtitle">{home.range.sub}</p>
+      <ProductGrid products={rangeProducts} sizes="(max-width: 767px) 45vw, (max-width: 1024px) 30vw, 300px" />
+    </div>
+  </section>
+
+  <!-- Custom printing -->
+  <section class="section section--tight">
+    <div class="container container--wide split split--reverse">
+      <div class="split__copy">
+        <h2 class="section-title">{home.printing.h2}</h2>
+        <div class="prose" set:html={home.printing.html} />
+      </div>
+      <div class="split__media">
+        <Image
+          src={printingImg}
+          alt={home.printing.imageAlt}
+          widths={[400, 620]}
+          sizes="(max-width: 767px) 92vw, 45vw"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section class="section section--tight">
+    <div class="container container--wide">
+      <p class="eyebrow">{home.industries.eyebrow}</p>
+      <h2 class="section-title">{home.industries.h2}</h2>
+      <p class="section-subtitle">{home.industries.sub}</p>
+      <div class="grid-3">
+        {
+          home.industries.cards.map((c) => (
+            <div class="card">
+              <div class="card__icon">
+                <Icon name="boxes" size={25} />
+              </div>
+              <h3 class="card__title">{c.title}</h3>
+              <p class="card__text">{c.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section section--tight section--flush">
+    <div class="container container--wide">
+      <h2 class="section-title">{home.how.h2}</h2>
+      <div class="section-subtitle" set:html={home.how.subHtml} />
+      <div class="grid-3">
+        {
+          home.how.cards.map((c) => (
+            <div class="card card--step">
+              <div class="card__icon">
+                <Icon name="check" size={25} />
+              </div>
+              <h3 class="card__title">{c.title}</h3>
+              <p class="card__text">{c.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials & specifications -->
+  <section class="materials" style={`--materials-bg:url('${materialsBg.src}')`}>
+    <div class="container materials__panel">
+      <p class="eyebrow">{home.materials.eyebrow}</p>
+      <h2 class="section-title">{home.materials.h2}</h2>
+      <div
+        class="prose materials__content"
+        tabindex="0"
+        role="region"
+        aria-label="Materials and specifications tables"
+        set:html={home.materials.html}
+      />
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container container--wide">
+      <h2 class="section-title">{home.faqHeading}</h2>
+      <FaqAccordion faqs={siteFaqs} class="faq-section__list" />
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  /* --- hero -------------------------------------------------------------- */
+  .hero {
+    position: relative;
+    isolation: isolate;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 50px 10px;
+    color: var(--white);
+  }
+  .hero__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .hero__copy {
+    flex: 1 1 55%;
+    max-width: 620px;
+  }
+  .hero__eyebrow {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 6px;
+  }
+  .hero__title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 16px;
+  }
+  .hero__text {
+    font-size: var(--text-size);
+    line-height: 1.6;
+    margin: 0 0 24px;
+    max-width: 520px;
+  }
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .hero__form {
+    flex: 0 1 400px;
+    background: var(--white);
+    color: var(--black);
+    border-radius: 4px;
+    padding: 25px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+  }
+
+  @media (max-width: 1024px) {
+    .hero__title {
+      font-size: 34px;
+    }
+    .hero__eyebrow {
+      font-size: 19px;
+    }
+  }
+  @media (max-width: 900px) {
+    .hero__inner {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .hero__form {
+      flex: 1 1 auto;
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    .hero__title {
+      font-size: 30px;
+    }
+    .hero__form {
+      padding: 20px;
+    }
+  }
+
+  /* --- two-column split sections ---------------------------------------- */
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  .split__media :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+  .split__copy .section-title {
+    margin-bottom: 18px;
+  }
+  @media (max-width: 767px) {
+    .split {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .split--reverse .split__media {
+      order: -1;
+    }
+  }
+
+  /* --- materials band ---------------------------------------------------- */
+  .materials {
+    position: relative;
+    isolation: isolate;
+    background-image: var(--materials-bg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 10px;
+    margin-top: 50px;
+  }
+  .materials::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--black);
+    opacity: 0.7;
+  }
+  .materials__panel {
+    background: var(--white);
+    padding: 34px;
+    border-radius: 2px;
+  }
+  .materials__content:focus-visible {
+    outline: var(--focus);
+    outline-offset: 4px;
+  }
+  .materials__content :global(h3) {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 28px 0 14px;
+  }
+  .materials__content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .materials__content :global(th),
+  .materials__content :global(td) {
+    border: 1px solid var(--border);
+    padding: 11px 14px;
+    text-align: left;
+  }
+  .materials__content :global(thead th) {
+    background: #f8f8f8;
+    font-weight: 600;
+  }
+  .materials__content :global(tbody tr:nth-child(even)) {
+    background: #fbfbfb;
+  }
+  @media (max-width: 767px) {
+    .materials__panel {
+      padding: 20px 16px;
+    }
+    .materials__content {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .materials__content :global(table) {
+      min-width: 520px;
+      font-size: 14px;
+    }
+    .materials__content:focus-visible {
+    outline: var(--focus);
+    outline-offset: 4px;
+  }
+  .materials__content :global(h3) {
+      font-size: 22px;
+    }
+  }
+
+  /* --- faq --------------------------------------------------------------- */
+  .faq-section {
+    background: var(--panel);
+    padding: 60px 10px;
+  }
+  .faq-section .section-title {
+    margin-bottom: 24px;
+  }
+</style>

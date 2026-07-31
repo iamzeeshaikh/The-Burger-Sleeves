@@ -1,0 +1,57 @@
+---
+import { SITE } from '../data/site.ts';
+
+export interface Props {
+  title: string;
+  description?: string;
+  /** Absolute canonical. Defaults to the current path on the production origin. */
+  canonical?: string;
+  robots?: string;
+  ogType?: 'website' | 'article' | 'product';
+  ogImage?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+}
+
+const {
+  title,
+  description,
+  canonical,
+  robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+  ogType = 'website',
+  ogImage,
+  ogTitle,
+  ogDescription,
+} = Astro.props;
+
+// Canonicals always point at the production origin, never at a preview or
+// localhost host, regardless of where the build runs.
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.origin).href;
+const absoluteOg = ogImage ? new URL(ogImage, SITE.origin).href : undefined;
+---
+
+<title>{title}</title>
+{description && <meta name="description" content={description} />}
+<link rel="canonical" href={canonicalUrl} />
+<meta name="robots" content={robots} />
+
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={ogTitle ?? title} />
+{
+  (ogDescription ?? description) && (
+    <meta property="og:description" content={ogDescription ?? description} />
+  )
+}
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:site_name" content={SITE.name} />
+{absoluteOg && <meta property="og:image" content={absoluteOg} />}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={ogTitle ?? title} />
+{
+  (ogDescription ?? description) && (
+    <meta name="twitter:description" content={ogDescription ?? description} />
+  )
+}
+{absoluteOg && <meta name="twitter:image" content={absoluteOg} />}

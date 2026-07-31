@@ -1,0 +1,170 @@
+---
+import { Image } from 'astro:assets';
+import Icon from './Icon.astro';
+import {
+  SITE,
+  FOOTER_QUICK_LINKS,
+  FOOTER_COMPANY_LINKS,
+  SOCIAL_ICONS,
+} from '../data/site.ts';
+import logo from '../assets/images/png-1.png';
+---
+
+<footer class="site-footer">
+  <div class="container container--wide footer-cols">
+    <div class="footer-col footer-col--brand">
+      <Image src={logo} alt={SITE.name} width={150} height={79} loading="lazy" />
+      <p class="footer-blurb">{SITE.footerBlurb}</p>
+      <ul class="footer-social">
+        {
+          SOCIAL_ICONS.map((n) => (
+            <li>
+              <span class="footer-social__icon">
+                <Icon name={n} size={14} />
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <nav class="footer-col" aria-labelledby="footer-quick-links">
+      <h2 class="footer-heading" id="footer-quick-links">Quick Links</h2>
+      <ul class="footer-list">
+        {FOOTER_QUICK_LINKS.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-labelledby="footer-company">
+      <h2 class="footer-heading" id="footer-company">Company</h2>
+      <ul class="footer-list">
+        {FOOTER_COMPANY_LINKS.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h2 class="footer-heading">Contact Us</h2>
+      <ul class="footer-list footer-list--contact">
+        <li>
+          <Icon name="phone" size={15} />
+          <a href={SITE.phoneHref}>{SITE.phone}</a>
+        </li>
+        <li>
+          <Icon name="envelope" size={15} />
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        </li>
+        <li>
+          <Icon name="map-marker" size={15} />
+          <address>{SITE.address}</address>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container container--wide">
+      <p>{SITE.copyright}</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--border-light);
+    color: var(--black);
+    margin-top: 0;
+  }
+  .footer-cols {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    gap: 30px;
+    padding-block: 50px;
+  }
+  .footer-col :global(img) {
+    width: 150px;
+    height: auto;
+  }
+  .footer-blurb {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 18px 0;
+    max-width: 280px;
+  }
+  .footer-heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 18px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-list li {
+    margin-bottom: 13px;
+    font-size: 17px;
+  }
+  @media (max-width: 1024px) {
+    .footer-list li { font-size: 15px; }
+  }
+  .footer-list a:hover {
+    color: var(--red);
+  }
+  .footer-list--contact li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .footer-list--contact :global(svg) {
+    flex: none;
+    margin-top: 5px;
+  }
+  .footer-list--contact address {
+    font-style: normal;
+  }
+  .footer-social {
+    display: flex;
+    gap: 8px;
+  }
+  .footer-social__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    color: var(--white);
+  }
+  /* Elementor renders these with the platforms' official brand colours. */
+  .footer-social li:nth-child(1) .footer-social__icon { background: #3b5998; }
+  .footer-social li:nth-child(2) .footer-social__icon { background: #1da1f2; }
+  .footer-social li:nth-child(3) .footer-social__icon { background: #cd201f; }
+  .footer-bottom {
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 14px 0;
+  }
+  .footer-bottom p {
+    margin: 0;
+    font-size: 17px;
+  }
+  @media (max-width: 1024px) {
+    .footer-bottom p { font-size: 15px; }
+  }
+
+  @media (max-width: 1024px) {
+    .footer-cols {
+      grid-template-columns: 1fr 1fr;
+      gap: 34px;
+    }
+  }
+  @media (max-width: 600px) {
+    .footer-cols {
+      grid-template-columns: 1fr;
+    }
+    .footer-blurb {
+      max-width: none;
+    }
+  }
+</style>

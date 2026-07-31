@@ -1,0 +1,471 @@
+---
+/**
+ * The three enquiry forms the live site runs (hero / sidebar, contact page and
+ * the full quote page), rebuilt as one accessible component.
+ *
+ * It works with JavaScript disabled: the browser performs a normal POST to
+ * /api/inquiry, which 303-redirects to /thank-you/ exactly as the Elementor
+ * form did. When JavaScript is available the submit is intercepted so success
+ * and failure are announced inline without losing what the visitor typed.
+ */
+export type FormVariant = 'compact' | 'contact' | 'quote';
+
+export interface Props {
+  variant?: FormVariant;
+  heading?: string;
+  headingLevel?: 'h2' | 'h3';
+  /** Pre-fills and locks the enquiry to the product being viewed. */
+  productName?: string;
+  id?: string;
+  class?: string;
+}
+
+const {
+  variant = 'compact',
+  heading,
+  headingLevel = 'h3',
+  productName,
+  id = 'inquiry',
+  class: className = '',
+} = Astro.props;
+
+const Heading = headingLevel;
+const f = (name: string) => `${id}-${name}`;
+---
+
+<div class={`inquiry ${className}`}>
+  {heading && <Heading class="inquiry__heading">{heading}</Heading>}
+
+  <form
+    class="inquiry__form"
+    method="post"
+    action="/api/inquiry/"
+    enctype={variant === 'quote' ? 'multipart/form-data' : 'application/x-www-form-urlencoded'}
+    data-inquiry-form
+    novalidate
+  >
+    <input type="hidden" name="form_variant" value={variant} />
+    <input type="hidden" name="source_url" value={Astro.url.pathname} />
+
+    {/* Honeypot — hidden from people, irresistible to naive bots. */}
+    <div class="hp" aria-hidden="true">
+      <label for={f('website')}>Website</label>
+      <input type="text" id={f('website')} name="website" tabindex="-1" autocomplete="off" />
+    </div>
+
+    <div class="fields" data-variant={variant}>
+      <p class="field field--full">
+        <label for={f('name')}>Name</label>
+        <input type="text" id={f('name')} name="name" placeholder="Name" autocomplete="name" />
+      </p>
+
+      <p class="field">
+        <label for={f('email')}>Email <span class="req" aria-hidden="true">*</span></label>
+        <input
+          type="email"
+          id={f('email')}
+          name="email"
+          placeholder="Email"
+          autocomplete="email"
+          required
+          aria-required="true"
+        />
+      </p>
+
+      <p class="field">
+        <label for={f('phone')}>Phone</label>
+        <input type="tel" id={f('phone')} name="phone" placeholder="Phone" autocomplete="tel" />
+      </p>
+
+      {
+        variant === 'contact' && (
+          <p class="field field--full">
+            <label for={f('subject')}>
+              Subject <span class="req" aria-hidden="true">*</span>
+            </label>
+            <input
+              type="text"
+              id={f('subject')}
+              name="subject"
+              placeholder="Subject"
+              required
+              aria-required="true"
+            />
+          </p>
+        )
+      }
+
+      {
+        variant === 'quote' && (
+          <p class="field">
+            <label for={f('company')}>
+              Company Name <span class="req" aria-hidden="true">*</span>
+            </label>
+            <input
+              type="text"
+              id={f('company')}
+              name="company"
+              placeholder="Company Name"
+              autocomplete="organization"
+              required
+              aria-required="true"
+            />
+          </p>
+        )
+      }
+
+      <p class={variant === 'quote' ? 'field' : 'field field--full'}>
+        <label for={f('product')}>Product <span class="req" aria-hidden="true">*</span></label>
+        <input
+          type="text"
+          id={f('product')}
+          name="product"
+          placeholder="Product"
+          value={productName}
+          readonly={productName ? true : undefined}
+          required
+          aria-required="true"
+        />
+      </p>
+
+      {
+        variant === 'quote' && (
+          <>
+            <p class="field field--third">
+              <label for={f('width')}>
+                Width <span class="req" aria-hidden="true">*</span>
+              </label>
+              <input type="text" id={f('width')} name="width" placeholder="Width" required aria-required="true" />
+            </p>
+            <p class="field field--third">
+              <label for={f('height')}>
+                Height <span class="req" aria-hidden="true">*</span>
+              </label>
+              <input type="text" id={f('height')} name="height" placeholder="Height" required aria-required="true" />
+            </p>
+            <p class="field field--third">
+              <label for={f('length')}>
+                Length <span class="req" aria-hidden="true">*</span>
+              </label>
+              <input type="text" id={f('length')} name="length" placeholder="Length" required aria-required="true" />
+            </p>
+
+            <p class="field">
+              <label for={f('unit')}>
+                Unit <span class="req" aria-hidden="true">*</span>
+              </label>
+              <select id={f('unit')} name="unit" required aria-required="true">
+                <option value="CM">CM</option>
+                <option value="MM">MM</option>
+                <option value="INCHES">INCHES</option>
+                <option value="FEET">FEET</option>
+              </select>
+            </p>
+            <p class="field">
+              <label for={f('color')}>
+                Color Option <span class="req" aria-hidden="true">*</span>
+              </label>
+              <select id={f('color')} name="color" required aria-required="true">
+                {['None', '1 Color', '2 Color', '3 Color', '4 Color', '4/1 Color', '4/2 Color', '4/3 Color', '4/4 Color'].map(
+                  (o) => (
+                    <option value={o}>{o}</option>
+                  ),
+                )}
+              </select>
+            </p>
+
+            <p class="field field--third">
+              <label for={f('qty1')}>
+                Quantity 1 <span class="req" aria-hidden="true">*</span>
+              </label>
+              <input type="text" id={f('qty1')} name="qty1" placeholder="Quantity 1" required aria-required="true" />
+            </p>
+            <p class="field field--third">
+              <label for={f('qty2')}>Quantity 2</label>
+              <input type="text" id={f('qty2')} name="qty2" placeholder="Quantity 2" />
+            </p>
+            <p class="field field--third">
+              <label for={f('qty3')}>Quantity 3</label>
+              <input type="text" id={f('qty3')} name="qty3" placeholder="Quantity 3" />
+            </p>
+          </>
+        )
+      }
+
+      <p class={variant === 'quote' ? 'field' : 'field field--full'}>
+        <label for={f('message')}>Message</label>
+        <textarea id={f('message')} name="message" rows={variant === 'compact' ? 4 : 5} placeholder="Message"
+        ></textarea>
+      </p>
+
+      {
+        variant === 'quote' && (
+          <p class="field">
+            <label for={f('artwork')}>Attach File</label>
+            <input
+              type="file"
+              id={f('artwork')}
+              name="artwork"
+              accept=".pdf,.ai,.eps,.png,.jpg,.jpeg,.svg,.zip"
+              aria-describedby={f('artwork-help')}
+            />
+            <span class="help" id={f('artwork-help')}>
+              PDF, AI, EPS, PNG, JPG, SVG or ZIP. Maximum 10&nbsp;MB.
+            </span>
+          </p>
+        )
+      }
+    </div>
+
+    <p class="field field--full submit-row">
+      <button type="submit" class="btn btn--primary inquiry__submit">Submit</button>
+    </p>
+
+    <p class="form-status" role="status" aria-live="polite" data-form-status></p>
+  </form>
+</div>
+
+<style>
+  .inquiry {
+    background: var(--white);
+  }
+  .inquiry__heading {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 20px;
+  }
+  @media (max-width: 767px) {
+    .inquiry__heading {
+      font-size: 26px;
+    }
+  }
+
+  .hp {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+  .fields {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0 10px;
+  }
+  .field {
+    grid-column: span 6;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fields[data-variant='quote'] .field {
+    grid-column: span 3;
+  }
+  .fields[data-variant='quote'] .field--third {
+    grid-column: span 2;
+  }
+  .field--full {
+    grid-column: span 6 !important;
+  }
+
+  label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    padding-bottom: 5px;
+  }
+  .req {
+    color: var(--red);
+  }
+
+  input,
+  select,
+  textarea {
+    font-family: var(--font);
+    font-size: 16px;
+    color: var(--black);
+    background: var(--white);
+    border: 1px solid #cbcbcb;
+    border-radius: 3px;
+    padding: 10px 12px;
+    width: 100%;
+  }
+  textarea {
+    resize: vertical;
+    min-height: 90px;
+  }
+  input[readonly] {
+    background: #f7f7f7;
+  }
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: var(--focus);
+    outline-offset: 1px;
+    border-color: var(--black);
+  }
+  input[aria-invalid='true'],
+  select[aria-invalid='true'],
+  textarea[aria-invalid='true'] {
+    border-color: var(--red);
+  }
+  .field-error {
+    color: #b00000;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  .help {
+    font-size: 13px;
+    color: var(--grey-600);
+    margin-top: 5px;
+  }
+
+  .submit-row {
+    margin-bottom: 0;
+  }
+  .inquiry__submit {
+    width: 100%;
+  }
+  .fields[data-variant='quote'] ~ .submit-row .inquiry__submit {
+    width: auto;
+    min-width: 200px;
+  }
+
+  .form-status {
+    margin: 14px 0 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .form-status:empty {
+    display: none;
+  }
+  .form-status[data-state='error'] {
+    color: #b00000;
+  }
+  .form-status[data-state='ok'] {
+    color: #106b21;
+  }
+
+  @media (max-width: 767px) {
+    .fields[data-variant='quote'] .field,
+    .fields[data-variant='quote'] .field--third {
+      grid-column: span 6;
+    }
+  }
+</style>
+
+<script>
+  const MAX_UPLOAD = 10 * 1024 * 1024;
+
+  document.querySelectorAll<HTMLFormElement>('[data-inquiry-form]').forEach((form) => {
+    const status = form.querySelector<HTMLElement>('[data-form-status]');
+
+    // A no-JS submission that failed comes back as ?error=… — surface it here
+    // so the visitor is told what happened rather than seeing a blank form.
+    const returned = new URLSearchParams(window.location.search).get('error');
+    if (returned && status) {
+      status.textContent = returned;
+      status.dataset.state = 'error';
+      history.replaceState(null, '', window.location.pathname);
+    }
+
+    const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+
+    function setStatus(message: string, state: 'ok' | 'error' | '') {
+      if (!status) return;
+      status.textContent = message;
+      if (state) status.dataset.state = state;
+      else delete status.dataset.state;
+    }
+
+    function clearErrors() {
+      form.querySelectorAll('.field-error').forEach((n) => n.remove());
+      form
+        .querySelectorAll('[aria-invalid="true"]')
+        .forEach((n) => n.removeAttribute('aria-invalid'));
+    }
+
+    function fail(field: Element, message: string) {
+      field.setAttribute('aria-invalid', 'true');
+      const note = document.createElement('span');
+      note.className = 'field-error';
+      note.textContent = message;
+      field.parentElement?.appendChild(note);
+    }
+
+    function validate(): boolean {
+      clearErrors();
+      let first: HTMLElement | null = null;
+
+      form
+        .querySelectorAll<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>(
+          '[required]',
+        )
+        .forEach((el) => {
+          if (!el.value.trim()) {
+            fail(el, 'This field is required.');
+            first ??= el;
+          }
+        });
+
+      const email = form.querySelector<HTMLInputElement>('input[type="email"]');
+      if (email && email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email.value.trim())) {
+        fail(email, 'Enter a valid email address.');
+        first ??= email;
+      }
+
+      const file = form.querySelector<HTMLInputElement>('input[type="file"]');
+      const picked = file?.files?.[0];
+      if (picked && picked.size > MAX_UPLOAD) {
+        fail(file!, 'That file is larger than 10 MB.');
+        first ??= file!;
+      }
+
+      if (first) {
+        setStatus('Please correct the highlighted fields.', 'error');
+        first.focus();
+        return false;
+      }
+      return true;
+    }
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!validate()) return;
+
+      setStatus('Sending…', '');
+      submit?.setAttribute('disabled', 'true');
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { Accept: 'application/json' },
+        });
+        const data = await res.json().catch(() => ({}));
+
+        if (res.ok && data.ok) {
+          form.reset();
+          clearErrors();
+          window.location.assign('/thank-you/');
+          return;
+        }
+
+        setStatus(
+          data.error ||
+            'Sorry — your message could not be sent. Please email info@theburgersleeves.com or call (503) 358-0443.',
+          'error',
+        );
+      } catch {
+        setStatus(
+          'Sorry — your message could not be sent. Please check your connection and try again.',
+          'error',
+        );
+      } finally {
+        submit?.removeAttribute('disabled');
+      }
+    });
+  });
+</script>

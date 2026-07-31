@@ -1,0 +1,57 @@
+---
+import ProductCard from './ProductCard.astro';
+import type { Product } from '../lib/catalog.ts';
+
+export interface Props {
+  products: Product[];
+  /** How many leading cards render eagerly (above the fold). */
+  eagerCount?: number;
+  sizes?: string;
+  columns?: number;
+  headingLevel?: 'h2' | 'h3';
+  variant?: 'loop' | 'plain';
+  gap?: string;
+}
+
+const { products, eagerCount = 0, sizes, columns, headingLevel = 'h3', variant = 'loop', gap } =
+  Astro.props;
+---
+
+<ul
+  class="product-grid"
+  style={[columns ? `--cols:${columns}` : '', gap ? `gap:${gap}` : ''].filter(Boolean).join(';') ||
+    undefined}
+>
+  {
+    products.map((p, i) => (
+      <ProductCard
+        product={p}
+        eager={i < eagerCount}
+        sizes={sizes}
+        headingLevel={headingLevel}
+        variant={variant}
+      />
+    ))
+  }
+</ul>
+
+<style>
+  .product-grid[style*='--cols'] {
+    grid-template-columns: repeat(var(--cols), 1fr);
+  }
+  @media (max-width: 1024px) {
+    .product-grid[style*='--cols'] {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 767px) {
+    .product-grid[style*='--cols'] {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 400px) {
+    .product-grid[style*='--cols'] {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

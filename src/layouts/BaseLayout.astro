@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SeoHead from '../components/SeoHead.astro';
+import JsonLd from '../components/JsonLd.astro';
+import type { Props as SeoProps } from '../components/SeoHead.astro';
+
+export interface Props extends SeoProps {
+  /** Fully-formed JSON-LD graph for the page (one script tag, no duplicates). */
+  schema?: unknown;
+  /** Local path of the LCP image so it can be preloaded. */
+  preloadImage?: string;
+  bodyClass?: string;
+}
+
+const { schema, preloadImage, bodyClass, ...seo } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <meta name="theme-color" content="#ff0000" />
+
+    <link
+      rel="preload"
+      href="/fonts/poppins-latin-400.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/poppins-latin-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    {preloadImage && <link rel="preload" href={preloadImage} as="image" fetchpriority="high" />}
+
+    <SeoHead {...seo} />
+    {schema && <JsonLd data={schema} />}
+  </head>
+  <body class={bodyClass}>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

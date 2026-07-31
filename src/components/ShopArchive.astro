@@ -1,0 +1,204 @@
+---
+import { Image } from 'astro:assets';
+import Breadcrumbs from './Breadcrumbs.astro';
+import { getImage, PLACEHOLDER } from '../lib/images.ts';
+import type { Product } from '../lib/catalog.ts';
+
+/**
+ * /shop/ and /brand/the-burger-sleeves/ are plain WooCommerce archives on the
+ * live site — the hello-elementor theme, not the Elementor category template.
+ * Left-aligned title, result count, a four-up grid of bare cards.
+ *
+ * Two deliberate changes, both documented in MIGRATION_REPORT.md:
+ *  - the "$0.50" placeholder price and "Add to cart" button are replaced with a
+ *    quote link; WooCommerce has no payment gateway, no orders and no checkout;
+ *  - the "Default sorting" <select> is dropped, since it posted back to a
+ *    WordPress query that no longer exists.
+ */
+export interface Props {
+  h1: string;
+  crumbs: { name: string; url?: string }[];
+  products: Product[];
+  resultsLabel: string;
+  pagination: { current: number; total: number; hrefFor: (page: number) => string };
+}
+const { h1, crumbs, products, resultsLabel, pagination } = Astro.props;
+---
+
+<section class="shop">
+  <div class="container container--wide">
+    <Breadcrumbs crumbs={crumbs} />
+    <h1 class="shop__title">{h1}</h1>
+    <p class="shop__count">{resultsLabel}</p>
+
+    <ul class="shop__grid">
+      {
+        products.map((p, i) => {
+          const first = p.images[0];
+          const img = getImage(first?.file) ?? getImage(PLACEHOLDER)!;
+          return (
+            <li class="shop__item">
+              <a class="shop__link" href={p.url}>
+                <Image
+                  src={img}
+                  alt={first?.alt ?? `${p.name} — image coming soon`}
+                  widths={[300, 600]}
+                  sizes="(max-width: 767px) 45vw, (max-width: 1024px) 30vw, 290px"
+                  loading={i < 3 ? 'eager' : 'lazy'}
+                  fetchpriority={i === 0 ? 'high' : undefined}
+                />
+                <h2 class="shop__name">{p.name}</h2>
+              </a>
+              <a class="shop__quote" href={`${p.url}#product-quote`}>
+                Get Free Quote<span class="visually-hidden"> for {p.name}</span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    {
+      pagination.total > 1 && (
+        <nav class="pager" aria-label="Product archive pages">
+          <ul>
+            {Array.from({ length: pagination.total }, (_, i) => i + 1).map((n) => (
+              <li>
+                {n === pagination.current ? (
+                  <span class="pager__current" aria-current="page">
+                    {n}
+                  </span>
+                ) : (
+                  <a href={pagination.hrefFor(n)}>
+                    <span class="visually-hidden">Page </span>
+                    {n}
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+  </div>
+</section>
+
+<style>
+  .shop {
+    padding: 30px 10px 70px;
+  }
+  .shop__title {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 6px 0 10px;
+  }
+  .shop__count {
+    font-size: 16px;
+    color: var(--black);
+    margin: 0 0 26px;
+  }
+  @media (max-width: 1024px) {
+    .shop__title {
+      font-size: 32px;
+    }
+  }
+  @media (max-width: 767px) {
+    .shop__title {
+      font-size: 30px;
+    }
+  }
+
+  .shop__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (max-width: 1024px) {
+    .shop__grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 767px) {
+    .shop__grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px 20px;
+    }
+  }
+  @media (max-width: 400px) {
+    .shop__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .shop__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .shop__link {
+    display: block;
+    width: 100%;
+  }
+  .shop__link :global(img) {
+    width: 100%;
+    height: auto;
+  }
+  .shop__name {
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--red);
+    margin: 12px 0 8px;
+    line-height: 1.4;
+  }
+  .shop__link:hover .shop__name {
+    text-decoration: underline;
+  }
+  .shop__quote {
+    display: inline-block;
+    margin-top: auto;
+    padding: 8px 14px;
+    background: #f1f1f1;
+    color: var(--black);
+    font-size: 15px;
+    border-radius: 3px;
+  }
+  .shop__quote:hover {
+    background: var(--red);
+    color: var(--white);
+  }
+
+  .pager {
+    margin-top: 40px;
+  }
+  .pager ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pager a,
+  .pager__current {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .pager a:hover {
+    border-color: var(--red);
+    color: var(--red);
+  }
+  .pager__current {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+  }
+</style>

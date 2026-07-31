@@ -1,0 +1,55 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ShopArchive from '../../../components/ShopArchive.astro';
+import { productsAlphabetical, paginate, PER_PAGE } from '../../../lib/catalog.ts';
+import { PAGE_META, paginatedTitle } from '../../../data/pages.ts';
+import { ogUrl, DEFAULT_OG } from '../../../lib/og.ts';
+import {
+  graph,
+  organizationNode,
+  websiteNode,
+  breadcrumbNode,
+  itemListNode,
+} from '../../../lib/schema.ts';
+
+const BASE = '/brand/the-burger-sleeves/';
+
+export const getStaticPaths = (() => {
+  const pages = paginate(productsAlphabetical);
+  return pages.map((items, i) => ({
+    params: { page: i === 0 ? undefined : `page/${i + 1}` },
+    props: { items, current: i + 1, total: pages.length },
+  }));
+}) satisfies GetStaticPaths;
+
+const { items, current, total } = Astro.props;
+
+const meta = PAGE_META[BASE];
+const crumbs = [{ name: 'Home', url: '/' }, { name: 'The Burger Sleeves' }];
+
+const from = (current - 1) * PER_PAGE + 1;
+const to = from + items.length - 1;
+
+const schema = graph([
+  organizationNode(),
+  websiteNode(),
+  breadcrumbNode(crumbs),
+  itemListNode(items.map((p) => ({ name: p.name, url: p.url }))),
+]);
+---
+
+<BaseLayout
+  title={paginatedTitle(meta.title, current, total)}
+  description={meta.description}
+  ogImage={ogUrl(items[0]?.images[0]?.file) ?? DEFAULT_OG}
+  schema={schema}
+>
+  <ShopArchive
+    h1="The Burger Sleeves"
+    crumbs={crumbs}
+    products={items}
+    resultsLabel={`Showing ${from}–${to} of ${productsAlphabetical.length} results`}
+    pagination={{ current, total, hrefFor: (n) => (n === 1 ? BASE : `${BASE}page/${n}/`) }}
+  />
+</BaseLayout>

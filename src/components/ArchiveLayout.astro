@@ -1,0 +1,167 @@
+---
+import PageHeader from './PageHeader.astro';
+import ProductGrid from './ProductGrid.astro';
+import InquiryForm from './InquiryForm.astro';
+import FaqAccordion from './FaqAccordion.astro';
+import CtaBanner from './CtaBanner.astro';
+import { siteFaqs } from '../lib/catalog.ts';
+import type { Product } from '../lib/catalog.ts';
+
+/**
+ * Shared shell for every WooCommerce archive (product category, shop, brand),
+ * mirroring the "Category template" Elementor layout: breadcrumb + H1, the
+ * product grid beside a quote form, the site FAQ accordion, then the CTA band.
+ */
+export interface Props {
+  h1: string;
+  crumbs: { name: string; url?: string }[];
+  products: Product[];
+  /** WooCommerce archives (/shop/, /brand/) show a count; the Elementor
+      category template does not. */
+  resultsLabel?: string;
+  pagination?: { current: number; total: number; hrefFor: (page: number) => string };
+}
+const { h1, crumbs, products, resultsLabel, pagination } = Astro.props;
+---
+
+<PageHeader title={h1} crumbs={crumbs} />
+
+<section class="section section--tight section--flush">
+  <div class="container container--wide archive__layout">
+    <div class="archive__main">
+      {resultsLabel && <p class="archive__count">{resultsLabel}</p>}
+      <ProductGrid
+        products={products}
+        eagerCount={3}
+        columns={3}
+        headingLevel="h2"
+        variant="plain"
+        gap="35px 30px"
+        sizes="(max-width: 767px) 45vw, (max-width: 1024px) 30vw, 260px"
+      />
+
+      {
+        pagination && pagination.total > 1 && (
+          <nav class="pager" aria-label="Product archive pages">
+            <ul>
+              {Array.from({ length: pagination.total }, (_, i) => i + 1).map((n) => (
+                <li>
+                  {n === pagination.current ? (
+                    <span class="pager__current" aria-current="page">
+                      {n}
+                    </span>
+                  ) : (
+                    <a href={pagination.hrefFor(n)}>
+                      <span class="visually-hidden">Page </span>
+                      {n}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )
+      }
+    </div>
+
+    <aside class="archive__aside">
+      <div class="archive__form">
+        <InquiryForm variant="compact" heading="Get Free Quote" headingLevel="h2" id="archive-quote" />
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container container--wide">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <FaqAccordion faqs={siteFaqs} />
+  </div>
+</section>
+
+<CtaBanner />
+
+<style>
+  .archive__layout {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 0;
+    align-items: start;
+  }
+  .archive__aside {
+    padding-left: 30px;
+  }
+  .archive__count {
+    font-size: 15px;
+    color: var(--grey-600);
+    margin: 0 0 16px;
+  }
+  .archive__form {
+    background: var(--white);
+    border: 1px solid #f8f8f8;
+    border-radius: 7px;
+    padding: 22px;
+    box-shadow: var(--shadow-card);
+    position: sticky;
+    top: 20px;
+  }
+  @media (max-width: 991px) {
+    .archive__layout {
+      grid-template-columns: 1fr;
+      gap: 34px;
+    }
+    .archive__aside {
+      padding-left: 0;
+    }
+    .archive__form {
+      position: static;
+      max-width: 520px;
+    }
+  }
+
+  .pager {
+    margin-top: 30px;
+  }
+  .pager ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pager a,
+  .pager__current {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    padding: 0 12px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  .pager a:hover {
+    border-color: var(--red);
+    color: var(--red);
+  }
+  .pager__current {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--white);
+  }
+
+  .faq-section {
+    background: var(--panel);
+    padding: 50px 10px;
+    margin: 70px 0 50px;
+  }
+  @media (max-width: 1024px) {
+    .faq-section {
+      margin-top: 0;
+    }
+  }
+  .faq-section .section-title {
+    margin-bottom: 24px;
+  }
+</style>

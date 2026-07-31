@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# WordPress paths that no longer exist — keep crawl budget off them.
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-json/
+Disallow: /?s=
+Disallow: /*?add-to-cart=
+Disallow: /api/
+
+Sitemap: https://theburgersleeves.com/sitemap.xml

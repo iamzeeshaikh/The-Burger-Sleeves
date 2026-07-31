@@ -1,0 +1,42 @@
+[
+ {
+  "q": "What is the minimum order quantity?",
+  "a": "<p>Our minimum order is 100 units, making custom packaging affordable for businesses of all sizes. Volume discounts are available for larger orders.</p>"
+ },
+ {
+  "q": "How long does production take?",
+  "a": "<p>Standard production time is 10-12 business days after artwork approval. Rush production options are available for urgent orders with additional fees.</p>"
+ },
+ {
+  "q": "Do you offer free samples?",
+  "a": "<p>Yes, we can provide blank samples or printed samples from previous orders to showcase material quality. Custom samples may incur a small fee.</p>"
+ },
+ {
+  "q": "What file formats do you accept for artwork?",
+  "a": "<p>We accept AI, EPS, PDF, and high-resolution PNG files. Our design team can also work with lower-quality files and recreate your artwork if needed.</p>"
+ },
+ {
+  "q": "Can I order different designs in one order?",
+  "a": "<p>Yes, you can split your order into multiple designs, though each design must meet the 100-unit minimum requirement.</p>"
+ },
+ {
+  "q": "What coating options are available?",
+  "a": "<p>We offer Gloss, Matte, and Spot UV coating options. Gloss provides vibrant colors, Matte offers a sophisticated look, and Spot UV adds raised glossy elements to specific areas.</p>"
+ },
+ {
+  "q": "Are the burger sleeves food-safe?",
+  "a": "<p>Absolutely. All our materials are food-grade and comply with FDA and EU food contact regulations. We use only approved inks and coatings.</p>"
+ },
+ {
+  "q": "Do you ship internationally?",
+  "a": "<p>Yes, we ship worldwide including UK, USA, Canada, Australia, and throughout Europe. Shipping costs and delivery times vary by location.</p>"
+ },
+ {
+  "q": "Can I reorder the same design later?",
+  "a": "<p>Yes, we keep your artwork on file for easy reordering. Simply reference your previous order number when placing a new order.</p>"
+ },
+ {
+  "q": "What payment methods do you accept?",
+  "a": "<p>We accept major credit cards, bank transfers, and PayPal. Payment terms are available for established business accounts.</p>"
+ }
+]

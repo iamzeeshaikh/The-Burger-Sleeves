@@ -1,0 +1,109 @@
+---
+import { getImage as lookup } from '../lib/images.ts';
+import { getImage as astroImage } from 'astro:assets';
+
+/**
+ * The live hero runs an Elementor background slideshow (4 photos, 5s fade,
+ * slow Ken Burns zoom). Rebuilt with pure CSS animation so no slider library
+ * ships. The first frame is a real <img> so it can be the LCP element and be
+ * preloaded; the rest crossfade above it.
+ */
+export interface Props {
+  slides: string[];
+  alt?: string;
+}
+const { slides, alt = '' } = Astro.props;
+
+const frames = await Promise.all(
+  slides.map(async (file) => {
+    const src = lookup(file);
+    if (!src) throw new Error(`Missing hero slide: ${file}`);
+    return astroImage({ src, format: 'webp', width: 1600, quality: 68 });
+  }),
+);
+const durationTotal = slides.length * 5;
+---
+
+<div class="hero-bg" aria-hidden={alt ? undefined : 'true'}>
+  {
+    frames.map((f, i) => (
+      <img
+        src={f.src}
+        alt={i === 0 ? alt : ''}
+        width={f.attributes.width}
+        height={f.attributes.height}
+        class="hero-bg__frame"
+        style={`animation-delay:${i * 5}s;animation-duration:${durationTotal}s;z-index:${frames.length - i}`}
+        loading={i === 0 ? 'eager' : 'lazy'}
+        fetchpriority={i === 0 ? 'high' : undefined}
+        decoding={i === 0 ? 'sync' : 'async'}
+      />
+    ))
+  }
+  <span class="hero-bg__overlay"></span>
+</div>
+
+<style define:vars={{ count: 1 }}>
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .hero-bg__frame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation-name: heroFade;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    will-change: opacity, transform;
+  }
+  .hero-bg__frame:first-child {
+    opacity: 1;
+  }
+  .hero-bg__overlay {
+    position: absolute;
+    inset: 0;
+    background: var(--black);
+    opacity: 0.7;
+    z-index: 10;
+  }
+
+  /* Fade in, hold, fade out — one quarter of the cycle per frame. */
+  @keyframes heroFade {
+    0% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    3% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+    28% {
+      opacity: 0;
+      transform: scale(1.08);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1);
+    }
+  }
+
+  /* Respect reduced-motion: hold the first photo, no crossfade, no zoom. */
+  @media (prefers-reduced-motion: reduce) {
+    .hero-bg__frame {
+      animation: none;
+      opacity: 0;
+    }
+    .hero-bg__frame:first-child {
+      opacity: 1;
+    }
+  }
+</style>

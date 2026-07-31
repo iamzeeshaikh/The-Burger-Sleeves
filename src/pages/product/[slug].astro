@@ -1,0 +1,217 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductGallery from '../../components/ProductGallery.astro';
+import ProductTabs from '../../components/ProductTabs.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import InquiryForm from '../../components/InquiryForm.astro';
+import CtaBanner from '../../components/CtaBanner.astro';
+import { products, getCategory, relatedProducts } from '../../lib/catalog.ts';
+import { ogUrl, DEFAULT_OG } from '../../lib/og.ts';
+import {
+  graph,
+  organizationNode,
+  websiteNode,
+  breadcrumbNode,
+  faqNode,
+  productNode,
+} from '../../lib/schema.ts';
+
+export const getStaticPaths = (() =>
+  products.map((product) => ({ params: { slug: product.slug }, props: { product } }))) satisfies GetStaticPaths;
+
+const { product } = Astro.props;
+const category = getCategory(product.categorySlug);
+const related = relatedProducts(product);
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  ...(category ? [{ name: category.name, url: category.url }] : []),
+  { name: product.name },
+];
+
+const ogImage = ogUrl(product.images[0]?.file) ?? DEFAULT_OG;
+
+const schema = graph([
+  organizationNode(),
+  websiteNode(),
+  breadcrumbNode(crumbs),
+  productNode(
+    product,
+    product.images.map((i) => ogUrl(i.file)!).filter(Boolean),
+  ),
+  ...(product.faqs.length ? [faqNode(product.faqs)] : []),
+]);
+---
+
+<BaseLayout
+  title={product.metaTitle}
+  description={product.metaDescription}
+  ogType="product"
+  ogImage={ogImage}
+  schema={schema}
+>
+  <section class="product">
+    <div class="container container--wide product__layout">
+      <div class="product__gallery">
+        <ProductGallery images={product.images} productName={product.name} id={product.slug} />
+      </div>
+
+      <div class="product__summary">
+        <Breadcrumbs crumbs={crumbs} />
+        <h1 class="product__title">{product.name}</h1>
+
+        <div class="product__short prose" set:html={product.shortDescriptionHtml} />
+
+        {
+          product.longDescriptionHtml && (
+            <div class="product__long prose" set:html={product.longDescriptionHtml} />
+          )
+        }
+
+        <p class="product__cta">
+          <a class="btn btn--primary" href="#product-quote">Get Free Quote</a>
+        </p>
+
+        <dl class="product__meta">
+          <div>
+            <dt>SKU</dt>
+            <dd>{product.sku}</dd>
+          </div>
+          {
+            category && (
+              <div>
+                <dt>Category</dt>
+                <dd>
+                  <a href={category.url}>{category.name}</a>
+                </dd>
+              </div>
+            )
+          }
+          <div>
+            <dt>Brand</dt>
+            <dd>
+              <a href="/brand/the-burger-sleeves/">{product.brand}</a>
+            </dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="product__form" id="product-quote">
+        <InquiryForm
+          variant="compact"
+          heading="Get Free Quote"
+          headingLevel="h2"
+          productName={product.name}
+          id={`quote-${product.slug}`}
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight section--flush">
+    <div class="container container--wide">
+      <ProductTabs product={product} />
+    </div>
+  </section>
+
+  {
+    related.length > 0 && (
+      <section class="section section--tight section--flush">
+        <div class="container container--wide">
+          <h2 class="section-title">Related Products</h2>
+          <ProductGrid products={related} sizes="(max-width: 767px) 45vw, (max-width: 1024px) 30vw, 290px" />
+        </div>
+      </section>
+    )
+  }
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .product {
+    padding: 30px 10px 10px;
+  }
+  /* The live template splits the hero into three equal 33% columns. */
+  .product__layout {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    align-items: start;
+  }
+  .product__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 6px 0 16px;
+  }
+  .product__gallery {
+    position: sticky;
+    top: 20px;
+  }
+  .product__short :global(p) {
+    margin-bottom: 14px;
+  }
+  .product__cta {
+    margin: 22px 0 18px;
+  }
+  .product__meta {
+    margin: 0;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 22px;
+  }
+  .product__meta > div {
+    display: flex;
+    gap: 6px;
+  }
+  .product__meta dt {
+    font-weight: 600;
+  }
+  .product__meta dd {
+    margin: 0;
+  }
+  .product__meta a {
+    color: var(--red);
+  }
+  .product__meta a:hover {
+    text-decoration: underline;
+  }
+
+  .product__form {
+    background: var(--white);
+    border: 1px solid #f8f8f8;
+    border-radius: 7px;
+    padding: 22px;
+    box-shadow: var(--shadow-card);
+    position: sticky;
+    top: 20px;
+  }
+
+  @media (max-width: 1100px) {
+    .product__layout {
+      grid-template-columns: 300px minmax(0, 1fr);
+    }
+    .product__form {
+      grid-column: 1 / -1;
+      position: static;
+      max-width: 520px;
+    }
+  }
+  @media (max-width: 767px) {
+    .product__layout {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    .product__gallery {
+      position: static;
+    }
+    .product__form {
+      max-width: none;
+    }
+  }
+</style>
