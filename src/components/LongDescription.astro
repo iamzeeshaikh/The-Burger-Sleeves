@@ -1,0 +1,173 @@
+---
+import type { LongDescription } from '../lib/product-content.ts';
+
+/**
+ * Renders the structured long-form product copy. Every block type is handled
+ * explicitly, so the only markup that reaches the page is the inline subset the
+ * converter whitelisted — there is no free-form HTML passthrough.
+ */
+export interface Props {
+  content: LongDescription;
+  /** Used to label the tables' scroll regions for screen readers. */
+  productName: string;
+}
+const { content, productName } = Astro.props;
+---
+
+<div class="longdesc">
+  {
+    content.sections.map((section) => (
+      <section class="longdesc__section">
+        {section.heading && <h2 class="longdesc__h2">{section.heading}</h2>}
+        {section.blocks.map((b) =>
+          b.t === 'p' ? (
+            <p set:html={b.html} />
+          ) : b.t === 'h3' ? (
+            <h3 class="longdesc__h3">{b.text}</h3>
+          ) : b.t === 'ul' ? (
+            <ul class="longdesc__list">
+              {b.items.map((i) => (
+                <li set:html={i} />
+              ))}
+            </ul>
+          ) : b.t === 'ol' ? (
+            <ol class="longdesc__steps">
+              {b.items.map((i) => (
+                <li set:html={i} />
+              ))}
+            </ol>
+          ) : (
+            <div
+              class="table-scroll"
+              tabindex="0"
+              role="region"
+              aria-label={b.caption ?? `${productName} — ${section.heading ?? 'details'} table`}
+            >
+              <table>
+                {b.caption && <caption class="visually-hidden">{b.caption}</caption>}
+                {b.headers.length > 0 && (
+                  <thead>
+                    <tr>
+                      {b.headers.map((h) => (
+                        <th scope="col">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                )}
+                <tbody>
+                  {b.rows.map((r) => (
+                    <tr>
+                      {r.map((cell, i) =>
+                        i === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>,
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ),
+        )}
+      </section>
+    ))
+  }
+</div>
+
+<style>
+  .longdesc {
+    font-size: var(--text-size);
+    line-height: 1.7;
+    max-width: 900px;
+  }
+  .longdesc__section + .longdesc__section {
+    margin-top: 40px;
+  }
+  .longdesc__h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 16px;
+  }
+  .longdesc__h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 12px;
+  }
+  .longdesc :global(p) {
+    margin: 0 0 16px;
+  }
+  .longdesc :global(a) {
+    color: var(--red);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .longdesc :global(a:hover) {
+    text-decoration-thickness: 2px;
+  }
+
+  .longdesc__list,
+  .longdesc__steps {
+    margin: 0 0 20px;
+    padding: 0 0 0 4px;
+  }
+  .longdesc__list {
+    list-style: none;
+  }
+  .longdesc__list li {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 9px;
+  }
+  .longdesc__list li::before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 0.55em;
+    width: 10px;
+    height: 6px;
+    border-left: 2.5px solid var(--red);
+    border-bottom: 2.5px solid var(--red);
+    transform: rotate(-45deg) translateY(-2px);
+  }
+  .longdesc__steps {
+    counter-reset: step;
+    list-style: none;
+    padding-left: 0;
+  }
+  .longdesc__steps li {
+    counter-increment: step;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    min-height: 28px;
+  }
+  .longdesc__steps li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--red);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .longdesc :global(.table-scroll) {
+    margin-bottom: 24px;
+  }
+
+  @media (max-width: 767px) {
+    .longdesc__h2 {
+      font-size: 23px;
+    }
+    .longdesc__h3 {
+      font-size: 18px;
+    }
+  }
+</style>

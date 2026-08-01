@@ -4,10 +4,12 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ProductGallery from '../../components/ProductGallery.astro';
 import ProductTabs from '../../components/ProductTabs.astro';
+import LongDescription from '../../components/LongDescription.astro';
 import ProductGrid from '../../components/ProductGrid.astro';
 import InquiryForm from '../../components/InquiryForm.astro';
 import CtaBanner from '../../components/CtaBanner.astro';
 import { products, getCategory, relatedProducts } from '../../lib/catalog.ts';
+import { longDescription } from '../../lib/product-content.ts';
 import { ogUrl, DEFAULT_OG } from '../../lib/og.ts';
 import {
   graph,
@@ -24,6 +26,7 @@ export const getStaticPaths = (() =>
 const { product } = Astro.props;
 const category = getCategory(product.categorySlug);
 const related = relatedProducts(product);
+const longDesc = longDescription(product.sku);
 
 const crumbs = [
   { name: 'Home', url: '/' },
@@ -64,12 +67,6 @@ const schema = graph([
 
         <div class="product__short prose" set:html={product.shortDescriptionHtml} />
 
-        {
-          product.longDescriptionHtml && (
-            <div class="product__long prose" set:html={product.longDescriptionHtml} />
-          )
-        }
-
         <p class="product__cta">
           <a class="btn btn--primary" href="#product-quote">Get Free Quote</a>
         </p>
@@ -109,6 +106,16 @@ const schema = graph([
       </div>
     </div>
   </section>
+
+  {
+    longDesc && (
+      <section class="section section--tight section--flush">
+        <div class="container container--wide">
+          <LongDescription content={longDesc} productName={product.name} />
+        </div>
+      </section>
+    )
+  }
 
   <section class="section section--tight section--flush">
     <div class="container container--wide">
