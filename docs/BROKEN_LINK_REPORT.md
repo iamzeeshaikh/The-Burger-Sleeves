@@ -1,6 +1,6 @@
 # Broken Link Report
 
-Generated from the production build on 2026-07-31.
+Generated from the production build on 2026-08-01.
 Every `<a href>` and `<img src>` in all 67 built pages was resolved
 against the build output.
 

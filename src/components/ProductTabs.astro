@@ -1,5 +1,6 @@
 ---
 import SpecTable from './SpecTable.astro';
+import FaqAccordion from './FaqAccordion.astro';
 import type { Product } from '../lib/catalog.ts';
 
 /**
@@ -64,16 +65,10 @@ const tabs = [
     hidden
   >
     <h2 class="visually-hidden">Frequently asked questions</h2>
-    <div class="product-faqs">
-      {
-        product.faqs.map((f) => (
-          <div class="product-faqs__item">
-            <h3 class="product-faqs__q">{f.q}</h3>
-            <div class="product-faqs__a" set:html={f.a} />
-          </div>
-        ))
-      }
-    </div>
+    {/* 15 questions read as a wall of text when laid out flat, so they use the
+        same accordion the homepage and category pages do. The text stays in the
+        DOM, so the FAQPage schema still matches what the page contains. */}
+    <FaqAccordion faqs={product.faqs} class="product-faqs" />
   </div>
 </div>
 
@@ -118,22 +113,10 @@ const tabs = [
     outline-offset: 4px;
   }
 
-  .product-faqs__item {
-    margin-bottom: 22px;
-  }
-  .product-faqs__q {
-    font-size: 19px;
-    font-weight: 600;
-    margin: 0 0 8px;
-  }
-  .product-faqs__a {
-    font-size: var(--text-size);
-    line-height: 1.7;
+  .tabs :global(.product-faqs) {
+    max-width: 900px;
   }
   @media (max-width: 767px) {
-    .product-faqs__q {
-      font-size: 17px;
-    }
     .tabs__tab {
       font-size: 15px;
       padding: 9px 14px;

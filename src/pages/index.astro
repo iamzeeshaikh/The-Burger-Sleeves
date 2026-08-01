@@ -107,18 +107,18 @@ const schema = graph([
   </section>
 
   <!-- Custom printing -->
-  <section class="section section--tight">
-    <div class="container container--wide split split--reverse">
-      <div class="split__copy">
+  <section class="section section--tight printing">
+    <div class="container container--wide printing__layout">
+      <div class="printing__copy">
         <h2 class="section-title">{home.printing.h2}</h2>
-        <div class="prose" set:html={home.printing.html} />
+        <div class="prose printing__body" set:html={home.printing.html} />
       </div>
-      <div class="split__media">
+      <div class="printing__media">
         <Image
           src={printingImg}
           alt={home.printing.imageAlt}
-          widths={[400, 620]}
-          sizes="(max-width: 767px) 92vw, 45vw"
+          widths={[500, 800]}
+          sizes="(max-width: 899px) 92vw, 45vw"
           loading="lazy"
         />
       </div>
@@ -295,6 +295,111 @@ const schema = graph([
     }
     .split--reverse .split__media {
       order: -1;
+    }
+  }
+
+  /* --- custom printing ---------------------------------------------------
+     The copy here is a long, flat run of paragraphs and lists straight out of
+     WordPress. The text is untouched; these rules give it a reading rhythm and
+     stop the short photo from stranding a column of whitespace beside it.     */
+  .printing__layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 50px;
+    align-items: start;
+  }
+  .printing__copy .section-title {
+    margin-bottom: 20px;
+  }
+  .printing__media {
+    position: sticky;
+    top: 24px;
+  }
+  .printing__media :global(img) {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  }
+
+  .printing__body :global(p) {
+    margin-bottom: 16px;
+  }
+
+  /* Section labels: "Available Printing Options:", "Coating Options", … */
+  .printing__body :global(.p-label) {
+    margin: 32px 0 14px;
+  }
+  .printing__body :global(.p-label strong) {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--red);
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--red);
+  }
+
+  /* Feature callouts: a bold term followed by its description. */
+  .printing__body :global(.p-feature) {
+    background: #fafafa;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--red);
+    border-radius: 0 5px 5px 0;
+    padding: 15px 18px;
+    margin-bottom: 12px;
+  }
+  .printing__body :global(.p-feature > strong:first-child) {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+    margin-bottom: 5px;
+  }
+
+  .printing__body :global(ul) {
+    list-style: none;
+    margin: 0 0 16px;
+    padding: 0;
+    display: grid;
+    gap: 10px 26px;
+  }
+  .printing__body :global(li) {
+    position: relative;
+    padding-left: 28px;
+    margin: 0;
+  }
+  /* Red check mark drawn in CSS — no extra icon request. */
+  .printing__body :global(li::before) {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 0.5em;
+    width: 11px;
+    height: 6px;
+    border-left: 2.5px solid var(--red);
+    border-bottom: 2.5px solid var(--red);
+    transform: rotate(-45deg) translateY(-2px);
+  }
+  /* The six design-element bullets are short — pair them up on wider screens. */
+  .printing__body :global(ul:last-of-type) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  @media (max-width: 899px) {
+    .printing__layout {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+    .printing__media {
+      position: static;
+      order: -1;
+    }
+  }
+  @media (max-width: 520px) {
+    .printing__body :global(ul:last-of-type) {
+      grid-template-columns: 1fr;
     }
   }
 

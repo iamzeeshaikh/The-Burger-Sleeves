@@ -1,6 +1,6 @@
 # Structured Data Report
 
-Generated from the production build on 2026-07-31.
+Generated from the production build on 2026-08-01.
 
 ## Summary
 
