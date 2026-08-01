@@ -216,11 +216,21 @@ for (const p of indexablePages) {
         }
       }
       if (n['@type'] === 'FAQPage') {
-        // every question in schema must be visible in the rendered page
+        // Compare decoded text, not raw markup: the page renders &quot; where
+        // the JSON-LD carries an escaped quote, and both mean the same string.
+        const decode = (s) =>
+          s
+            .replace(/&quot;/g, '"')
+            .replace(/&#39;|&apos;/g, "'")
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&nbsp;/g, ' ');
+        const visible = decode(p.html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ');
         for (const q of n.mainEntity ?? []) {
-          const needle = q.name.replace(/&/g, '&amp;').slice(0, 40);
-          if (!p.html.includes(needle) && !p.html.includes(q.name.slice(0, 40))) {
-            fail('faq-schema-not-visible', `${p.path}: ${q.name.slice(0, 50)}`);
+          const needle = decode(q.name).replace(/\s+/g, ' ').trim();
+          if (!visible.includes(needle)) {
+            fail('faq-schema-not-visible', `${p.path}: ${needle.slice(0, 50)}`);
           }
         }
       }

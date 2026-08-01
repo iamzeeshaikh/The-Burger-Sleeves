@@ -75,6 +75,23 @@ export const styles3 = {
           { t: 'p', html: 'Approve a physical cut sample rather than a flat visual. A drawing cannot tell you whether the tab binds, whether a crease cracks on a heavy board, or whether the assembled sleeve actually fits your burger. If a cut sample is not offered as part of the process, ask for one and treat the request as routine. Most suppliers will discuss this at the <a href="/get-free-quote/">quotation stage where dimensions and structure are confirmed</a>.' },
         ],
       },
+      {
+        heading: 'One Tool Or Several: The Question Behind The Cost',
+        blocks: [
+          { t: 'p', html: 'Each distinct dieline is a physical steel tool, and that is the cost most buyers do not anticipate. A menu with three burger sizes is not automatically three tools, but deciding whether it is one or three is worth doing deliberately rather than by default.' },
+          { t: 'p', html: 'A single tool can cover a range where the closure has enough travel to absorb the difference. A tab that engages anywhere along a longer slot, or a wrap deep enough that the smaller build simply sits lower in it, will serve two sizes without looking wrong on either. What that costs is a little slack on the smaller item and a little less margin on the larger.' },
+          {
+            t: 'ol',
+            items: [
+              'Measure the smallest and largest filled builds the sleeve has to hold',
+              'Check whether one closure geometry can reach across that gap without gaping or straining',
+              'Price the extra tooling against the annual volume of the size that would need it',
+              'Decide whether the smaller item can share a tool, or genuinely needs its own',
+            ],
+          },
+          { t: 'p', html: 'The answer usually turns on volume rather than on fit. A size selling in real quantity earns its own tool quickly; one selling occasionally rarely does. Where the range is wide enough that a shared tool clearly will not work, it is worth looking at <a href="/product-category/burger-sleeves-sizes/">how the size range is already divided into bands</a>, since a stock band may cover one end of the menu and leave only the other needing bespoke tooling.' },
+        ],
+      },
     ],
     faqs: [
       { q: 'What exactly is a die-cut burger sleeve?', a: 'It is a sleeve cut with a shaped steel rule tool rather than a straight rectangular trim. That allows curved edges, notches, windows, tuck tabs and lock slots to be produced in a single pass. The dieline — the drawing of those cut and crease positions — is the core of the specification.' },

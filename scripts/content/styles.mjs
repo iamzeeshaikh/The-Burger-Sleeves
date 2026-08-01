@@ -183,6 +183,29 @@ export const styles = {
           },
         ],
       },
+      {
+        heading: 'Two Whites Rarely Match Each Other',
+        blocks: [
+          { t: 'p', html: 'The problem most operators meet is not whether a white sleeve looks clean on its own. It is that the sleeve arrives on a tray beside a white cup, a white bag and a white napkin, all bought separately, and three shades of white are visible at once.' },
+          { t: 'p', html: 'Board brightness is measured on a scale, and two suppliers can both describe their stock as white while sitting several points apart. Coated stock also reflects light differently from uncoated, so a coated sleeve reads cooler and brighter next to an uncoated bag even when the underlying board is identical.' },
+          { t: 'p', html: 'Where a full set is being specified, the practical approach is to order the sleeve last and match it to whatever is already in use, rather than approving each item against a colour swatch in isolation. Operators running <a href="/product/restaurant-burger-sleeves/">a table-service packaging set across several sites</a> tend to feel this most, because the items are seen together on a tray under one light rather than one at a time.' },
+        ],
+      },
+      {
+        heading: 'Judging A Sample Rather Than A Swatch',
+        blocks: [
+          { t: 'p', html: 'A white board sample tells you more in five minutes of handling than any specification sheet will. Three checks cover most of what goes wrong later.' },
+          {
+            t: 'ul',
+            items: [
+              'Look at it under your own service lighting, not a window — warm downlights pull white towards cream and cool LEDs push it towards blue',
+              'Run a thumb across the printed area after handling something oily, which is how the surface will actually be treated',
+              'Fold the sample along the crease and check whether the printed layer cracks along the fold line',
+            ],
+          },
+          { t: 'p', html: 'The fold test is the one people skip. Heavy ink on a bright coated board can crack along a crease and expose a white line straight through the artwork, which shows up far more clearly on white than it would on kraft. Catching that on a sample costs nothing; catching it on a delivered run costs the run.' },
+        ],
+      },
     ],
     faqs: [
       { q: 'Why do brand colours look more accurate on white sleeves?', a: 'Printing inks are largely transparent, so the board underneath alters the final colour. A bright white ground reflects light evenly back through the ink, which lets a printed colour land close to the intended reference. On brown or coloured board the substrate tints everything printed on it, shifting hues and flattening pale tones.' },

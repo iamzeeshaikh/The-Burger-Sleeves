@@ -10,10 +10,10 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | Metric | Value |
 | --- | ---: |
 | Products | 44 |
-| With long-form copy | 25 |
-| **Missing long-form copy** | **19** |
-| Below the 1,200-word target | 10 |
-| Total long-form words | 29,133 |
+| With long-form copy | 32 |
+| **Missing long-form copy** | **12** |
+| Below the 1,200-word target | 6 |
+| Total long-form words | 39,331 |
 
 ## Similarity between pages that already have copy
 
@@ -24,11 +24,11 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | 3 | Cardboard Burger Sleeves | Paper Burger Sleeves | 6.1% |
 | 4 | Kraft Burger Sleeves | Eco Friendly Burger Sleeves | 5.2% |
 | 5 | Paper Burger Sleeves | Corrugated Burger Sleeves | 5.1% |
-| 6 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
-| 7 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
-| 8 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
-| 9 | Corrugated Burger Sleeves | Eco Friendly Burger Sleeves | 3.7% |
-| 10 | Paper Burger Sleeves | Recycled Burger Sleeves | 3.6% |
+| 6 | White Burger Sleeves | White Printed Burger Sleeves | 4.3% |
+| 7 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
+| 8 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
+| 9 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
+| 10 | Corrugated Burger Sleeves | Eco Friendly Burger Sleeves | 3.7% |
 
 Highest pair is **7.3%**. Nothing in the existing set
 reads as spun or templated at the paragraph level.
@@ -52,7 +52,10 @@ mass-generation signal in the current set:
 - `category+product+product+product` — 8 pages
 - `product+product+product` — 14 pages
 - `product+category+product` — 1 page
-- `product+product+category` — 2 pages
+- `product+product+product+product` — 4 pages
+- `product+product+category+product` — 2 pages
+- `product+product+product+category` — 2 pages
+- `category+product+category+product` — 1 page
 
 ### Templated heading shapes
 
@@ -84,13 +87,6 @@ None.
 - TBS-012 — Disposable Burger Sleeves (`/product/disposable-burger-sleeves/`)
 - TBS-013 — Grease Resistant Burger Sleeves (`/product/grease-resistant-burger-sleeves/`)
 - TBS-014 — Food Grade Burger Sleeves (`/product/food-grade-burger-sleeves/`)
-- TBS-015 — Custom Burger Sleeves (`/product/custom-burger-sleeves/`)
-- TBS-017 — Branded Burger Sleeves (`/product/branded-burger-sleeves/`)
-- TBS-018 — Logo Printed Burger Sleeves (`/product/logo-printed-burger-sleeves/`)
-- TBS-019 — Full Color Burger Sleeves (`/product/full-color-burger-sleeves/`)
-- TBS-020 — Black Printed Burger Sleeves (`/product/black-printed-burger-sleeves/`)
-- TBS-021 — White Printed Burger Sleeves (`/product/white-printed-burger-sleeves/`)
-- TBS-022 — Minimal Design Burger Sleeves (`/product/minimal-design-burger-sleeves/`)
 
 ## Products below the word target
 
@@ -100,7 +96,3 @@ None.
 - TBS-004 — Corrugated Burger Sleeves: 1005 words
 - TBS-005 — Recycled Burger Sleeves: 1096 words
 - TBS-006 — Eco Friendly Burger Sleeves: 932 words
-- TBS-029 — Kraft Brown Burger Sleeves: 1012 words
-- TBS-030 — White Burger Sleeves: 886 words
-- TBS-033 — Gloss Finish Burger Sleeves: 815 words
-- TBS-034 — Die Cut Burger Sleeves: 1017 words

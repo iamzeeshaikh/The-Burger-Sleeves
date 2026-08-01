@@ -81,6 +81,36 @@ die-cut set duplicated across two.
 
 Tables were emitted as `<table width="821">`, which overflows on mobile.
 
+### 7. A product whose own description contradicts its own photographs
+
+**TBS-021 White Printed Burger Sleeves.** The migrated short description
+describes the product as *white ink printed on dark kraft*. All five product
+images show the opposite — coloured artwork printed on a white stock — and the
+15-row specification table agrees with the images, not the description.
+
+This was resolved before writing rather than guessed at. The long copy follows
+the images and the specification table. The short description was **left
+unchanged**, because the brief forbids altering short descriptions, so the page
+currently carries a sentence that its own photographs contradict.
+
+The sibling product **TBS-020 Black Printed** was checked the same way and is
+unambiguous: its specification table lists a light kraft or white board printed
+in one-colour black, so the name means *black ink*, not *black board*. The page
+answers that ambiguity in an FAQ rather than leaving it implied.
+
+## Client decisions still open
+
+None of these are being changed unilaterally, because each one alters something
+the brief protects or something only the business can confirm.
+
+| # | Item | Why it needs a decision | Suggested fix |
+| --- | --- | --- | --- |
+| 1 | TBS-021 short description says "white ink on dark kraft"; images and spec table show colour on white stock | Short descriptions are protected by the brief, but this one misdescribes the product to a buyer | Confirm which product is actually sold, then correct the short description or the images |
+| 2 | Brand red `#FF0000` fails WCAG AA at 3.998:1 | Changing it alters the visual match with the live site | `#ee0000` gives 4.53:1 and is visually indistinguishable at this scale |
+| 3 | TBS-011 Takeaway and TBS-012 Disposable share one `metaDescription` | Metadata is frozen by the migration brief | Rewrite one of the two when the Usage group is written |
+| 4 | TBS-002, TBS-012 and TBS-020 have no photography | A lookalike substitute would misrepresent the product | Supply real photographs; placeholder shown until then |
+| 5 | `/about-us/` repeats the same three paragraphs in two panels | The repetition is visible on the live site and was preserved deliberately | Delete the duplicate panel on approval |
+
 ## Structural changes made
 
 Long descriptions were converted from HTML blobs into structured blocks

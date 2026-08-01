@@ -82,6 +82,15 @@ export const styles2 = {
           { t: 'p', html: 'Recycled content is worth asking about separately rather than assuming it. Brown appearance and recycled fibre are two different things, and a board can be one without the other. Any disposal or recycling claim should be checked against the finished construction and local facilities rather than assumed from the colour.' },
         ],
       },
+      {
+        heading: 'Brown Rarely Arrives On The Counter Alone',
+        blocks: [
+          { t: 'p', html: 'A kraft sleeve is almost never the only brown item in the handover. It sits with a bag, a napkin, sometimes a cup carrier, and those items were probably bought from different suppliers at different times.' },
+          { t: 'p', html: 'Because unbleached board carries its colour in the fibre rather than in a printed layer, the shades drift apart more visibly than white items do. One supplier runs a redder brown, another a greyer one, and the difference is obvious the moment the two are held together — far more obvious than the same variation would be on a printed surface.' },
+          { t: 'p', html: 'Printing does not rescue this either. Ink laid on brown board takes a tint from whatever is underneath it, so the same artwork run on two slightly different browns comes back as two slightly different results, and the mismatch reads as a printing fault rather than a board one.' },
+          { t: 'p', html: 'The fix is ordering sequence rather than specification. Pick whichever kraft item you buy in the largest volume, keep a piece of it, and match everything else to that physical reference. Counters built around a warm paper look — <a href="/product/cafe-burger-sleeves/">a hot food line running inside a coffee business</a> is the common case — usually already have a bag or cup sleeve that sets the shade before the burger packaging is chosen at all.' },
+        ],
+      },
     ],
     faqs: [
       { q: 'Why do my brand colours look different on kraft sleeves?', a: 'The brown fibre sits under every printed ink and acts as a warm filter. Blues shift green, reds shift earthy, and pale tints largely disappear because they lack the density to cover the substrate. Artwork designed on white and moved to kraft rarely reproduces as expected, so colours should be judged on a printed kraft sample.' },
@@ -155,6 +164,31 @@ export const styles2 = {
           { t: 'p', html: 'Gloss is achieved several ways and the differences matter. A gloss varnish is a thin coating applied inline on press. A UV coating is cured harder and shinier. A gloss laminate is a film bonded to the board, which is the most durable and the most likely to complicate fibre recycling. These are not interchangeable, and a quotation that just says "gloss" has not answered the question. The same question applies across <a href="/product-category/burger-sleeves-styles/">the other surface treatments offered in this range</a>, since each is quoted differently.' },
           { t: 'p', html: 'Ask which is being offered, whether it covers the full face or only one side, and how it interacts with any barrier treatment. A coating applied for appearance is not the same as one applied to slow grease migration, and having one does not mean you have the other.' },
           { t: 'p', html: 'Recycling should be checked against the finished construction rather than the board alone. Laminated faces in particular can affect fibre recovery, and local facilities vary, so treat disposal as something to verify for your specific build and location.' },
+        ],
+      },
+      {
+        heading: 'Gloss Costs Most On A Short Run',
+        blocks: [
+          { t: 'p', html: 'Coating is a separate operation, and on a small quantity that setup is divided across very few units. The per-sleeve difference between coated and uncoated is at its widest exactly where budgets are usually tightest.' },
+          { t: 'p', html: 'This changes the sensible answer depending on what the run is for. On a standing house sleeve reordered several times a year the setup is absorbed and the coating is a reasonable ongoing cost. On a one-off print it is a meaningful share of the bill for a benefit that ends when the stock does.' },
+          { t: 'p', html: 'Short campaign work is where the question comes up most often, and the usual compromise is spot coating over a small area rather than the full face — the shine lands where it is looked at and the coated area stays small. Anyone planning <a href="/product/promotional-burger-sleeves/">a print run tied to a campaign end date</a> is better served deciding coverage against the length of the campaign than against the look of a sample.' },
+        ],
+      },
+      {
+        heading: 'How A Coated Face Behaves In The Stack',
+        blocks: [
+          { t: 'p', html: 'Two handling effects show up once coated sleeves reach a working kitchen, and neither is visible in a sample of one.' },
+          {
+            t: 'ul',
+            items: [
+              'Coated faces slide against each other more readily than uncoated board, so a tall stack on a shelf can shift where a matte stack would stay put',
+              'A sealed surface releases from a stack cleanly, which makes single-handed pickup at the pass slightly faster',
+              'Marks that would soak into uncoated fibre sit on top of a coated face and wipe off, provided they are dealt with rather than left',
+              'Coated stock resists the humidity of a working kitchen better, so sleeves left out through a long service stay flatter than uncoated ones',
+            ],
+          },
+          { t: 'p', html: 'There is a related effect at the point of handover. A sealed face gives slightly less friction against a palm than dry board does, which is noticeable on a heavy build passed across a counter one-handed. Panel depth and fold structure govern grip far more than the coating does, but if the sleeve is being handed over loaded and warm it is worth putting a coated sample into someone\'s hand before the run is committed.' },
+          { t: 'p', html: 'The slipping is worth planning for rather than worrying about. Keeping working quantities in a shallow open case at the pass, instead of a tall stack on an upper shelf, removes the problem entirely and takes no longer to restock.' },
         ],
       },
     ],

@@ -4848,64 +4848,56 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Custom Burger Sleeves?",
-    "a": "<p>They are burger sleeves made to match your burger size, height, and serving method. Custom sizing helps the sleeve hold the burger securely without sliding. Layout and fold style can be aligned with your assembly process.</p>"
+    "q": "1. What order should I make customisation decisions in?",
+    "a": "<p>Physical first, visual second. Internal dimensions set which boards stay rigid; board sets print sharpness and fold behaviour; barrier changes surface feel; structure affects assembly time and where artwork can sit; coverage affects cost. You can design artwork around a board, but you cannot easily change board to rescue artwork later.</p>"
    },
    {
-    "q": "2. Why Does Custom Sizing Matter For Burger Sleeves?",
-    "a": "<p>A sleeve that is too loose can slip down and expose the burger. A sleeve that is too tight can tear at corners or crush toppings. Matching dimensions improves grip, presentation, and handling.</p>"
+    "q": "2. What measurements does a bespoke sleeve actually need?",
+    "a": "<p>Width at the widest point of the finished, wrapped build, height at the tallest point, approximate weight, and how far the sleeve travels. Measure the item as it leaves the kitchen rather than a bun on a tray, and photograph it beside a ruler to send with the figures.</p>"
    },
    {
-    "q": "3. What Measurements Are Needed For A Custom Sleeve?",
-    "a": "<p>Bun diameter, burger height after toppings, and typical wrap depth are useful. If you serve multiple burger sizes, a sizing set can cover the range. Photos of the assembled burger can also help confirm proportions.</p>"
+    "q": "3. Should I include clearance in the measurement I send?",
+    "a": "<p>No — state it separately. A supplier needs to know which part of the figure is food and which is allowance, because that determines how a change in board thickness is absorbed. A single combined number hides the information they need.</p>"
    },
    {
-    "q": "4. Can Custom Sleeves Support Tall “Stacked” Burgers?",
-    "a": "<p>Yes, deeper sleeves can support taller builds and help reduce topping movement. Paper weight and fold strength also matter for tall items. For heavy burgers, stronger paper grades are commonly used.</p>"
+    "q": "4. How do I size one sleeve for several menu items?",
+    "a": "<p>Measure the extremes rather than a representative build. A sleeve sized to the average rattles around the smallest item and crushes the largest, and both faults appear in service rather than at approval. The smallest and largest set the boundaries the sleeve must live between.</p>"
    },
    {
-    "q": "5. Can Custom Sleeves Be Made For Sliders?",
-    "a": "<p>Yes, smaller sleeves can be made for slider sizes and mini burgers. This helps keep small items neat and easy to hold. It also keeps packaging proportions consistent on trays.</p>"
+    "q": "5. When is an engineered structure worth the cost?",
+    "a": "<p>When you can describe specifically what goes wrong without it — a build that will not hold together, deliveries arriving open, stacks collapsing on a tray. If the only answer is that a simpler sleeve looks less considered, better print on a simpler form usually serves the same goal for less.</p>"
    },
    {
-    "q": "6. What Paper Types Are Available For Custom Sleeves?",
-    "a": "<p>Common options include kraft paper and white paperboard. Paper weight affects stiffness and tear resistance. Barrier paper can be added when oil control is a priority.</p>"
+    "q": "6. Does a structural sleeve slow down service?",
+    "a": "<p>It generally adds seconds per unit at assembly, every order, for the life of the packaging. That is worth measuring before committing rather than after. Time ten assemblies with the person who will actually do it during a busy period.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Custom Burger Sleeves?",
-    "a": "<p>The minimum order quantity is 100 units. This helps smaller brands start with controlled inventory. Higher quantities can support consistent restocking and color match.</p>"
+    "q": "7. Are board stiffness and grease resistance the same thing?",
+    "a": "<p>No, and treating them as one is a common mistake. A stiff board that absorbs oil quickly will soften under a wet build, while a lighter treated board can outperform it in service for less money. Decide how wet the menu is before choosing caliper.</p>"
    },
    {
-    "q": "8. Can Custom Sleeves Include Space For Stamps Or Stickers?",
-    "a": "<p>Yes, a blank area can be reserved for order markings. This helps kitchens separate flavors and add-ons. Uncoated outer zones often work well for stamping.</p>"
+    "q": "8. Can a custom sleeve be made leakproof?",
+    "a": "<p>No, and it should not be described that way. A barrier treatment slows oil moving into the fibre; it does not seal the sleeve or make paperboard suitable as a container. On wet builds an inner greaseproof wrap remains the primary defence.</p>"
    },
    {
-    "q": "9. Do Custom Sleeves Work For Dine-In Trays?",
-    "a": "<p>Yes, they can be used on trays to keep hands clean and reduce grease on tray liners. They also help keep burgers stable while carrying to tables. Sleeve depth can be aligned with dine-in presentation.</p>"
+    "q": "9. Will a coating change how the sleeve feels?",
+    "a": "<p>Yes, and that catches out buyers who chose a stock for its texture. Treatments move an uncoated, papery surface towards something slightly sealed. If hand-feel was part of the reason for a board choice, handle a treated sample before ordering.</p>"
    },
    {
-    "q": "10. Can Custom Sleeves Be Used For Delivery?",
-    "a": "<p>They can be used in delivery when combined with an outer bag or box that controls movement. The sleeve helps with grip and oil control inside the bag. For longer routes, pairing with a stabilizing tray can help.</p>"
+    "q": "10. What information makes a bespoke quotation comparable?",
+    "a": "<p>Measurements, approximate weight, an honest description of how greasy the build is, the artwork coverage you want and a realistic first-order quantity. Without those a price will move as soon as any of them is pinned down, and two quotes cannot be compared.</p>"
    },
    {
-    "q": "11. How Do Custom Sleeves Affect Speed Of Assembly?",
-    "a": "<p>Pre-formed sleeves reduce the steps needed compared to wrapping with flat sheets. Stacks are easy to pull and apply during rush hours. Fold style selection can be aligned with your kitchen flow.</p>"
+    "q": "11. What costs sit outside a headline unit price?",
+    "a": "<p>Tooling for a shaped sleeve, physical samples, proofing rounds and artwork adjustments may all be quoted separately. Ask what is excluded as well as what is included, because finding out at invoice stage is avoidable with one question.</p>"
    },
    {
-    "q": "12. Do Custom Sleeves Change The Eating Experience?",
-    "a": "<p>A correct fit can make the burger easier to hold and reduce messy drips on hands. It also supports cleaner bites by keeping toppings aligned. Overly tight packaging can compress buns, so sizing should be balanced.</p>"
+    "q": "12. Should I approve artwork before or after a physical sample?",
+    "a": "<p>After. A flat visual cannot show how artwork sits once the sleeve is folded, whether a fold lands across something important, or how the board affects printed colour. Approve a physical sample of the actual construction wherever the process allows it.</p>"
    },
    {
-    "q": "13. Can Custom Sleeves Include Handling Or Heating Notes?",
-    "a": "<p>Yes, short handling notes can be printed on the outer panel. This can support staff and customer guidance. Text should remain simple and readable.</p>"
-   },
-   {
-    "q": "14. Are Custom Sleeves Compatible With Different Bun Shapes?",
-    "a": "<p>Yes, but shape differences matter. Round buns, square buns, and brioche styles can differ in diameter and height. Providing typical product dimensions helps match sleeve geometry.</p>"
-   },
-   {
-    "q": "15. How Often Should Sleeve Sizes Be Reviewed?",
-    "a": "<p>If menu builds change, sleeve sizing should be reviewed. New toppings or larger patties can affect height and oil exposure. Periodic checks help keep packaging aligned with the current menu.</p>"
+    "q": "13. How much does changing one decision affect the rest?",
+    "a": "<p>More than most buyers expect. Moving to a heavier caliper reduces internal space and changes fold behaviour. Adding a barrier changes surface feel and finishing options. Increasing coverage changes cost at every quantity. Treat the specification as one system rather than a list.</p>"
    }
   ],
   "images": [
@@ -5154,64 +5146,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Branded Burger Sleeves?",
-    "a": "<p>Branded burger sleeves are paper sleeves printed with your brand elements such as logo areas, patterns, or short text. They help keep the burger easier to hold while presenting a consistent look. They are commonly used in takeaway, dine-in, and pickup orders.</p>"
+    "q": "1. Should my sleeve match my cups and bags exactly?",
+    "a": "<p>Matching exactly is usually neither achievable nor worth the spend. A cup is coated and often lined, a bag is absorbent, and a sleeve sits between them, so the same ink lands differently on each. Match typography, proportion and the amount of empty space instead, and treat colour as approximate.</p>"
    },
    {
-    "q": "2. How Do Branded Sleeves Improve Presentation?",
-    "a": "<p>A sleeve frames the burger and keeps the outside clean, so the product looks more consistent at handoff. Branding on the outer panel remains visible while the customer holds the food. This supports uniform presentation across shifts and locations.</p>"
+    "q": "2. Which brand elements should be controlled most tightly?",
+    "a": "<p>The typographic and structural ones — wordmark, typeface and weight, the relationship between logo size and panel, and how much of the panel stays empty. Those survive substrate changes intact. Colour, sheen and fine detail shift between materials and are better treated as approximate.</p>"
    },
    {
-    "q": "3. What Information Works Best On A Branded Sleeve?",
-    "a": "<p>A clear logo area, one short line of text, and a simple pattern usually reads best. Keeping heavy text away from fold edges reduces distortion. A small blank zone can help with order notes.</p>"
+    "q": "3. Where should nothing be printed on a sleeve?",
+    "a": "<p>The grip zone and the base. Whatever sits where a hand closes is hidden for the entire meal, and the underside gets marked in service. Establishing both as deliberately empty early on removes a recurring argument during design.</p>"
    },
    {
-    "q": "4. Do Branded Sleeves Help With Mess Control?",
-    "a": "<p>They help by acting as a holding layer between hands and the burger. Absorbent paper can reduce surface smears, while barrier paper slows oil transfer. Performance depends on sauces, temperature, and holding time.</p>"
+    "q": "4. How do I stop branding drifting across locations?",
+    "a": "<p>Keep a retained physical sample from the approved run and check every reorder against it. A colour reference in a brand book describes an intention; a printed sleeve describes what was actually accepted, and it is the only thing a printer can reliably match.</p>"
    },
    {
-    "q": "5. What Sizes Are Available For Branded Burger Sleeves?",
-    "a": "<p>Sizes can cover sliders, standard burgers, and tall builds. Width and depth are chosen based on bun diameter and burger height. A size set can support multiple menu items.</p>"
+    "q": "5. Why does packaging stop matching over time?",
+    "a": "<p>Usually because items are reprinted separately and then sit beside older stock. Reordering related packaging at similar times, and recording which supplier and board each approved sample came from, prevents most of it.</p>"
    },
    {
-    "q": "6. Can Branded Sleeves Be Used For Dine-In Trays?",
-    "a": "<p>Yes, they can reduce grease contact on trays and keep burgers easier to carry to tables. They also help customers hold burgers without needing extra napkins. A neat sleeve fit supports a cleaner dine-in experience.</p>"
+    "q": "6. Should evergreen and campaign sleeves look the same?",
+    "a": "<p>They should share the underlying identity and differ in one defined zone. A campaign sleeve and an everyday sleeve on the same table should clearly come from the same business, with the difference being a panel rather than the whole item.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Branded Sleeves?",
-    "a": "<p>The minimum order quantity is 100 units. This is useful for small trials, pop-ups, or short restocks. Larger runs help keep print and sizing consistent over time.</p>"
+    "q": "7. What should be kept off evergreen packaging?",
+    "a": "<p>Dates, specific offers and seasonal colours. Evergreen stock has to survive menu changes and whatever marketing does next, and anything time-bound shortens its useful life without strengthening the identity. Keep those for campaign runs.</p>"
    },
    {
-    "q": "8. How Should Branded Sleeves Be Stored In A Kitchen?",
-    "a": "<p>Keep them flat, dry, and away from steam. Moisture can soften paper and reduce stiffness. Closed cartons or dispensers help keep sleeves clean.</p>"
+    "q": "8. Can a branded sleeve also identify menu items?",
+    "a": "<p>Yes, but treat it as a layout problem. Identification works best as a consistent element in a consistent position — an icon, a colour block, a word — rather than something woven into the artwork. Consistent position is what lets staff read it without looking directly.</p>"
    },
    {
-    "q": "9. Can Branded Sleeves Support Order Identification?",
-    "a": "<p>Yes, a blank marking area can be included for stamps or quick handwriting. Icons or small marks can also be printed for menu categories. This can reduce mix-ups at pickup counters.</p>"
+    "q": "9. Where should a menu identifier be placed?",
+    "a": "<p>Somewhere readable from above, because that is the angle a loaded tray is viewed from. A marker on the face panel disappears the moment the sleeve is set down flat, which is exactly when a server needs it.</p>"
    },
    {
-    "q": "10. Do Branded Sleeves Work For Chicken And Veggie Burgers?",
-    "a": "<p>They work well for chicken, veggie, and plant-based burgers. Grease and sauce level affects paper choice, so barrier paper helps with saucy recipes. Correct depth keeps fillings steadier.</p>"
+    "q": "10. Should identification be printed or applied?",
+    "a": "<p>Printed when it is stable, since it is cheaper and looks deliberate. Applied when it changes often, because reprinting the sleeve every time a menu shifts is impractical. The deciding question is how frequently the identifiers actually change.</p>"
    },
    {
-    "q": "11. Will Branding Look Different On Kraft Paper?",
-    "a": "<p>Kraft has a natural tone that can soften some colors and make thin lines less sharp. High-contrast inks and bolder line weights help. Clean spacing improves legibility on kraft stock.</p>"
+    "q": "11. How many inks does a branded sleeve need?",
+    "a": "<p>Fewer than most briefs assume. A restrained evergreen design is easier to layer campaign artwork onto, holds up better across substrates, and costs less at every quantity. Add inks when the identity genuinely requires them rather than because more are available.</p>"
    },
    {
-    "q": "12. Can Branded Sleeves Include Safety Or Handling Notes?",
-    "a": "<p>Yes, short notes like “Hot” or simple handling guidance can be added. Text should remain readable and not overcrowd the design. Operational safety still relies on kitchen practices.</p>"
-   },
-   {
-    "q": "13. How Do Branded Sleeves Compare To Full Boxes?",
-    "a": "<p>Sleeves are faster to apply and use less material than boxes in many cases. Boxes can be better for stacking and long delivery routes. Some operations use sleeves inside bags for added control.</p>"
-   },
-   {
-    "q": "14. What Makes A Branded Sleeve Feel More Premium?",
-    "a": "<p>Clean print alignment, consistent fold lines, and a sturdy paper weight improve the hand-feel. Matte finishes can reduce glare and look more refined. Barrier layers can help keep the outside cleaner.</p>"
-   },
-   {
-    "q": "15. What Details Help Match Sleeves To A Menu?",
-    "a": "<p>Bun diameter, burger height, and sauce level are the key inputs. Serving method (dine-in, pickup, delivery) also matters. Those details guide paper weight, barrier choice, and sleeve depth.</p>"
+    "q": "12. How often should branded packaging be reviewed?",
+    "a": "<p>Whenever the board, supplier or artwork changes at any location, rather than on a schedule. Those three events are what actually cause drift, and reviewing against a retained sample at those points catches it before a full run is produced.</p>"
    }
   ],
   "images": [
@@ -5311,64 +5291,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Logo Printed Burger Sleeves?",
-    "a": "<p>Logo printed burger sleeves focus on clear logo visibility on the outer panel. They are commonly used when branding needs to stay simple and readable. The sleeve also helps customers hold the burger with less mess.</p>"
+    "q": "1. Which panel should the logo go on?",
+    "a": "<p>The one facing outward when the sleeve is handed over, because that is the single moment the packaging has full attention. Assemble a real sleeve and hand it to someone to find out which panel that is — the face that leads on a dieline is often not the one that faces forward in a hand.</p>"
    },
    {
-    "q": "2. Where Should The Logo Be Placed On A Sleeve?",
-    "a": "<p>Most brands place the logo on the front center panel so it stays visible while holding the burger. Keeping the logo away from fold edges reduces distortion. A secondary small mark can sit on the side panel.</p>"
+    "q": "2. Why should nothing be printed in the grip zone?",
+    "a": "<p>Because a hand covers it for the entire meal. Anything printed there is paid for and never seen. Marking that zone as deliberately empty before design starts removes a recurring argument and frees the designer to use the space that is actually visible.</p>"
    },
    {
-    "q": "3. Why Do Simple Logo Layouts Work Better?",
-    "a": "<p>A simple layout reduces visual clutter and helps customers recognize the brand quickly. It also lowers the risk of design warping near folds. Strong spacing improves print clarity on both white and kraft stocks.</p>"
+    "q": "3. How much clear space does a logo need on a sleeve?",
+    "a": "<p>At least whatever your brand guidelines specify, and arguably more. A sleeve is held at an angle, curved in use and often partly obscured, so a mark with generous space survives those conditions while a crowded one loses its outline against neighbouring elements.</p>"
    },
    {
-    "q": "4. Can A Logo Sleeve Include A Tagline?",
-    "a": "<p>Yes, a short tagline can be placed under the logo if space allows. Keeping it short helps readability on curved surfaces. Thin fonts may lose clarity on textured paper, so bolder fonts work better.</p>"
+    "q": "4. What if the panel is too small for my logo?",
+    "a": "<p>Use a smaller or simplified version rather than squeezing the full one. Most identities have a compact variant for small applications — the symbol without the wordmark, or the wordmark without the strapline. A packaging run is a reasonable moment to create one if yours does not.</p>"
    },
    {
-    "q": "5. What Paper Works Best For Sharp Logos?",
-    "a": "<p>White smooth paper typically provides the sharpest contrast for logos and small text. Kraft paper gives a natural look but can soften lighter colors. High-contrast ink choices improve logo definition.</p>"
+    "q": "5. Is there a minimum size for a printed logo?",
+    "a": "<p>Not a universal one, because it depends on the mark, ink, board and print method. Thin strokes fail first: hairlines fill in on absorbent board and break up on textured stock. Print at final size, look at arm's length, and check whether any stroke has filled or dropped out.</p>"
    },
    {
-    "q": "6. Do Logo Sleeves Help With Grease Stains On Branding?",
-    "a": "<p>They can, especially when a barrier inner layer is used to slow oil soak-through. Standard absorbent paper can show stains sooner. Sleeve depth and burger sauce level also affect staining.</p>"
+    "q": "6. Does board texture affect logo reproduction?",
+    "a": "<p>Considerably. Uncoated and unbleached surfaces absorb ink and soften edges, so a mark that reads cleanly on coated white may need to be larger or bolder on brown or textured board. Test on the roughest stock in your range as a worst case.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Logo Sleeves?",
-    "a": "<p>MOQ is 100 units. This supports short campaigns, food trucks, and test runs. Larger runs can help maintain consistent logo placement and print match.</p>"
+    "q": "7. Is one-colour or two-colour printing better for a logo?",
+    "a": "<p>Single solid ink is the most reliable at small sizes because there is no registration between layers to drift. Two colours introduce a tolerance that shows wherever the elements touch. If the mark works in one colour, that is usually the stronger choice as well as the cheaper one.</p>"
    },
    {
-    "q": "8. Are Logo Sleeves Good For Pop-Ups And Events?",
-    "a": "<p>Yes, logo sleeves provide brand visibility without needing complex designs. They are easy to stack and dispense. This supports high-volume service with consistent presentation.</p>"
+    "q": "8. What does reversing the logo out mean?",
+    "a": "<p>Printing the area around the mark so the bare board forms the logo itself. It uses one ink, holds a crisp edge because there is no fine ink detail to spread, and frequently looks more deliberate than a printed mark — particularly on kraft or coloured stock.</p>"
    },
    {
-    "q": "9. Can The Logo Be Printed On Both Sides?",
-    "a": "<p>Printing is usually placed on the outside for food-contact safety. If you need brand marks on more than one panel, multiple outer panels can carry the logo. The inner food-contact side is generally kept plain or barrier-lined.</p>"
+    "q": "9. Can a logo sit across a fold?",
+    "a": "<p>It should not. Folds crack along the crease as the sleeve is assembled, and on dark or heavily inked artwork the pale fibre showing through is obvious. Keep the mark inside one flat face rather than spanning a crease.</p>"
    },
    {
-    "q": "10. How Do You Keep The Logo From Misaligning?",
-    "a": "<p>Using a consistent dieline, strong fold scoring, and a stable paper weight improves alignment. Avoid placing the logo too close to fold lines. A centered print zone helps keep the logo visually balanced.</p>"
+    "q": "10. How far from a cut edge should the logo sit?",
+    "a": "<p>Inside an agreed safety margin, which your supplier can confirm for their tooling. Cutting position moves slightly between sheets, so anything close to an edge sits at a different distance on different sleeves — visible as inconsistency even though nothing has failed.</p>"
    },
    {
-    "q": "11. Does A Matte Surface Affect Logo Visibility?",
-    "a": "<p>Matte can reduce glare and make logos easier to read under bright lights. It may slightly soften very glossy color effects. For crisp clarity, contrast and line thickness matter more than shine.</p>"
+    "q": "11. What about areas that get tucked in?",
+    "a": "<p>They are invisible once assembled, so nothing that needs reading should be placed there. Mapping the tucked, folded and cut areas before design starts usually leaves more usable space than expected, because the unusable regions get identified honestly rather than discovered at proofing.</p>"
    },
    {
-    "q": "12. Can Logo Sleeves Support Order Marking?",
-    "a": "<p>Yes, a small blank area can be reserved for stamps or shorthand notes. This helps kitchens separate burger types. Keeping the marking area away from the logo avoids messy overlays.</p>"
-   },
-   {
-    "q": "13. Are Logo Sleeves Suitable For Double Patties?",
-    "a": "<p>Yes, deeper sleeves can support taller builds. Stronger paper weight helps prevent corner fatigue. Barrier options are useful when grease output is higher.</p>"
-   },
-   {
-    "q": "14. What Makes A Logo Sleeve Different From Branded Sleeves?",
-    "a": "<p>Logo sleeves focus on a single dominant logo area and minimal supporting text. Branded sleeves may use patterns and heavier design coverage. Logo-first layouts are often easier to keep clean and readable.</p>"
-   },
-   {
-    "q": "15. What Details Should Be Shared Before Production?",
-    "a": "<p>Provide burger dimensions, preferred sleeve depth, and paper preference (kraft or white). If sauce is heavy, barrier paper can help. Also share logo file format so edges remain sharp.</p>"
+    "q": "12. Do I need a printed proof for a simple logo?",
+    "a": "<p>It is still worth one. A flat visual cannot show how the mark sits once the sleeve is folded, how the board affects ink density, or whether a fine stroke has filled in. For a single-colour mark the proof is quick, and it catches the faults that are expensive after a run.</p>"
    }
   ],
   "images": [
@@ -5468,64 +5436,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Full Color Burger Sleeves?",
-    "a": "<p>Full color burger sleeves use multi-color printing for detailed artwork, gradients, and bold brand visuals. They are used when branding needs stronger shelf and hand visibility. The sleeve still functions as a clean handhold for eating.</p>"
+    "q": "1. Why does full-colour artwork look different on kraft board?",
+    "a": "<p>Process inks are transparent and rely on a light, uniform substrate reflecting light back through them. Brown or textured board tints everything printed on it, pale tones lose definition and photographic areas flatten. Full-colour work and board choice are effectively one decision.</p>"
    },
    {
-    "q": "2. When Should A Brand Use Full Color Sleeves?",
-    "a": "<p>They work well for promotional launches, signature burgers, and menu campaigns. Full color also helps when you want photo-style graphics or complex patterns. For simple identity, logo-only sleeves can be enough.</p>"
+    "q": "2. Should artwork be supplied in RGB or CMYK?",
+    "a": "<p>Converted to CMYK before supply, and converted deliberately rather than left to happen at output. Bright screen colours sit outside what process inks reproduce, so they shift during conversion. Doing it yourself lets you judge the shift instead of being surprised by it.</p>"
    },
    {
-    "q": "3. Does Full Color Printing Work Better On White Paper?",
-    "a": "<p>Yes, white paper usually provides the clearest color output and better contrast. Kraft paper can shift colors because of its natural base tone. If color accuracy matters, white stock is typically preferred.</p>"
+    "q": "3. How much bleed does full-coverage artwork need?",
+    "a": "<p>Enough that a small cutting shift cannot expose unprinted board at any edge, with the exact figure confirmed by your supplier for their tooling. Critical elements should additionally sit well inside a safety margin rather than close to the trim.</p>"
    },
    {
-    "q": "4. How Do You Keep Text Readable On Full Color Designs?",
-    "a": "<p>Use strong contrast and avoid placing small text on busy backgrounds. Solid color blocks behind text improve clarity. Keeping important text away from fold edges also helps.</p>"
+    "q": "4. Why do large solid colour areas look uneven?",
+    "a": "<p>Mottling shows more readily across large solids than small ones, because any variation in ink lay-down covers a bigger area. It is a normal characteristic rather than a defect, though board choice and coating both affect how visible it is.</p>"
    },
    {
-    "q": "5. Can Full Color Sleeves Include Seasonal Artwork?",
-    "a": "<p>Yes, they are often used for seasonal drops and limited-time menu themes. A set of designs can be planned across campaigns. Consistent sizing keeps the sleeve fit unchanged even when artwork rotates.</p>"
+    "q": "5. What is set-off and why does heavy coverage increase it?",
+    "a": "<p>Set-off is ink transferring from one sheet onto the back of the sheet stacked above it before it has fully dried. Dense coverage takes longer to dry, which raises the risk. It is a production consideration to raise with the printer rather than something artwork alone controls.</p>"
    },
    {
-    "q": "6. Do Full Color Sleeves Smudge More Easily?",
-    "a": "<p>Smudge and scuff behavior depends on ink system and surface finish. Anti-scuff options can reduce rub marks during handling. Barrier layers can also help keep the outer surface drier.</p>"
+    "q": "6. Will my brand colour match exactly in CMYK?",
+    "a": "<p>Not always. Process inks reproduce a range, and some brand colours sit outside it — those can be approached but not matched by CMYK alone. Where an exact match matters, a spot colour printed as its own ink is the usual route, subject to press, run and the other colours in the artwork.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Full Color Sleeves?",
-    "a": "<p>MOQ is 100 units. This supports small promotional runs and pop-ups. Larger quantities are common when artwork remains stable for longer periods.</p>"
+    "q": "7. How should I judge a colour proof?",
+    "a": "<p>On the intended board, at full size, under the lighting the packaging will actually be seen in. A colour approved on screen or under office lighting frequently reads differently under warm counter lights, and the counter is where it has to work.</p>"
    },
    {
-    "q": "8. Can Full Color Sleeves Be Used For Delivery Orders?",
-    "a": "<p>Yes, but for long delivery routes an outer bag or box helps keep the burger upright. The sleeve improves handling and reduces direct grease contact inside the bag. Barrier paper can help with saucy burgers.</p>"
+    "q": "8. Does a coating change the printed colour?",
+    "a": "<p>Yes, because it changes how much light the ink reflects. Gloss deepens colour and matte softens it. If your specification includes a surface treatment, ask for the proof to carry it, otherwise you are approving a different result from the one you will receive.</p>"
    },
    {
-    "q": "9. How Should Artwork Be Designed Around Folds?",
-    "a": "<p>Avoid placing faces, QR codes, or small text on fold creases. Keep key graphics centered on the front panel. Repeating patterns can hide minor fold variations.</p>"
+    "q": "9. Will colour be identical across a long run?",
+    "a": "<p>Small variation is normal in process printing and can be perceptible when an early sheet and a late sheet sit side by side. If close consistency across reorders matters, raise it before the first run and retain an approved sample as the reference.</p>"
    },
    {
-    "q": "10. Are Full Color Sleeves Suitable For Kids Meals?",
-    "a": "<p>Yes, bright artwork can make kids meals more engaging while keeping the burger easy to hold. Simpler graphics can reduce visual overload. A smaller sleeve size is typically used for kids portions.</p>"
+    "q": "10. Do folds cause problems on full-coverage artwork?",
+    "a": "<p>They can. A crease through a heavily inked area cracks more visibly than through light coverage, exposing pale fibre along the line. Deeper creasing helps, and keeping critical artwork off fold lines helps more.</p>"
    },
    {
-    "q": "11. Can Full Color Sleeves Include QR Codes?",
-    "a": "<p>Yes, if the code area has strong contrast and a quiet zone. Busy backgrounds can reduce scan reliability. Testing with common phone cameras helps confirm scanning.</p>"
+    "q": "11. When is full colour worth the extra cost?",
+    "a": "<p>When the design would lose something specific if reduced to two colours — photography, gradients, multi-colour illustration, campaign imagery. If the honest answer is that it would just look simpler, the money is usually better spent on board or finish.</p>"
    },
    {
-    "q": "12. What Paper Weight Works Best For Full Coverage Prints?",
-    "a": "<p>A stable paper weight helps keep folds clean and reduces wrinkling under full coverage ink. Too thin paper may soften faster with heat and oils. A balanced GSM helps both handling and print performance.</p>"
-   },
-   {
-    "q": "13. Do Full Color Sleeves Affect Recyclability?",
-    "a": "<p>Recyclability depends more on coatings and barrier layers than ink alone. Some barrier builds may not be accepted everywhere. Local disposal rules should guide final choices.</p>"
-   },
-   {
-    "q": "14. What Makes Full Color Sleeves Different From Logo Sleeves?",
-    "a": "<p>Full color sleeves carry complex artwork across panels, while logo sleeves focus on a single brand mark. Full coverage often needs stronger planning around folds. Logo sleeves are usually simpler for quick recognition.</p>"
-   },
-   {
-    "q": "15. What Details Help Plan A Full Color Sleeve Order?",
-    "a": "<p>Share burger sizes, sleeve depth preference, and where the main artwork should sit. If sauce is heavy, consider barrier inner layers. Also confirm if you want one design or multiple designs for rotation.</p>"
+    "q": "12. What files should I send for a full-colour job?",
+    "a": "<p>Vector artwork where possible, images at full size and full resolution, type converted to outlines, artwork extended into the bleed, and the dieline on its own named layer. Upscaled images and live fonts are the two most common causes of avoidable disappointment.</p>"
    }
   ],
   "images": [
@@ -5641,64 +5597,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Black Printed Burger Sleeves?",
-    "a": "<p>Black printed burger sleeves use black ink as the main design element for a bold, clean look. They are used for strong logo contrast, minimal patterns, and modern menus. The sleeve also helps keep hands cleaner while eating.</p>"
+    "q": "1. Is a black printed sleeve made from black board?",
+    "a": "<p>No. On this product the board is light — white or kraft — and the artwork is printed in dark ink. A sleeve made from dark board is a different product with the opposite production problems, because process inks disappear on a dark ground and need an opaque underbase.</p>"
    },
    {
-    "q": "2. Why Do Brands Choose Black Print For Sleeves?",
-    "a": "<p>Black print is easy to read and stays visually consistent across many batches. It pairs well with minimal branding and simple typography. It also works well for monochrome themes and premium presentation.</p>"
+    "q": "2. What is the advantage of printing in one ink?",
+    "a": "<p>There is no registration to hold. Two elements cannot drift apart, outlines cannot separate from their fills, and nothing needs an underbase. That makes fine detail more reliable at small sizes than the same mark built from several colours, and it repeats consistently between runs.</p>"
    },
    {
-    "q": "3. Does Black Print Work Better On White Paper Or Kraft?",
-    "a": "<p>Black print looks sharp on white paper due to higher contrast. On kraft, black still reads well but the natural kraft tone can soften edges slightly. Paper texture and GSM also influence sharpness.</p>"
+    "q": "3. Can single-colour artwork have tonal variation?",
+    "a": "<p>Yes, through halftone screening, which produces apparent greys from one ink. How fine the screen can go depends on the board — absorbent stock lets dots spread and merge, so coarser screens are more reliable on uncoated or unbleached surfaces.</p>"
    },
    {
-    "q": "4. Can Black Printed Sleeves Include Fine Line Art?",
-    "a": "<p>Yes, but very thin lines may soften on textured paper. Slightly thicker line weights hold better during production and handling. Clean spacing helps line art remain readable.</p>"
+    "q": "4. What is reversing out and why use it here?",
+    "a": "<p>Printing the area around a shape so the bare board forms the mark. On single-colour work it gives a second visual value without a second ink, costs nothing extra, and holds a crisper edge than fine printed detail on absorbent board.</p>"
    },
    {
-    "q": "5. Do Black Printed Sleeves Show Grease Marks More?",
-    "a": "<p>Grease marks are usually seen on the paper base rather than the black ink itself. A barrier inner layer can help reduce visible soak-through. The effect depends on burger oil level and hold time.</p>"
+    "q": "5. Does dark ink work better on white or kraft board?",
+    "a": "<p>White gives maximum contrast, keeps small text legible and holds halftone separation. Kraft lowers contrast and absorbs more, so fine screening and very small type suffer, but solid marks still read strongly and the result looks warmer. Match the board to how detailed the artwork is.</p>"
    },
    {
-    "q": "6. Are Black Printed Sleeves Good For Smash Burgers?",
-    "a": "<p>Yes, smash burgers can release oils, so barrier paper can improve outside cleanliness. A correct sleeve fit keeps the burger stable while eating. Deeper sleeves can support double patties.</p>"
+    "q": "6. What line weights should I avoid?",
+    "a": "<p>Hairlines are the first thing to fill in, particularly on absorbent or unbleached board. Set stroke weights for the roughest stock in your range rather than the smoothest, and check a printed proof at final size rather than judging on screen.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Black Printed Sleeves?",
-    "a": "<p>MOQ is 100 units. This supports small runs for new menu launches. Larger quantities help maintain consistent print density and sizing.</p>"
+    "q": "7. How much cheaper is one-colour printing?",
+    "a": "<p>It costs less than process printing at essentially every quantity, with the largest relative saving on shorter runs where setup is a bigger share of the total. Exact figures depend on the run and the board, so ask for both options priced against your quantity.</p>"
    },
    {
-    "q": "8. Can Black Printed Sleeves Support Order Marking?",
-    "a": "<p>Yes, a reserved blank zone can be included for stamps or handwriting. For best visibility, keep marking areas uncoated when possible. This helps order identification without covering main branding.</p>"
+    "q": "8. Does single-colour packaging look cheap?",
+    "a": "<p>Only when a colour layout has been reduced to black and left as is. Designs conceived for one ink — using solid shapes, reversed marks and deliberate tonal work — read as considered rather than reduced. The problem is the approach, not the ink count.</p>"
    },
    {
-    "q": "9. Do Black Printed Sleeves Work For Night Events And Food Trucks?",
-    "a": "<p>Yes, black print remains readable under mixed lighting. Simple layouts help customers recognize branding quickly. Flat stacks are easy to store in limited truck space.</p>"
+    "q": "9. Is proofing still necessary for one-colour work?",
+    "a": "<p>Yes, on the actual board. A proof catches strokes filling in, halftones merging and type becoming hard work — all of which depend on the surface rather than on the artwork file. Office paper will not tell you what unbleached board does.</p>"
    },
    {
-    "q": "10. What Finishes Pair Well With Black Print?",
-    "a": "<p>Matte finishes reduce glare and keep the design looking clean. Anti-scuff options help reduce rub marks during dispensing. Finish choice can also affect how quickly oil marks show.</p>"
+    "q": "10. Will reorders match without a colour discussion?",
+    "a": "<p>Single-ink work is far more consistent between runs than process colour, because there is no build to reproduce. Retaining an approved sample is still worth doing, particularly if the board may vary, but the conversation is usually much shorter.</p>"
    },
    {
-    "q": "11. Can Black Printed Sleeves Include QR Codes?",
-    "a": "<p>Yes, QR codes typically scan well when printed in black on a light base. Keep a clear quiet zone around the code. Avoid placing it on fold creases.</p>"
+    "q": "11. Can I add a second colour later?",
+    "a": "<p>It is possible but it changes the job. A second ink introduces registration tolerance, which shows wherever the two elements meet, and it means the artwork should be designed for two colours rather than having one added. Plan for it at the start if it is likely.</p>"
    },
    {
-    "q": "12. Are Black Printed Sleeves Suitable For Kids Meals?",
-    "a": "<p>They can be, but many brands prefer brighter designs for kids menus. If used, simpler icons and larger graphics work better. A smaller sleeve size is often preferred for kids burgers.</p>"
-   },
-   {
-    "q": "13. How Do You Prevent Print Rub On Black Designs?",
-    "a": "<p>Use stable paper, clean drying, and consider anti-scuff finishes for heavy handling. Avoid overstacking loose bundles. Keeping storage dry also helps maintain surface quality.</p>"
-   },
-   {
-    "q": "14. What Makes Black Printed Sleeves Different From Full Color Sleeves?",
-    "a": "<p>Black printed sleeves focus on single-tone impact and readability. Full color sleeves support complex artwork and multiple colors. Black print is often faster to visually identify from a distance.</p>"
-   },
-   {
-    "q": "15. What Information Helps Plan Black Printed Sleeves Correctly?",
-    "a": "<p>Share your burger dimensions, desired sleeve depth, and preferred paper base (white or kraft). If the menu is greasy or saucy, barrier paper helps. Also share logo files in a clean format for sharp edges.</p>"
+    "q": "12. Is dark ink better for small text than colour?",
+    "a": "<p>Generally yes on a light board, because a solid single ink gives maximum contrast with no registration softening. Small text built from process colours relies on several layers aligning, which is where legibility is usually lost at packaging scale.</p>"
    }
   ],
   "images": [],
@@ -5793,64 +5737,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are White Printed Burger Sleeves?",
-    "a": "<p>White printed burger sleeves use a white paper base to keep presentation bright and clean. Designs often look sharper and more colorful on white paper. The sleeve also works as a holding layer to reduce mess.</p>"
+    "q": "1. What exactly is a white printed sleeve?",
+    "a": "<p>Artwork printed onto a white stock, with the board providing a bright, even ground for the design. That arrangement is what process printing assumes, which is why colours reproduce closer to the approved reference than on brown or textured board.</p>"
    },
    {
-    "q": "2. Why Is A White Base Popular For Food Packaging?",
-    "a": "<p>White packaging provides a clean visual that many customers associate with freshness and clarity. It also improves contrast for logos and text. This is useful when brand colors need to remain distinct.</p>"
+    "q": "2. How is this different from a plain white sleeve?",
+    "a": "<p>The plain white product is about the board as a material choice — brightness, feel, how it shows marks. This product is about what happens when artwork is printed onto that board: colour fidelity, coverage decisions and how much brightness to leave unprinted.</p>"
    },
    {
-    "q": "3. Do White Sleeves Show Grease Faster?",
-    "a": "<p>White can show grease marks sooner than kraft, especially for oily burgers. Barrier inner layers can reduce show-through and keep the outside looking cleaner. Sleeve depth and hold time also influence staining.</p>"
+    "q": "3. Should I leave areas of the board unprinted?",
+    "a": "<p>It is often the strongest option, because unprinted white is the brightest value available in the layout rather than empty space. Knockouts and negative shapes hold crisp edges and give contrast without the cost of another ink.</p>"
    },
    {
-    "q": "4. What Types Of Printing Work Well On White Sleeves?",
-    "a": "<p>Logos, icons, menu marks, and full color graphics can all print clearly on white bases. Fine text is typically easier to read on white paper. Keeping key graphics away from folds reduces distortion.</p>"
+    "q": "4. Where do marks show first on a white sleeve?",
+    "a": "<p>The base and lower walls, because oil pools there, followed by the grip zone from hands and sauce transfer. The upper face panel stays clean longest, which makes it the safest place to leave brightness exposed.</p>"
    },
    {
-    "q": "5. Are White Printed Sleeves Suitable For Premium Branding?",
-    "a": "<p>Yes, white bases can look crisp and controlled when paired with minimal layouts. Matte finishes can reduce glare for a more refined look. Clean spacing often improves the overall appearance.</p>"
+    "q": "5. Can I stop a white sleeve marking during service?",
+    "a": "<p>Not entirely. A barrier treatment slows oil reaching the fibre and can move a visible shadow well past the time a customer takes to eat, and an inner greaseproof wrap does the main work. Neither makes the sleeve leakproof, and it should not be described that way.</p>"
    },
    {
-    "q": "6. Can White Sleeves Be Used For Breakfast Sandwiches?",
-    "a": "<p>Yes, they can be used for breakfast items like egg sandwiches and hash-brown buns. Barrier options help with buttery or greasy items. Proper sizing keeps the sandwich stable while eating.</p>"
+    "q": "6. Are print coatings and barrier coatings the same?",
+    "a": "<p>No. One improves how ink sits on the surface for density and sharpness; the other slows liquid and oil moving into the fibre. A board can carry one without the other, so ask which treatments a quotation includes rather than assuming a coated board resists grease.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For White Sleeves?",
-    "a": "<p>MOQ is 100 units. This supports smaller restaurants and short runs. Larger runs are common when you want consistent stock for daily service.</p>"
+    "q": "7. Does full coverage help with marking?",
+    "a": "<p>Somewhat, because a printed panel already has ink where a grease shadow would appear, so the mark is less obvious. It is rarely the main reason to choose full coverage, but on a wet menu it is a genuine secondary benefit.</p>"
    },
    {
-    "q": "8. Are White Sleeves Better For QR Codes And Small Text?",
-    "a": "<p>Often yes, because white bases provide strong contrast for scanning and readability. QR codes generally scan more reliably on a clean, light background. Keep codes off creases for better performance.</p>"
+    "q": "8. What are the downsides of covering the whole panel?",
+    "a": "<p>Higher cost at every quantity, more visible cracking where folds run through dense ink, and the loss of the bright unprinted areas that give white stock its character. It also takes longer to dry, which raises the risk of set-off between stacked sheets.</p>"
    },
    {
-    "q": "9. Can White Sleeves Include Order Marking Zones?",
-    "a": "<p>Yes, blank zones can be reserved for stamps or handwriting. Uncoated areas often accept ink better. This helps kitchens label burgers without covering the main design.</p>"
+    "q": "9. Will the white be the same shade on every order?",
+    "a": "<p>Board brightness varies between suppliers, grades and to a small degree between batches, particularly with recycled content. That is more visible on this product than most, because unprinted board is part of the design. Retain an approved sample and check reorders against it.</p>"
    },
    {
-    "q": "10. Do White Sleeves Work For Delivery And Pickup?",
-    "a": "<p>Yes, they work well for pickup and can be used for delivery when combined with an outer bag or carrier that keeps items upright. Barrier layers can help when the burger is held longer. Stable stacking reduces movement.</p>"
+    "q": "10. Is white board good for small text?",
+    "a": "<p>It is the easiest ground to work with, because dark ink on a bright surface gives maximum contrast with no underbase needed. That is one of the practical reasons information-heavy packaging tends to use light board rather than dark or unbleached stock.</p>"
    },
    {
-    "q": "11. How Should White Sleeves Be Stored To Stay Clean?",
-    "a": "<p>Store them in closed cartons away from grease splashes and dust. Keep them dry and away from steam. Flat storage prevents warping and creasing.</p>"
+    "q": "11. How do I judge a proof on white stock?",
+    "a": "<p>At full size, on the intended board, under the lighting the packaging will be seen in. Also check the unprinted areas rather than only the printed ones — the brightness of the bare board is part of what you are approving.</p>"
    },
    {
-    "q": "12. Can White Sleeves Be Used For Kids Menus?",
-    "a": "<p>Yes, white bases support colorful designs that are often used for kids menus. Simpler graphics and larger icons remain clearer while handling. Smaller sleeve sizes fit kids burgers better.</p>"
-   },
-   {
-    "q": "13. What Paper Weight Works Best For White Sleeves?",
-    "a": "<p>A balanced GSM helps keep folds crisp without making the sleeve too stiff to apply. Too thin paper can soften quickly with heat and oils. A stable weight improves handling and presentation.</p>"
-   },
-   {
-    "q": "14. What Makes White Sleeves Different From Black Printed Sleeves?",
-    "a": "<p>White sleeves focus on a bright base with flexible design options. Black printed sleeves focus on dark ink dominance and minimal looks. White bases usually provide stronger color accuracy for multi-color designs.</p>"
-   },
-   {
-    "q": "15. What Details Help Select The Right White Sleeve Build?",
-    "a": "<p>Share burger size, sauce level, and how long the burger is typically held before eating. If show-through is a concern, barrier paper helps. Also confirm whether you need stamp space for order sorting.</p>"
+    "q": "12. Should the same artwork be used on white and kraft sleeves?",
+    "a": "<p>Rarely without adjustment. Artwork designed for a bright ground loses pale tones and shifts hue on unbleached board. If your range runs both, expect to adapt the design rather than reuse the file directly.</p>"
    }
   ],
   "images": [
@@ -5958,64 +5890,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are minimal design burger sleeves",
-    "a": "<p>Minimal design burger sleeves are sleeves planned for simple artwork and clear spacing. They focus on readability and a clean look during service.</p>"
+    "q": "1. Is a minimal layout just about removing elements?",
+    "a": "<p>It is about assigning priority. Every panel has a limited amount of attention available, and restraint means deciding deliberately which single element receives it rather than dividing it between several by default. Removal is the consequence, not the goal.</p>"
    },
    {
-    "q": "2. Why choose minimal design packaging for burgers",
-    "a": "<p>Minimal layouts keep branding easy to recognize and reduce visual clutter. This can help logos and menu marks stand out during fast service.</p>"
+    "q": "2. Why does packaging end up crowded?",
+    "a": "<p>Because it accumulates rather than being designed. Marketing wants the offer, operations want the identifier, legal want the notice and the brand wants the logo. Each request is reasonable on its own and the total is unreadable. Setting priority before layout prevents it.</p>"
    },
    {
-    "q": "3. Do minimal design sleeves still allow custom printing",
-    "a": "<p>Yes, printing can be placed on the main visible faces. Simple designs often benefit from careful alignment and strong contrast.</p>"
+    "q": "3. Is empty space on the panel wasted?",
+    "a": "<p>No — it is what makes the printed area readable. A mark with room around it is legible at a glance; a mark surrounded by other elements is not, however large it is. On a curved surface held at angles, that difference is larger than on flat print.</p>"
    },
    {
-    "q": "4. How do minimal sleeves help with order labeling",
-    "a": "<p>A clean layout can include a clear marking zone for icons or stamps. This supports quick identification without crowding the design.</p>"
+    "q": "4. Does a restrained design cost less to print?",
+    "a": "<p>Usually, because it needs fewer inks. It also reproduces more consistently, since fewer colours mean fewer registration relationships that can drift between runs, and it widens the range of boards that will reproduce it acceptably.</p>"
    },
    {
-    "q": "5. Are minimal design sleeves suited to bright lighting",
-    "a": "<p>They can be, especially with matte finishes that reduce glare. This helps small text remain readable at counters.</p>"
+    "q": "5. Can a minimal sleeve still identify menu items?",
+    "a": "<p>Yes, and position does the work rather than prominence. A small consistent element in a consistent place is read faster than a large one that moves, because staff learn the location and stop reading the content. That suits a restrained layout rather than fighting it.</p>"
    },
    {
-    "q": "6. Do minimal sleeves work for high volume service",
-    "a": "<p>Yes, they apply like standard sleeves and can be used in fast packing lines. Consistent sizing keeps application smooth.</p>"
+    "q": "6. What is the most efficient identifier on a simple sleeve?",
+    "a": "<p>A single colour block or edge is usually fastest to read at a distance and cheaper than printing several distinct artworks. One additional ink used consistently across a menu does more operationally than a set of individually designed panels.</p>"
    },
    {
-    "q": "7. What print elements work best on minimal sleeves",
-    "a": "<p>Logos, short brand text, and simple icons usually work well. Avoiding dense patterns helps maintain a clean look.</p>"
+    "q": "7. Does minimal design automatically look premium?",
+    "a": "<p>No, and assuming it does is the common mistake. Restraint reads as confidence when execution is good and as a lack of budget when it is not. What separates them is the board, the finish, the print accuracy and how well the sleeve fits.</p>"
    },
    {
-    "q": "8. Can minimal sleeves be used for premium menu items",
-    "a": "<p>They can support a refined presentation by keeping the wrap controlled and the branding clear. Finish choice can influence the overall look.</p>"
+    "q": "8. Where should the ink saving be spent?",
+    "a": "<p>On substrate or surface. Money not spent on a fourth colour buys a better board, a barrier treatment or a finish, and with less artwork competing for attention those do more for how the packaging is perceived than another printed element would.</p>"
    },
    {
-    "q": "9. Do minimal sleeves show grease more easily",
-    "a": "<p>Less artwork can make marks more noticeable, so material choice matters. Grease resistant and barrier options can help maintain appearance.</p>"
+    "q": "9. Which elements should move off the main panel?",
+    "a": "<p>Anything read after the purchase decision — allergen and legal text, website and social handles. Those need to be legible somewhere, not prominent. The main panel belongs to whatever has to register in a glance at handover.</p>"
    },
    {
-    "q": "10. Are minimal sleeves compatible with kraft surfaces",
-    "a": "<p>Yes, minimal layouts can work on kraft when contrast is planned. Bold logos often read better on brown tones.</p>"
+    "q": "10. How do I stop elements creeping back in?",
+    "a": "<p>Write down the priority order and treat it as the specification rather than a preference. Requests to add something are then a question about what gets removed, which is a more useful conversation than whether there is room.</p>"
    },
    {
-    "q": "11. Can minimal sleeves be used for sandwiches",
-    "a": "<p>Yes, if sizing matches the wrapped product. The minimal layout can still include a small identifier for sandwich variants.</p>"
+    "q": "11. Does a simple layout work on unbleached board?",
+    "a": "<p>Better than a detailed one. Two-colour work with generous space reproduces acceptably across a much wider set of stocks, including unbleached and recycled options that would flatten a photographic design. Restraint widens material choice rather than narrowing it.</p>"
    },
    {
-    "q": "12. What finish is common for minimal sleeves",
-    "a": "<p>Matte is commonly used to keep the look calm and reduce shine. Gloss can be used when brighter color appearance is needed.</p>"
-   },
-   {
-    "q": "13. How should minimal sleeves be stored",
-    "a": "<p>Store flat and protected from dust so the clean surfaces stay neat. Closed cartons help preserve edge quality.</p>"
-   },
-   {
-    "q": "14. Do minimal sleeves help brand consistency",
-    "a": "<p>They can, because layout rules are easier to keep consistent across products. This supports a recognizable look on different menu items.</p>"
-   },
-   {
-    "q": "15. What should be tested before finalizing minimal sleeves",
-    "a": "<p>Test logo visibility in hand, check glare under counter lights, and review grease appearance after a few minutes. Also confirm the marking zone stays visible after wrapping.</p>"
+    "q": "12. How should a minimal design be proofed?",
+    "a": "<p>At final size, on a physical sample, judged at arm's length rather than magnified. With less on the panel, small faults in position, clearance or ink weight are proportionally more visible, so the physical proof matters as much here as on complex artwork.</p>"
    }
   ],
   "images": [
