@@ -1556,254 +1556,193 @@
  "TBS-023": {
   "sections": [
    {
-    "heading": "Small Burger Sleeves That Keep Portions Neat And Tight",
+    "heading": "Measuring A Small Bun Properly",
     "blocks": [
      {
       "t": "p",
-      "html": "Small burger sleeves are made for lighter servings where the wrap should feel snug, clean, and controlled without extra panel space. On small buns and shorter builds, an oversized sleeve can spin around the wrap, hide the face panel, and make the item feel bulky in the customer’s hand. Many teams use <a href=\"/product-category/burger-sleeves-sizes/\"><strong>compact burger sleeve sizes</strong></a> as the starting point for their size map so small orders look intentional on trays, in bags, and on pickup shelves."
+      "html": "Small sleeves fail more often than large ones, and almost always for the same reason: the burger was measured cold and unassembled. A 3.5-inch bun is 3.5 inches on a tray. Toasted, filled and pressed under a warm lid, it spreads. On a large build that spread is a small percentage of the total. On a small build it can be the difference between a sleeve that slides on and one that crushes the bun as it goes."
      },
      {
       "t": "p",
-      "html": "The goal is simple. Cover the wrap edges, keep folds flat, and hold the seam area in place without squeezing the burger. When the size is correct, the sleeve stays centered during handoff and does not creep upward or slide down while the burger is carried. This supports faster packing too. Staff can apply the sleeve in one smooth motion and move to the next order without reworking corners. For takeaway, a snug sleeve also reduces rubbing inside small bags because there is less excess paper to crease and press."
+      "html": "Measure the finished item, at service temperature, with the wrap already on it. Take the width across the widest point, which is usually the crown rather than the base, and take the height at the tallest point rather than the average. Then decide how much clearance you want on top of that, because a sleeve sized to the exact measurement will bind."
      },
      {
       "t": "p",
-      "html": "Small sleeves also help keep stations organized. They separate small builds from regular burgers and prevent staff from grabbing a medium sleeve “just to make it work.” With clear carton labels and a fixed station layout, small sleeves become a reliable part of daily flow rather than an occasional exception. The end result is cleaner presentation and fewer small delays that add up during rush."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Service results that improve with a true small sleeve</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Wrap edges stay tucked without loose panels",
-       "Sleeve rotation is reduced on lighter burgers",
-       "Trays look cleaner when small items line up evenly",
-       "Bags pack easier because the sleeve adds less bulk",
-       "Staff spend less time adjusting corners and seams"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to apply small sleeves consistently</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep small sleeves in a dedicated spot near the wrap line",
-       "Place the wrapped burger seam-side down on a flat surface",
-       "Center the sleeve under the wrap so the face panel stays straight",
-       "Fold one side along the score line with light, even pressure",
-       "Close the second side without forcing overlap or squeezing the face"
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Proportion Control For Mini And Snack Builds"
-     },
-     {
-      "t": "p",
-      "html": "Small builds need proportion more than extra coverage. A sleeve should fit close enough to control movement, yet leave enough room so folds land cleanly and the wrap seam stays tucked. When the menu includes tiny buns or party packs, <a href=\"/product/slider-burger-sleeves/\"><strong>mini burger sizing</strong></a> becomes the fit direction because it reduces spinning, prevents loose face panels, and keeps the sleeve from looking oversized on a compact serving."
-     },
-     {
-      "t": "p",
-      "html": "A snug sleeve also supports faster tray assembly. Small burgers are often packed in groups, and consistent sizing helps staff line items up in rows without bulky overlaps. That makes the tray look cleaner and helps customers pick items up without tearing edges. In delivery bags, a smaller sleeve can reduce creasing because it carries less extra paper that would otherwise fold and press during transport. This keeps the outer look neater through pickup and travel."
-     },
-     {
-      "t": "p",
-      "html": "Small sleeves are also useful for menus with kids’ meals, snack bundles, and tasting platters. These orders often move quickly, and staff need a sleeve that opens easily, closes cleanly, and does not require extra pressure to sit flat. Good scoring helps the sleeve fold without twisting. Balanced board weight helps it hold shape without feeling stiff. When these details are matched, the sleeve supports a smooth, repeatable packing rhythm."
+      "html": "Small formats also have less margin for board thickness. A heavier caliper takes up internal space, and on a compact sleeve that reduction is proportionally larger than it would be on a wide one. Choosing a stiffer board for a small sleeve without adjusting the internal dimension is a common way to end up with stock that does not fit."
      },
      {
       "t": "table",
+      "caption": "What changes between a cold bun and a served build",
       "headers": [
-       "Focus Area",
-       "Small Sleeve Detail",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Measured at",
+       "Typical difference",
+       "Why it matters on a small sleeve"
       ],
       "rows": [
        [
-        "Proportion",
-        "Shorter wall height",
-        "Snug look without excess paper",
-        "Mini burgers",
-        "Cleaner trays"
+        "Cold, unassembled",
+        "Baseline",
+        "Understates the finished size"
        ],
        [
-        "Stability",
-        "Centered panel depth",
-        "Less spinning on light servings",
-        "Takeaway counters",
-        "Steady hold"
+        "Toasted",
+        "Slight spread across the crown",
+        "Reduces side clearance"
        ],
        [
-        "Fold control",
-        "Crisp score lines",
-        "Faster application",
-        "Rush shifts",
-        "Repeatable motion"
+        "Filled",
+        "Height increases, base widens",
+        "Consumes vertical clearance quickly"
        ],
        [
-        "Bag fit",
-        "Low bulk closure",
-        "Easier packing in small bags",
-        "Delivery bundles",
-        "Less creasing"
+        "Wrapped",
+        "Adds paper thickness on every face",
+        "Often overlooked entirely"
        ],
        [
-        "Handling",
-        "Balanced board weight",
-        "Comfortable grip",
-        "Events and catering",
-        "Practical feel"
+        "Held under a lid",
+        "Softens and settles outward",
+        "The condition the sleeve actually meets"
        ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Daily habits that protect small sleeves during busy shifts</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Keep stacks flat so score lines stay sharp",
-       "Avoid pressing the face panel while closing the second side",
-       "Use the same grip point in training so folds land consistently",
-       "Keep sauce cups separated to reduce pressure and rubbing",
-       "Close open bundles after rush so sleeves stay clean and flat"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to reduce rotation on small burgers</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Apply the sleeve after the wrap seam is fully tucked and settled",
-       "Align the face panel first before folding any side",
-       "Fold the first side fully along the score line",
-       "Close the second side without forcing heavy overlap",
-       "Place the burger upright in the bag to reduce shifting during travel"
       ]
      }
     ]
    },
    {
-    "heading": "Small Sleeves That Support A Clean Size System",
+    "heading": "Portion Size Is A Pricing Decision",
     "blocks": [
      {
       "t": "p",
-      "html": "Small sleeves work best when the station has a clear size system that matches menu portions. They should handle snack builds and lighter burgers, while medium sleeves take regular orders and larger sleeves cover premium builds. Many teams use <a href=\"/product/medium-burger-sleeves/\"><strong>mid size wrap coverage</strong></a> as the daily baseline for standard burgers, which helps staff keep speed high without mixing sizes during rush."
+      "html": "A small sleeve does more than hold a small burger. It signals the portion before the customer opens anything, and that signal has to agree with the price on the menu. A junior burger arriving in packaging clearly built for it reads as a deliberate portion. The same burger arriving loose inside a standard sleeve reads as short measure, whatever the menu said."
      },
      {
       "t": "p",
-      "html": "A clear size system reduces waste and improves presentation. When the correct sleeve is used, the wrap stays tucked and the burger looks consistent on pickup racks. It also reduces the need for last-minute substitutions that cause buckling or loose panels. For mixed orders, the size system helps packing too. Small sleeves keep snack items tidy and compact, which makes it easier to stack bags without crushing the burgers or pressing the sleeve face."
+      "html": "This matters most on kids' items, value lines and lunch menus where the smaller size is the point. Packaging that visually matches the portion removes an argument at the counter that no operator wants to have during a busy service."
      },
      {
       "t": "p",
-      "html": "Station layout matters. Keep small sleeves in a fixed position, keep one open bundle at a time, and label cartons clearly. This prevents “close enough” grabbing that can lead to loose fit and spinning. It also makes training easier. New staff learn a simple rule set: small for snack builds, medium for regular builds, and larger sizes for premium builds. That reduces mistakes and keeps the pickup area more uniform."
-     },
-     {
-      "t": "h3",
-      "text": "Managing Larger Builds Without Sleeve Mix-Ups"
-     },
-     {
-      "t": "p",
-      "html": "Some menus include upgrades where a burger starts small but becomes wider with extra toppings or double cheese. When that happens, moving up a size avoids tight folds and corner buckling. For premium upgrades, <a href=\"/product/large-burger-sleeves/\"><strong>bigger wrap coverage for premium builds</strong></a> describes the point where larger sleeves become the better match so the wrap stays covered and the sleeve closes cleanly without stress."
-     },
-     {
-      "t": "p",
-      "html": "Once the rules are clear, service gets smoother. Staff stop guessing, quality checks get easier, and the tray layout looks more consistent. Inventory planning improves too, because each size tracks to a set of menu items. This prevents shortages during rush and reduces the need to force the wrong sleeve onto a burger. For delivery, the correct sleeve size helps reduce creasing and keeps the wrap seam tucked even when the bag shifts during travel."
-     },
-     {
-      "t": "p",
-      "html": "A simple shift-reset helps keep results steady. After peak hours, close open bundles, remove crushed sleeves from the top of stacks, and reset cartons to their standard positions. These small habits protect scoring, keep sleeves clean, and help the next shift start with the same organized layout. When the station starts organized, the whole day runs smoother and presentation stays consistent."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps for faster picking with fewer errors</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Place cartons in the same order every shift by size",
-       "Keep small sleeves closest to snack prep and kids’ meal zones",
-       "Use bold size labels that can be read quickly",
-       "Open only one bundle per size to avoid loose stacks",
-       "Do a quick mid-shift check to ensure cartons are not swapped"
-      ]
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Station Setup Choice",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Sorting",
-        "Fixed carton placement",
-        "Faster picking",
-        "Multi-size stations",
-        "Fewer mix-ups"
-       ],
-       [
-        "Dispensing",
-        "Flat stack orientation",
-        "Quick access",
-        "Rush shifts",
-        "Smooth flow"
-       ],
-       [
-        "Bagging",
-        "Size-matched layering",
-        "Reduced creasing and rubbing",
-        "Delivery orders",
-        "Cleaner look"
-       ],
-       [
-        "Storage",
-        "Sealed, dry bundles",
-        "Hygienic handling",
-        "Food areas",
-        "Protected stock"
-       ],
-       [
-        "Consistency",
-        "Menu-to-size mapping",
-        "Same look across shifts",
-        "Teams and locations",
-        "Reliable results"
-       ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Common small-sleeve fit issues to avoid</strong>"
+      "html": "It also affects how a menu tiers. If small, standard and large builds all arrive in visually similar packaging, the price ladder between them is harder to justify. Operators running a graduated menu often step the packaging alongside the price, and check the step is visible by placing a small sleeve beside <a href=\"/product/medium-burger-sleeves/\">the sleeve used for the standard house build</a> before finalising either."
      },
      {
       "t": "ul",
       "items": [
-       "Using a sleeve that is too wide, causing spinning on the wrap",
-       "Picking a sleeve that is too tight, pinching corners and lifting seams",
-       "Overlapping side edges, adding bulk in small bags",
-       "Pressing sauce cups against the sleeve face, causing rub marks",
-       "Mixing sizes during rush, creating uneven tray presentation"
+       "A visibly matched portion reduces size complaints at the counter",
+       "Kids' and value lines benefit most from packaging that reads as intentional",
+       "A visible step between sizes supports the price ladder on the menu",
+       "Mixed orders are easier to check when sizes are distinguishable by sight",
+       "Staff assembling to a size chart make fewer wrong-sleeve errors"
       ]
-     },
+     }
+    ]
+   },
+   {
+    "heading": "Counter Storage And Speed",
+    "blocks": [
      {
-      "t": "h3",
-      "text": "End Routine For Clean Stacks And Quick Access"
+      "t": "p",
+      "html": "Small sleeves take up less room per unit, which sounds like an advantage until they are stored badly. Because they are light and compact, they are frequently kept loose in a tray rather than in a dispenser, and loose small sleeves tangle. Staff reaching for one pull three, drop two and lose a second every time."
      },
      {
       "t": "p",
-      "html": "A short closing routine protects sleeve quality and reduces errors the next day. Reset cartons to standard positions, close open bundles to keep stacks flat, and keep one sample sleeve at the station for quick sizing comparison. This keeps the first hour of service smooth when the team is building speed and handling early rush traffic."
+      "html": "Keeping small sleeves flat and in a defined slot solves most of that. The compact footprint then becomes a genuine advantage, because a station can hold a deeper stack of them in the same space allocated to a larger size."
+     },
+     {
+      "t": "p",
+      "html": "Speed of assembly is generally good on small formats, as there is less panel to fold and less distance for the tab to travel. The exception is anything with a tight closure, where small hands-on tolerances become fiddly during a rush. If assembly time is a concern on a compact format, <a href=\"/product/cafe-burger-sleeves/\">the sleeves used for lower-volume counter service</a> tend to prioritise a simpler closure over a structural one."
+     }
+    ]
+   },
+   {
+    "heading": "Picking The Right Sleeve Under Pressure",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Once a menu runs more than one sleeve size, the packaging stops being only a fit question and becomes a selection question. During a rush, the person assembling has a second to decide which sleeve a burger goes into, and if two sizes look alike from a stack that decision goes wrong regularly."
+     },
+     {
+      "t": "p",
+      "html": "Wrong-sleeve errors are quiet. Nobody logs them. A small build goes out in a standard sleeve and the customer sees a portion swimming in packaging; a standard build gets forced into a small sleeve and the bun is crushed on the way in. Neither generates a complaint often enough to show up as a pattern, and both cost something every time."
+     },
+     {
+      "t": "p",
+      "html": "The fix is making sizes distinguishable without reading anything. A visible difference in footprint is the cheapest route. A different board shade or a different print treatment works too, though it means separate artwork. Some operators simply store the two sizes at opposite ends of the station so the reach itself is different."
+     },
+     {
+      "t": "p",
+      "html": "It is worth checking how a small sleeve behaves in a mixed bag as well. Lighter items travel differently: a small sleeved burger sitting beside a large one can be pushed sideways or tipped as the bag settles, and a build that was centred at the counter arrives leaning. Bagging order matters more with mixed sizes than with a uniform one."
+     },
+     {
+      "t": "table",
+      "caption": "Making two sleeve sizes hard to confuse",
+      "headers": [
+       "Method",
+       "Cost",
+       "How reliable it is in a rush"
+      ],
+      "rows": [
+       [
+        "Visibly different footprint",
+        "None beyond the size difference",
+        "High — judged by hand, not by eye"
+       ],
+       [
+        "Different board shade",
+        "Second board line to stock",
+        "High"
+       ],
+       [
+        "Different print treatment",
+        "Separate artwork and plates",
+        "Moderate — depends on how bold the difference is"
+       ],
+       [
+        "Separate storage positions",
+        "None",
+        "Moderate — depends on discipline"
+       ],
+       [
+        "Printed size label on the sleeve",
+        "Artwork change only",
+        "Low during a rush; nobody reads it"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Ordering A Small Format",
+    "blocks": [
+     {
+      "t": "ol",
+      "items": [
+       "Assemble your smallest menu item exactly as it leaves the kitchen, wrap included",
+       "Measure crown width and maximum height while it is still warm",
+       "Add the clearance you want on top of those figures and record it separately",
+       "Ask what board calipers are offered at that internal dimension",
+       "Request samples and slide a real burger into one before signing off",
+       "Confirm the small format is visibly different from your standard sleeve"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "Give both the measured figures and the intended clearance, not a single combined number. A supplier needs to know which part is the burger and which part is the allowance, because that determines how any board thickness change is absorbed. Handing over a photograph of the assembled item next to a ruler communicates more than measurements alone. If your menu also runs multi-item portions, it is worth checking those against <a href=\"/product/slider-burger-sleeves/\">the format built for mini burgers served several at a time</a> before ordering two similar sizes."
+     }
+    ]
+   },
+   {
+    "heading": "When A Compact Sleeve Is The Wrong Answer",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A small sleeve is not always the right response to a small burger. If the item is short but wide — a flat patty in a broad bun, for instance — the constraint is width, and a sleeve chosen for its compact height will bind at the sides while leaving vertical space unused."
+     },
+     {
+      "t": "p",
+      "html": "The same applies to items that are small but wet. A slider-sized build with a generous sauce is producing the same amount of liquid in a smaller sleeve, so the board is proportionally more exposed. Reaching for a compact size to save cost on a messy item usually costs more in replaced sleeves than it saves."
+     },
+     {
+      "t": "p",
+      "html": "Judge the format by which dimension is actually limiting and by how wet the build is, rather than by whether the burger reads as small on the menu. Those two questions decide the format more reliably than the portion name does."
      }
     ]
    }
@@ -1812,212 +1751,168 @@
  "TBS-024": {
   "sections": [
    {
-    "heading": "Medium Burger Sleeves That Keep Wraps Neat Daily",
+    "heading": "One Size Carrying Most Of The Menu",
     "blocks": [
      {
       "t": "p",
-      "html": "Medium burger sleeves are the steady choice for everyday service, especially when the menu includes regular burgers that need reliable coverage without extra bulk. This size supports quick wrapping, clean handoff, and consistent grip, which helps during long shifts when hundreds of burgers move through the same station. Many kitchens align the menu around <a href=\"/product-category/burger-sleeves-sizes/\"><strong>standard burger sleeve sizing</strong></a> so staff can apply one repeatable motion for the most common builds without stopping to compare measurements."
+      "html": "The medium sleeve is rarely chosen for a single item. It is chosen because it has to cover the house burger, the cheeseburger, the chicken sandwich and whatever the special happens to be that week. That makes it a tolerance problem rather than a fit problem, and the two need different thinking."
      },
      {
       "t": "p",
-      "html": "A well-matched medium sleeve sits centered on the wrap, covers the side edges, and keeps the seam area tucked during pickup and delivery. When the sleeve is too tight, folds can buckle and the wrap can loosen at corners. When the sleeve is too loose, it can rotate and hide the face panel. Medium sizing reduces both issues by staying balanced for the most common bun widths and wrap styles. Board weight and scoring then fine-tune how firm the sleeve feels in hand and how smoothly it closes."
+      "html": "A fit problem asks: does this sleeve suit this burger? A tolerance problem asks: what is the range of builds this sleeve must accept without either crushing the smallest or letting the largest slide out? Answering the second question well is what keeps an operator from stocking four sizes when two would do."
      },
      {
       "t": "p",
-      "html": "For smooth daily rhythm, medium sleeves should open easily from flat stacks and close without forcing overlap at the edges. This supports cleaner bag packing too, because medium sleeves add coverage without making the burger feel oversized inside a standard takeaway bag. When staff can sleeve fast without reworking folds, line speed stays consistent and presentation stays uniform across shifts."
-     },
+      "html": "Working that range out starts with measuring the extremes, not the average. Take the smallest item the sleeve will hold and the largest, both assembled and wrapped, and treat those two figures as the boundaries the sleeve has to live between."
+     }
+    ]
+   },
+   {
+    "heading": "How Much Movement Is Acceptable",
+    "blocks": [
      {
-      "t": "h3",
-      "text": "Balanced Coverage For Daily Menu Burgers"
+      "t": "p",
+      "html": "Some movement is fine. A burger that shifts a few millimetres inside its sleeve is not a defect, and a sleeve gripping tightly enough to eliminate all movement will be difficult to load quickly. The question is where movement stops being harmless and starts being visible to a customer."
      },
      {
       "t": "p",
-      "html": "Medium sleeves work best when the burger build stays within regular bun widths and standard topping height. They provide enough side coverage to keep the wrap looking clean while still staying compact for quick bagging and tray service. When menus include smaller items that need less panel depth, <a href=\"/product/small-burger-sleeves/\"><strong>compact wrap coverage</strong></a> becomes the better match for keeping the sleeve proportionate and avoiding loose fit on lighter servings."
+      "html": "Three thresholds usually matter. The first is rotation: if the burger can turn inside the sleeve, printed artwork no longer faces forward. The second is slide: if it can travel along the sleeve axis, the wrap edge starts to show. The third is tilt: if it can lean, the build settles unevenly and toppings migrate."
      },
      {
       "t": "p",
-      "html": "Consistency improves when the sleeve matches the wrap seam direction and the fold lines land the same way every time. A centered sleeve helps stop the wrap from creeping upward or sliding down during carry. It also helps the burger feel steadier in one hand, especially during pickup queues where customers hold bags, drinks, and food together. When the sleeve closes neatly, it reduces corner lift that can lead to small tears in paper during fast handling."
-     },
-     {
-      "t": "p",
-      "html": "Medium sleeves also support cleaner station organization. Because this size often becomes the main daily option, keeping cartons labeled and placed in a fixed order helps staff grab the right sleeve without thinking. A predictable pick-and-apply routine reduces mistakes and keeps the handoff look steady on pickup racks where many orders sit close together."
+      "html": "Rotation is generally the one customers notice first, because it puts your logo somewhere other than where you intended. Testing for it is simple — load the smallest item in the range, hold the sleeve horizontally and turn it slowly. Operators tightening this up often compare the medium against <a href=\"/product/large-burger-sleeves/\">the wider format sized for heavier builds</a> to see whether splitting the range is cheaper than tolerating the movement."
      },
      {
       "t": "table",
+      "caption": "Movement thresholds and what each one causes",
       "headers": [
-       "Focus Area",
-       "Medium Sleeve Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Movement",
+       "Test",
+       "Visible result"
       ],
       "rows": [
        [
-        "Coverage",
-        "Balanced wall height",
-        "Clean wrap edges",
-        "Regular burgers",
-        "Tidy corners"
+        "Rotation",
+        "Hold horizontally and turn",
+        "Artwork faces the wrong way"
        ],
        [
-        "Fit control",
-        "Centered panel depth",
-        "Less rotation in hand",
-        "Takeaway counters",
-        "Steady hold"
+        "Axial slide",
+        "Tilt end to end",
+        "Wrap edge becomes visible"
        ],
        [
-        "Fold motion",
-        "Clean score lines",
-        "Faster application",
-        "Rush hours",
-        "Repeatable"
+        "Tilt",
+        "Set down and observe",
+        "Toppings migrate, build settles unevenly"
        ],
        [
-        "Bag packing",
-        "Compact overall footprint",
-        "Easier placement in bags",
-        "Delivery orders",
-        "Less creasing"
+        "Compression",
+        "Load the largest item in range",
+        "Bun deforms, sleeve bows outward"
        ],
        [
-        "Daily use",
-        "Standard board weight",
-        "Comfortable grip feel",
-        "Long shifts",
-        "Reliable handling"
+        "Loose closure",
+        "Carry in a bag",
+        "Sleeve works open in transit"
        ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>What medium sizing improves during service</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Keeps wrap edges covered without adding extra bulk",
-       "Helps folds land cleanly without forcing overlap",
-       "Reduces sleeve rotation on pickup shelves",
-       "Supports steadier one-hand carry for customers",
-       "Keeps bag packing smoother for standard orders"
       ]
      }
     ]
    },
    {
-    "heading": "Medium Sleeves That Help Stations Stay Organized",
+    "heading": "Where A Single Size Stops Working",
     "blocks": [
      {
       "t": "p",
-      "html": "Medium sleeves support an organized workflow when multiple sizes are used in the same kitchen. They work as the base size for regular servings, while other sizes cover the menu edges. Many teams keep a larger option available when burgers need more room, and <a href=\"/product/large-burger-sleeves/\"><strong>expanded wrap space</strong></a> fits those builds that exceed medium width or height but still need consistent coverage and grip."
+      "html": "There is a point where stretching one sleeve across a range costs more than adding a second size. It arrives sooner than most operators expect, because the cost of a poor fit is spread thinly across many orders rather than appearing as one obvious expense."
      },
      {
       "t": "p",
-      "html": "To keep stations clean, each size should have a fixed location. Medium sleeves should stay closest to the wrap bench because they are used most often. Smaller sizes should be stored nearby for compact builds, while larger sizes can sit slightly farther back for less frequent use. This reduces the chance of grabbing the wrong sleeve during rush, which can cause buckling, loose seams, or an oversized look."
-     },
-     {
-      "t": "p",
-      "html": "Consistent size use also improves inventory control. When the menu mapping is clear, purchasing becomes easier because each size tracks to a predictable slice of daily orders. This prevents mid-shift shortages and reduces last-minute substitutions that can create inconsistent handoff presentation. It also helps training, because new staff learn a simple rule set that matches menu items to the correct sleeve size."
-     },
-     {
-      "t": "h3",
-      "text": "Clear Size Mapping For Smaller Menu Portions"
-     },
-     {
-      "t": "p",
-      "html": "Some menu items sit below the medium range and feel better with a smaller sleeve that stays proportionate. Mini burgers, lighter wraps, and small builds often need sleeves that hold the wrap without excess space. When those items are part of the daily mix, <a href=\"/product/slider-burger-sleeves/\"><strong>mini serving sleeves</strong></a> help keep the format tight so the sleeve does not shift or look loose on pickup racks."
-     },
-     {
-      "t": "p",
-      "html": "A clear size map improves speed because staff stop guessing. It also reduces waste because sleeves are not used where they do not fit. Medium sleeves should remain the default for regular burgers, while smaller sleeves cover light items and larger sleeves cover bigger builds. When each size is assigned to specific menu groups, quality checks become quick and visual."
-     },
-     {
-      "t": "p",
-      "html": "Packing routines protect sleeve appearance too. Keep heavier items below burgers in the bag to reduce pressure on the sleeve face. Separate hot burgers from cold drinks to reduce condensation that can leave marks. Avoid overfilling bags so sleeves do not rub hard against each other during transport. These small habits keep the sleeve looking clean through delivery and pickup."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps for fast picking with fewer errors</strong>"
+      "html": "The signals are consistent. Staff start double-wrapping certain items to stop them moving. Some builds get sleeved and then re-sleeved. Customers on delivery report packaging arriving open. Any of those is the range asking to be split."
      },
      {
       "t": "ol",
       "items": [
-       "Place cartons in the same order every shift by size",
-       "Keep medium sleeves closest to the wrap line for quick access",
-       "Open only one bundle at a time per size to avoid loose stacks",
-       "Use clear labels so staff can confirm size at a glance",
-       "Do a quick mid-shift check to ensure cartons are not swapped"
+       "List every menu item the medium sleeve currently holds",
+       "Assemble and measure the smallest and largest of them, wrapped",
+       "Load each into the current sleeve and run the rotation and slide tests",
+       "Note which items fail and how often they appear in orders",
+       "Compare the cost of a second sleeve size against the handling loss on those items"
       ]
      },
      {
       "t": "p",
-      "html": "<strong>Common fitting mistakes to avoid on medium builds</strong>"
+      "html": "Splitting the range does not always mean adding a bigger sleeve. Sometimes the outlier is at the small end, and the cheaper fix is a compact format for the two or three items that rattle. Reviewing <a href=\"/product-category/burger-sleeves-sizes/\">how the sizes step against one another across the range</a> makes that call easier than looking at any single product in isolation."
+     }
+    ]
+   },
+   {
+    "heading": "Stocking The Highest-Volume Line",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "The medium sleeve is usually ordered in larger quantities than everything else combined, which changes the purchasing calculation. Unit price matters more here than on any other line, and so does storage, because a quantity that suits the price break may not suit the stockroom."
+     },
+     {
+      "t": "p",
+      "html": "Two costs pull against each other. Ordering less often reduces the unit price and the administrative load. Ordering more often reduces the space tied up and the risk of holding a large quantity of packaging that a menu change makes obsolete. Neither is right in the abstract; it depends on how stable the menu is and how much dry storage exists."
+     },
+     {
+      "t": "p",
+      "html": "Menu volatility is the factor most often left out. A business that reprints packaging artwork twice a year should not be holding nine months of stock, however good the price was. A business running the same build for years can safely take the larger quantity."
      },
      {
       "t": "ul",
       "items": [
-       "Using a sleeve that is too tight, forcing corners to buckle",
-       "Choosing a sleeve that is too loose, allowing rotation in hand",
-       "Overlapping side edges, adding bulk in a standard bag",
-       "Applying the sleeve before the wrap is fully closed and tucked",
-       "Mixing sizes during rush, causing inconsistent pickup shelf looks"
+       "Unit price improves with quantity, but so does the risk of obsolete stock",
+       "Measure the cases physically before committing to a large delivery",
+       "Artwork changes turn held stock into waste, so match quantity to menu stability",
+       "Keep sleeves sealed and away from steam until the case is opened",
+       "Rotate stock so older cases are used first and none sits exposed for months"
       ]
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Station Setup Choice",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Sorting",
-        "Fixed carton placement",
-        "Faster picking",
-        "Multi-size stations",
-        "Fewer mix-ups"
-       ],
-       [
-        "Dispensing",
-        "Flat stack orientation",
-        "Quick access",
-        "Rush shifts",
-        "Smooth flow"
-       ],
-       [
-        "Bagging",
-        "Size-matched layering",
-        "Reduced creasing and rubbing",
-        "Delivery orders",
-        "Cleaner look"
-       ],
-       [
-        "Storage",
-        "Sealed, dry bundles",
-        "Hygienic handling",
-        "Food areas",
-        "Protected stock"
-       ],
-       [
-        "Consistency",
-        "Menu-to-size mapping",
-        "Same presentation across shifts",
-        "Teams and locations",
-        "Reliable results"
-       ]
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "End Routine That Helps Keep Quality Steady"
      },
      {
       "t": "p",
-      "html": "Medium sleeves work best when the station routine is simple and repeatable. A short end-of-shift habit can reduce errors the next day. Reset cartons to the same positions, close open bundles, and keep one sample sleeve available for quick sizing checks. This keeps day-to-day output consistent without adding time pressure during service."
+      "html": "Storage conditions deserve a mention because paperboard responds to its environment. Cases stored near a dishwasher, under a steam pass or against an external wall in a damp season absorb moisture, and board that has taken up moisture is less stiff and behaves differently at the closure. That is usually blamed on the supplier when it is a storage issue."
+     }
+    ]
+   },
+   {
+    "heading": "Keeping The Standard Size Consistent",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A medium sleeve is usually the highest-volume line in a packaging programme, which means small variations get multiplied. A board caliper change between production runs alters internal clearance. A slight dimensional shift changes how a familiar build sits. Neither is dramatic on one unit and both are noticeable across a service."
+     },
+     {
+      "t": "p",
+      "html": "Retain an approved physical sample from every run and check new stock against it before the old stock runs out. That gives you time to raise a discrepancy while you still have working packaging, rather than finding out mid-shift with nothing to fall back on."
+     },
+     {
+      "t": "p",
+      "html": "It is also worth recording which menu items the size was signed off against. Menus change, patty weights drift, buns get swapped by a bakery, and a sleeve approved eighteen months ago may no longer match what the kitchen is producing. Front-of-house operators reviewing this periodically often align it with <a href=\"/product/restaurant-burger-sleeves/\">the packaging used for seated and counter service</a> so the whole set is checked at once."
+     }
+    ]
+   },
+   {
+    "heading": "Training A Team Around One Standard",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A standard size only saves time if everyone treats it as the default. Where a team is unsure which sleeve an item takes, they hesitate, check, or pick the larger one to be safe — and picking the larger one to be safe is how a standard size quietly stops being standard."
+     },
+     {
+      "t": "p",
+      "html": "The clearest way to remove the hesitation is a short written rule tied to menu items rather than to dimensions. Staff should not be estimating whether a build looks like it needs the bigger sleeve; they should know that these six items take the standard and those two do not."
+     },
+     {
+      "t": "p",
+      "html": "That list needs revisiting whenever the menu changes. A new special that nobody assigned a sleeve to becomes a judgement call at the pass, and judgement calls during a rush default to the largest available option. Adding the sleeve size to the item spec when a dish is created costs nothing and prevents it."
+     },
+     {
+      "t": "p",
+      "html": "It is also worth watching what happens when the standard size runs out mid-service. If the fallback is the next size up, the fit problems that follow are worth anticipating rather than meeting unprepared. Knowing which items tolerate the substitution and which do not is useful information to have written down before it is needed."
      }
     ]
    }
@@ -2026,260 +1921,145 @@
  "TBS-025": {
   "sections": [
    {
-    "heading": "Large Burger Sleeves For Smooth Takeaway Handling",
+    "heading": "Weight Changes What The Board Has To Do",
     "blocks": [
      {
       "t": "p",
-      "html": "Large burger sleeves give extra wrap room for burgers that sit between regular builds and oversized stacks. The added width and panel depth help the wrap stay covered at the sides while keeping the burger easy to grip during pickup and delivery. Many teams plan packaging by comparing <a href=\"/product-category/burger-sleeves-sizes/\">the full run of sleeve sizes side by side</a> across the menu, so burgers with bigger buns and heavier toppings still look consistent at the counter."
+      "html": "Scaling a sleeve up is not a drawing exercise. A larger sleeve spans a longer unsupported distance and carries a heavier item across it, and paperboard does not scale linearly. The same caliper that holds a standard burger without complaint will bow noticeably under a build half again as heavy."
      },
      {
       "t": "p",
-      "html": "A well-matched large sleeve reduces small problems that slow service. Tight sleeves can buckle at corners and tug the wrap seam loose, while loose sleeves can rotate and hide the face panel. With correct sizing, folds land cleanly, the sleeve sits centered, and the burger feels steadier when carried one-handed. Board thickness and scoring can be set so the sleeve holds its shape without feeling stiff, especially during fast packing."
+      "html": "Bowing matters because of where it happens. The base panel takes the load, and if it flexes downward the side walls pull inward at the top, which loosens the closure exactly when the weight is greatest. Customers experience this as a sleeve that felt fine on the counter and opened in the car."
      },
      {
       "t": "p",
-      "html": "Extra control comes from material choices and scoring. A smoother outer face stays more even after contact with baskets and liners, while a firmer board reduces bending when the burger is lifted from the base. Letting the wrap rest briefly before sleeving can limit steam marks and keep edges tighter during bagging."
-     },
-     {
-      "t": "p",
-      "html": "<strong>What improves when the sleeve fit is right</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Wrap edges stay covered without squeezing the burger build",
-       "Face panels stay straighter on pickup shelves and in bags",
-       "Side folds close cleanly, reducing corner buckling",
-       "One-hand carrying feels steadier for customers",
-       "Bag stacking causes fewer rub marks on the outer surface"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to apply large sleeves consistently</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep large sleeves separated from other sizes at the station",
-       "Place the wrapped burger seam-side down on a flat surface",
-       "Center the sleeve under the burger before folding any side",
-       "Fold one side along the score line with light, even pressure",
-       "Fold the second side and align edges without forcing overlap"
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Coverage Control For Bigger Buns And Toppings"
-     },
-     {
-      "t": "p",
-      "html": "Large sleeves are often chosen for burgers that need more side coverage but do not require a jumbo build. When menu items include wider buns, double cheese layers, or extra toppings, the sleeve should allow the wrap to sit naturally without stress points. In those cases, many kitchens also keep <a href=\"/product/jumbo-burger-sleeves/\"><strong>oversized wrap coverage</strong></a> available for the few signature items that push beyond the large size range."
-     },
-     {
-      "t": "p",
-      "html": "Once the coverage is set, daily results become more predictable. Staff can repeat the same motion during rush, and the sleeve stays centered instead of shifting toward the base or top edge. Better coverage also helps during delivery because the wrap is less likely to loosen at corners when the bag moves. When large sleeves are paired with the right folding depth, they keep the burger tidy without adding bulk that makes bag packing harder."
-     },
-     {
-      "t": "p",
-      "html": "Bag packing is where large sleeves either hold their shape or show stress. Place the burger upright when possible and avoid pressing it against hard items like drink lids or sauce cups. If multiple burgers go in one bag, keep face panels separated by a light paper layer so friction does not dull the outer surface. A simple packing order also helps the sleeve stay centered, which keeps the wrap seam tucked during travel and prevents the base from loosening. This keeps the handoff look uniform too."
+      "html": "The usual answer is a heavier caliper, but that is not the only lever. A shorter unsupported span, a deeper side wall or a scored fold that stiffens the base edge can all add rigidity without moving to thicker stock. Which route is available depends on the run, so it is worth asking rather than assuming a board change is the only option. Past a certain build weight the question stops being board and becomes structure, which is where <a href=\"/product/jumbo-burger-sleeves/\">the oversized format built around wall height</a> takes over."
      },
      {
       "t": "table",
+      "caption": "Where a large sleeve takes load",
       "headers": [
-       "Focus Area",
-       "Large Sleeve Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Area",
+       "What it carries",
+       "Failure sign"
       ],
       "rows": [
        [
-        "Side room",
-        "Wider panel depth",
-        "Less wrap stress",
-        "Bigger buns",
-        "Cleaner corners"
+        "Base panel",
+        "Full weight of the build",
+        "Visible downward bow"
        ],
        [
-        "Center hold",
-        "Balanced scoring",
-        "Straighter face panel",
-        "Pickup shelves",
-        "Consistent look"
+        "Side walls",
+        "Lateral spread from a wide bun",
+        "Walls splay outward"
+       ],
+       [
+        "Closure",
+        "Tension from a bowing base",
+        "Works open during carry"
+       ],
+       [
+        "Fold lines",
+        "Repeated flex during assembly",
+        "Cracking along the crease"
        ],
        [
         "Grip zone",
-        "Stable wall height",
-        "Steadier one-hand carry",
-        "Takeaway orders",
-        "Comfortable"
-       ],
-       [
-        "Fold control",
-        "Clean score lines",
-        "Faster application",
-        "Rush hours",
-        "Repeatable"
-       ],
-       [
-        "Bag fit",
-        "Controlled edge alignment",
-        "Reduced creasing in tight bags",
-        "Delivery packing",
-        "Neater handling"
+        "Hand pressure during eating",
+        "Crushes where fingers close"
        ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Quick checks before approving a large size run</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Sleeve covers the wrap seam line on both sides when lifted",
-       "Folds meet without heavy overlap that adds bulk",
-       "Burger slides into a bag and out again without snagging",
-       "Face panel remains readable after light stacking pressure",
-       "Corner areas stay tucked after normal handling"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to prevent rotation on pickup shelves</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep the face panel aligned with the wrap seam direction",
-       "Apply the sleeve after the wrap is fully closed and tucked",
-       "Avoid squeezing the sleeve face when folding the second side",
-       "Use the same grip point in staff training for repeatable folds",
-       "Place burgers in bags with face panels outward and upright"
       ]
      }
     ]
    },
    {
-    "heading": "Large Sleeves That Keep Stations Easy To Organize",
+    "heading": "Wider Buns And Topping Overhang",
     "blocks": [
      {
       "t": "p",
-      "html": "Large sleeves work best when the size system across the station is simple. Clear separation between medium, large, and jumbo sleeves helps staff move quickly without second-guessing. Many teams keep a strong baseline with <a href=\"/product/medium-burger-sleeves/\"><strong>standard service sizing</strong></a> for daily menu items, then reserve large sleeves for wider builds that need more coverage without going to the biggest format."
+      "html": "Large builds are not just taller — they are usually wider, and the toppings frequently extend past the bun. A tomato slice or a lettuce leaf hanging over the edge is the thing that catches on a sleeve mouth during loading and tears either the leaf or the board."
      },
      {
       "t": "p",
-      "html": "Organized sizing reduces waste and rewraps. When the correct sleeve is used, folds close neatly, the wrap stays tucked, and the burger looks cleaner during handoff. It also keeps bag packing smoother, because large sleeves add coverage without the extra bulk of larger formats. With consistent carton labels and fixed storage positions, staff can pick the right sleeve in seconds during peak service."
+      "html": "Designing for overhang means allowing width beyond the bun measurement, and it means paying attention to the shape of the sleeve opening. A square-cut mouth catches; a slightly relieved or curved opening lets an overhanging topping slide past. That is a dieline decision more than a sizing one."
      },
      {
       "t": "p",
-      "html": "To keep the station organized, treat each size as a repeatable lane. One bin for each size, one open bundle at a time, and a quick end-of-shift count can prevent mid-rush shortages. When staff know exactly where each size lives, they stop grabbing “close enough” sleeves that cause buckling or exposed edges. This kind of layout also supports cleaner training, because new hires learn the same picking order and the same fold motion every day."
-     },
-     {
-      "t": "h3",
-      "text": "Building A Reliable Size Map Across Menus"
+      "html": "The other consequence is that a wide sleeve is harder to hold one-handed. Grip is a function of how far a hand can close around the sleeve, and past a certain width most people switch to two hands or support it from underneath. That changes how the packaging is used and is worth testing rather than predicting, ideally alongside <a href=\"/product/takeaway-burger-sleeves/\">the formats intended for carrying away from the counter</a>."
      },
      {
       "t": "p",
-      "html": "A size map is most useful when each burger style matches one sleeve size without overlap. Large sleeves should be assigned to items that consistently exceed medium width but remain below jumbo height. For heavier builds that push thickness beyond the large profile, <a href=\"/product/double-patty-burger-sleeves/\"><strong>extra thickness coverage</strong></a> becomes the deciding factor for selecting a different sleeve size to keep the wrap stable and the corners protected."
-     },
-     {
-      "t": "p",
-      "html": "Once the map is set, training becomes easier and quality checks become faster. New staff learn a repeatable motion for each size, and supervisors can spot mis-sizing quickly by watching where the sleeve sits at the base corners. Inventory planning improves too, because purchasing can forecast sizes based on sales mix. This prevents last-minute substitutions that can create buckling, exposed edges, or loose seams."
-     },
-     {
-      "t": "p",
-      "html": "Quality checks do not need to slow the line. A two-item test can be enough: sleeve one burger, place it into a bag, then remove it and look for corner lift or heavy creasing. If the sleeve stays flat and the face panel stays straight, the size is doing its job. Keeping one sample of each size at the station can help staff compare quickly without guessing, while supervisors can audit sizing by watching the base corners during service."
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Station Setup Choice",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Sorting",
-        "Fixed carton positions",
-        "Faster picking",
-        "Multi-size stations",
-        "Fewer mix-ups"
-       ],
-       [
-        "Dispensing",
-        "Flat stack orientation",
-        "Quick access",
-        "Rush shifts",
-        "Smooth flow"
-       ],
-       [
-        "Bagging",
-        "Size-matched layering",
-        "Less rubbing and creasing",
-        "Delivery orders",
-        "Cleaner faces"
-       ],
-       [
-        "Storage",
-        "Sealed, dry bundles",
-        "Hygienic handling",
-        "Food areas",
-        "Protected stock"
-       ],
-       [
-        "Consistency",
-        "Menu-to-size mapping",
-        "Same look across shifts",
-        "Teams and locations",
-        "Reliable results"
-       ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Habits that protect large sleeves during long shifts</strong>"
+      "html": "Loading order helps more than most people expect. Sliding a wide build in from the side lets an overhanging leaf fold back naturally against the bun; dropping it in from above catches the same leaf on the sleeve edge and tears it. That is a training point rather than a packaging one, but it changes how often a sleeve is blamed for a problem it did not cause. Showing the loading direction once during a shift handover is usually enough for it to stick."
      },
      {
       "t": "ul",
       "items": [
-       "Store sleeves away from steam and direct heat sources",
-       "Keep bundles sealed until use to reduce dust contact",
-       "Rotate cartons so older batches are used first",
-       "Avoid stacking heavy cartons on top of sleeve bundles",
-       "Do not overfill bags where sleeves press tightly together"
+       "Allow width beyond the bun for toppings that extend past the edge",
+       "A relieved or curved sleeve mouth reduces catching during loading",
+       "Grip becomes two-handed past a certain width",
+       "Wider bases need more support to resist bowing",
+       "Sauce is more likely to reach the sleeve edge on an overhanging build"
       ]
+     }
+    ]
+   },
+   {
+    "heading": "More Surface Means More Design Decisions",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A large sleeve gives a designer noticeably more printable area than a standard one, and that space gets filled whether it needs to be or not. The result is often a busy panel that looks cluttered in the hand even though it looked balanced on screen at reduced scale."
      },
      {
       "t": "p",
-      "html": "<strong>Five steps for faster picking with fewer errors</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Place medium, large, and jumbo cartons in the same order daily",
-       "Use bold size labels that can be read at a glance",
-       "Keep one open bundle per size to avoid loose stacks",
-       "Assign large sleeves to specific menu items in training notes",
-       "Do a quick mid-shift check to ensure cartons are not swapped"
-      ]
+      "html": "The area also sits differently in use. On a large sleeve the customer's hand covers a bigger absolute area but a smaller proportion of the panel, so more of the artwork stays visible while eating. Where the logo sits relative to a natural grip position is worth deciding deliberately rather than centring it by default."
      },
      {
       "t": "p",
-      "html": "<strong>Common sizing mistakes to avoid on large builds</strong>"
+      "html": "Heavy ink coverage over a large panel introduces its own considerations. Large solid areas show mottling and colour drift more readily than small ones, folds through a dense printed area are more prone to visible cracking, and set-off between stacked sheets becomes more likely. None of these is a reason to avoid full coverage, but each is a reason to see a printed proof at full size rather than a scaled one."
      },
      {
-      "t": "ul",
-      "items": [
-       "Using a medium sleeve that forces corners to buckle",
-       "Choosing a sleeve that is too tall and adds unnecessary bulk",
-       "Overlapping side edges, making bags harder to pack",
-       "Applying sleeves before the wrap is fully closed and tucked",
-       "Mixing cartons during rush, causing inconsistent presentation"
-      ]
+      "t": "p",
+      "html": "Large formats also make the cut edge more visible, simply because there is more of it. On dark or heavily printed board the pale fibre at a cut edge reads as a line around the whole sleeve. Whether that is acceptable is a judgement to make from a physical sample, not from a drawing."
+     }
+    ]
+   },
+   {
+    "heading": "Getting A Heavy Build Out The Door",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "The handling problem shifts once a large burger leaves the counter. It goes into a bag with other items, it is carried at an angle, and it sits for the length of a journey. A sleeve that performs on a flat surface can behave quite differently when it is tilted inside a paper bag against a drinks cup."
+     },
+     {
+      "t": "p",
+      "html": "Two things help. A closure that resists opening under a sideways load, and enough stiffness that the sleeve does not deform into whatever shape the bag imposes on it. Both come back to board choice and structure rather than to size."
+     },
+     {
+      "t": "p",
+      "html": "Test it as it will actually travel. Load a real build, bag it with the rest of a typical order, carry it for the length of a normal delivery, then open it. That single test finds problems that no amount of counter-top inspection will. Operators specifying heavier board for this reason usually look at <a href=\"/product/cardboard-burger-sleeves/\">the stiffer paperboard calipers available</a> before adding structural features."
+     }
+    ]
+   },
+   {
+    "heading": "Where The Large Size Sits On A Menu",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A large sleeve is usually attached to a premium item, and that gives the packaging a commercial job as well as a physical one. The customer paying more for the bigger build is looking for a visible reason, and packaging that reads as identical to the standard option removes one of the easiest ways to provide it."
+     },
+     {
+      "t": "p",
+      "html": "The step does not have to be dramatic. A visibly larger footprint is often enough on its own, particularly when the two sizes appear side by side on a shared table. Where the price difference is significant, some operators add a surface or print difference so the premium item is recognisable before it is opened."
+     },
+     {
+      "t": "p",
+      "html": "There is a limit to this. Packaging that is much more elaborate than the standard line raises an expectation the food has to meet, and it introduces a second artwork and a second stock line for what may be a small share of orders. The step should be proportionate to the price difference and to how often the item actually sells."
+     },
+     {
+      "t": "p",
+      "html": "Where the large size is a genuine premium line rather than simply a bigger portion, it is worth reviewing the whole presentation together — board, surface and print — rather than treating the size change as the only decision. That review is easier once the physical fit has been settled, because the structural requirements narrow the board options before any surface choice is made."
      }
     ]
    }
@@ -2288,245 +2068,188 @@
  "TBS-026": {
   "sections": [
    {
-    "heading": "Jumbo Burger Sleeves Designed For Tall Menu Builds",
+    "heading": "Height Is The Limit, Not Width",
     "blocks": [
      {
       "t": "p",
-      "html": "Jumbo burger sleeves are made for burgers that rise higher than standard wraps, where extra height and width help keep the paper closed and the outside looking tidy. When a burger has added patties, thick fillings, or tall buns, the sleeve needs more wall space so it does not pinch the wrap or leave the top edge exposed. Many teams plan packaging around <a href=\"/product/medium-burger-sleeves/\"><strong>larger burger sleeve sizing</strong></a> to keep every big menu build consistent from wrap station to pickup shelf."
+      "html": "At the top of the size range the constraint changes. Width can be extended fairly easily; height cannot. A tall build has a high centre of gravity, and a sleeve holding it is resisting a toppling force rather than simply containing a shape. That is a structural problem, and it does not improve by making the sleeve bigger."
      },
      {
       "t": "p",
-      "html": "A jumbo sleeve also supports steadier grip during carry-out. With the right panel depth, the wrap stays centered instead of shifting as the burger is lifted one-handed. Clean scoring helps folds sit flat, while the board thickness can be matched to the burger weight so the sleeve holds shape without feeling stiff. This reduces buckling around corners and helps the face panel stay readable even during busy handoffs."
+      "html": "Wall height is the main lever. A sleeve whose walls reach well up the side of the build supports it against tipping. A shallow sleeve on a tall burger acts as a band around the middle and lets the top half sway, which is how stacked toppings end up sliding out sideways."
      },
      {
       "t": "p",
-      "html": "<strong>Key handling improvements teams notice on jumbo builds</strong>"
-     },
+      "html": "The trade-off is that taller walls use more board, weigh more and cost more, and past a point they start to obscure the food entirely. Finding the height where support is adequate and the burger is still visible is the actual design question on a jumbo format."
+     }
+    ]
+   },
+   {
+    "heading": "Rigidity Matters More Than Dimension",
+    "blocks": [
      {
-      "t": "ul",
-      "items": [
-       "Extra wall height helps keep tall wraps covered at the top edge",
-       "Wider panels reduce tight folds that can loosen the wrap seam",
-       "Better structure supports heavier burgers during one-hand carry",
-       "Cleaner corners reduce mess from tall fillings and layered sauces",
-       "Faster packing because the sleeve fits without forcing folds"
-      ]
+      "t": "p",
+      "html": "Two sleeves with identical dimensions can behave completely differently depending on the board. On a jumbo build the difference is obvious in the hand: one holds its shape when lifted, the other flexes and lets the burger settle. Dimension gets specified carefully and rigidity often does not, which is why so many oversized sleeves disappoint."
      },
      {
       "t": "p",
-      "html": "<strong>Five steps to set jumbo sleeves on the line</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep jumbo sleeves stacked separately with clear size labeling",
-       "Place the wrapped burger seam-side down before applying the sleeve",
-       "Center the sleeve under the burger so the face panel aligns evenly",
-       "Fold sides along the score lines with light, even pressure",
-       "Turn the burger so the face panel stays outward at handoff"
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Fit Stability For Heavy Burgers In Quick Service"
+      "html": "Rigidity comes from caliper, from fibre structure and from geometry. A fluted construction adds stiffness at lower weight than solid board of the same thickness, which is why it appears on heavier formats. Scoring and fold placement also contribute, because a well-placed crease acts as a stiffening rib rather than just a hinge."
      },
      {
       "t": "p",
-      "html": "When burgers are heavier, the sleeve must stay stable under grip pressure without twisting or sliding. A jumbo format gives more room so the wrap seam stays tucked and the base stays supported while the burger moves from counter to bag. Many menus pair jumbo sleeves with <a href=\"/product/double-patty-burger-sleeves/\"><strong>support for thicker burgers</strong></a> when they want the right size for tall builds and also a strong fit for heavier patties that need extra structure."
-     },
-     {
-      "t": "p",
-      "html": "Once the size is matched, daily packing becomes smoother. Staff can apply the sleeve in one motion without reworking corners, and the burger stays steadier in bags during delivery. A good fit reduces rotation so the face panel remains in the right position on pickup shelves. It also helps protect wrap edges from rubbing against other items when orders are stacked close. For multi-item bags, the extra panel depth can reduce creasing because the sleeve holds its shape instead of collapsing under light pressure."
+      "html": "None of this can be judged from a specification sheet. It has to be handled, loaded and lifted. Where extra stiffness is needed without a large weight increase, operators generally look at <a href=\"/product/corrugated-burger-sleeves/\">fluted board constructions that add stiffness for their weight</a> as an alternative to simply going thicker."
      },
      {
       "t": "table",
+      "caption": "What fails first on an oversized sleeve",
       "headers": [
-       "Focus Area",
-       "Jumbo Build Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Failure",
+       "Cause",
+       "What to change"
       ],
       "rows": [
        [
-        "Coverage",
-        "Taller side walls",
-        "Top wrap edge stays protected",
-        "Tall burgers",
-        "Cleaner finish"
+        "Build tips sideways",
+        "Wall height too low for the centre of gravity",
+        "Raise the wall, not the width"
        ],
        [
-        "Support",
-        "Wider panel depth",
-        "Less seam stress",
-        "Heavy builds",
-        "Stable hold"
+        "Sleeve flexes when lifted",
+        "Insufficient rigidity for the load",
+        "Caliper or fluted construction"
        ],
        [
-        "Shape hold",
-        "Firm scoring",
-        "Predictable folding",
-        "Busy wrap stations",
-        "Faster motion"
+        "Closure releases",
+        "Base bowing under weight",
+        "Stiffen the base, review the tab"
        ],
        [
-        "Grip",
-        "Balanced board thickness",
-        "Better one-hand carry",
-        "Takeaway orders",
-        "Comfortable"
+        "Crease cracks",
+        "Crease depth too shallow for the board",
+        "Deepen the score"
        ],
        [
-        "Bagging",
-        "Stronger sleeve structure",
-        "Reduced creasing in tight bags",
-        "Delivery packing",
-        "Neater face"
+        "Toppings slide out",
+        "Top of the build unsupported",
+        "Extend wall height"
        ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Daily checks that prevent fit problems</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Confirm the sleeve covers the wrap seam line on both sides",
-       "Test one sleeved burger inside a bag for friction and rubbing",
-       "Check that folds close without overlap that adds bulk",
-       "Hold the burger at the base to confirm the sleeve does not slip",
-       "Stack two wrapped items to confirm the sleeve face stays tidy"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to keep jumbo presentation consistent</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Use the same jumbo sleeve for the same burger build every shift",
-       "Keep logo placement away from heavy fold edges",
-       "Avoid squeezing the sleeve face during application",
-       "Pack heavier items below so the sleeve face is not pressed hard",
-       "Separate cold drinks to limit condensation marks on the outer face"
       ]
      }
     ]
    },
    {
-    "heading": "Jumbo Sleeves That Keep Big Orders Easy To Sort",
+    "heading": "Carrying Something Tall And Heavy",
     "blocks": [
      {
       "t": "p",
-      "html": "Bigger burgers often appear in higher-value combos, which makes accuracy and organization even more important during rush. Jumbo sleeves help keep those builds visually distinct, and the added panel space gives staff a predictable grip zone while still keeping the wrap edges covered. Many teams also use a standard “large” sleeve size for other menu items, and <a href=\"/product/large-burger-sleeves/\"><strong>wide wrap coverage</strong></a> helps keep big but not extra-tall burgers consistent across the line."
+      "html": "A jumbo build is awkward to carry and the packaging decides how awkward. Held from the middle, a tall sleeve wants to pivot. Held from the base, it is stable but the hand is under the weight. Most people settle on a two-handed carry, and packaging that assumes one hand will be handed back."
      },
      {
       "t": "p",
-      "html": "Sorting and storage habits have a big impact on results. Keep jumbo sleeves in a dedicated space so they are not mixed with smaller sizes. Use clear carton labels and a fixed placement order at the wrap station. This prevents last-second grabbing of the wrong size, which can cause buckling, loose seams, and inconsistent pickup shelf presentation. When sizes are organized, training is easier and quality checks become faster."
-     }
-    ]
-   },
-   {
-    "heading": "Menu Size Mapping That Keeps Service Predictable",
-    "blocks": [
-     {
-      "t": "p",
-      "html": "A simple size map helps staff choose the correct sleeve without thinking, which improves speed and reduces rewraps. Smaller items should use smaller sleeves so the wrap does not look loose, while tall builds should have enough wall height for full coverage. Many menus keep a compact option for small items, and <a href=\"/product/slider-burger-sleeves/\"><strong>smaller format sizing</strong></a> fits naturally when you are organizing sleeves for sliders and snack builds alongside jumbo formats."
-     },
-     {
-      "t": "p",
-      "html": "Once the size map is set, inventory planning becomes cleaner. Each size tracks to a clear group of menu items, which improves forecasting and reduces last-minute shortages. It also helps multi-location teams keep the same handoff look, because every site uses the same sleeve size for the same burger type. For delivery, correct sizing reduces creases and helps the wrap stay closed when the bag shifts during transport."
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Station Setup Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Sorting",
-        "Clear size labeling",
-        "Faster picking",
-        "Multi-size menus",
-        "Fewer errors"
-       ],
-       [
-        "Dispensing",
-        "Flat stack orientation",
-        "Quick access",
-        "Rush shifts",
-        "Smooth flow"
-       ],
-       [
-        "Packing",
-        "Size-matched bag layering",
-        "Reduced rubbing and creasing",
-        "Delivery orders",
-        "Cleaner look"
-       ],
-       [
-        "Storage",
-        "Sealed cartons",
-        "Hygienic handling",
-        "Food areas",
-        "Protected"
-       ],
-       [
-        "Consistency",
-        "Standard size mapping",
-        "Same look across shifts",
-        "Chains and teams",
-        "Reliable"
-       ]
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Operational habits that protect jumbo sleeve quality"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Store sleeves flat and dry away from steam and direct heat",
-       "Keep bundles sealed until needed to reduce dust contact",
-       "Arrange cartons in the same order every shift at the wrap station",
-       "Use older stock first to keep batches consistent",
-       "Avoid overfilling bags so sleeves do not rub tightly together"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps for fast jumbo sleeve application</strong>"
+      "html": "Bagging introduces the other problem. A tall item does not sit comfortably in a standard bag alongside fries and a drink, and it tends to lean. Leaning transfers the load onto one side wall, which is the least supported direction. Operators serving oversized builds for delivery often bag them separately for exactly this reason."
      },
      {
       "t": "ol",
       "items": [
-       "Place the wrapped burger seam-side down on a flat surface",
-       "Slide the sleeve under the center point to align the face panel",
-       "Fold the first side along the score line with even pressure",
-       "Fold the second side and align edges without forcing closure",
-       "Turn the burger so the face panel stays outward for pickup shelves"
+       "Load a full-height build and lift the sleeve from the middle with one hand",
+       "Repeat holding only the base and note whether the top sways",
+       "Set it into a standard bag with a drink and observe how far it leans",
+       "Carry the bag for a realistic distance, then inspect the closure and walls",
+       "If it leans past a comfortable angle, test a taller wall before a thicker board"
       ]
      },
      {
       "t": "p",
-      "html": "<strong>Common jumbo-sizing mistakes to avoid</strong>"
+      "html": "Where the build is tall because of stacked patties rather than piled toppings, the loading is different again and the sleeve has a different job to do. That case is worth reviewing against <a href=\"/product/double-patty-burger-sleeves/\">sleeves shaped around stacked patty builds</a> before settling on an oversized format."
+     }
+    ]
+   },
+   {
+    "heading": "Cost Behaviour At The Top Of The Range",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Oversized sleeves cost more per unit for reasons that compound. More board area, usually a heavier caliper, more ink if the artwork covers the panel, and fewer units per shipping case. Each is modest on its own and together they make jumbo the most expensive line in a size range by a clear margin."
      },
      {
-      "t": "ul",
-      "items": [
-       "Using a sleeve that is too short, exposing the top wrap edge",
-       "Choosing a tight width that buckles corners and loosens seams",
-       "Mixing cartons during rush, causing inconsistent handoff looks",
-       "Overlapping side edges, adding bulk inside bags",
-       "Applying sleeves before the wrap is fully closed, trapping the seam"
+      "t": "p",
+      "html": "That matters because oversized items are frequently a small share of orders. A signature build that sells a handful of times a day still needs its own packaging line, its own storage slot and its own minimum order. The packaging cost per unit sold can be several times the sleeve price once the holding cost of slow-moving stock is included."
+     },
+     {
+      "t": "p",
+      "html": "Some operators respond by pushing a marginal build down into the next size and accepting a tighter fit. Others keep the oversized line but order it far less often. Both are reasonable; the mistake is treating the jumbo line as though it behaves like the standard one."
+     },
+     {
+      "t": "table",
+      "caption": "Why unit cost rises faster than size",
+      "headers": [
+       "Factor",
+       "Effect at oversized dimensions"
+      ],
+      "rows": [
+       [
+        "Board area",
+        "Rises with both width and wall height"
+       ],
+       [
+        "Caliper",
+        "Usually heavier to hold the load"
+       ],
+       [
+        "Ink coverage",
+        "More area if artwork covers the panel"
+       ],
+       [
+        "Units per case",
+        "Fewer, raising handling and shipping per unit"
+       ],
+       [
+        "Storage slot",
+        "Same slot occupied for far lower turnover"
+       ],
+       [
+        "Minimum order",
+        "Applies regardless of how few you sell"
+       ]
       ]
+     }
+    ]
+   },
+   {
+    "heading": "What A Supplier Needs From You",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Oversized formats are the least standardised part of a range, so a quotation depends more heavily on what you provide. Give the maximum height of the finished build, the width at its widest point, the approximate weight, and how it will be carried."
+     },
+     {
+      "t": "p",
+      "html": "Weight is the figure most often left out and the one that most affects the board recommendation. A tall sleeve holding a light build and a tall sleeve holding a heavy one are different specifications even at identical dimensions."
+     },
+     {
+      "t": "p",
+      "html": "Ask what board options exist at your dimensions and what each does to unit cost, then request samples in at least two of them. Judging rigidity from a description is not possible, and the difference between adequate and inadequate on a jumbo format is something you feel immediately when you lift a loaded sample. Bring the measurements and the weight to the <a href=\"/get-free-quote/\">quotation stage where board and structure are matched to the build</a> rather than after ordering."
+     }
+    ]
+   },
+   {
+    "heading": "Whether The Build Should Be Sleeved At All",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "At the very top of the size range it is worth asking whether a sleeve is the right format. A sleeve holds a build together and gives a clean grip surface. It does not enclose the item, and past a certain height and weight the things a customer needs from the packaging start to look more like containment than grip."
+     },
+     {
+      "t": "p",
+      "html": "The signals are practical. If the build has to be eaten with a fork, if it cannot be lifted without support underneath, or if toppings routinely escape during the first bite, the packaging is being asked to do a job a sleeve is not shaped for."
+     },
+     {
+      "t": "p",
+      "html": "None of that means an oversized sleeve is wrong. Plenty of tall builds are held perfectly well by one, and a sleeve keeps the food visible in a way an enclosed format does not. The point is that the question should be asked deliberately at the top of the range rather than assumed away because the rest of the menu uses sleeves."
+     },
+     {
+      "t": "p",
+      "html": "Testing it is straightforward. Give a finished build to several people, sleeved, and watch how they handle it. If most of them support it from underneath with a second hand or set it down to eat, the format is being stretched past what it does well."
      }
     ]
    }
@@ -2535,354 +2258,168 @@
  "TBS-027": {
   "sections": [
    {
-    "heading": "Slider Burger Sleeves For Quick Small-Order Runs",
+    "heading": "Sliders Arrive In Threes And Fours",
     "blocks": [
      {
       "t": "p",
-      "html": "Slider burger sleeves keep small servings tidy when speed matters and hands are moving nonstop. These sleeves are made for mini burgers, snack builds, and bite-size sandwiches where a full-size sleeve would feel loose and bulky. In kitchens that run mixed portions all day, <a href=\"/product-category/burger-sleeves-sizes/\"><strong>small portion sleeve sizing</strong></a> helps staff keep the sleeve-to-item match consistent so the wrap stays snug and the face panel does not drift during handoff."
+      "html": "A slider sleeve is rarely handled on its own. Sliders sell in multiples — three on a board, six in a box, twenty on a catering platter — and that changes what the packaging has to do. The question is no longer whether one sleeve fits one mini burger. It is how a dozen of them behave sitting next to each other."
      },
      {
       "t": "p",
-      "html": "Because sliders are lighter, the sleeve has to control movement rather than fight weight. A sleeve that is too wide can spin around the wrap and hide the front panel, while a sleeve that is too narrow can pinch corners and lift the seam. A balanced slider sleeve covers the edges, keeps folds clean, and supports a steady grip without adding thickness that makes the item feel oversized. The result is a cleaner look on trays, steadier carry in one hand, and fewer small wrap adjustments during rush."
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Slider Sleeve Detail",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Proportion",
-        "Smaller panel depth",
-        "Snug fit without excess space",
-        "Mini burgers",
-        "Cleaner look"
-       ],
-       [
-        "Stability",
-        "Centered wrap hold",
-        "Less rotation during carry",
-        "Takeaway counters",
-        "Steady grip"
-       ],
-       [
-        "Fold control",
-        "Crisp score lines",
-        "Faster application",
-        "Busy service",
-        "Repeatable motion"
-       ],
-       [
-        "Tray use",
-        "Compact footprint",
-        "Easier multi-item tray packing",
-        "Events and catering",
-        "Neat layout"
-       ],
-       [
-        "Bagging",
-        "Low bulk closure",
-        "Less creasing in small bags",
-        "Delivery snack bundles",
-        "Smooth packing"
-       ]
-      ]
+      "html": "Two things follow from that. Sleeves need to sit square so a row looks deliberate rather than scattered, and they need enough external clearance that adjacent sleeves do not press against each other. A sleeve sized only against the burger, with no thought to what sits beside it, produces a tray that looks crowded even when the count is right."
      },
      {
       "t": "p",
-      "html": "<strong>Service wins that show up on slider orders</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Keeps mini wraps from loosening at corners during quick handoffs",
-       "Reduces sleeve spinning on lighter servings",
-       "Helps staff apply sleeves with one smooth motion",
-       "Supports cleaner tray presentation for multi-slider combos",
-       "Keeps small bags from overfilling with bulky packaging"
-      ]
+      "html": "Counting is the quiet benefit. A platter of sleeved sliders can be checked at a glance, because each unit has a defined edge and sits in a row. The same platter of unsleeved minis has to be counted carefully, and miscounts on catering orders are both common and awkward to correct once a tray has left the kitchen."
      },
      {
       "t": "p",
-      "html": "<strong>Five steps to keep slider sleeving consistent</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep slider sleeves separated from larger sizes near the station",
-       "Place the wrapped slider seam-side down before applying the sleeve",
-       "Center the sleeve under the wrap so the face panel stays straight",
-       "Fold sides along the score lines with light, even pressure",
-       "Hand off with the face panel outward for tidy tray presentation"
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Quick-Load Fit That Keeps Mini Wraps Stable"
-     },
-     {
-      "t": "p",
-      "html": "Small servings need coverage that looks proportional and holds the wrap in place without extra space. When menus include sliders and small sandwiches, <a href=\"/product/small-burger-sleeves/\"><strong>compact wrap coverage</strong></a> is the fit target because it keeps edges tucked, avoids loose panels, and helps the sleeve stay centered while the item is lifted from a tray or passed across a counter."
-     },
-     {
-      "t": "p",
-      "html": "A stable slider sleeve also supports smoother station rhythm. Staff can sleeve quickly without reworking corners, and the wrap stays tight even when the slider is held from the base. This matters at events and rush windows where multiple small items are assembled at once. A snug fit reduces shifting inside small bags, and it keeps grease marks from spreading outward because the wrap stays in the right position."
-     },
-     {
-      "t": "p",
-      "html": "In mixed orders, slider sleeves also help the customer experience. A small sleeve feels deliberate instead of “leftover” space around the wrap. The item stays easier to hold, and the tray looks cleaner when multiple sliders are lined up side by side. That visual order matters for catering, party packs, and combo trays where presentation becomes part of the service flow."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Handling habits that protect small sleeves during rush</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Keep stacks flat so score lines stay sharp and easy to fold",
-       "Avoid squeezing the face panel while closing the second side",
-       "Use the same grip point in training so folds land consistently",
-       "Do not overfill small bags so sleeves do not rub tightly together",
-       "Separate hot sliders from cold drinks to reduce moisture contact"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to reduce corner lift on mini wraps</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Let the wrapped slider settle for a moment so the seam holds",
-       "Align the sleeve face panel first before folding any side",
-       "Fold the first side fully along the score line",
-       "Close the second side without forcing overlap",
-       "Check that the wrap seam stays tucked at the base edge"
-      ]
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Wrap Station Choice",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Speed",
-        "Pre-sorted sleeve stacks",
-        "Faster picking",
-        "High-volume sliders",
-        "Less hesitation"
-       ],
-       [
-        "Accuracy",
-        "Clear size labels",
-        "Fewer wrong-size grabs",
-        "Mixed menus",
-        "Clean routine"
-       ],
-       [
-        "Clean look",
-        "Side-grip handling",
-        "Less smudge on face panels",
-        "Open counters",
-        "Neater output"
-       ],
-       [
-        "Tray packing",
-        "Row alignment",
-        "Easier multi-item placement",
-        "Catering trays",
-        "More organized"
-       ],
-       [
-        "Bagging",
-        "Layer order control",
-        "Reduced rubbing and creasing",
-        "Delivery bundles",
-        "Cleaner handoff"
-       ]
-      ]
+      "html": "The multiples also mean assembly happens in batches. Nobody makes one slider. Staff build six at a time, which rewards a sleeve that can be pre-formed and lined up before any food arrives, rather than one that has to be assembled around each item individually."
      }
     ]
    },
    {
-    "heading": "Slider Sleeves That Keep Stations And Trays In Order",
+    "heading": "Laying Out A Tray Or Box",
     "blocks": [
      {
       "t": "p",
-      "html": "Slider service often happens alongside regular burgers, fries, and drinks, so the station needs quick picking and clear sorting. A dedicated slider sleeve prevents staff from grabbing a larger size “just to make it work,” which usually causes loose panels, rotation, and messy tray appearance. In a balanced menu system, <a href=\"/product/medium-burger-sleeves/\"><strong>everyday service size</strong></a> becomes the baseline for regular burgers, while slider sleeves handle small builds without slowing the line."
+      "html": "Once the sleeve dimension is set, the tray arithmetic follows from it. A sleeve a few millimetres wider than planned can drop a row from a platter, and that changes the portion count a caterer is selling. Working backwards from the tray is often more useful than working forwards from the burger."
      },
      {
       "t": "p",
-      "html": "The main advantage is predictability. When each item type maps to a clear sleeve size, staff stop guessing and quality becomes easier to maintain. Slider sleeves help keep trays neat because multiple items can sit close together without bulky overlaps. They also help with portion signaling. Customers instantly recognize a small serving as intentionally packed, rather than looking like an undersized burger floating inside a large sleeve."
-     },
-     {
-      "t": "p",
-      "html": "Station flow matters most during rush. If slider sleeves are stored in a fixed place and opened bundles are kept tidy, staff can keep the same motion for every item. That consistency reduces wrap rework, keeps the pickup area more uniform, and lowers the chances of mix-ups when orders include both sliders and standard burgers."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps for cleaner tray builds with sliders</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Place slider sleeves on the same side of the station every shift",
-       "Line sliders in rows so face panels align on the tray",
-       "Keep sauce cups separated to reduce pressure on sleeve faces",
-       "Stack fries and sides away from sliders to avoid rubbing",
-       "Close tray lids gently so small items do not shift and rotate"
-      ]
+      "html": "Take the internal dimensions of the tray or box you already use, decide how many sliders should fit, and divide. That gives a maximum external sleeve width. Then check that width against the burger measurement plus clearance. If the two do not reconcile, the tray or the portion count has to move, and it is better to find that out on paper."
      },
      {
       "t": "table",
+      "caption": "Working backwards from the serving vessel",
       "headers": [
-       "Focus Area",
-       "Tray And Counter Setup",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Step",
+       "What you need",
+       "What it determines"
       ],
       "rows": [
        [
-        "Layout",
-        "Uniform slider spacing",
-        "Cleaner tray appearance",
-        "Combo trays",
-        "Neat look"
+        "Tray internal width",
+        "Measured, not nominal",
+        "Total space available per row"
        ],
        [
-        "Stability",
-        "Snug sleeve fit",
-        "Less shifting during carry",
-        "Takeaway counters",
-        "Steady hold"
+        "Target sliders per row",
+        "From the menu portion",
+        "Maximum external sleeve width"
        ],
        [
-        "Speed",
-        "Fixed sleeve location",
-        "Faster assembly",
-        "Rush windows",
-        "Smooth routine"
+        "Sleeve wall thickness",
+        "From the board caliper",
+        "Internal space left for the burger"
        ],
        [
-        "Organization",
-        "Size-based picking order",
-        "Fewer mix-ups",
-        "Mixed menus",
-        "Reliable output"
+        "Burger width plus wrap",
+        "Measured when assembled",
+        "Whether the arithmetic closes"
        ],
        [
-        "Packing",
-        "Light pressure stacking",
-        "Reduced creasing",
-        "Delivery bundles",
-        "Cleaner faces"
+        "Gap between sleeves",
+        "Chosen deliberately",
+        "Whether the row reads as tidy or crowded"
        ]
       ]
      },
      {
-      "t": "h3",
-      "text": "Size Planning For Add-Ons Without Rewrap Delays"
+      "t": "p",
+      "html": "Caterers running fixed platter counts usually fix the tray first and treat sleeve width as the dependent variable. That approach pairs naturally with <a href=\"/product/event-burger-sleeves/\">packaging planned around serving in batches</a>, where portion counts are agreed before anything is ordered."
+     }
+    ]
+   },
+   {
+    "heading": "Artwork At A Very Small Scale",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A slider sleeve gives a designer a fraction of the printable area of a standard one, and most brand artwork does not survive the reduction. A logo that reads well at 90mm across can turn into a smudge at 40mm, particularly if it carries fine strokes, a tagline or a registered mark."
      },
      {
       "t": "p",
-      "html": "Slider orders often include upgrades like extra cheese, bacon, or a thicker sauce layer, and that can slightly change the wrap shape even if the portion remains small. Planning for those changes prevents last-second switching and keeps the station moving. For menus that offer larger swaps or multi-slider packs,<a href=\"/product/large-burger-sleeves/\"><strong>larger wrap space for upgrades</strong></a> describes the point where a bigger sleeve becomes the better match, so the wrap stays covered and the sleeve closes cleanly."
-     },
-     {
-      "t": "p",
-      "html": "When the size plan is clear, upgrades do not create rewrap delays. Staff can keep the same wrapping method while selecting the right sleeve for the upgraded build. This also helps delivery and catering, where small changes in thickness can lead to corner lift if the sleeve is too tight. Choosing the right sleeve size for upgraded sliders keeps folds flat, reduces seam stress, and helps the sleeve stay centered when multiple items are stacked in one bag."
-     },
-     {
-      "t": "p",
-      "html": "This planning also supports cleaner inventory management. When the team knows which upgrades move an item into the next sleeve size, cartons can be stocked accordingly and training becomes straightforward. It reduces waste from forced fits and helps keep presentation consistent across different staff members."
-     },
-     {
-      "t": "p",
-      "html": "<strong>Common fit issues on slider orders and how to avoid them</strong>"
+      "html": "The usual solution is a reduced mark rather than a shrunk one. Many brands maintain a simplified version of their logo for small applications — the symbol without the wordmark, or the wordmark without the strapline. If yours does not, a slider run is a reasonable moment to create one."
      },
      {
       "t": "ul",
       "items": [
-       "Loose sleeves that rotate on the wrap during carry",
-       "Tight sleeves that pinch corners and lift the wrap seam",
-       "Overlapping side edges that add bulk on small bags",
-       "Sauce cups pressed against sleeves, causing rub marks",
-       "Mixed sizes on one tray that make the layout look uneven"
+       "Fine strokes and thin serifs lose definition at small scale",
+       "Taglines and registered marks usually become unreadable",
+       "A simplified logo variant reads better than a proportionally shrunk one",
+       "Solid shapes survive reduction better than outlined ones",
+       "Two colours often read more clearly than four in a small area"
       ]
      },
      {
       "t": "p",
-      "html": "<strong>Five steps to keep upgraded sliders tidy</strong>"
+      "html": "Print at final size and look at it on paper before approving. A logo inspected at 200% on a screen will always look acceptable. Brands that arrive at a reduced mark for sliders frequently apply the same restraint elsewhere, and end up looking at <a href=\"/product/minimal-design-burger-sleeves/\">layouts built around fewer inks and simpler marks</a> across the wider packaging set."
+     }
+    ]
+   },
+   {
+    "heading": "Grease And Handling On A Mini Build",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Sliders are small, which leads people to assume they are cleaner. In practice a slider is often proportionally greasier than a full-size burger, because the patty-to-bun ratio is higher and there is less bread to absorb what renders out."
+     },
+     {
+      "t": "p",
+      "html": "On a platter that becomes visible quickly. Several sleeves sitting together share what any one of them releases, and a single leaking mini can mark the sleeves either side of it. On a shared board or a catering tray, one soft sleeve makes the whole presentation look neglected."
+     },
+     {
+      "t": "p",
+      "html": "Inner wrapping is more awkward at this scale. A wrap sized for a full burger is unwieldy around a slider, and a wrap that is too small leaves the base exposed exactly where fat collects. Getting the wrap size right is often more useful than upgrading the sleeve board."
+     },
+     {
+      "t": "p",
+      "html": "Handling adds to it. Sliders are picked up in two fingers rather than a full hand, which concentrates pressure on a small area of the sleeve wall. A board that holds up fine under a full palm can crease under a pinch grip, and that crease is at eye level on a platter."
+     }
+    ]
+   },
+   {
+    "heading": "Batch Assembly Without Losing Time",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Because sliders come in multiples, assembly time multiplies too. Four seconds per sleeve on a standard burger is four seconds per order. Four seconds on a slider is twenty-four seconds when six go out together, and it lands during the busiest part of a catering service."
      },
      {
       "t": "ol",
       "items": [
-       "Assign a sleeve size rule for each upgrade level in training notes",
-       "Keep one sample of each sleeve size near the station for quick reference",
-       "Apply the sleeve after the wrap seam is fully tucked and settled",
-       "Avoid pressing the face panel while closing the second side",
-       "Pack sliders upright when possible to reduce shifting in bags"
+       "Time how long one sleeve takes to form from flat",
+       "Multiply by your most common slider portion count",
+       "Repeat the test with a second person to check the figure holds",
+       "Try pre-forming a batch before service and see whether they hold shape",
+       "If they collapse when stored formed, the closure needs revisiting"
       ]
      },
      {
       "t": "p",
-      "html": "A simple end-of-shift routine helps maintain quality the next day. Reset sleeve cartons to the same positions, close open bundles to keep stacks clean, and remove crushed sleeves from the top of piles so score lines remain sharp. These habits keep the first hour of the next shift smooth, when staff are setting pace and building confidence."
+      "html": "Pre-forming is the practical shortcut, and whether it works depends entirely on the closure. Some structures hold their shape once formed and can be stacked ready; others spring back and have to be assembled at the moment of use. That single property makes more difference to a catering service than any other feature of the sleeve. Where a menu also runs single mini burgers rather than platters, <a href=\"/product/small-burger-sleeves/\">the compact single-serve format</a> is usually the closer match."
+     }
+    ]
+   },
+   {
+    "heading": "Ordering For Catering Rather Than Counter Volume",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Slider demand behaves differently from counter demand. A burger bar uses a fairly steady number of standard sleeves each week. A caterer might use none for a fortnight and then two thousand in a weekend, and that pattern makes ordering and storage a different problem."
      },
      {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Storage Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Stackability",
-        "Flat-packed sleeve stacks",
-        "Saves space",
-        "Bulk storage",
-        "Compact"
-       ],
-       [
-        "Dispensing",
-        "Smooth release",
-        "Quick access",
-        "Self service",
-        "Efficient"
-       ],
-       [
-        "Handling",
-        "Lightweight form",
-        "Easy use",
-        "Events",
-        "Practical"
-       ],
-       [
-        "Organization",
-        "Uniform size",
-        "Clean layout",
-        "Counters",
-        "Neat"
-       ],
-       [
-        "Protection",
-        "Covered storage",
-        "Hygienic use",
-        "Food areas",
-        "Safe"
-       ]
-      ]
+      "t": "p",
+      "html": "Lumpy demand pushes towards larger, less frequent orders, which suits pricing but ties up storage between events. It also means stock can sit for months, so storage conditions matter more than they would on a fast-moving line. Sealed cases kept away from damp keep board stiffness stable across that gap."
+     },
+     {
+      "t": "p",
+      "html": "Lead time is the other consideration. Event work is often confirmed at short notice, and packaging ordered per booking will not arrive in time. Most caterers hold a buffer sized to their typical event rather than ordering against confirmed jobs."
+     },
+     {
+      "t": "p",
+      "html": "Artwork stability is worth thinking about too. A sleeve carrying a dated campaign or an event-specific design cannot be carried over to the next booking, whereas an unbranded or lightly branded sleeve can. Whether that trade is worth making depends on how much the branding is doing at the event itself."
      }
     ]
    }
@@ -2891,305 +2428,194 @@
  "TBS-028": {
   "sections": [
    {
-    "heading": "Double Patty Burger Sleeves Built For Taller Wraps",
+    "heading": "Two Patties Double The Grease Load",
     "blocks": [
      {
       "t": "p",
-      "html": "Double patty orders stack height fast, and the sleeve has to hold that build without squeezing the wrap or shifting in the customer’s hand. These sleeves are sized for thicker burgers so the paper stays covered at the sides and the top edge does not creep downward during a pickup walk, even during long queues at peak. Many teams plan packaging by mapping a <a href=\"/product-category/burger-sleeves-sizes/\"><strong>burger sleeve size range</strong></a> across the menu so single patties, doubles, and limited runs all feel consistent at handoff."
+      "html": "The obvious difference with a double is height. The one that causes more complaints is grease. Two patties render roughly twice the fat of one, and that fat has to go somewhere. It runs down through the build, collects at the base and reaches the board sooner and in greater volume than a single-patty burger ever produces."
      },
      {
       "t": "p",
-      "html": "A stable fit also helps speed and reduces rewraps. When the sleeve opens cleanly and slides on without snagging, staff can keep a repeatable motion during rush. Board weight and scoring control the feel, while the dimensions control how the sleeve sits on the wrap seam. A well-matched sleeve supports the wrap edges and keeps the face panel readable even when the burger is held one-handed."
+      "html": "Base panels take the worst of it. This is where oil pools, where an uncoated board darkens first, and where a saturated sleeve loses stiffness at exactly the point it is carrying the most weight. A sleeve that looks fine around the sides can be soft underneath."
      },
      {
       "t": "p",
-      "html": "<strong>Packing habits that keep the sleeve sitting right</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Apply the sleeve after the wrap is fully closed so the seam stays tucked",
-       "Center the base before folding sides to keep the face panel straight",
-       "Keep the same grip point in training so folds land in the same place",
-       "Use size labels on cartons so the right sleeve is grabbed without guessing",
-       "Avoid forcing tight sleeves, because buckling can loosen the wrap edge"
-      ]
+      "html": "Timing is what makes the difference visible. A single-patty burger eaten within a few minutes may never put enough oil into the board to show. The same board under a double, held while someone drives home, has considerably longer to absorb considerably more. Judging a sleeve on how it looks at the counter tells you very little about how it looks at the table."
      },
      {
       "t": "p",
-      "html": "<strong>Five steps to set a repeatable wrap station routine</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Keep sleeves pre-stacked with the opening edge facing the same direction",
-       "Place the wrapped burger seam-side down before sliding on the sleeve",
-       "Align the face panel first, then fold sides along the score lines",
-       "Check that side edges meet without overlap that creates bulk in bags",
-       "Hand off with the face panel outward so pickup racks look uniform"
-      ]
-     },
-     {
-      "t": "h3",
-      "text": "Fit Control For Thick Builds In Busy Service"
-     },
-     {
-      "t": "p",
-      "html": "For taller burgers, coverage needs to be deliberate. The sleeve should sit centered so the wrap seam stays tucked, and the side panels should meet without buckling. Many menus include a jumbo option for signature stacks, and that <a href=\"/product/jumbo-burger-sleeves/\"><strong>extra coverage for thicker builds</strong></a> helps keep edges protected when burgers are packed tight in bags with fries and dips."
-     },
-     {
-      "t": "p",
-      "html": "Once the fit is set, the daily outcome is cleaner handling and fewer small failures that slow the line. Sleeves that match the burger profile reduce rotation, prevent the wrap from loosening at the base, and keep the outside looking tidy after normal counter contact. Consistent sizing also reduces mix-ups, because staff can identify the correct sleeve at a glance and apply it quickly. For delivery, the right wall height helps stop the wrap from lifting at the corners when the burger shifts in a bag, and it keeps the paper from rubbing against sauces that can stain the outside."
+      "html": "The barrier decision therefore matters more here than on any other size. An inner greaseproof wrap is doing most of the work, and a barrier treatment on the board buys additional time. Neither makes a sleeve leakproof, and paperboard should not be described that way. Operators dealing with heavy renderers usually specify this deliberately rather than by default, alongside <a href=\"/product/grease-resistant-burger-sleeves/\">board treated to slow oil reaching the surface</a>."
      },
      {
       "t": "table",
+      "caption": "Where grease shows up on a stacked build",
       "headers": [
-       "Focus Area",
-       "Build Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "Location",
+       "Why it collects there",
+       "What it causes"
       ],
       "rows": [
        [
-        "Coverage",
-        "Taller side walls",
-        "Wrap edges stay protected",
-        "Double and stacked builds",
-        "Cleaner corners"
+        "Base panel",
+        "Fat runs down and pools",
+        "Softening under the heaviest load"
        ],
        [
-        "Stability",
-        "Firm scoring",
-        "Sleeve holds shape in hand",
-        "Takeaway and delivery",
-        "Less shifting"
+        "Lower side walls",
+        "Wicks outward from the base",
+        "Visible darkening low on the sleeve"
        ],
        [
-        "Grip",
-        "Balanced board thickness",
-        "Steadier one-hand hold",
-        "Busy counters",
-        "Comfortable feel"
+        "Between the patties",
+        "Trapped by the middle bun layer",
+        "Steam and a wetter build overall"
        ],
        [
-        "Application",
-        "Smooth fold alignment",
-        "Faster sleeving motion",
-        "Rush periods",
-        "Repeatable steps"
+        "Closure area",
+        "Handled with greasy fingers",
+        "Marks on the most visible panel"
        ],
        [
-        "Presentation",
-        "Centered face panel space",
-        "Branding stays readable",
-        "Pickup shelves",
-        "Consistent look"
+        "Grip zone",
+        "Hand pressure squeezes fat outward",
+        "Transfers to the customer's hands"
        ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Handling advantages teams notice</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Helps keep wrap seams tucked when burgers are tall and heavy",
-       "Reduces sleeve rotation when customers carry the burger in one hand",
-       "Keeps side coverage consistent during bagging and stacking",
-       "Supports cleaner corners for saucy items and layered toppings",
-       "Speeds packing because the sleeve opens and closes predictably"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps to confirm the double-patty fit</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Measure the wrapped burger height after it rests for a minute",
-       "Check that the sleeve covers the wrap seam line on both sides",
-       "Slide the sleeved burger into a bag and remove it to test friction",
-       "Hold the burger at the base to confirm the sleeve does not slip",
-       "Stack a second item beside it to confirm the sleeve face stays neat"
       ]
      }
     ]
    },
    {
-    "heading": "Double Patty Sleeves That Keep Orders Organized",
+    "heading": "Compression And Whether It Recovers",
     "blocks": [
      {
       "t": "p",
-      "html": "When multiple sizes are used on the same line, organization becomes part of performance. Sleeves should be easy to sort, quick to grab, and consistent in how they sit on the wrap. Many brands keep a “large” option for menu items that need a <a href=\"/product/large-burger-sleeves/\"><strong>roomier wrap coverage</strong></a> while still staying compact enough for standard bags and trays."
+      "html": "Stacked patties are heavy and they settle. A double that stands 120mm tall when it leaves the pass is shorter by the time it reaches a customer, because the weight of the upper patty compresses everything below it. The sleeve has to work at both heights."
      },
      {
       "t": "p",
-      "html": "A consistent size system also improves customer experience and reduces waste. The burger feels steadier, the wrap stays tighter, and the handoff looks cleaner on pickup racks because face panels line up instead of twisting. For delivery, correct sizing reduces creases and helps the wrap stay closed when the bag shifts. It also supports quicker identification when orders include multiple burgers."
-     },
-     {
-      "t": "h3",
-      "text": "Building A Size System Across The Menu"
+      "html": "That is a different problem from simply being tall. A sleeve sized for the assembled height will be loose by the time it is eaten; one sized for the settled height will not accept the build in the first place. The practical answer is to size for loading and accept that the fit relaxes, rather than trying to grip a moving target."
      },
      {
       "t": "p",
-      "html": "Menu planning is simpler when each burger type maps to one sleeve size. The goal is not to have many sizes, but to have the right ones. A medium option often becomes the daily workhorse, and that <a href=\"/product/medium-burger-sleeves/\"><strong>balanced fit for regular servings</strong></a> keeps service smooth for standard builds while leaving larger sizes for thicker stacks."
+      "html": "Grip is where this becomes noticeable. As the build settles it also spreads outward, so the sleeve gets shorter in one direction and wider in another. A sleeve with rigid walls resists that spread and keeps the burger together; a flexible one deforms with it and lets the build slump. Builds that are tall from piled toppings rather than stacked meat settle less, and <a href=\"/product/jumbo-burger-sleeves/\">the oversized format aimed at height alone</a> is specified differently as a result."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "A double settles measurably between the pass and the customer",
+       "Size for loading height, not for settled height",
+       "Settling pushes the build outward as well as downward",
+       "Rigid walls resist spread; flexible walls follow it",
+       "Grease softening accelerates the loss of wall stiffness"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Measuring A Build That Will Not Sit Still",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Measuring a double is harder than measuring anything else on a menu, because the object changes while you measure it. Take the height straight off the pass and you record the tallest it will ever be. Take it two minutes later and you record something else. Neither number alone tells a supplier what they need."
      },
      {
       "t": "p",
-      "html": "With a defined size set, training is easier and quality checks become faster. New staff learn one method per size, and supervisors can spot sizing issues quickly by watching how the sleeve sits at the base corners. Stock rotation becomes more reliable too, because cartons are labeled by size and used in a predictable rhythm. This reduces the chance that a double burger gets a sleeve that is too tight or a single burger gets one that looks oversized. It also helps purchasing teams forecast better, because each size tracks to a clear portion of the menu."
+      "html": "The practical approach is to record both and label them. Loading height is what the sleeve has to accept without forcing. Settled height is what it will actually hold for most of the meal. A supplier who has both figures can size for the first and check grip against the second."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Assemble a double exactly as it leaves the kitchen, wrap included",
+       "Measure maximum height immediately and label it as loading height",
+       "Leave it standing for the time between pass and customer",
+       "Measure again and label that as settled height",
+       "Measure width at the widest point on the settled build, since it spreads as it drops",
+       "Weigh it, because board recommendations depend on load as much as dimension"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "Weight is the figure most often skipped and the one that most changes a board recommendation. Two sleeves at identical dimensions holding a light build and a heavy one are different specifications, and on a stacked-patty item the difference is substantial."
+     }
+    ]
+   },
+   {
+    "heading": "Holding A Heavy Burger Cleanly",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "The point of a sleeve on a double is that the customer can hold it without wearing it. That means the sleeve has to stay stiff enough to be squeezed without collapsing, and to keep grease off the hand for the length of the meal rather than the length of the walk to a table."
+     },
+     {
+      "t": "p",
+      "html": "Hand pressure is the test that is almost never run. Loading a sample and admiring it on a bench tells you nothing about what happens when someone grips it firmly with warm hands for ten minutes. That is when a marginal board reveals itself."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Assemble a full double with the sauces and toppings you actually serve",
+       "Sleeve it and leave it standing for the time between pass and customer",
+       "Pick it up the way a customer would and squeeze firmly",
+       "Hold it for several minutes and check your hand afterwards",
+       "Inspect the base panel for softening and the walls for deformation"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "If the base softens within that window, the answer is usually barrier and board rather than a bigger sleeve. If the walls deform under grip, it is structure. Where the closure is also working loose as the build settles, the fix tends to sit in the tooling, and it is worth reviewing against <a href=\"/product/die-cut-burger-sleeves/\">structural sleeve forms with engineered tabs and locks</a> rather than adding board weight alone."
+     }
+    ]
+   },
+   {
+    "heading": "Matching Board And Barrier To A Stacked Build",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Board choice on a double is a response to two loads at once: physical weight and grease volume. Treating them separately leads to the common mistake of specifying a heavier caliper to fix a problem that is actually saturation, which delays the failure without preventing it."
+     },
+     {
+      "t": "p",
+      "html": "Work out which is dominant before changing anything. If a dry sleeve holds the build comfortably and only fails once it has been in service for a few minutes, the issue is grease reaching the board. If it flexes under the weight straight away, it is stiffness. The two need different answers and the tests take seconds."
      },
      {
       "t": "table",
+      "caption": "Reading the failure before changing the specification",
       "headers": [
-       "Focus Area",
-       "Process Element",
-       "Benefit",
-       "Suitable For",
-       "Notes"
+       "What you observe",
+       "Likely cause",
+       "Where to look first"
       ],
       "rows": [
        [
-        "Sorting",
-        "Clear carton labels",
-        "Faster picking",
-        "Multi-size menus",
-        "Fewer mix-ups"
+        "Flexes when lifted, even dry",
+        "Insufficient stiffness",
+        "Board caliper or construction"
        ],
        [
-        "Dispensing",
-        "Flat stack orientation",
-        "Quick access",
-        "Rush shifts",
-        "Smooth workflow"
+        "Holds dry, softens after minutes",
+        "Grease reaching the board",
+        "Inner wrap, then barrier treatment"
        ],
        [
-        "Bagging",
-        "Size-matched stacking",
-        "Less rubbing and creasing",
-        "Delivery orders",
-        "Cleaner faces"
+        "Base darkens but stays firm",
+        "Cosmetic oil shadowing",
+        "Board colour, or accept it"
        ],
        [
-        "Storage",
-        "Dry, sealed bundles",
-        "Hygienic handling",
-        "Food stations",
-        "Protected surface"
+        "Closure loosens as it stands",
+        "Build settling and base bowing",
+        "Base support and tab geometry"
        ],
        [
-        "Consistency",
-        "Standard size mapping",
-        "Same look across locations",
-        "Chains and franchises",
-        "Reliable results"
+        "Creases where fingers grip",
+        "Wall stiffness under point pressure",
+        "Caliper, or a deeper wall"
        ]
       ]
      },
      {
       "t": "p",
-      "html": "<strong>Operational habits that protect sleeve quality</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Keep sleeves flat and dry so scoring remains sharp",
-       "Store bundles sealed until use to reduce dust and moisture contact",
-       "Place size cartons near the wrap line in a fixed order",
-       "Use older stock first to keep batches consistent across shifts",
-       "Avoid overfilling bags so sleeves do not press tightly together"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Five steps for fast application on the line</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Place the wrapped burger seam-side down on a flat surface",
-       "Center the sleeve under the burger so the face panel aligns evenly",
-       "Fold the first side along the score line with light pressure",
-       "Fold the second side and align edges without forcing the closure",
-       "Turn the burger so the face panel stays outward for handoff"
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Common sizing mistakes to avoid on doubles</strong>"
-     },
-     {
-      "t": "ul",
-      "items": [
-       "Using a sleeve that is too short, which exposes the top wrap edge",
-       "Choosing a tight width that makes folds buckle and loosen the seam",
-       "Mixing cartons during rush, which causes inconsistent handoff looks",
-       "Overlapping side edges, which adds bulk and rubs inside bags",
-       "Applying sleeves before the wrap is closed, which traps the seam awkwardly"
-      ]
-     },
-     {
-      "t": "table",
-      "headers": [
-       "Focus Area",
-       "Size Choice",
-       "Benefit",
-       "Suitable For",
-       "Notes"
-      ],
-      "rows": [
-       [
-        "Medium size",
-        "Standard wall height",
-        "Quick service consistency",
-        "Regular menu items",
-        "Daily default"
-       ],
-       [
-        "Large size",
-        "Extra width and height",
-        "Better coverage for bigger",
-        "Loaded burgers",
-        "Roomier feel"
-       ],
-       [
-        "Jumbo size",
-        "Maximum panel depth",
-        "Supports tall stacked builds",
-        "Signature doubles",
-        "Extra coverage"
-       ],
-       [
-        "Bag fit",
-        "Standard bag alignment",
-        "Cleaner packing",
-        "Takeaway and delivery",
-        "Less friction"
-       ],
-       [
-        "Line speed",
-        "Predictable fold behavior",
-        "Faster motion",
-        "Peak hours",
-        "Fewer delays"
-       ]
-      ]
-     },
-     {
-      "t": "p",
-      "html": "<strong>Checklist for choosing the right size each time</strong>"
-     },
-     {
-      "t": "ol",
-      "items": [
-       "Match burger height to the sleeve wall height before service begins",
-       "Confirm the sleeve covers the wrap seam line when lifted one-handed",
-       "Check that the face panel stays readable after bag insertion",
-       "Ensure the sleeve does not buckle at corners during a quick fold",
-       "Keep the size cartons arranged in the same order every shift"
-      ]
+      "html": "Once the dominant cause is identified, change one thing and retest. Changing board and barrier together works often enough, but it leaves you without knowing which one mattered, which makes the next specification harder rather than easier."
      }
     ]
    }

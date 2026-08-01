@@ -1681,64 +1681,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are small burger sleeves used for",
-    "a": "<p>Small burger sleeves are outer sleeves made for mini burgers and compact handheld items. They keep the wrap tight and make small portions easier to hold.</p>"
+    "q": "1. How do I measure a small burger for a sleeve?",
+    "a": "<p>Measure the finished item at service temperature with its wrap already on. Take width across the widest point, usually the crown rather than the base, and height at the tallest point. A cold, unassembled bun understates the finished size, and on a compact build that gap is proportionally large enough to make a sleeve bind.</p>"
    },
    {
-    "q": "2. Are small sleeves the same as slider sleeves",
-    "a": "<p>They are similar in purpose, but sizing depends on your bun diameter and wrapped height. Measuring the wrapped slider helps confirm the best fit.</p>"
+    "q": "2. Why do small sleeves seem to fit badly more often?",
+    "a": "<p>Because there is less margin. The same absolute amount of bun spread, wrap thickness or board caliper takes up a much larger share of a small sleeve's internal space than a large one. A measurement error of a few millimetres that a large sleeve absorbs will crush a small bun.</p>"
    },
    {
-    "q": "3. Why do catering menus use small sleeves",
-    "a": "<p>They help keep each mini burger uniform and easier to pick up from trays. This improves handling for guests and speeds service lines.</p>"
+    "q": "3. Does board thickness affect the internal size?",
+    "a": "<p>Yes, and it catches people out on compact formats. A heavier caliper occupies internal space, so switching to a stiffer board without adjusting the internal dimension effectively shrinks the sleeve. On a small format that reduction is proportionally significant. Specify internal dimensions, not just external ones.</p>"
    },
    {
-    "q": "4. Do small sleeves help with sampler portions",
-    "a": "<p>Yes, they control the presentation of small items and reduce wrap movement. This is useful when multiple flavors are served together.</p>"
+    "q": "4. How much clearance should I allow on a small sleeve?",
+    "a": "<p>There is no single figure, because it depends on how much your build settles and how stiff the board is. Give the supplier your measured burger dimensions and your intended clearance as separate numbers rather than one combined figure, so they can see which part is food and which is allowance.</p>"
    },
    {
-    "q": "5. Can small sleeves work for small chicken sandwiches",
-    "a": "<p>They can if the wrapped size matches the sleeve width and height. Testing with the thickest mini build helps confirm fit.</p>"
+    "q": "5. Are small sleeves suitable for kids' menu items?",
+    "a": "<p>They are a common use. Packaging that visibly matches the portion reads as a deliberate size rather than a short measure, which removes a recurring counter conversation. The size step also helps staff pick the right item quickly when a mixed family order is being assembled.</p>"
    },
    {
-    "q": "6. Do small sleeves improve grip for walking service",
-    "a": "<p>Yes, they give a clean outer hold zone that feels steadier than thin wrapping alone. This helps when guests eat while standing or moving.</p>"
+    "q": "6. Will a smaller sleeve save much storage space?",
+    "a": "<p>Per unit, yes, though the gain is often lost to poor storage. Small sleeves kept loose in a tray tangle, and staff pull several at once. Kept flat in a defined slot, the compact footprint lets a station hold a deeper stack in the same space allocated to a larger size.</p>"
    },
    {
-    "q": "7. How do I choose the correct small sleeve size",
-    "a": "<p>Measure the wrapped mini burger width and height, then add a small clearance for easy sliding. Avoid a loose fit that allows shifting.</p>"
+    "q": "7. Are small sleeves quicker to assemble?",
+    "a": "<p>Usually, because there is less panel to fold and a shorter distance for any tab to travel. The exception is a tight structural closure, where the small tolerances become fiddly during a rush. If speed matters, favour a simpler closure over a more engineered one on compact formats.</p>"
    },
    {
-    "q": "8. Do small sleeves handle greasy mini burgers",
-    "a": "<p>They can when grease resistant or barrier options are used. These choices help maintain firmness during normal eating time.</p>"
+    "q": "8. Can one sleeve cover both small and standard builds?",
+    "a": "<p>It can, but the small item will move inside it and will read as under-portioned. If the menu prices the two differently, a visible size step supports that difference. If the price is the same, a single size is simpler to stock and train around.</p>"
    },
    {
-    "q": "9. Is print visibility limited on small sleeves",
-    "a": "<p>There is less space, so bold logos and simple icons typically work best. Keeping designs clean improves readability.</p>"
+    "q": "9. Does a small sleeve need a different board weight?",
+    "a": "<p>A smaller sleeve carries less weight and spans a shorter distance, so it can often use a lighter caliper than a large format while staying stable. That is worth asking about, because it changes both cost and internal clearance.</p>"
    },
    {
-    "q": "10. Can small sleeves support order sorting",
-    "a": "<p>Yes, short icons or small markers can separate flavors. This helps when you serve mixed slider packs.</p>"
+    "q": "10. What should I send a supplier when ordering small sleeves?",
+    "a": "<p>The measured width and height of the finished, wrapped item at service temperature, your intended clearance stated separately, the board you have in mind, and a photograph of the assembled burger beside a ruler. The photograph resolves ambiguities that numbers alone leave open.</p>"
    },
    {
-    "q": "11. Are small sleeves useful for kids menus",
-    "a": "<p>They can be, because items are smaller and easier to hold. A compact sleeve keeps the wrap neat and controlled.</p>"
+    "q": "11. Should small sleeves look different from the standard size?",
+    "a": "<p>A visible difference helps in two ways. Customers read the portion correctly, and staff pick the right sleeve without checking. That can be a size step alone, or a colour or print variation, depending on how much you want to spend on separate artwork.</p>"
    },
    {
-    "q": "12. Do small sleeves work with inner greaseproof wraps",
-    "a": "<p>Yes, inner wraps manage food contact while the sleeve supports handling. This combination helps keep hands cleaner.</p>"
-   },
-   {
-    "q": "13. How should small sleeves be stored",
-    "a": "<p>Store flat and dry to prevent curling. Keeping stacks protected helps sleeves slide on cleanly.</p>"
-   },
-   {
-    "q": "14. What finish suits small sleeves",
-    "a": "<p>Matte finishes can improve text readability, while gloss can enhance color brightness. The best choice depends on design style.</p>"
-   },
-   {
-    "q": "15. What should be tested before finalizing small sleeves",
-    "a": "<p>Test fit on the widest mini burger, check grease appearance after a few minutes, and confirm the sleeve stays centered during carrying.</p>"
+    "q": "12. Do small sleeves need an inner wrap?",
+    "a": "<p>The wrap decision depends on the food rather than the sleeve size. A small burger with sauce or a juicy patty still benefits from a greaseproof inner layer. Remember to include the wrap thickness when measuring, because on a compact format it consumes noticeable clearance.</p>"
    }
   ],
   "images": [
@@ -1838,64 +1826,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are medium burger sleeves",
-    "a": "<p>Medium burger sleeves are outer sleeves sized for standard burgers found on most menus. They support a steady hold and keep wraps looking tidy during service.</p>"
+    "q": "1. What makes a medium sleeve different from just a mid-size sleeve?",
+    "a": "<p>It is usually specified to cover a range rather than a single item — the house burger, the cheeseburger, the chicken sandwich and rotating specials. That makes it a tolerance decision, defined by the smallest and largest builds it must accept, rather than a fit decision for one product.</p>"
    },
    {
-    "q": "2. Why are medium sleeves common in quick service",
-    "a": "<p>They match typical burger sizes and work well for routine packing. This makes them easy to integrate into daily counter workflow.</p>"
+    "q": "2. How do I work out the range one sleeve should cover?",
+    "a": "<p>Measure the extremes rather than the average. Assemble and wrap the smallest item the sleeve will hold and the largest, take width and height on both at service temperature, and treat those two figures as the boundaries the sleeve has to live between.</p>"
    },
    {
-    "q": "3. Can medium sleeves be used for sliders",
-    "a": "<p>They usually run larger than slider sizes, so fit may feel loose. For mini items, a dedicated small size sleeve is typically better.</p>"
+    "q": "3. Is some movement inside the sleeve acceptable?",
+    "a": "<p>Yes. A few millimetres of shift is normal, and a sleeve tight enough to prevent all movement is slow to load. What matters is which kind of movement it is: rotation turns your artwork away from the customer, axial slide exposes the wrap edge, and tilt lets toppings migrate.</p>"
    },
    {
-    "q": "4. Do medium sleeves suit dine in trays",
-    "a": "<p>Yes, they keep burgers easier to hold and reduce direct contact with the inner wrap. They also help items look uniform on trays.</p>"
+    "q": "4. How do I test whether a burger rotates inside the sleeve?",
+    "a": "<p>Load the smallest item in the range, hold the sleeve horizontally and turn it slowly. If the burger stays put and the sleeve turns around it, the fit is too loose at the bottom of your range. Rotation is usually the first fault a customer notices, because the printed face ends up somewhere unintended.</p>"
    },
    {
-    "q": "5. How do medium sleeves help takeaway orders",
-    "a": "<p>They create a stable grip area for customers and keep the wrap from shifting while carrying. A proper fit reduces sliding in pickup bags.</p>"
+    "q": "5. When should I add a second sleeve size?",
+    "a": "<p>When staff start double-wrapping certain items to stop them moving, when builds get sleeved and re-sleeved, or when delivery customers report packaging arriving open. Each of those is the range asking to be split, and the handling cost is usually already larger than the cost of a second size.</p>"
    },
    {
-    "q": "6. What menu items fit medium sleeves besides burgers",
-    "a": "<p>Chicken sandwiches, fish sandwiches, and grilled buns often fit when wrapped sizes are similar. Measuring the wrapped item helps confirm fit.</p>"
+    "q": "6. Is a bigger second size always the answer?",
+    "a": "<p>No. Sometimes the outlier sits at the small end and the cheaper fix is a compact format for the two or three items that rattle. Look at where the failures actually cluster before assuming you need to go up rather than down.</p>"
    },
    {
-    "q": "7. What board thickness works well for medium sleeves",
-    "a": "<p>Medium calipers usually provide a good balance of stiffness and easy handling. Heavier options may be used for larger standard burgers.</p>"
+    "q": "7. Does board caliper affect fit between production runs?",
+    "a": "<p>It can. A change in board thickness alters internal clearance even when the external dimensions are unchanged, and on a high-volume line that difference is noticeable across a service. Specify internal dimensions and confirm the caliper on each reorder.</p>"
    },
    {
-    "q": "8. Are medium sleeves helpful for saucy burgers",
-    "a": "<p>Yes, especially with grease resistant and barrier options. These choices help the sleeve stay firmer during normal eating time.</p>"
+    "q": "8. How should I check new stock against old?",
+    "a": "<p>Retain an approved physical sample from every run, and compare new stock against it before the old stock runs out. Doing it early gives you time to raise a discrepancy while you still have working packaging rather than finding out mid-shift.</p>"
    },
    {
-    "q": "9. Can medium sleeves include printed variant markers",
-    "a": "<p>Yes, icons or short text can be placed on visible faces. This helps staff separate items during busy service.</p>"
+    "q": "9. Should I re-check the size when the menu changes?",
+    "a": "<p>Yes. Patty weights drift, bakeries change bun specifications, and specials come and go. A sleeve approved against a menu eighteen months ago may no longer match what the kitchen produces. Record which items the size was signed off against so the review is quick.</p>"
    },
    {
-    "q": "10. Do medium sleeves work with foil wraps",
-    "a": "<p>Yes, sleeves are commonly used over foil wraps. The sleeve improves grip and presentation while the foil controls moisture.</p>"
+    "q": "10. Does a medium sleeve work for chicken and plant-based builds?",
+    "a": "<p>Often, but they should be measured rather than assumed. A chicken fillet can be wider and flatter than a beef patty, and some plant-based patties sit taller. Include them when you measure the extremes of the range instead of treating beef as representative.</p>"
    },
    {
-    "q": "11. What finish is practical for medium sleeves",
-    "a": "<p>Matte finishes can reduce glare and keep text readable. Gloss finishes can make colors appear brighter, depending on design goals.</p>"
+    "q": "11. Why does the same sleeve feel tighter in summer?",
+    "a": "<p>Paperboard responds to humidity, and a kitchen in warm weather is a more humid environment. Board that has absorbed moisture is slightly less stiff and can behave differently at the closure. Storing stock sealed and away from steam reduces the effect.</p>"
    },
    {
-    "q": "12. Can medium sleeves support faster packing",
-    "a": "<p>They can when sizing matches the burger build. Staff can slide the sleeve on quickly without reworking the wrap.</p>"
-   },
-   {
-    "q": "13. How should medium sleeves be stored",
-    "a": "<p>Keep stacks flat and protected from humidity. Closed cartons help maintain clean edges and consistent forming.</p>"
-   },
-   {
-    "q": "14. Are medium sleeves suitable for events",
-    "a": "<p>Yes, they work well for steady handoff at events and pop ups. They keep burgers easy to hold while guests move around.</p>"
-   },
-   {
-    "q": "15. What checks should be done before selecting medium sleeves",
-    "a": "<p>Check fit on your main burger, confirm grip feel, and review grease appearance after a few minutes. Also verify that the logo panel remains visible when held.</p>"
+    "q": "12. What is the most common medium-sleeve mistake?",
+    "a": "<p>Sizing it around the average build rather than the extremes. The average item fits perfectly, the smallest rattles and the largest crushes, and because most orders sit in the middle the problem is dismissed as occasional rather than structural.</p>"
    }
   ],
   "images": [
@@ -1999,64 +1975,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are large burger sleeves used for",
-    "a": "<p>Large burger sleeves are outer sleeves designed for bigger burgers that need more width and height. They help keep the wrapped item centered and easier to hold during serving.</p>"
+    "q": "1. Can I just scale up a standard sleeve dimension?",
+    "a": "<p>Not reliably. A larger sleeve spans a longer unsupported distance and carries more weight across it, and paperboard does not scale linearly. The caliper that holds a standard burger without complaint will often bow under a build half again as heavy, which loosens the closure.</p>"
    },
    {
-    "q": "2. When should I choose a large sleeve instead of a standard sleeve",
-    "a": "<p>Choose a large sleeve when burgers are tall, wide, or heavily filled with toppings. Extra clearance helps the sleeve slide on smoothly without forcing or creasing.</p>"
+    "q": "2. Why does my large sleeve open during delivery?",
+    "a": "<p>Usually because the base panel is bowing under the weight. As the base flexes downward the side walls pull inward at the top, releasing tension on the closure at the moment the load is greatest. It feels secure on the counter and opens in transit.</p>"
    },
    {
-    "q": "3. Do large sleeves help with heavy burgers",
-    "a": "<p>Yes, larger sleeves can reduce bending by giving more structure around the wrap. A firmer board choice also helps the sleeve stay straight while carrying.</p>"
+    "q": "3. Is a heavier board the only way to add rigidity?",
+    "a": "<p>No. A shorter unsupported span, a deeper side wall or a scored fold that stiffens the base edge can all add stiffness without moving to thicker stock. Which options are available depends on the run and the tooling, so ask rather than assuming a board change is the only route.</p>"
    },
    {
-    "q": "4. Can large sleeves be used for chicken sandwiches",
-    "a": "<p>They can, especially for thick chicken fillets and stacked buns. The sleeve size should match the wrapped width and height of the sandwich.</p>"
+    "q": "4. How do I allow for toppings that hang over the bun?",
+    "a": "<p>Measure width at the widest point of the finished build including overhang, not at the bun. Then look at the sleeve mouth shape — a square-cut opening catches an overhanging leaf or tomato slice during loading, while a relieved or curved mouth lets it slide past.</p>"
    },
    {
-    "q": "5. Do large sleeves work with inner wraps",
-    "a": "<p>Yes, they are typically applied over greaseproof paper or foil. The inner wrap handles direct contact while the sleeve provides grip and presentation.</p>"
+    "q": "5. At what point does a sleeve become two-handed?",
+    "a": "<p>It depends on hand size and on how deep the sleeve walls are, so there is no single figure. Test it with the people who will actually hand it over and the customers who will hold it, rather than predicting. If most testers support it from underneath, the grip zone needs rethinking.</p>"
    },
    {
-    "q": "6. How do I confirm the right large sleeve size",
-    "a": "<p>Measure the wrapped burger at the widest and tallest points, then add small clearance for easy sliding. Testing with the tallest build helps confirm fit.</p>"
+    "q": "6. What is the best way to test a large sleeve?",
+    "a": "<p>Load a real build, bag it with the rest of a typical order including a drink, carry it for the length of a normal delivery, then open it. Tilting inside a bag against other items is the condition that finds faults, and no amount of counter-top inspection reproduces it.</p>"
    },
    {
-    "q": "7. Will a larger sleeve slow down packing",
-    "a": "<p>Not when sizing is correct. A sleeve that fits properly can speed packing because staff do not need to adjust the wrap repeatedly.</p>"
+    "q": "7. Do large sleeves crack along the folds more often?",
+    "a": "<p>They can, because heavier board needs deeper creasing to fold cleanly and the folds are longer. Insufficient crease depth shows as cracking along the outer surface, which is most visible on dark or heavily printed artwork. Board caliper and crease depth should be specified together.</p>"
    },
    {
-    "q": "8. Do large sleeves help reduce wrap loosening",
-    "a": "<p>They can support the outer wrap and limit spreading during carrying. This is useful for burgers with tall toppings that press against the wrap.</p>"
+    "q": "8. Does a wider base need different support?",
+    "a": "<p>Yes. The base carries the full weight of the build across its span, and a wider base flexes more for the same board. That is where bowing starts, so if you are widening the sleeve, the base support is the first thing to review.</p>"
    },
    {
-    "q": "9. What material is best for large burger sleeves",
-    "a": "<p>SBS and coated boards are common for strength and print clarity. Heavier caliper options may be better for very large builds.</p>"
+    "q": "9. Should a large sleeve use a different closure?",
+    "a": "<p>It is worth reviewing. A closure that holds under a vertical load may release under a sideways one, and large builds spend more time tilted in bags. Test the closure in the carrying position rather than upright on a bench.</p>"
    },
    {
-    "q": "10. Can large sleeves include menu identifiers",
-    "a": "<p>Yes, larger panels make it easier to add icons or short text for variants. This supports order sorting during busy service.</p>"
+    "q": "10. Is sauce more of a problem on large builds?",
+    "a": "<p>Often, because overhanging toppings and heavier fillings put sauce closer to the sleeve edge, and there is more of it. A greaseproof inner wrap does the barrier work; the sleeve is a grip and presentation layer and should not be treated as a container.</p>"
    },
    {
-    "q": "11. Are large sleeves suitable for delivery orders",
-    "a": "<p>They can be used for delivery when paired with a tight inner wrap and stable bag handling. The sleeve adds structure that helps the item stay aligned.</p>"
+    "q": "11. How much clearance should a large sleeve have?",
+    "a": "<p>Enough that the build loads without forcing, but not so much that it slides once bagged. Give your measured width and height including overhang and wrap, plus your intended clearance as a separate figure, so the supplier can see which part is food and which is allowance.</p>"
    },
    {
-    "q": "12. Do large sleeves handle saucy burgers well",
-    "a": "<p>They can when grease resistant or barrier options are used. These choices help reduce softening and surface marks during normal holding time.</p>"
-   },
-   {
-    "q": "13. What print layouts work well on large sleeves",
-    "a": "<p>Front logo placement and simple patterns stay visible when held. Keep key artwork away from fold overlaps to maintain readability.</p>"
-   },
-   {
-    "q": "14. How should large sleeves be stored",
-    "a": "<p>Store flat in a dry area and keep cartons closed. This helps prevent edge bending and keeps stacks clean.</p>"
-   },
-   {
-    "q": "15. What should be tested before finalizing large sleeves",
-    "a": "<p>Test fit on the tallest burger, check appearance after several minutes, and confirm the sleeve stays aligned during carrying. Also check print visibility in real service lighting.</p>"
+    "q": "12. Will one large size cover all my premium builds?",
+    "a": "<p>Only if you measure the extremes rather than the average. Premium menus tend to vary more than standard ones, because specials and seasonal items change the build height. Measure the tallest and widest items you expect to run, not the typical one.</p>"
    }
   ],
   "images": [
@@ -2220,64 +2184,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are jumbo burger sleeves used for?",
-    "a": "<p>Jumbo burger sleeves are used for larger burger builds that require extra space and stronger support. They help maintain structure and make handling easier.</p>"
+    "q": "1. Why is height harder to design for than width?",
+    "a": "<p>A tall build has a high centre of gravity, so the sleeve resists a toppling force rather than simply containing a shape. Width can usually be extended without changing the structural problem; height changes what the sleeve is being asked to do, and making the sleeve bigger does not fix it.</p>"
    },
    {
-    "q": "2. Are jumbo burger sleeves suitable for large burgers?",
-    "a": "<p>Yes, they are specifically designed for oversized burgers, double patties, and loaded fillings that need additional wrap support.</p>"
+    "q": "2. How high should the sleeve walls come up the burger?",
+    "a": "<p>High enough that the top of the build is supported rather than swaying. A shallow sleeve on a tall burger acts as a band around the middle and lets the upper half move, which is how stacked toppings slide out. The trade-off is that taller walls use more board and begin to hide the food.</p>"
    },
    {
-    "q": "3. Do these sleeves help with grip?",
-    "a": "<p>The structure and material provide a firm grip, making it easier to hold large burgers without slipping during serving.</p>"
+    "q": "3. Can two sleeves with the same dimensions perform differently?",
+    "a": "<p>Yes, and on oversized formats the difference is obvious. Rigidity comes from caliper, fibre structure and geometry, not from dimension. One sleeve holds its shape when lifted, the other flexes and lets the build settle. Dimension gets specified carefully and rigidity often does not.</p>"
    },
    {
-    "q": "4. Can I customize the size of jumbo sleeves?",
-    "a": "<p>Yes, the size can be adjusted based on burger dimensions to ensure proper fit and easy handling.</p>"
+    "q": "4. Is fluted board worth considering for jumbo sleeves?",
+    "a": "<p>It is a common route, because a fluted construction adds stiffness for its weight compared with solid board of the same thickness. Whether it suits your build depends on the surface finish you want and the run size, so request samples rather than deciding from a description.</p>"
    },
    {
-    "q": "5. Are jumbo burger sleeves food safe?",
-    "a": "<p>They are made using food-grade materials that are safe for direct contact with food items.</p>"
+    "q": "5. Why does the closure release on a heavy build?",
+    "a": "<p>Usually because the base is bowing under the weight. As the base flexes, the side walls pull inward at the top and tension on the closure drops. Stiffening the base often solves it more effectively than redesigning the tab.</p>"
    },
    {
-    "q": "6. Do they support grease control?",
-    "a": "<p>Grease-resistant and barrier options are available to reduce oil transfer and keep handling clean.</p>"
+    "q": "6. How should I test a jumbo sleeve before ordering?",
+    "a": "<p>Load a full-height build, lift from the middle with one hand, repeat holding only the base, then bag it with a drink and carry it a realistic distance. Inspect the closure and walls afterwards. If it leans past a comfortable angle, try a taller wall before a thicker board.</p>"
    },
    {
-    "q": "7. Can I print my logo on jumbo burger sleeves?",
-    "a": "<p>Yes, sleeves can be printed with logos, branding elements, and custom artwork.</p>"
+    "q": "7. Do oversized builds need to be bagged separately?",
+    "a": "<p>Many operators do it. A tall item does not sit comfortably alongside fries and a drink and tends to lean, which transfers load onto one side wall — the least supported direction. Separate bagging avoids that at the cost of an extra bag per order.</p>"
    },
    {
-    "q": "8. What material options are available?",
-    "a": "<p>Options include kraft paperboard, white board, and coated paperboard depending on the required finish.</p>"
+    "q": "8. What information does a supplier need for an oversized sleeve?",
+    "a": "<p>Maximum finished height, width at the widest point, approximate weight of the build, and how it will be carried. Weight is the figure most often omitted and the one that most affects the board recommendation, because two sleeves at identical dimensions holding different weights are different specifications.</p>"
    },
    {
-    "q": "9. Are jumbo sleeves suitable for takeaway?",
-    "a": "<p>Yes, they are designed for takeaway service with easy handling and secure grip.</p>"
+    "q": "9. Why does the board crack along the folds on thick stock?",
+    "a": "<p>Heavier board needs deeper creasing to fold cleanly. If the crease depth is set for a lighter caliper, the outer surface splits along the fold as it closes. This is most visible on dark or heavily printed artwork, so crease depth should be specified alongside the board.</p>"
    },
    {
-    "q": "10. Do they come in flat-pack form?",
-    "a": "<p>Yes, jumbo burger sleeves are supplied flat-packed to save space and simplify storage.</p>"
+    "q": "10. Is a jumbo sleeve suitable for stacked-patty builds?",
+    "a": "<p>Sometimes, but the loading is different. A build that is tall because of piled toppings behaves differently from one that is tall because of stacked patties, which is denser and produces more grease. Review both formats before assuming the oversized option covers it.</p>"
    },
    {
-    "q": "11. Can these sleeves handle heavy fillings?",
-    "a": "<p>They are built with strong board options to support burgers with multiple layers and sauces.</p>"
+    "q": "11. Will a jumbo sleeve fit standard packaging trays?",
+    "a": "<p>That should be checked rather than assumed, because tray and bag dimensions are usually set around standard builds. Measure the assembled sleeve against the trays, bags and delivery boxes you already stock before committing to a run.</p>"
    },
    {
-    "q": "12. What printing styles can be used?",
-    "a": "<p>You can use single color, full color, or detailed print designs based on branding needs.</p>"
-   },
-   {
-    "q": "13. Are eco-friendly options available?",
-    "a": "<p>Recyclable and kraft material options are available for environmentally conscious packaging.</p>"
-   },
-   {
-    "q": "14. Can jumbo sleeves be used for other food items?",
-    "a": "<p>Yes, they can also be used for wraps, sandwiches, and other large food items.</p>"
-   },
-   {
-    "q": "15. Do they help maintain presentation?",
-    "a": "<p>They keep burgers centered and neat, improving presentation during serving and takeaway.</p>"
+    "q": "12. Does a taller sleeve always cost more?",
+    "a": "<p>More board area generally means more cost per unit, and heavier calipers add to that. Whether the increase is significant depends on run size and board choice. Ask for pricing on at least two board options at your dimensions so the rigidity gain can be weighed against the cost.</p>"
    }
   ],
   "images": [
@@ -2385,64 +2337,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are slider burger sleeves?",
-    "a": "<p>Slider burger sleeves are small paperboard sleeves made to hold mini burgers in a clean, easy to grip format. They sit over an inner wrap and help the slider stay centered during serving and eating.</p>"
+    "q": "1. Why does sizing a slider sleeve differ from sizing a standard one?",
+    "a": "<p>Because sliders are handled in multiples. A sleeve sized only against one burger, with no thought to what sits beside it on a tray, produces a crowded-looking platter even when the count is correct. External clearance between adjacent sleeves matters as much as the internal fit.</p>"
    },
    {
-    "q": "2. Why use sleeves for sliders instead of just wrapping paper?",
-    "a": "<p>Sleeves add structure around the wrap, which keeps mini burgers easier to handle. This is helpful when sliders are served in sets, on trays, or handed out quickly during events.</p>"
+    "q": "2. Should I size the sleeve from the burger or the tray?",
+    "a": "<p>For catering work, from the tray. Measure the internal width of the tray you already use, divide by the sliders you want per row, and that gives a maximum external sleeve width. Then check it reconciles with the burger measurement plus clearance. Finding a conflict on paper is far cheaper than after a run.</p>"
    },
    {
-    "q": "3. Which foods fit best in slider sleeves?",
-    "a": "<p>They are most commonly used for sliders, mini chicken sandwiches, small breakfast buns, and compact handheld builds. Fit depends on the wrapped width and height, especially when sliders include tall toppings.</p>"
+    "q": "3. How much gap should sit between sleeves on a tray?",
+    "a": "<p>Enough that adjacent sleeves do not press against each other and the row reads as deliberate. The exact figure depends on the tray and the portion count, so treat it as a value you choose during layout rather than a standard, and confirm it with a physical mock-up.</p>"
    },
    {
-    "q": "4. Do slider sleeves help with portion presentation?",
-    "a": "<p>Yes, they help each slider look more consistent by keeping the wrap aligned and the burger centered. This is useful for combo trays, sampler platters, and catering setups where appearance matters.</p>"
+    "q": "4. Will my logo work at slider size?",
+    "a": "<p>Often not without modification. A mark that reads at 90mm can smudge at 40mm, especially with fine strokes, a tagline or a registered symbol. Many brands keep a simplified variant for small applications — the symbol alone, or the wordmark without the strapline.</p>"
    },
    {
-    "q": "5. Can slider sleeves handle greasy or saucy mini burgers?",
-    "a": "<p>They can when grease resistant board or barrier options are selected. These choices help reduce oil transfer and keep the sleeve firmer during normal serving time.</p>"
+    "q": "5. Is four-colour printing worth it on a small sleeve?",
+    "a": "<p>Frequently not. In a small printed area, two well-chosen colours often read more clearly than four, and registration between more colours is harder to hold at small scale. Solid shapes survive reduction better than outlined ones.</p>"
    },
    {
-    "q": "6. How do I choose the correct size for slider sleeves?",
-    "a": "<p>Measure the slider after wrapping, then allow a small clearance so the sleeve slides on smoothly. If you serve multiple slider sizes, you may use two sleeve sizes to keep fit consistent.</p>"
+    "q": "6. How should I proof artwork for sliders?",
+    "a": "<p>Print at final size and judge it on paper. A logo inspected at 200% on a screen will always look acceptable, which is why small-format artwork so often disappoints on delivery. Hold the printed proof at normal viewing distance rather than close up.</p>"
    },
    {
-    "q": "7. Are slider sleeves useful for catering and events?",
-    "a": "<p>Yes, sliders are often served in high volume at events, and sleeves help speed up handoff while keeping handling cleaner. They also make it easier for guests to hold sliders while standing or moving.</p>"
+    "q": "7. Does assembly time matter more on sliders?",
+    "a": "<p>Yes, because it multiplies. Four seconds per sleeve is four seconds per order on a standard burger and twenty-four seconds when six sliders go out together — during the busiest part of a catering service. Time one sleeve and multiply by your usual portion count.</p>"
    },
    {
-    "q": "8. Do slider sleeves work with inner greaseproof sheets?",
-    "a": "<p>Yes, inner greaseproof sheets are commonly used for direct food contact, while the sleeve acts as the outer handling layer. This setup helps control moisture and keeps hands cleaner.</p>"
+    "q": "8. Can slider sleeves be pre-formed before service?",
+    "a": "<p>It depends entirely on the closure. Some structures hold their shape once formed and can be stacked ready to use; others spring back and must be assembled at the moment of use. That single property affects a catering service more than any other feature, so test it on samples.</p>"
    },
    {
-    "q": "9. Can slider sleeves include branding?",
-    "a": "<p>Yes, slider sleeves can be printed with logos, patterns, and small icons. Because the surface area is smaller, designs usually work best when kept bold and simple for readability.</p>"
+    "q": "9. Do sliders need the same board weight as full-size burgers?",
+    "a": "<p>Usually less, because the span is shorter and the load lighter. A lighter caliper can stay stable at slider dimensions, which reduces cost and leaves more internal clearance. Ask what calipers are offered at your dimensions rather than defaulting to the standard board.</p>"
    },
    {
-    "q": "10. Are slider sleeves good for takeaway orders?",
-    "a": "<p>They are useful for takeaway, especially when multiple sliders are packed together. Sleeves help keep each slider easy to grab without squeezing the bun or loosening the wrap.</p>"
+    "q": "10. How do I stop sliders rotating inside the sleeve?",
+    "a": "<p>Mini builds have less surface contact, so they rotate more easily than full-size ones. Reduce clearance at the bottom of your size range, and test by holding the sleeve horizontally and turning it. If the burger stays still while the sleeve turns, the fit is too loose.</p>"
    },
    {
-    "q": "11. Can slider sleeves help with order sorting?",
-    "a": "<p>Yes, you can add small printed identifiers or icon markers to separate flavors and variants. This is helpful when you offer mixed slider boxes with multiple options.</p>"
+    "q": "11. Are slider sleeves suitable for mixed platters?",
+    "a": "<p>They work well where portion counts are fixed and consistency matters, which is most catering. Where a platter mixes sliders with full-size items, check that both sleeve formats sit sensibly together on the same tray before ordering either.</p>"
    },
    {
-    "q": "12. What finish options are common for slider sleeves?",
-    "a": "<p>Matte and gloss finishes are common, depending on the look you want. Matte can reduce glare for small text, while gloss can make colors look brighter.</p>"
-   },
-   {
-    "q": "13. Do slider sleeves slow down packing?",
-    "a": "<p>Not when the size is correct and the sleeve is easy to slide on. Many kitchens find sleeves speed up packing because they reduce the need to rewrap or adjust the inner paper.</p>"
-   },
-   {
-    "q": "14. How should slider sleeves be stored?",
-    "a": "<p>Store sleeves flat in a clean, dry place and keep cartons closed. Flat storage helps sleeves stay crisp and ready for quick use during service.</p>"
-   },
-   {
-    "q": "15. What should be tested before using slider sleeves in service?",
-    "a": "<p>Test the sleeve fit on your tallest slider, check how it looks after a few minutes of holding, and confirm it stays aligned during handoff. Also confirm any printed markers remain visible after wrapping.</p>"
+    "q": "12. What is the most common slider packaging mistake?",
+    "a": "<p>Sizing the sleeve against a single burger and never laying six of them out together. The individual fit is fine, the tray is crowded or a row short, and the problem only appears at the first catering service after the stock has arrived.</p>"
    }
   ],
   "images": [
@@ -2542,64 +2482,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are double patty burger sleeves?",
-    "a": "<p>Double patty burger sleeves are sized and structured to hold taller, heavier burgers that include two patties and added toppings. They provide a stable grip area and help keep the burger aligned during handoff and eating.</p>"
+    "q": "1. What is the main difference between a double and a tall single build?",
+    "a": "<p>Grease volume. Two patties render roughly twice the fat, and it collects at the base of the sleeve rather than spreading evenly. A tall single build is a height problem; a double is a height problem and a saturation problem at the same time.</p>"
    },
    {
-    "q": "2. Why do double patty burgers need a different sleeve size?",
-    "a": "<p>Double patty builds are usually taller and wider after wrapping. A standard sleeve may pinch the burger or bend, so a larger size with proper clearance helps the sleeve stay straight and secure.</p>"
+    "q": "2. Where does grease cause the most trouble on a double?",
+    "a": "<p>The base panel. Fat runs down through the build and pools there, which is also where the sleeve carries the most weight. A sleeve can look clean around the sides while being soft underneath, and that softening is what leads to failure during carry.</p>"
    },
    {
-    "q": "3. Do these sleeves help with heavy toppings and sauces?",
-    "a": "<p>Yes, when grease control materials are chosen, the sleeve can stay firm and show fewer marks. The sleeve also gives customers a cleaner hold point when the burger includes melted cheese and sauces.</p>"
+    "q": "3. Does a barrier coating make a double-patty sleeve leakproof?",
+    "a": "<p>No, and it should not be described that way. A barrier treatment slows oil reaching and passing into the board, which buys time. On a heavy renderer the inner greaseproof wrap is doing most of the work. Both together keep the sleeve presentable through a meal.</p>"
    },
    {
-    "q": "4. What board thickness is best for double patty sleeves?",
-    "a": "<p>Heavier burgers often benefit from stiffer board. Thickness choice depends on burger weight, how long it is carried, and whether the sleeve needs extra rigidity for delivery and pickup service.</p>"
+    "q": "4. Why does the sleeve feel loose by the time the customer eats?",
+    "a": "<p>Because the build settles. The weight of the upper patty compresses everything below it, so a double that stands tall at the pass is shorter minutes later. Size the sleeve for loading height and accept that the fit relaxes, rather than trying to grip a height that keeps changing.</p>"
    },
    {
-    "q": "5. Can double patty sleeves reduce slipping during handoff?",
-    "a": "<p>They can by keeping the outer wrap more structured and centered. A proper fit helps prevent the sleeve from sliding down when the burger is lifted quickly.</p>"
+    "q": "5. Should I size for the assembled or the settled height?",
+    "a": "<p>For loading. A sleeve sized to the settled height will not accept the build in the first place, which slows the line and damages buns. Sizing for loading and allowing the fit to relax is the practical route.</p>"
    },
    {
-    "q": "6. Are double patty sleeves suitable for food trucks?",
-    "a": "<p>Yes, they work well in food trucks because they make heavy burgers easier to hand over cleanly. Stronger board options can improve reliability when service is fast.</p>"
+    "q": "6. Does settling change the width as well as the height?",
+    "a": "<p>Yes. As a stacked build compresses it spreads outward, so the sleeve becomes relatively shorter in one direction and tighter in another. Rigid walls resist that spread and hold the burger together; flexible walls follow it and let the build slump.</p>"
    },
    {
-    "q": "7. Do these sleeves work with inner wraps?",
-    "a": "<p>Yes, they are commonly used over greaseproof wraps or foil. The inner wrap controls direct contact and moisture, while the sleeve supports grip and presentation.</p>"
+    "q": "7. How do I test whether a sleeve holds up under grip?",
+    "a": "<p>Assemble a full double with your actual sauces and toppings, sleeve it, leave it standing for the time between pass and customer, then pick it up as a customer would and squeeze firmly for several minutes. Check your hand, the base panel and the wall shape afterwards.</p>"
    },
    {
-    "q": "8. Can double patty sleeves include vent details?",
-    "a": "<p>They can, depending on the sleeve style. Small vent features may help reduce steam buildup for very hot burgers, but the design should still keep enough strength for heavy items.</p>"
+    "q": "8. The base goes soft during service — board or barrier?",
+    "a": "<p>Usually both, but barrier first. If oil is reaching the board quickly, a heavier caliper only delays the same outcome. Address the inner wrap and any barrier treatment, then look at board weight if the sleeve still lacks stiffness when dry.</p>"
    },
    {
-    "q": "9. What printing works well on larger sleeves?",
-    "a": "<p>Larger sleeves provide more visible area, so you can place logos, patterns, and menu naming more clearly. Keep key branding on the main face that stays visible when the burger is held.</p>"
+    "q": "9. Why does the closure work loose on a double?",
+    "a": "<p>Commonly because the build settles and the base bows under the weight, which reduces tension at the tab. Adding board thickness sometimes helps, but where the geometry is the cause, the fix belongs in the tooling rather than the material.</p>"
    },
    {
-    "q": "10. Do larger sleeves slow down packing?",
-    "a": "<p>Not if the fold and fit are planned for your workflow. A well sized sleeve can actually speed packing because staff do not need to force it onto a tall burger.</p>"
+    "q": "10. Is a double-patty sleeve the same as an oversized sleeve?",
+    "a": "<p>Not quite. An oversized format is usually tall because of piled toppings, which is lighter and less greasy. A double is denser, heavier for its height and renders far more fat. The two need different board and barrier decisions even at similar dimensions.</p>"
    },
    {
-    "q": "11. Are these sleeves good for delivery orders?",
-    "a": "<p>They can be, especially when the burger is heavy and needs extra structure in a bag. Pairing with a stable inner wrap and proper bag handling improves results during transit.</p>"
+    "q": "11. Do I need a taller sleeve or a stiffer one?",
+    "a": "<p>Answer it by observation. If the build tips or the top sways, height is the issue. If the sleeve flexes when lifted or deforms under grip, stiffness is. Loading a sample and lifting it tells you which within a few seconds.</p>"
    },
    {
-    "q": "12. Can double patty sleeves support premium menu presentation?",
-    "a": "<p>Yes, they are often used for signature burgers where presentation matters. Finish choices can also influence the look, such as matte for low glare or gloss for brighter graphics.</p>"
-   },
-   {
-    "q": "13. How do I confirm the right size for my double patty burger?",
-    "a": "<p>Measure the wrapped burger at its widest and tallest points. Add a small allowance so the sleeve slides on without stress and still stays aligned during carrying.</p>"
-   },
-   {
-    "q": "14. How should double patty sleeves be stored?",
-    "a": "<p>Store flat in a dry space and keep stacks protected from humidity. Crisp edges and flat storage help sleeves form quickly and look clean during service.</p>"
-   },
-   {
-    "q": "15. What should be tested before final approval?",
-    "a": "<p>Test fit on your tallest burger, check grease appearance after several minutes, and confirm the sleeve stays firm during a short carry test. Also check that branding remains visible after wrapping.</p>"
+    "q": "12. What should I give a supplier when specifying for doubles?",
+    "a": "<p>Loading height and settled height if you can measure both, width at the widest point including wrap, approximate weight, and an honest description of how greasy the build is. The grease description changes the barrier recommendation as much as the dimensions change the board one.</p>"
    }
   ],
   "images": [

@@ -8,7 +8,7 @@ Authored copy lives in `scripts/content/*.mjs` and is merged by
 fails. Never hand-edit `src/data/product-content.json` for authored groups —
 edit the group file and re-run the merge.
 
-Last updated: 2026-08-01 · Styles group complete.
+Last updated: 2026-08-01 · Styles and Sizes groups complete (12 of 44 products).
 
 ## Status legend
 
@@ -28,16 +28,30 @@ Last updated: 2026-08-01 · Styles group complete.
 | TBS-034 | Die Cut Burger Sleeves | 1,247 | 14 | 3 | completed |
 | TBS-032 | Matte Finish Burger Sleeves | 1,800 | 15 | 4 | completed (kept existing copy; 3 mis-targeted anchors rewritten) |
 
-## Group 2 — Sizes (6) — pending
+## Group 2 — Sizes (6) — **completed**
 
-| SKU | Product | Current words | Action |
-| --- | --- | ---: | --- |
-| TBS-023 | Small Burger Sleeves | 1,416 | keep copy, rewrite link set + dedupe FAQs |
-| TBS-024 | Medium Burger Sleeves | 1,178 | expand to target, rewrite link set |
-| TBS-025 | Large Burger Sleeves | 1,368 | keep copy, link already corrected |
-| TBS-026 | Jumbo Burger Sleeves | 1,151 | expand to target, rewrite link set |
-| TBS-027 | Slider Burger Sleeves | 1,481 | keep copy, rewrite link set |
-| TBS-028 | Double Patty Burger Sleeves | 1,315 | keep copy, rewrite link set |
+All six were rewritten rather than patched. The inherited copy scored 7.3% on
+word-overlap similarity but was templated structurally — every page ran
+"[Size] Burger Sleeves That Keep …" followed by "[Size] Sleeves That …
+Stations/Orders …", and four of six carried a near-identical "size mapping"
+subsection. A heading-shape check was added to the audit to catch this class of
+duplication, which plain word similarity cannot see.
+
+| SKU | Product | Words (was → now) | FAQs | Links | Status |
+| --- | --- | --- | ---: | ---: | --- |
+| TBS-023 | Small Burger Sleeves | 1,416 → 1,289 | 12 | 3 | completed |
+| TBS-024 | Medium Burger Sleeves | 1,178 → 1,252 | 12 | 3 | completed |
+| TBS-025 | Large Burger Sleeves | 1,372 → 1,222 | 12 | 3 | completed |
+| TBS-026 | Jumbo Burger Sleeves | 1,151 → 1,235 | 12 | 3 | completed |
+| TBS-027 | Slider Burger Sleeves | 1,481 → 1,238 | 12 | 3 | completed |
+| TBS-028 | Double Patty Burger Sleeves | 1,315 → 1,222 | 12 | 3 | completed |
+
+Angles: Small measures a bun that spreads and treats portion as pricing; Medium
+is a tolerance problem across a menu range; Large is what added weight demands
+of the board; Jumbo makes height the limit and rigidity the answer; Slider is a
+multiples problem of trays, batches and tiny artwork; Double Patty is grease
+volume and settling compression.
+
 
 ## Group 3 — Special Uses (6) — pending
 

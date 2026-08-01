@@ -198,6 +198,25 @@ for (let i = 0; i < intros.length; i++)
     if (s > 0.2) introPairs.push({ a: intros[i].name, b: intros[j].name, s });
   }
 
+// Structural templating: word-overlap similarity misses pages whose headings
+// share a grammar with only the product noun swapped ("Small Burger Sleeves
+// That Keep …" / "Medium Burger Sleeves That Keep …"). Skeletonise each heading
+// by removing product-specific nouns and compare the shapes.
+const PRODUCT_WORDS = new Set(
+  products
+    .flatMap((p) => p.name.toLowerCase().split(/\s+/))
+    .concat(['sleeve', 'sleeves', 'burger', 'burgers'])
+);
+const skeleton = (h) =>
+  h
+    .toLowerCase()
+    .replace(/[^a-z ]/g, '')
+    .split(/\s+/)
+    .filter((w) => w && !PRODUCT_WORDS.has(w))
+    .join(' ');
+const skelCount = count(docs.flatMap((d) => d.d.headings.map(skeleton)).filter((s) => s.split(' ').length > 2));
+const templatedHeads = Object.entries(skelCount).filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
+
 const dupHead = Object.entries(allHeads).filter(([, n]) => n > 1);
 const dupPara = Object.entries(allParas).filter(([, n]) => n > 1);
 const dupAnchor = Object.entries(allAnchors).filter(([, n]) => n > 1);
@@ -244,6 +263,7 @@ reads as spun or templated at the paragraph level.
 | Anchor texts reused across pages | ${dupAnchor.length} | ${dupAnchor.length ? 'vary' : 'clean'} |
 | FAQ questions asked on more than one page | ${dupFaq.length} | ${dupFaq.length ? 'rewrite' : 'clean'} |
 | Near-duplicate opening paragraphs | ${introPairs.length} | ${introPairs.length ? 'rewrite' : 'clean'} |
+| **Heading shapes reused once product nouns are removed** | **${templatedHeads.length}** | ${templatedHeads.length ? 'rewrite — structural templating' : 'clean'} |
 
 ### Internal-link shape
 
@@ -253,6 +273,18 @@ mass-generation signal in the current set:
 ${Object.entries(linkShapes)
   .map(([k, n]) => `- \`${k}\` — ${n} page${n === 1 ? '' : 's'}`)
   .join('\n')}
+
+### Templated heading shapes
+
+Headings with the product noun stripped out. A shape appearing on more than one
+page means the sentence was reused with only the product name changed — the
+signal plain word-overlap similarity cannot see.
+
+${
+  templatedHeads.length
+    ? `| Heading shape | Pages |\n| --- | ---: |\n${templatedHeads.slice(0, 15).map(([h, n]) => `| ${h} | ${n} |`).join('\n')}`
+    : 'None.'
+}
 
 ### Repeated FAQ questions
 
@@ -295,4 +327,5 @@ console.log(`repeated paragraphs       : ${dupPara.length}`);
 console.log(`reused anchors            : ${dupAnchor.length}`);
 console.log(`duplicate FAQ questions   : ${dupFaq.length}`);
 console.log(`near-duplicate intros     : ${introPairs.length}`);
+console.log(`templated heading shapes  : ${templatedHeads.length}`);
 console.log(`identical link shapes     : ${JSON.stringify(linkShapes)}`);

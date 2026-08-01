@@ -215,7 +215,23 @@ const csv = (rs) => {
     '\n'
   );
 };
-await writeFile(join(OUT, 'OLD_INTERNAL_LINK_BASELINE.csv'), csv(rows));
+// The baseline is a pre-upgrade snapshot and must not drift as content lands.
+// Re-running this after a content group would silently overwrite it with the
+// post-upgrade state and make the preservation report meaningless.
+const baselinePath = join(OUT, 'OLD_INTERNAL_LINK_BASELINE.csv');
+const force = process.argv.includes('--force');
+let frozen = false;
+try {
+  await access(baselinePath);
+  frozen = !force;
+} catch {
+  /* first run */
+}
+if (frozen) {
+  console.log('baseline already captured — left untouched (pass --force to overwrite)');
+} else {
+  await writeFile(baselinePath, csv(rows));
+}
 
 const byType = rows.reduce((m, r) => ((m[r.type] = (m[r.type] ?? 0) + 1), m), {});
 const bad = rows.filter((r) => r.status === '404');

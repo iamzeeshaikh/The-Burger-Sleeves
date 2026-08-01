@@ -12,8 +12,8 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | Products | 44 |
 | With long-form copy | 25 |
 | **Missing long-form copy** | **19** |
-| Below the 1,200-word target | 15 |
-| Total long-form words | 29,208 |
+| Below the 1,200-word target | 13 |
+| Total long-form words | 28,742 |
 
 ## Similarity between pages that already have copy
 
@@ -24,11 +24,11 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | 3 | Cardboard Burger Sleeves | Paper Burger Sleeves | 6.1% |
 | 4 | Kraft Burger Sleeves | Eco Friendly Burger Sleeves | 5.2% |
 | 5 | Paper Burger Sleeves | Corrugated Burger Sleeves | 5.1% |
-| 6 | Jumbo Burger Sleeves | Double Patty Burger Sleeves | 4.7% |
-| 7 | Small Burger Sleeves | Slider Burger Sleeves | 4.3% |
-| 8 | Kraft Burger Sleeves | Street Food Burger Sleeves | 4.1% |
-| 9 | Kraft Burger Sleeves | Restaurant Burger Sleeves | 4.0% |
-| 10 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
+| 6 | Kraft Burger Sleeves | Street Food Burger Sleeves | 4.1% |
+| 7 | Kraft Burger Sleeves | Restaurant Burger Sleeves | 4.0% |
+| 8 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
+| 9 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
+| 10 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
 
 Highest pair is **7.3%**. Nothing in the existing set
 reads as spun or templated at the paragraph level.
@@ -38,20 +38,29 @@ reads as spun or templated at the paragraph level.
 | Check | Count | Verdict |
 | --- | ---: | --- |
 | Headings used on more than one page | 0 | clean |
-| Paragraphs appearing on more than one page | 1 | rewrite |
-| Anchor texts reused across pages | 1 | vary |
+| Paragraphs appearing on more than one page | 0 | clean |
+| Anchor texts reused across pages | 0 | clean |
 | FAQ questions asked on more than one page | 2 | rewrite |
 | Near-duplicate opening paragraphs | 0 | clean |
+| **Heading shapes reused once product nouns are removed** | **0** | clean |
 
 ### Internal-link shape
 
 Every page with copy uses the identical link pattern, which is the clearest
 mass-generation signal in the current set:
 
-- `category+product+product+product` — 19 pages
-- `product+product+product+product` — 1 page
-- `product+product+product` — 3 pages
+- `category+product+product+product` — 14 pages
+- `product+product+product` — 8 pages
+- `product+category+product` — 1 page
 - `product+product+category` — 2 pages
+
+### Templated heading shapes
+
+Headings with the product noun stripped out. A shape appearing on more than one
+page means the sentence was reused with only the product name changed — the
+signal plain word-overlap similarity cannot see.
+
+None.
 
 ### Repeated FAQ questions
 
@@ -62,9 +71,7 @@ mass-generation signal in the current set:
 
 ### Reused anchor text
 
-| Anchor | Pages |
-| --- | ---: |
-| compact wrap coverage | 2 |
+None.
 
 ## Products with no long-form copy
 
@@ -96,8 +103,6 @@ mass-generation signal in the current set:
 - TBS-004 — Corrugated Burger Sleeves: 1005 words
 - TBS-005 — Recycled Burger Sleeves: 1096 words
 - TBS-006 — Eco Friendly Burger Sleeves: 932 words
-- TBS-024 — Medium Burger Sleeves: 1178 words
-- TBS-026 — Jumbo Burger Sleeves: 1151 words
 - TBS-029 — Kraft Brown Burger Sleeves: 1012 words
 - TBS-030 — White Burger Sleeves: 886 words
 - TBS-033 — Gloss Finish Burger Sleeves: 815 words
