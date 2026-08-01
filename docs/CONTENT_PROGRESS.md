@@ -8,7 +8,7 @@ Authored copy lives in `scripts/content/*.mjs` and is merged by
 fails. Never hand-edit `src/data/product-content.json` for authored groups —
 edit the group file and re-run the merge.
 
-Last updated: 2026-08-01 · Styles and Sizes groups complete (12 of 44 products).
+Last updated: 2026-08-01 · Styles, Sizes and Special Uses complete (18 of 44 products).
 
 ## Status legend
 
@@ -53,16 +53,27 @@ multiples problem of trays, batches and tiny artwork; Double Patty is grease
 volume and settling compression.
 
 
-## Group 3 — Special Uses (6) — pending
+## Group 3 — Special Uses (6) — **completed**
 
-| SKU | Product | Current words | Action |
-| --- | --- | ---: | --- |
-| TBS-035 | Restaurant Burger Sleeves | 1,368 | keep copy, rewrite link set |
-| TBS-036 | Food Truck Burger Sleeves | 1,326 | keep copy, dedupe FAQ |
-| TBS-037 | Cafe Burger Sleeves | 1,200 | keep copy, dedupe FAQ |
-| TBS-038 | Street Food Burger Sleeves | 1,076 | expand to target |
-| TBS-039 | Promotional Burger Sleeves | 1,102 | expand to target |
-| TBS-040 | Event Burger Sleeves | 935 | expand to target |
+Same structural template as the Sizes group ("[Use] Burger Sleeves For/That …"
+then "[Use] Sleeves That …"), so all six were rewritten rather than patched.
+
+| SKU | Product | Words (was → now) | FAQs | Links | Status |
+| --- | --- | --- | ---: | ---: | --- |
+| TBS-035 | Restaurant Burger Sleeves | 1,368 → 1,284 | 12 | 3 | completed |
+| TBS-036 | Food Truck Burger Sleeves | 1,326 → 1,205 | 12 | 3 | completed |
+| TBS-037 | Cafe Burger Sleeves | 1,200 → 1,220 | 12 | 3 | completed |
+| TBS-038 | Street Food Burger Sleeves | 1,076 → 1,201 | 13 | 3 | completed |
+| TBS-039 | Promotional Burger Sleeves | 1,102 → 1,267 | 12 | 3 | completed |
+| TBS-040 | Event Burger Sleeves | 935 → 1,221 | 13 | 3 | completed |
+
+Angles: Restaurant is pass-to-table flow, order identification and multi-site
+consistency; Food Truck is cubic storage, hatch assembly and weather; Cafe is a
+hot menu inside a drinks business and matching an existing counter set; Street
+Food is eating standing up with sauce as the dominant constraint; Promotional
+is a campaign with an end date, QR mechanics and artwork zoning; Event is guest
+counting, sponsor marks, multi-station splits and leftovers.
+
 
 ## Group 4 — Customized (8) — pending
 
@@ -106,10 +117,10 @@ TBS-044 Fast Food Sleeves Packaging.
 
 | Defect | Where | Cleared by |
 | --- | --- | --- |
-| Duplicate FAQ "how do i choose the right sleeve size?" | TBS-041, TBS-032, TBS-037 | groups 3 and 7 |
-| Duplicate FAQ "…for my menu?" | TBS-044, TBS-036 | groups 3 and 7 |
-| Identical `category+product+product+product` link shape | 19 pages not yet rewritten | each owning group |
-| 1 repeated paragraph, 1 reused anchor | pages not yet rewritten | flagged in CONTENT_DUPLICATION_REPORT.md |
+| ~~Duplicate FAQ "how do i choose the right sleeve size?"~~ | cleared — TBS-037 rewritten, TBS-032 reworded to a matte-specific question | done |
+| ~~Duplicate FAQ "…for my menu?"~~ | cleared — TBS-036 rewritten | done |
+| Identical `category+product+product+product` link shape | 8 pages not yet rewritten (was 19) | each owning group |
+| ~~1 repeated paragraph, 1 reused anchor~~ | cleared | done |
 
 ## Invariants that must hold at every checkpoint
 

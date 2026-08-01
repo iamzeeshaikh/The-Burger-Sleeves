@@ -12,8 +12,8 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | Products | 44 |
 | With long-form copy | 25 |
 | **Missing long-form copy** | **19** |
-| Below the 1,200-word target | 13 |
-| Total long-form words | 28,742 |
+| Below the 1,200-word target | 10 |
+| Total long-form words | 29,133 |
 
 ## Similarity between pages that already have copy
 
@@ -24,11 +24,11 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | 3 | Cardboard Burger Sleeves | Paper Burger Sleeves | 6.1% |
 | 4 | Kraft Burger Sleeves | Eco Friendly Burger Sleeves | 5.2% |
 | 5 | Paper Burger Sleeves | Corrugated Burger Sleeves | 5.1% |
-| 6 | Kraft Burger Sleeves | Street Food Burger Sleeves | 4.1% |
-| 7 | Kraft Burger Sleeves | Restaurant Burger Sleeves | 4.0% |
-| 8 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
-| 9 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
-| 10 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
+| 6 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
+| 7 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
+| 8 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
+| 9 | Corrugated Burger Sleeves | Eco Friendly Burger Sleeves | 3.7% |
+| 10 | Paper Burger Sleeves | Recycled Burger Sleeves | 3.6% |
 
 Highest pair is **7.3%**. Nothing in the existing set
 reads as spun or templated at the paragraph level.
@@ -40,7 +40,7 @@ reads as spun or templated at the paragraph level.
 | Headings used on more than one page | 0 | clean |
 | Paragraphs appearing on more than one page | 0 | clean |
 | Anchor texts reused across pages | 0 | clean |
-| FAQ questions asked on more than one page | 2 | rewrite |
+| FAQ questions asked on more than one page | 0 | clean |
 | Near-duplicate opening paragraphs | 0 | clean |
 | **Heading shapes reused once product nouns are removed** | **0** | clean |
 
@@ -49,8 +49,8 @@ reads as spun or templated at the paragraph level.
 Every page with copy uses the identical link pattern, which is the clearest
 mass-generation signal in the current set:
 
-- `category+product+product+product` — 14 pages
-- `product+product+product` — 8 pages
+- `category+product+product+product` — 8 pages
+- `product+product+product` — 14 pages
 - `product+category+product` — 1 page
 - `product+product+category` — 2 pages
 
@@ -64,10 +64,7 @@ None.
 
 ### Repeated FAQ questions
 
-| Question | Pages |
-| --- | ---: |
-| how do i choose the right sleeve size? | 3 |
-| how do i choose the right sleeve size for my menu? | 2 |
+None.
 
 ### Reused anchor text
 
@@ -107,6 +104,3 @@ None.
 - TBS-030 — White Burger Sleeves: 886 words
 - TBS-033 — Gloss Finish Burger Sleeves: 815 words
 - TBS-034 — Die Cut Burger Sleeves: 1017 words
-- TBS-038 — Street Food Burger Sleeves: 1076 words
-- TBS-039 — Promotional Burger Sleeves: 1102 words
-- TBS-040 — Event Burger Sleeves: 935 words

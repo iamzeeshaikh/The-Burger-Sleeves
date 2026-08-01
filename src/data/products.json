@@ -3106,8 +3106,8 @@
     "a": "<p>They are commonly used for burgers, sliders, stacked sandwiches, and some wrap style items when sized correctly. They can also work for grilled sandwiches and breakfast sandwiches. Fit depends on the product width, height, and how it is wrapped.</p>"
    },
    {
-    "q": "5. How do I choose the right sleeve size?",
-    "a": "<p>Measure the wrapped burger width and height, then allow a small clearance so the sleeve slides on smoothly. Taller burgers need extra height allowance to prevent bending. Correct sizing helps the sleeve look straight and makes packing faster.</p>"
+    "q": "5. Does a matte finish change how the sleeve size should be chosen?",
+    "a": "<p>Not in itself. Sizing is driven by the finished build — width, height and wrap thickness — rather than by the surface treatment. What a matte coating can affect slightly is how easily the sleeve slides on, since a low-sheen surface has marginally more friction than a gloss one. If a fit is already tight, test it on a coated sample rather than an uncoated one.</p>"
    },
    {
     "q": "6. What material is used for matte finish burger sleeves?",
@@ -6115,64 +6115,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are die cut burger sleeves?",
-    "a": "<p>Die cut burger sleeves are paperboard sleeves made with a shaped cutting pattern and fold lines so they form a consistent wrap around a burger. The cut profile helps the sleeve sit straighter and close more neatly than basic wraps. Many formats also include a locking detail that keeps the sleeve from shifting during handoff.</p>"
+    "q": "1. How is a dine-in sleeve different from a takeaway one?",
+    "a": "<p>It is inspected far more closely. A dine-in sleeve is looked at in good light, from a seated position, for the length of a meal. Creases, an unseated tab or a burger sitting off-centre are all visible on a table and invisible in a paper bag. Seating and centring matter more than raw strength.</p>"
    },
    {
-    "q": "2. What makes die cut sleeves better for fast service?",
-    "a": "<p>Die cut sleeves follow a repeatable fold path, so staff do not have to guess where to crease or how to align the edges. This reduces handling time during rush hours and keeps presentation consistent across orders. The shaped closure also helps the sleeve stay in position after packing.</p>"
+    "q": "2. How can servers tell burgers apart on a tray?",
+    "a": "<p>The reliable methods are a different sleeve colour per build or a printed icon on a panel readable from above. Stickers applied at the pass add a step and can peel on grease. Marker pen and tucked paper tickets both look improvised and fail in service. Whatever you choose has to be readable looking down at a tray.</p>"
    },
    {
-    "q": "3. Which foods work best with die cut burger sleeves?",
-    "a": "<p>They are commonly used for burgers, sliders, chicken sandwiches, and stacked handheld items. They can also be sized for grilled sandwiches and breakfast builds when height clearance is planned correctly. The best results come from measuring the wrapped product and choosing a sleeve that closes without strain.</p>"
+    "q": "3. Should each menu item have its own sleeve size?",
+    "a": "<p>Usually not. Every additional size is another stock line, storage slot and decision at the pass. Group builds by their limiting dimension rather than by menu category — a chicken sandwich and a beef burger may share a sleeve while two beef burgers of different heights may not.</p>"
    },
    {
-    "q": "4. Do die cut sleeves help with messy and saucy burgers?",
-    "a": "<p>Yes, when the board and barrier are selected for greasy foods, the sleeve can stay firmer and show fewer oil marks during normal serving time. The sleeve also gives customers a cleaner grip area while the inner wrap manages direct contact. This combination helps keep hands cleaner and improves handling comfort.</p>"
+    "q": "4. How do I specify a sleeve across several restaurant sites?",
+    "a": "<p>Ask each site to assemble the same item at normal service pace, measure all of them wrapped, and set the specification against the largest rather than the average. A sleeve sized to a perfectly built burger will be too tight in the busiest kitchen.</p>"
    },
    {
-    "q": "5. What are tuck tabs and lock slots in die cut sleeves?",
-    "a": "<p>Tuck tabs are small shaped flaps that slide into a slot or fold behind a panel to hold the sleeve closed. Lock slots are the receiving cuts that help the tab sit securely. These features keep the sleeve from opening too easily while the burger is being carried.</p>"
+    "q": "5. Why do burgers arrive at the table sitting crooked?",
+    "a": "<p>Usually the fit is loose enough to allow rotation during the floor walk. Test by loading a build, holding the sleeve horizontally and turning it slowly. If the burger stays put while the sleeve rotates around it, the clearance at the bottom of your range is too generous.</p>"
    },
    {
-    "q": "6. Can die cut sleeves include grip notches?",
-    "a": "<p>Yes, grip notches are a common feature that creates a more natural hold point for customers. Notches can also help staff slide the sleeve on smoothly during packing. Placement is usually planned around burger height so the notch sits where the hand naturally rests.</p>"
+    "q": "6. How do I keep brand colour consistent across locations?",
+    "a": "<p>Keep a retained physical sample from the approved run as the reference rather than a digital swatch, and check every reorder against it. Colour approved at one site and reprinted a year later for another can drift enough to be visible when both appear in the same photograph.</p>"
    },
    {
-    "q": "7. Can die cut sleeves be made with a display opening?",
-    "a": "<p>Some die cut layouts include a small opening or window style cutout to show part of the wrap or label area. This can help with product visibility and menu identification. The opening size should be balanced so the sleeve still stays strong around heavier items.</p>"
+    "q": "7. Is a bespoke sleeve worth it for a restaurant?",
+    "a": "<p>More often than for takeaway-only operations, because the packaging sits on a table inside a room you have already spent money designing. Bespoke should mean specified rather than elaborate — dimensional fit, a board that holds shape through a floor walk, and print that matches the room come before structural features.</p>"
    },
    {
-    "q": "8. Do die cut sleeves support better portion consistency?",
-    "a": "<p>They can, because a correctly sized sleeve sets a clear boundary for how the wrapped burger should sit. This helps keep the product centered and reduces loose wrapping on the outside. It also improves how the burger looks on trays and in takeaway bags.</p>"
+    "q": "8. What should be written into a menu item specification?",
+    "a": "<p>The sleeve size, alongside the build itself. If staff have to judge which sleeve an item takes during a rush, they hesitate or reach for the larger one to be safe. Recording it when a dish is created costs nothing and removes the decision.</p>"
    },
    {
-    "q": "9. What materials are commonly used for die cut burger sleeves?",
-    "a": "<p>Common choices include SBS board for crisp folds and print clarity, kraft board for a natural look, and recycled content board where suitable for food packaging. Material selection affects stiffness and how well the sleeve holds its form. Thicker board is often used for heavier burgers.</p>"
+    "q": "9. How often should sleeve sizing be reviewed?",
+    "a": "<p>Whenever the menu changes or a bun or patty supplier changes, rather than on a calendar. Drift comes from supply changes more than from time, and a sleeve approved against a build that has since altered will show the mismatch during service.</p>"
    },
    {
-    "q": "10. Can die cut sleeves be printed with branding?",
-    "a": "<p>Yes, printing can be placed on the main faces that stay visible after folding, which helps logos remain readable in hand. Designs are usually planned around the fold lines so key artwork does not get hidden on overlaps. High contrast text and simple icons often work well for menu labeling.</p>"
+    "q": "10. Do sleeves work for plated dine-in service?",
+    "a": "<p>They are used both ways. On a plate the sleeve keeps the build together while the customer picks it up and gives a clean grip surface. Whether it suits the presentation is a judgement about the room rather than a packaging question, so it is worth trialling on a few covers first.</p>"
    },
    {
-    "q": "11. Which finishes can be used on die cut sleeves?",
-    "a": "<p>Matte and gloss surfaces are common, and spot UV can be used on selected areas when you want a highlight effect. Finish choice can also affect scuff resistance during stacking and transport. The best option depends on handling conditions and how bold the artwork is.</p>"
+    "q": "11. What board suits a restaurant sleeve?",
+    "a": "<p>Enough stiffness to hold the build square through a floor walk without feeling heavy in the hand. Give the supplier your build dimensions, weight and how far the sleeve travels between pass and table, and ask what calipers they would recommend for that combination.</p>"
    },
    {
-    "q": "12. Are die cut sleeves suitable for takeaway and delivery?",
-    "a": "<p>They are widely used for takeaway because the closure helps the sleeve stay aligned during carrying. For delivery, sleeves work best when paired with an inner wrap and a stable bag setup that limits movement. This helps the burger stay centered and reduces sleeve shifting.</p>"
-   },
-   {
-    "q": "13. Do die cut sleeves help reduce order mix ups?",
-    "a": "<p>They can when the sleeve design includes a clear label panel or printed markers for menu variants. This makes it easier for staff to separate items such as spicy, cheese, or double patty builds. Clear identification supports faster handoff and fewer mistakes during peak hours.</p>"
-   },
-   {
-    "q": "14. How should die cut burger sleeves be stored?",
-    "a": "<p>Store them flat in a dry, clean area away from heat and humidity so the cut edges stay crisp and the folds remain accurate. Keep cartons closed to reduce dust and prevent edge damage. Good storage helps sleeves form cleanly during service.</p>"
-   },
-   {
-    "q": "15. What should be checked before finalizing a die cut sleeve?",
-    "a": "<p>Check product dimensions after wrapping, grease level, and whether the closure stays secure without forcing. Confirm that the fold lines create a neat front face for branding and that any notch or opening does not weaken the sleeve. A simple packing test with real menu items helps confirm fit and speed.</p>"
+    "q": "12. Can the same sleeve serve dine-in and takeaway?",
+    "a": "<p>Often yes, though the demands differ. Takeaway needs a closure that holds under a sideways load in a bag; dine-in needs a clean face panel and accurate centring. A sleeve meeting both is common, but test it in a bag as well as on a table before committing.</p>"
    }
   ],
   "images": [
@@ -6272,64 +6260,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are food truck burger sleeves?",
-    "a": "<p>Food truck burger sleeves are paperboard wraps used as an outer layer around burgers that are already wrapped in burger paper or placed in a small inner sheet. They make the burger easier to hold, help keep the wrap stable, and improve presentation during quick handoff. They are designed for fast moving service where customers often eat soon after receiving the order.</p>"
+    "q": "1. How much storage space do sleeves take on a truck?",
+    "a": "<p>It depends entirely on whether they ship flat or pre-formed — pre-formed cases occupy several times the volume of the same count shipped flat. Ask for case external dimensions and units per case at quotation and check them against your actual space before agreeing a quantity.</p>"
    },
    {
-    "q": "2. Why do food trucks use burger sleeves instead of full boxes?",
-    "a": "<p>Sleeves take less space than many box styles and can be applied quickly during rush periods. They still add structure and a clean grip area without adding a bulky pack. Many food trucks choose sleeves when speed, storage space, and easy handoff are priorities.</p>"
+    "q": "2. Should I order larger cases for a better unit price?",
+    "a": "<p>Only if the case physically fits and can be stored safely. A better price on a bigger case is not a saving if it blocks a walkway or will not go through the door. Case dimensions and stackability matter as much as the price break.</p>"
    },
    {
-    "q": "3. Which burger types work best with sleeves?",
-    "a": "<p>Sleeves work well with standard burgers, smashed burgers, sliders, and thicker stacked builds when the sleeve size is planned correctly. The key is matching the sleeve width and height to the burger footprint and wrap thickness. For very tall burgers, a higher wall sleeve helps prevent the top edge from bending.</p>"
+    "q": "3. What makes a sleeve workable at a service hatch?",
+    "a": "<p>Single-motion assembly. The test is whether it can be opened and loaded without setting anything else down, and while looking at a customer rather than at the packaging. A sleeve needing two hands and full attention gets abandoned within a few weeks however good it looks.</p>"
    },
    {
-    "q": "4. Do sleeves help with greasy or saucy burgers?",
-    "a": "<p>Yes, when the board and barrier are selected for oily foods, sleeves can reduce visible grease marks and keep the outer wrap firmer in the hand. This supports a cleaner customer experience and improves grip. Barrier selection matters most for burgers with sauces, butter heavy buns, or high fat fillings.</p>"
+    "q": "4. How should I test a sleeve for truck service?",
+    "a": "<p>Give samples to the person who actually works the window, not the owner. Have them assemble ten while talking to someone, then repeat with warm greasy hands. If more than one in ten needs a second attempt at the closure, simplify the structure before ordering.</p>"
    },
    {
-    "q": "5. How do I choose the right sleeve size for my menu?",
-    "a": "<p>Measure the burger width and height after wrapping, then add a small clearance so the sleeve slides on without forcing. If your burgers vary by toppings, base the sizing on your tallest build. A correct fit helps the sleeve stay straight and reduces cracking during busy service.</p>"
+    "q": "5. Does humidity affect sleeves on a truck?",
+    "a": "<p>Yes. Paperboard absorbs moisture from damp air, which softens it, so a sleeve that folded crisply in the morning can feel limp by evening. Keeping cases sealed until needed and storing them away from open vents reduces the effect considerably.</p>"
    },
    {
-    "q": "6. What materials are commonly used for burger sleeves?",
-    "a": "<p>Common choices include SBS paperboard for clean print clarity, kraft paperboard for a natural look, and recycled content board where suitable for food contact. Material choice affects stiffness, surface feel, and how print looks on the sleeve. Board thickness is usually chosen based on burger weight and how long it is held.</p>"
+    "q": "6. Does hot weather change how sleeves perform?",
+    "a": "<p>It speeds up grease absorption, because heat thins fat and it moves into the fibre faster. A build that holds up indoors can mark a sleeve outdoors in half the time. On sauce-heavy menus in summer, the barrier decision does more work than the board decision.</p>"
    },
    {
-    "q": "7. Can food truck burger sleeves handle steam and warmth?",
-    "a": "<p>Sleeves are meant for warm items and short service time handling. A slightly thicker board and a suitable barrier can help the sleeve stay stable when there is light steam from fresh cooked burgers. Good venting in the inner wrap also helps manage moisture before it reaches the outer sleeve.</p>"
+    "q": "7. How do I stop sleeves blowing off the counter?",
+    "a": "<p>A closed dispenser or a weighted tray. Flat sleeves in an open tray go over the side in any wind, and retrieving packaging from a car park during a rush is time you do not have. It is a cheap fix for a problem that recurs constantly.</p>"
    },
    {
-    "q": "8. Do sleeves replace inner burger paper?",
-    "a": "<p>Sleeves are usually used with an inner wrap, not as a direct contact wrap on their own. The inner sheet holds the burger and sauces, while the sleeve adds grip and structure. This two layer setup helps keep the outside cleaner and improves the hand feel during eating.</p>"
+    "q": "8. Can I get branded sleeves in small quantities?",
+    "a": "<p>Printed runs carry a minimum that is often larger than a truck can store at once. A common split is plain stock for everyday service and a printed run reserved for events or a season. Ask what the minimum is for your artwork before assuming either way.</p>"
    },
    {
-    "q": "9. Are these sleeves compatible with delivery and takeaway bags?",
-    "a": "<p>They can be used for takeaway and short distance delivery, especially when burgers are placed in a bag quickly after wrapping. Sleeves help keep items aligned and easier to grab, and they reduce smearing on the outside. For longer delivery times, pairing with a stable inner pack or tray can improve overall protection.</p>"
+    "q": "9. Where should stock be delivered for a mobile business?",
+    "a": "<p>Most operators use a home or lock-up address and move stock to the truck weekly. That means packaging is handled and stored twice, so how well a case survives being moved matters more than it would for a fixed site.</p>"
    },
    {
-    "q": "10. Can I print my logo on food truck burger sleeves?",
-    "a": "<p>Yes, sleeves can be printed with logos, patterns, icons, and simple item text. Clear layouts work best because sleeves are handled a lot and viewed at close range. Keeping key branding on the most visible panel helps customers recognize your packaging immediately.</p>"
+    "q": "10. Do part-used cases keep well on a truck?",
+    "a": "<p>Less well than in a stockroom, because an open case takes damage from movement while driving and is exposed to whatever humidity is in the vehicle. Reseal or transfer the remainder into a closed container rather than leaving a case open.</p>"
    },
    {
-    "q": "11. What finishing choices work well on burger sleeves?",
-    "a": "<p>Matte and gloss finishes are common, and spot UV can be used on selected areas where suitable for the design. Finish choice affects how the sleeve feels in hand and how the print reflects light under service lighting. For food trucks, many brands choose finishes that keep the surface easy to grip.</p>"
+    "q": "11. Is kraft board a sensible choice for a truck?",
+    "a": "<p>It suits the setting well. Handling marks, dust and light grease shadowing are all far less visible on brown board than on white, and a single-colour mark on kraft reads as deliberate without needing full-coverage artwork or a large printed run.</p>"
    },
    {
-    "q": "12. Do burger sleeves help with portion control and order accuracy?",
-    "a": "<p>They can, especially when the sleeve design includes small item markers, icons, or color cues. This helps staff separate similar burgers during peak service. Simple identification elements can reduce mix ups when multiple orders are packed at the same time.</p>"
-   },
-   {
-    "q": "13. What sleeve style is fastest for food truck service?",
-    "a": "<p>Slide on sleeves are often the fastest because they require minimal folding and can be applied in one motion. Wrap style and lock style sleeves can add extra structure but may take slightly longer to apply. The best option depends on your packing line and handoff speed.</p>"
-   },
-   {
-    "q": "14. How should burger sleeves be stored in a food truck?",
-    "a": "<p>Store sleeves flat in a clean, dry space away from humidity and heat sources. Keeping them in closed cartons or sleeves helps prevent dust and keeps edges crisp. Good storage reduces warping and helps sleeves feed smoothly during service.</p>"
-   },
-   {
-    "q": "15. What should I consider before finalizing a burger sleeve design?",
-    "a": "<p>Focus on fit, grease performance, and visibility first. Choose a size that works for your largest burger build, select board and barrier options that match your greasiest menu items, and place branding on the panels customers see while holding the burger. A design that stays readable during handling and does not crease easily will perform better in real food truck conditions.</p>"
+    "q": "12. What is the most common food truck packaging mistake?",
+    "a": "<p>Choosing a sleeve on how it looks rather than on how it assembles. The structural version photographs better and takes twice as long to build at a hatch, and within a month the truck is using something simpler that was not specified for the job.</p>"
    }
   ],
   "images": [
@@ -6437,64 +6413,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are cafe burger sleeves?",
-    "a": "<p>Cafe burger sleeves are paperboard wraps used as an outer layer around burgers for café service. They make burgers easier to hold, support a cleaner handoff, and help keep the inner wrap stable during eating. They are commonly used for dine in trays and takeaway orders.</p>"
+    "q": "1. How is packaging for a cafe burger different from a burger bar?",
+    "a": "<p>A cafe sleeve arrives into an existing set rather than starting one. There is already a cup, a lid, a bag and a napkin chosen for drinks, and the sleeve has to work with them. A burger bar picks packaging to suit burgers; a cafe picks packaging that also looks right beside a coffee.</p>"
    },
    {
-    "q": "2. Why do cafes use burger sleeves for serving?",
-    "a": "<p>Cafes use sleeves to keep burger presentation neat while improving grip and reducing direct hand contact with the inner wrap. Sleeves can also help keep sauces and oils from transferring to hands. This supports a cleaner, more consistent serving experience.</p>"
+    "q": "2. Can I match my sleeve colour exactly to my cups?",
+    "a": "<p>Rarely, and chasing it is usually wasted money. A cup is coated and often lined, a paper bag is absorbent, and a sleeve sits between them. The same ink lands differently on each. Matching tone, ink count, typeface and surface character reads as coherent even when the colour shifts.</p>"
    },
    {
-    "q": "3. Which burger styles work well with cafe sleeves?",
-    "a": "<p>Cafe sleeves work well with classic burgers, smashed burgers, and slider formats when sized correctly. They also work for burgers with cheese melts and sauce heavy builds. The key is matching the sleeve height and width to the wrapped burger size.</p>"
+    "q": "3. What quantity should a low-volume cafe order?",
+    "a": "<p>Work out honest weekly usage, multiply by the months you are willing to hold stock, and compare that against the minimum order before choosing artwork. Ordering eighteen months of stock ties up cash and space, and any branding change in that window turns the remainder into waste.</p>"
    },
    {
-    "q": "4. Do cafe burger sleeves help with saucy or greasy burgers?",
-    "a": "<p>Yes, sleeves can help reduce oil marks on the outside when grease resistant material and barrier options are used. They improve holding comfort and help keep hands cleaner during eating. This is useful for burgers with sauces, buttered buns, and juicy fillings.</p>"
+    "q": "4. Does packaging deteriorate if it sits in storage?",
+    "a": "<p>It can. Board held for a long period absorbs moisture, particularly in a cupboard near a dishwasher or under a counter, and loses stiffness. Marks accumulate on stock stored loose. What arrives after a year in a damp cupboard is not the board that was approved.</p>"
    },
    {
-    "q": "5. How do I choose the right sleeve size?",
-    "a": "<p>Measure burger width and height after wrapping and add a small clearance so the sleeve slides on smoothly. Use your tallest menu build as the sizing reference so every burger fits without forcing. A correct fit helps reduce bending and keeps edges crisp.</p>"
+    "q": "5. Should I use different sleeves for dine-in and takeaway?",
+    "a": "<p>At cafe volumes, usually not. Running two lines for one item rarely pays. A single sleeve leaning slightly towards the takeaway requirement is the common compromise, because a closure failing in a bag is more visible to a customer than a slightly plain sleeve on a plate.</p>"
    },
    {
-    "q": "6. What materials are used for cafe burger sleeves?",
-    "a": "<p>Common materials include SBS paperboard for clean print clarity, kraft paperboard for a natural look, and recycled content board where suitable for food contact. Material choice affects stiffness and how it handles moisture. Thicker boards can provide better structure for heavier burgers.</p>"
+    "q": "6. Do breakfast items need a different sleeve?",
+    "a": "<p>Often. A folded egg on a soft roll behaves differently from a beef patty — it is usually shorter, softer and more prone to compression. Measure it separately rather than assuming the burger sleeve covers it, especially if the roll is a different diameter.</p>"
    },
    {
-    "q": "7. Can cafe sleeves handle warm burgers and steam?",
-    "a": "<p>They are designed for warm food handling and short service time. Selecting a suitable board thickness and barrier option can help sleeves stay firm when there is light steam from fresh cooked items. Using an inner wrap that manages moisture also helps.</p>"
+    "q": "7. Is white board a good choice for a cafe?",
+    "a": "<p>It suits warmly lit interiors and keeps food looking fresh on a plate. The trade-off is that light board shows grease and handling marks readily, which matters when the sleeve sits under a customer's eye through a meal. Resolve that against how sauced your hot menu actually is.</p>"
    },
    {
-    "q": "8. Are burger sleeves used with an inner wrap?",
-    "a": "<p>Yes, most café setups use sleeves over an inner burger paper or wrap sheet. The inner layer holds the food and sauces, while the sleeve improves grip and presentation. This two layer setup is common for quick café service.</p>"
+    "q": "8. How many sleeve sizes should a cafe stock?",
+    "a": "<p>As few as the menu tolerates. Counter space is short and already crowded, so each variant competes for reach. Group items by their limiting dimension rather than by menu category, which usually produces a smaller set than expected.</p>"
    },
    {
-    "q": "9. Can these sleeves be used for takeaway orders?",
-    "a": "<p>Yes, they are suitable for takeaway because they help customers hold the burger more comfortably. Sleeves also keep the burger more stable inside a takeaway bag during short transport. For longer travel, pairing with a stable inner pack can add extra protection.</p>"
+    "q": "9. What if the printed minimum order is too large?",
+    "a": "<p>A plain sleeve carrying a small applied mark keeps a branded look without committing to a large artwork run. It also means a menu or branding change does not strand a year of printed stock. Ask what the minimum actually is before assuming it rules printing out.</p>"
    },
    {
-    "q": "10. Can cafe burger sleeves be printed with a logo?",
-    "a": "<p>Yes, sleeves can be printed with logos, patterns, and simple menu text. Clear, readable designs work best because sleeves are handled closely and often seen in photos. Placing branding on the most visible panel supports recognition.</p>"
+    "q": "10. Does a matte or gloss finish suit a cafe better?",
+    "a": "<p>Matte is generally easier to match across a mixed counter set, because it sits quietly beside cups and bags rather than reflecting differently from them. Gloss makes printed colour denser, which is more useful when the artwork is colour-led than when it is a simple mark.</p>"
    },
    {
-    "q": "11. What finishing choices are common for cafe burger sleeves?",
-    "a": "<p>Matte and gloss finishes are common, and spot UV can be used on selected areas where suitable. Finish selection affects shine, feel, and how the design shows under café lighting. Many cafes choose finishes that keep the surface comfortable to hold.</p>"
+    "q": "11. Will sleeves work for light meals other than burgers?",
+    "a": "<p>They are used for toasted sandwiches, breakfast rolls and similar handheld items. The question is whether the item holds a shape the sleeve can grip. Anything that flattens significantly, or is much longer than it is tall, may suit a different format.</p>"
    },
    {
-    "q": "12. Do sleeves help with order identification in cafes?",
-    "a": "<p>They can help when printed with small markers, icons, or simple labels to separate menu variants. This reduces mix ups when multiple burgers are prepared at once. Simple identification can be especially useful for dine in trays and pickup shelves.</p>"
-   },
-   {
-    "q": "13. Which sleeve style is best for fast café service?",
-    "a": "<p>Slide on sleeves are typically fastest because they require minimal folding. Wrap style or lock style sleeves can add extra structure but may take longer to apply. The best choice depends on your service flow and prep speed.</p>"
-   },
-   {
-    "q": "14. How should cafe burger sleeves be stored?",
-    "a": "<p>Store sleeves flat in a clean, dry area away from humidity. Keep cartons closed to protect edges and reduce dust exposure. Proper storage helps sleeves stay crisp and easy to use during service.</p>"
-   },
-   {
-    "q": "15. What should I consider before finalizing a cafe sleeve design?",
-    "a": "<p>Consider burger size range, grease level, and how long customers typically hold the product. Choose board thickness and barrier options based on the most sauce heavy menu items. Plan print placement on the visible panels so branding stays clear while the burger is being held.</p>"
+    "q": "12. How do I keep the counter set looking consistent over time?",
+    "a": "<p>Retain approved physical samples of each item and check reorders against them, and reorder related items at similar times where possible. Drift usually appears when one part of the set is reprinted alone and then sits next to older stock.</p>"
    }
   ],
   "images": [
@@ -6602,64 +6566,56 @@
   ],
   "faqs": [
    {
-    "q": "1. What are street food burger sleeves?",
-    "a": "<p>Street food burger sleeves are paperboard wraps used as an outer layer around burgers for outdoor and fast hand service. They add grip, support cleaner handling, and help keep the inner wrap stable while customers eat on the move. They are common at stalls, carts, and pop up counters.</p>"
+    "q": "1. What makes street food packaging different from takeaway packaging?",
+    "a": "<p>It is used standing up with no surface to rest anything on. One hand is usually occupied, the customer may be walking, and the sleeve is the only barrier between the food and their clothing. Everything has to work one-handed from handover to disposal.</p>"
    },
    {
-    "q": "2. Why are sleeves useful for street food service?",
-    "a": "<p>Street food customers often eat while walking or standing, so a sleeve helps make the burger easier to hold. It can reduce direct hand contact with the inner wrap and improve stability during quick handoff. This supports a cleaner and more controlled eating experience.</p>"
+    "q": "2. Why does grip matter more at a street stall?",
+    "a": "<p>Because the sleeve is held continuously through the whole meal rather than set down between bites. It needs enough depth for fingers to close around, enough stiffness not to fold under a squeeze, and a shape that does not let the build slide out when tilted upward to eat.</p>"
    },
    {
-    "q": "3. Which burger types work best with street food sleeves?",
-    "a": "<p>They work well with classic burgers, smashed burgers, sliders, and taller builds when sizing is planned correctly. The sleeve should match the wrapped burger dimensions so it does not crush the bun. A higher sleeve wall can help with stacked burgers and heavy toppings.</p>"
+    "q": "3. How is sauce different from grease as a packaging problem?",
+    "a": "<p>Sauce is more mobile. It travels sideways as well as down and reaches the sleeve mouth rather than only the base, often on the first bite. A barrier treatment aimed at rendered fat does not necessarily address a sauce escaping from the side of a build.</p>"
    },
    {
-    "q": "4. Do sleeves help with greasy and sauce heavy burgers?",
-    "a": "<p>Yes, grease resistant board and barrier options can reduce oil marks and help keep the sleeve firm. This improves grip and helps keep hands cleaner during eating. It is especially helpful for burgers with sauces, melted cheese, and juicy fillings.</p>"
+    "q": "4. Can a sleeve be made leakproof for wet builds?",
+    "a": "<p>No, and it should not be described that way. What helps is depth at the mouth, a wall high enough to contain a spill before it reaches the hand, and an inner greaseproof wrap. Together those buy the time a customer needs to finish rather than sealing anything.</p>"
    },
    {
-    "q": "5. How do I choose the right size for a street burger sleeve?",
-    "a": "<p>Measure the burger after wrapping and include toppings height in the measurement. Add a small clearance so the sleeve slides on quickly during service without forcing. The most reliable approach is to size based on your largest menu build.</p>"
+    "q": "5. Does hot weather really change sleeve performance?",
+    "a": "<p>Noticeably. Fat is more liquid at higher temperatures and moves into fibre faster, so a build that marks a sleeve in fifteen minutes indoors can do it in five on a hot pavement. A sleeve judged on a mild test day will behave differently on a summer weekend.</p>"
    },
    {
-    "q": "6. What materials are used for street food burger sleeves?",
-    "a": "<p>Common materials include SBS paperboard for strong print clarity, kraft paperboard for a natural look, and recycled content board where suitable for food contact. Material choice affects stiffness and how the sleeve handles moisture. Thicker boards are usually preferred for heavier burgers and longer holding time.</p>"
+    "q": "6. How should stock be stored at an outdoor stall?",
+    "a": "<p>Sealed and out of direct sun. Humid air softens board and leaves an open case limp by the end of a shift, and sun warms the sleeve before food is even loaded. Never keep an open tray of sleeves exposed on the counter.</p>"
    },
    {
-    "q": "7. Can street food burger sleeves handle warm burgers and steam?",
-    "a": "<p>They are designed for warm food handling and short service time. Selecting a suitable board thickness and barrier can help the sleeve stay stable when there is light steam from fresh cooked burgers. Using an inner wrap that manages moisture also improves performance.</p>"
+    "q": "7. How do I stop sleeves blowing away at an open stall?",
+    "a": "<p>A closed dispenser or a weighted tray. Flat sleeves in an open tray go over the side in any breeze, and retrieving them mid-service is time you do not have. It costs almost nothing and removes a recurring irritation.</p>"
    },
    {
-    "q": "8. Are sleeves used with inner wraps in street food setups?",
-    "a": "<p>Yes, street food sleeves are commonly used over an inner burger paper or wrap sheet. The inner wrap holds sauces and direct food contact, while the sleeve adds structure and grip. This layered setup supports fast service and cleaner handling.</p>"
+    "q": "8. What makes a handover work in a busy queue?",
+    "a": "<p>The burger must already be seated and the closure checked before you turn to the customer, because there is no chance to adjust afterwards. Offer the sleeve end-on so there is one obvious place to take it, and it can be gripped once and carried away in a single movement.</p>"
    },
    {
-    "q": "9. Are street food burger sleeves good for takeaway bags?",
-    "a": "<p>Yes, they can help keep burgers aligned inside takeaway bags during short transport. They also make items easier to grab from the bag and reduce smearing on the outside wrap. For longer travel times, pairing with a stable inner pack can add extra protection.</p>"
+    "q": "9. How can customers tell similar orders apart in a queue?",
+    "a": "<p>A simple visual marker on the sleeve removes a conversation at the busiest moment. It can be printed, or it can come from the structure itself — a shaped opening or a distinguishing cut carried in the tooling rather than a separate print run.</p>"
    },
    {
-    "q": "10. Can I print branding on street food burger sleeves?",
-    "a": "<p>Yes, sleeves can be printed with logos, patterns, icons, and simple menu text. Clear designs work best because sleeves are handled a lot and viewed closely. Placing branding on the most visible panel supports recognition in outdoor settings.</p>"
+    "q": "10. Will the sleeve fit the bags I already use?",
+    "a": "<p>Check rather than assume. Measure the bag and work backwards to a maximum sleeve size. A sleeve that has to be forced into a compact bag bends the closure, and a bent closure tends to work open later. Changing the bag is often cheaper than changing the sleeve.</p>"
    },
    {
-    "q": "11. What finishes are commonly used for printed sleeves?",
-    "a": "<p>Matte and gloss finishes are common, and spot UV can be used on selected design areas where suitable. Finish choice affects shine and feel under outdoor lighting and handling. Many street vendors choose finishes that keep the sleeve comfortable to hold while keeping artwork clear.</p>"
+    "q": "11. What board weight suits street service?",
+    "a": "<p>Usually stiffer than operators first expect, because a saturated sleeve fails while it is being held rather than while sitting on a plate. Give your supplier the build weight, how sauced it is and the fact that it will be eaten standing up, and ask what they would recommend.</p>"
    },
    {
-    "q": "12. Do sleeves support faster packing during rush periods?",
-    "a": "<p>Yes, slide on sleeves are often used because they can be applied quickly in one motion. Wrap and lock styles can add structure but may take slightly longer. Choosing the right sleeve style can support speed during busy lines.</p>"
+    "q": "12. Should street food sleeves use an inner wrap?",
+    "a": "<p>For sauced or juicy builds, yes. The wrap does the barrier work while the sleeve provides grip and structure. On a menu eaten standing up, a wrap failure is on the customer's clothing rather than on a plate, which raises the cost of getting it wrong.</p>"
    },
    {
-    "q": "13. Can sleeves help with order identification?",
-    "a": "<p>Yes, sleeves can include simple markers, icons, or small text to separate menu variants such as spicy, cheese, or double patty. This can reduce mix ups during high volume street service. Simple identification also helps staff pack orders faster.</p>"
-   },
-   {
-    "q": "14. How should street food burger sleeves be stored?",
-    "a": "<p>Store sleeves flat in clean, dry cartons away from humidity and heat sources. Keeping cartons closed reduces dust and keeps edges crisp. Compact flat storage is especially useful for stalls and carts with limited space.</p>"
-   },
-   {
-    "q": "15. What should I consider before finalizing a street food sleeve design?",
-    "a": "<p>Consider the largest burger size, grease level, and how quickly customers eat after purchase. Select board thickness and barrier options based on your messiest menu items. Plan print placement on visible panels so branding remains clear while the burger is held and carried.</p>"
+    "q": "13. How do I test a sleeve properly for street service?",
+    "a": "<p>Test at counter height with someone standing, not across a bench. Have them take it one-handed, eat from it while holding a drink, and walk while doing so. Watch where they grip and whether they re-grip after taking it — a re-grip means the shape needs work.</p>"
    }
   ],
   "images": [
@@ -6759,64 +6715,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are promotional burger sleeves?",
-    "a": "<p>Promotional burger sleeves are paperboard wraps that hold a burger while showing campaign graphics and brand messaging. They are used when a business wants consistent presentation during seasonal menus, launches, or special offers. The sleeve also improves grip and keeps the inner wrap more stable.</p>"
+    "q": "1. How many promotional sleeves should I order?",
+    "a": "<p>Work from the campaign length rather than the price break. Estimate daily uptake from a comparable past promotion, multiply by campaign days, and add a modest margin for stronger performance. Surplus on a campaign line is waste rather than stock, so the cheapest unit price is often the most expensive total.</p>"
    },
    {
-    "q": "2. How do promotional sleeves differ from standard burger sleeves?",
-    "a": "<p>The main difference is the purpose of the printed panels and layout. Promotional sleeves often include limited time artwork, offer messaging, QR codes, or seasonal themes. The structure can be the same, but the design is built for campaign visibility.</p>"
+    "q": "2. Why does my QR code fail to scan from the sleeve?",
+    "a": "<p>Usually size, contrast or placement. A code needs enough physical area to resolve at arm's length, enough separation from the board colour for a camera to find the pattern, and a position away from folds and the grip zone. Test from a printed proof, not a screen.</p>"
    },
    {
-    "q": "3. Which businesses use promotional burger sleeves?",
-    "a": "<p>They are used by quick service restaurants, cafes, food trucks, pop up counters, and event caterers. Promotions are common during holidays, store openings, sports events, and new menu releases. Sleeves help keep packaging consistent across multiple service points.</p>"
+    "q": "3. Can a QR code on a sleeve track campaign performance?",
+    "a": "<p>The printed code itself only carries a link. Whether scans can be counted, attributed or tied to redemptions depends entirely on what sits behind that link, which is a separate piece of work to set up. Do not assume the packaging provides measurement on its own.</p>"
    },
    {
-    "q": "4. What burger styles work best with promotional sleeves?",
-    "a": "<p>Promotional sleeves work for classic burgers, smashed burgers, sliders, and taller builds when the sleeve size is planned correctly. The sleeve should fit the wrapped burger without forcing. For stacked burgers, a taller sleeve wall can help keep the top edge neat.</p>"
+    "q": "4. Where should the offer wording sit on the sleeve?",
+    "a": "<p>On the panel facing outward at handover, because that is the only moment the packaging has undivided attention. Terms and small print can go anywhere legible — they are read after the decision rather than before it.</p>"
    },
    {
-    "q": "5. Do promotional sleeves help with greasy and saucy burgers?",
-    "a": "<p>Yes, when grease resistant material and barrier options are used, sleeves can reduce oil marks and help the outer wrap stay firm. This supports a cleaner grip during eating. It is especially useful for burgers with sauces, cheese melts, and juicy fillings.</p>"
+    "q": "5. How do I decide artwork placement on a promotional sleeve?",
+    "a": "<p>Answer four physical questions first: which panel faces the customer at handover, which area disappears under a hand, which parts fold, and which surface the food is likely to mark. Those dictate placement more reliably than any layout preference.</p>"
    },
    {
-    "q": "6. How do I choose the right size for a promotional burger sleeve?",
-    "a": "<p>Measure the burger after wrapping, including toppings height and wrap thickness. Add a small clearance so the sleeve slides on smoothly during fast service. Sizing should be based on your largest menu build so all variants fit the same sleeve style.</p>"
+    "q": "6. Is a screen proof enough for campaign artwork?",
+    "a": "<p>Not for anything with a code, a colour match or fine terms text. Those need to be seen printed, at size, on the intended board. A physical proof also shows how artwork sits once the sleeve is folded, which is never how it looks flat on screen.</p>"
    },
    {
-    "q": "7. What materials are commonly used for promotional burger sleeves?",
-    "a": "<p>Common options include SBS paperboard for clean print clarity, kraft paperboard for a natural look, and recycled content board where suitable for food contact. Material choice affects stiffness, surface feel, and how the design appears. Thicker boards are often chosen for heavier burgers and longer holding time.</p>"
+    "q": "7. What should I check on a campaign proof?",
+    "a": "<p>Offer wording and dates against the signed brief, code scanning from the printed sheet with more than one phone, terms text read at arm's length, nothing important landing on a crease, and someone outside the project explaining what they think the offer means.</p>"
    },
    {
-    "q": "8. Can promotional sleeves be used over inner wraps?",
-    "a": "<p>Yes, sleeves are commonly used over an inner burger paper or wrap sheet. The inner layer manages direct food contact and sauces, while the sleeve adds structure and a cleaner grip area. This layered approach supports both handling and presentation.</p>"
+    "q": "8. Should campaign artwork replace my usual branding?",
+    "a": "<p>Better to sit on top of it. Sleeves that look unrelated to your normal packaging read as a different business during the period you most want recognition. Keep the logo, typeface and base colour, and let the campaign own a defined zone.</p>"
    },
    {
-    "q": "9. Can promotional sleeves include QR codes or loyalty messaging?",
-    "a": "<p>Yes, promotional sleeves can include QR codes, short URLs, or loyalty prompts when the design keeps them readable. Placement on a flat visible panel helps scanning. Contrast and spacing also matter so codes remain clear after handling.</p>"
+    "q": "9. What happens to leftover campaign stock?",
+    "a": "<p>It is generally unusable once the dates have passed, which is why quantity planning matters more here than on a standard line. Decide before ordering what you will do if uptake is lower than expected, rather than after the campaign ends.</p>"
    },
    {
-    "q": "10. What printing elements work best for promotional sleeves?",
-    "a": "<p>High contrast graphics, simple icons, readable text, and clear logo placement usually perform best. Because sleeves are held close, designs should avoid overly small text. A focused message and clean layout often stays more legible in real service.</p>"
+    "q": "10. Can a promotional run be reordered mid-campaign?",
+    "a": "<p>That depends on lead time and press availability, and on a short campaign the reorder may arrive after the offer closes. Ask about realistic turnaround before setting the quantity, and treat a mid-campaign top-up as something to confirm rather than assume.</p>"
    },
    {
-    "q": "11. What finishing choices are common for promotional sleeves?",
-    "a": "<p>Matte and gloss finishes are common, and spot UV can be used on selected areas where suitable. Finishes can change how artwork reflects light and can highlight key elements like logos. Finish selection should also consider grip comfort during holding.</p>"
+    "q": "11. Does full-coverage campaign artwork cause production issues?",
+    "a": "<p>It brings considerations rather than problems: heavy ink coverage over large solid areas shows mottling more readily, colour can drift across a long run, and folds through dense printed areas are more prone to visible cracking. All are reasons to review a full-size printed proof.</p>"
    },
    {
-    "q": "12. Are promotional burger sleeves suitable for event service?",
-    "a": "<p>Yes, they work well for events because they combine fast packing with branded visibility. They help keep burgers easy to hold while guests are walking or standing. Event artwork can also support themes, sponsors, or limited time menus.</p>"
-   },
-   {
-    "q": "13. Do promotional sleeves help with order identification?",
-    "a": "<p>They can, especially when the print includes small markers, icons, or color cues for menu variants. This helps staff separate items during busy periods. Simple identification elements can reduce packing errors when multiple burgers are prepared at once.</p>"
-   },
-   {
-    "q": "14. How should promotional burger sleeves be stored?",
-    "a": "<p>Store sleeves flat in a clean, dry area away from humidity and direct heat. Keeping cartons closed helps protect edges from bending and reduces dust exposure. Good storage helps sleeves stay crisp and easy to apply during campaign service.</p>"
-   },
-   {
-    "q": "15. What should be finalized before launching a promotional sleeve?",
-    "a": "<p>Confirm the burger size range, the greasiest menu items, and the campaign message placement on the most visible panel. Choose board thickness and barrier options that match real handling conditions. Then review artwork for readability, scan friendly QR placement if used, and consistent brand colors across the print.</p>"
+    "q": "12. How far ahead should a campaign sleeve be ordered?",
+    "a": "<p>Far enough that a proof can be reviewed properly and a correction made without threatening the launch date. Proofing is what gets compressed when other things slip, and it is the worst stage to shorten because a campaign sleeve cannot be quietly fixed on the next reorder.</p>"
    }
   ],
   "images": [
@@ -6916,64 +6860,56 @@
   ],
   "faqs": [
    {
-    "q": "1. What are event burger sleeves?",
-    "a": "<p>Event burger sleeves are paperboard wraps used as an outer layer around burgers for large crowd service. They make burgers easier to hold, keep the inner wrap steadier, and improve presentation on busy serving lines. They are commonly used where customers eat while standing or walking.</p>"
+    "q": "1. How do I work out how many sleeves an event needs?",
+    "a": "<p>Start from the format rather than the headcount. A seated dinner with one service is close to the guest number; buffet and station service runs above it; a late-night second serving runs well below. A public festival stand has no relationship to a headcount at all.</p>"
    },
    {
-    "q": "2. Why are burger sleeves useful at events?",
-    "a": "<p>Events often involve quick handoff, short eating time, and lots of movement, so a sleeve helps customers grip the burger more comfortably. It can reduce direct contact with the inner wrap and limit grease transfer to hands. This supports cleaner service during high volume periods.</p>"
+    "q": "2. How much overage should I order for an event?",
+    "a": "<p>Enough to cover stronger-than-expected uptake, decided deliberately before ordering. Unlike a restaurant there is no next week to absorb surplus, so the margin should reflect the risk of running short rather than a price break on a larger quantity.</p>"
    },
    {
-    "q": "3. Which events commonly use burger sleeves?",
-    "a": "<p>They are used at festivals, corporate events, weddings, sports gatherings, exhibitions, school events, and community fairs. Sleeves work well when burgers are served from stations, carts, or catering lines. They also suit pop up vendors with limited space for bulky packaging.</p>"
+    "q": "3. Whose logo should go on the customer-facing panel?",
+    "a": "<p>One mark, not two. That panel is the position with the most attention and splitting it between equal logos generally serves neither, because at handover a customer registers one thing at most. Secondary marks belong on a side or reverse panel.</p>"
    },
    {
-    "q": "4. What burger styles work well with event sleeves?",
-    "a": "<p>Event sleeves work for classic burgers, smashed burgers, and sliders when sized correctly. They can also handle taller builds if the sleeve height is planned for toppings and bun height. A correct fit helps the sleeve stay straight and reduces corner bending during service.</p>"
+    "q": "4. Can event-branded sleeves be reused at the next booking?",
+    "a": "<p>Not if they carry a date, a couple's names or a sponsor. That is why branded quantities should be ordered tight and plain quantities kept generous — plain stock behind a branded run turns a mid-service shortage into an inconvenience rather than a stoppage.</p>"
    },
    {
-    "q": "5. Do event burger sleeves help with greasy or saucy burgers?",
-    "a": "<p>Yes, grease resistant material and barrier options can help reduce visible oil marks and keep the sleeve firm. This improves grip when burgers include sauces, cheese melts, or buttery buns. Matching the board choice to your messiest menu items improves real use performance.</p>"
+    "q": "5. How should stock be split between serving stations?",
+    "a": "<p>Not evenly. Stations near the entrance, the bar or the seating usually move more, and that is knowable from the floor plan in advance. Weight the initial split towards them and keep a central reserve rather than distributing every case at setup.</p>"
    },
    {
-    "q": "6. How do I choose the right sleeve size for an event menu?",
-    "a": "<p>Measure the burger after it is wrapped, including the thickness of the inner paper and the height of toppings. Add a small clearance so the sleeve slides on smoothly without forcing. Sizing based on your largest burger build helps one sleeve style work across the menu.</p>"
+    "q": "6. What happens if one station runs out?",
+    "a": "<p>It stops serving regardless of what the others hold, which is why a central reserve and an agreed person to move stock matter. Counting remaining stock at a set point mid-service, rather than when it runs out, gives time to rebalance.</p>"
    },
    {
-    "q": "7. Are event burger sleeves used with inner burger paper?",
-    "a": "<p>Yes, sleeves are typically used over an inner burger wrap or greaseproof sheet. The inner layer handles direct food contact and sauces, while the sleeve adds structure and a cleaner grip area. This layered setup is common for fast paced event service.</p>"
+    "q": "7. Does storing packaging before an event cause problems?",
+    "a": "<p>It can. Board absorbs moisture from wherever it sits, and stock kept in a damp garage or a van for weeks does not fold like the approved sample. Keep cases sealed until setup and store them flat rather than on edge.</p>"
    },
    {
-    "q": "8. Can event burger sleeves handle warm burgers and light steam?",
-    "a": "<p>They are designed for warm food handling and short hold times during service. Selecting a suitable board thickness and barrier option can help stability when burgers are served fresh. Managing moisture in the inner wrap also helps keep the outer sleeve looking neat.</p>"
+    "q": "8. Should I check stock before the event starts?",
+    "a": "<p>Yes, and it is the highest-value habit on this list. Open one case and form a sleeve at setup. Finding a problem then leaves time to adapt; finding it at first service does not.</p>"
    },
    {
-    "q": "9. Do burger sleeves help speed up event packing?",
-    "a": "<p>They can, especially slide on styles that apply in one motion. When the sleeve fit is correct, staff can sleeve burgers quickly without extra folding steps. This supports smoother workflow during peak crowd times.</p>"
+    "q": "9. How do mixed portions affect event planning?",
+    "a": "<p>They multiply the ways a station can run short, because each size has its own count. Events serving both full burgers and smaller items usually plan the two quantities separately rather than deriving one from the other.</p>"
    },
    {
-    "q": "10. Can event burger sleeves be printed with branding or sponsor logos?",
-    "a": "<p>Yes, event sleeves can include brand logos, sponsor marks, patterns, and simple text. Print placement is usually planned on the most visible panel customers see while holding the burger. Clean layouts stay more readable under fast handling and outdoor lighting.</p>"
+    "q": "10. Is event packaging handled differently from restaurant stock?",
+    "a": "<p>It is handled far more. Cases are loaded, unloaded, moved to a station and often moved again, and each handling risks a crushed or opened case. A crushed case on the morning of an event is not recoverable, so packing and transport deserve attention.</p>"
    },
    {
-    "q": "11. What finishing choices are common for event burger sleeves?",
-    "a": "<p>Matte and gloss finishes are common, and spot UV can be used on selected areas where suitable. Finish choice affects how the sleeve looks under lighting and how it feels in hand. Many event setups prefer finishes that remain comfortable to hold while keeping artwork clear.</p>"
+    "q": "11. How far in advance should event sleeves be ordered?",
+    "a": "<p>Far enough that a proof can be checked and a correction made without risking the date, and with storage arranged for the interval. The interval itself is part of the plan, because where stock sits for those weeks affects what condition it arrives in.</p>"
    },
    {
-    "q": "12. Can event burger sleeves help with order identification?",
-    "a": "<p>They can include simple icons, check boxes, or small text cues for menu variants such as spicy, cheese, or double patty. This can reduce mix ups when multiple burgers are served at the same time. Clear identification is especially helpful on busy catering lines.</p>"
+    "q": "12. How can I improve quantity estimates for future events?",
+    "a": "<p>Record actual usage against the guest count and the format after each booking. Two or three recorded events give a far better basis than any general rule, because uptake depends heavily on the specific style of service and the crowd.</p>"
    },
    {
-    "q": "13. Are event burger sleeves suitable for takeaway bags?",
-    "a": "<p>Yes, sleeves help burgers stay aligned in takeaway bags during short transport. They can make the burger easier to grab and reduce smearing on the outside wrap. For longer travel, pairing with a stable inner pack can add extra protection.</p>"
-   },
-   {
-    "q": "14. How should event burger sleeves be stored before service?",
-    "a": "<p>Store sleeves flat in a clean, dry area away from humidity and heat. Keep cartons closed to protect edges from bending and to reduce dust exposure. Good storage helps sleeves stay crisp and easy to apply on the line.</p>"
-   },
-   {
-    "q": "15. What should I confirm before finalizing an event sleeve design?",
-    "a": "<p>Confirm burger size range, grease level, and the exact panels that remain visible while held. Choose board thickness and barrier options based on your most sauce heavy items. Then check print readability, logo placement, and any sponsor marks so they stay clear after normal handling.</p>"
+    "q": "13. What should be done with surplus on the night?",
+    "a": "<p>Reseal and store it properly before it goes into a van, not a week later. Most event packaging that gets written off is lost to handling after the event rather than to over-ordering.</p>"
    }
   ],
   "images": [
