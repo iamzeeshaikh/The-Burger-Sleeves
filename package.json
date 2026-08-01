@@ -12,7 +12,10 @@
     "astro": "astro",
     "og": "node scripts/build-og-images.mjs",
     "validate": "node scripts/validate.mjs",
-    "reports": "node scripts/build-reports.mjs && node scripts/build-audit-reports.mjs"
+    "reports": "node scripts/build-reports.mjs && node scripts/build-audit-reports.mjs",
+    "audit:links": "node scripts/link-baseline.mjs",
+    "audit:content": "node scripts/content-audit.mjs",
+    "content:apply": "node scripts/apply-content.mjs"
   },
   "keywords": [],
   "author": "",

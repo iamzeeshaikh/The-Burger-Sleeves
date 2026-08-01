@@ -119,7 +119,7 @@ expanded or replaced.
 | --- | --- |
 | Homepage sections | 10 of 10, in order |
 | Product short descriptions | 44 |
-| Product long descriptions | 0 — **the `Description` field is empty for all 44 products in WooCommerce.** Nothing was lost and nothing was invented to fill the gap. |
+| Product long descriptions | 20 of 44 carry one (855–1,800 words); the other 24 are empty in WooCommerce. All 20 migrated with zero words lost. **An earlier revision of this report wrongly said all 44 were empty — that generalised from a single product and has been corrected.** Note these descriptions were never rendered on the live site: the Elementor product template has no description widget. |
 | Specification tables | 44 (5–6 columns each, header rows preserved verbatim) |
 | Product FAQs | 660, numbering (`1.`, `2.` …) preserved exactly |
 | Site-wide FAQ accordion | 10 entries, on homepage and all 7 category pages |

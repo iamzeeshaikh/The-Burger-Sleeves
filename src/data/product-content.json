@@ -1539,7 +1539,7 @@
      },
      {
       "t": "p",
-      "html": "Some eco-friendly lineups include a firmer board option when the burger build is heavier or when longer carry times are common. In that context, <a href=\"/product/kraft-burger-sleeves/\"><strong>stiffer paperboard build</strong></a> fits naturally when the sleeve needs more structure to hold shape during repeated handling. A firmer build can reduce bending at the base and help keep the wrap seam more secure during carry."
+      "html": "Some eco-friendly lineups include a firmer board option when the burger build is heavier or when longer carry times are common. In that context, <a href=\"/product/cardboard-burger-sleeves/\">a stiffer paperboard build for heavier items</a> fits naturally when the sleeve needs more structure to hold shape during repeated handling. A firmer build can reduce bending at the base and help keep the wrap seam more secure during carry."
      },
      {
       "t": "p",
@@ -2030,7 +2030,7 @@
     "blocks": [
      {
       "t": "p",
-      "html": "Large burger sleeves give extra wrap room for burgers that sit between regular builds and oversized stacks. The added width and panel depth help the wrap stay covered at the sides while keeping the burger easy to grip during pickup and delivery. Many teams plan packaging by comparing <a href=\"/product/slider-burger-sleeves/\"><strong>large format burger sleeve options</strong></a> across the menu, so burgers with bigger buns and heavier toppings still look consistent at the counter."
+      "html": "Large burger sleeves give extra wrap room for burgers that sit between regular builds and oversized stacks. The added width and panel depth help the wrap stay covered at the sides while keeping the burger easy to grip during pickup and delivery. Many teams plan packaging by comparing <a href=\"/product-category/burger-sleeves-sizes/\">the full run of sleeve sizes side by side</a> across the menu, so burgers with bigger buns and heavier toppings still look consistent at the counter."
      },
      {
       "t": "p",
@@ -3308,7 +3308,7 @@
      },
      {
       "t": "p",
-      "html": "When compared with <a href=\"/product/white-burger-sleeves/\"><strong>White Printed Burger Sleeves</strong></a>, matte options provide a more muted appearance that reduces reflection. This makes them suitable for designs that focus on clarity rather than brightness. At the same time, darker prints such as those used in Black Printed Burger Sleeves can appear more controlled on a matte surface, avoiding excessive shine that might otherwise distract from the design."
+      "html": "When compared with <a href=\"/product/white-printed-burger-sleeves/\">artwork printed onto a bright white ground</a>, matte options provide a more muted appearance that reduces reflection. This makes them suitable for designs that focus on clarity rather than brightness. At the same time, darker prints such as those used in Black Printed Burger Sleeves can appear more controlled on a matte surface, avoiding excessive shine that might otherwise distract from the design."
      },
      {
       "t": "h3",
@@ -3410,7 +3410,7 @@
      },
      {
       "t": "p",
-      "html": "When combined with <a href=\"/product/branded-burger-sleeves/\"><strong>Branded Burger Sleeves</strong></a>, matte finishes can support a balanced presentation where the focus remains on the product and the message, rather than on reflective surfaces. This helps maintain a clear and steady look that fits different service styles."
+      "html": "When combined with <a href=\"/product/branded-burger-sleeves/\">sleeves carrying a full brand system</a>, matte finishes can support a balanced presentation where the focus remains on the product and the message, rather than on reflective surfaces. This helps maintain a clear and steady look that fits different service styles."
      },
      {
       "t": "h3",
@@ -3418,7 +3418,7 @@
      },
      {
       "t": "p",
-      "html": "Packaging often moves through several stages before reaching the customer. From preparation to wrapping, stacking, and handoff, each step can impact how the sleeve performs. <a href=\"/product/black-burger-sleeves/\"><strong>Black Printed Burger Sleeves</strong></a> with matte surfaces help maintain grip during each of these stages, reducing the chance of slipping."
+      "html": "Packaging often moves through several stages before reaching the customer. From preparation to wrapping, stacking, and handoff, each step can impact how the sleeve performs. <a href=\"/product/black-burger-sleeves/\">dark board where surface sheen shows most</a> with matte surfaces help maintain grip during each of these stages, reducing the chance of slipping."
      },
      {
       "t": "p",
@@ -5599,6 +5599,726 @@
        "Remove crushed sleeves from stacks before storage",
        "Store sleeves covered and dry to protect clean handling"
       ]
+     }
+    ]
+   }
+  ]
+ },
+ "TBS-031": {
+  "sections": [
+   {
+    "heading": "Why Dark Board Changes Every Print Decision",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A black sleeve is not a white sleeve with dark ink on it. The board itself is dyed or coated dark before anything is printed, and that single fact reshapes the artwork, the ink order, and the finishing choices available to you. Standard process inks are transparent. Cyan, magenta, yellow and black all rely on a light surface bouncing light back through them. Lay them straight onto black board and they disappear."
+     },
+     {
+      "t": "p",
+      "html": "This is why most black sleeve artwork is built around opaque white. A white underbase is printed first, in the shape of the artwork, and colour is printed on top of that patch. The white acts as a substitute for the missing bright substrate. It adds a print station and it adds cost, and it also sets a floor on how fine your detail can be, because the underbase and the colour layer have to register against each other."
+     },
+     {
+      "t": "p",
+      "html": "Operators who want dark packaging without the underbase expense usually go the other way and print nothing but a single opaque ink. A white logo on black, or a metallic mark, reads cleanly and avoids registration risk entirely. If that suits the brand, it is the cheaper and more reliable route."
+     },
+     {
+      "t": "table",
+      "caption": "How each print approach behaves on black board",
+      "headers": [
+       "Approach",
+       "What happens on dark stock",
+       "Detail limit",
+       "Typical use"
+      ],
+      "rows": [
+       [
+        "Single opaque white",
+        "Prints directly, no underbase needed",
+        "Holds fine line work well",
+        "Logos, wordmarks, simple icons"
+       ],
+       [
+        "Opaque white underbase + CMYK",
+        "Colour sits on a printed white patch",
+        "Registration between two layers limits very fine detail",
+        "Photographic panels, multi-colour artwork"
+       ],
+       [
+        "Metallic or foil",
+        "Applied as a separate pass, high contrast",
+        "Depends on the foil block",
+        "Small premium marks, borders"
+       ],
+       [
+        "Process inks with no underbase",
+        "Largely absorbed by the dark ground",
+        "Not usable for legible artwork",
+        "Not recommended"
+       ],
+       [
+        "Spot UV varnish",
+        "Gloss shape on a matte black ground",
+        "Shape-based, not fine text",
+        "Tone-on-tone pattern, subtle branding"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Scuffing, Fingerprints And What Black Shows",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Dark surfaces hide some things and reveal others. Grease shadowing, the darkened patch that appears when oil wicks into board, is far less visible on black than on white. That is a genuine operational advantage on a menu with juicy builds. Sauce splashes and light handling smears also disappear against a dark ground."
+     },
+     {
+      "t": "p",
+      "html": "What black shows instead is abrasion. When a dyed or coated dark surface is rubbed, the lighter fibre underneath begins to show through as a pale scratch. Stacked sleeves rubbing against each other in a carton, or sleeves dragged across a stainless counter, will pick this up. A matte surface tends to show it slightly less than an uncoated one, and an anti-scuff coating is worth asking about if your sleeves travel or sit in deep stacks."
+     },
+     {
+      "t": "p",
+      "html": "Fingerprints are the other consideration. A high-gloss black surface holds visible prints from warm hands during a busy service. If your staff are assembling at speed and the sleeve is handled several times before it reaches the customer, a low-sheen surface is more forgiving. Teams working through the same trade-off often compare a <a href=\"/product/matte-finish-burger-sleeves/\">low-sheen surface that plays down handling marks</a> before committing to a full run."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Grease shadowing is much less visible on black than on light board",
+       "Abrasion shows as pale scratches where fibre is exposed",
+       "Warm hands leave visible prints on high-gloss dark surfaces",
+       "Dust and flour settle visibly on black in a bakery or prep area",
+       "Colour consistency between production batches is harder to judge by eye on dark stock"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Preparing Artwork For A Black Sleeve",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Artwork for dark stock needs decisions made before the file leaves your designer. The most common cause of a disappointing first run is a file built on a white canvas and then dropped onto black at the last moment, with no underbase specified and no thought given to how thin strokes will survive."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Build the artwork on a black background in your design file so contrast is judged honestly",
+       "Decide which elements need an opaque white underbase and put them on a separate named layer",
+       "Set minimum stroke weights and type sizes higher than you would on white, because dark grounds swallow thin lines",
+       "Convert all type to outlines so no font substitution occurs at output",
+       "Supply the file as vector artwork wherever possible, with any photographic element at full resolution",
+       "Ask for a printed proof on the actual board, not a screen proof, before approving the run"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "That last step matters more on black than on any other stock. A screen renders black as emitted light and the printed result is a dyed fibre surface. They do not look the same. A physical proof on the intended board is the only reliable way to judge whether a white underbase is dense enough and whether your brand colour has landed where you expect."
+     },
+     {
+      "t": "p",
+      "html": "If the artwork is heavy dark coverage printed onto ordinary light board rather than dark board itself, that is a different production job with different risks, and it is worth reading about <a href=\"/product/black-printed-burger-sleeves/\">heavy black ink coverage laid onto light paperboard</a> before you specify which one you actually want."
+     }
+    ]
+   },
+   {
+    "heading": "Where Black Sleeves Fit A Menu",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Dark packaging tends to appear where the operator wants the food to be the brightest thing in the frame. Against a black sleeve, a toasted brioche crown and a slice of tomato read as vivid. That is why smash-burger counters, late-night menus, gourmet builds and cocktail-bar kitchens reach for it."
+     },
+     {
+      "t": "p",
+      "html": "It also photographs differently. Customer photos taken under warm counter lighting show a dark sleeve as a solid frame rather than a bright rectangle, which keeps attention on the burger. If a share-worthy plate is part of how the business markets itself, this is a practical reason to choose dark board rather than a purely visual one."
+     },
+     {
+      "t": "p",
+      "html": "Black is less suited to menus where the packaging needs to carry a lot of information. Allergen text, ingredient callouts and multi-language labelling all become harder to set legibly on a dark ground, and the underbase cost climbs with every extra printed element. Operators with information-heavy packaging usually find <a href=\"/product/white-burger-sleeves/\">a bright board that carries small text cleanly</a> is the more practical starting point."
+     },
+     {
+      "t": "table",
+      "caption": "Black sleeve suitability by service type",
+      "headers": [
+       "Service type",
+       "Fit",
+       "Reason"
+      ],
+      "rows": [
+       [
+        "Gourmet and smash-burger counters",
+        "Strong",
+        "Food colour reads vividly against a dark frame"
+       ],
+       [
+        "Late-night and bar kitchens",
+        "Strong",
+        "Suits low ambient lighting and darker interiors"
+       ],
+       [
+        "High-grease menus",
+        "Good",
+        "Oil shadowing is far less visible than on light board"
+       ],
+       [
+        "Information-heavy packaging",
+        "Limited",
+        "Small text needs an underbase and costs more to print"
+       ],
+       [
+        "Very high-volume QSR",
+        "Consider carefully",
+        "Scuffing shows on stacked and transported stock"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Specifying A Black Sleeve Run",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Bring four things to a quotation and the conversation moves quickly: the finished burger dimensions including any wrap, whether the dark surface should be matte or gloss, whether artwork needs an opaque white underbase, and roughly how many units you expect to order in a first run and then repeat."
+     },
+     {
+      "t": "p",
+      "html": "Board choice sits underneath all of that. A dyed-through board carries the colour in the fibre, so a cut edge is dark. A coated board carries the colour on the surface only, and every cut edge shows pale. Neither is wrong, but the cut edge is visible on a sleeve, so it is worth deciding deliberately at quotation rather than finding out on delivery."
+     },
+     {
+      "t": "p",
+      "html": "Confirm anti-scuff treatment, ink opacity and edge appearance in writing on the quotation rather than assuming they are included. Availability of specific board types and coatings varies by run size, so treat them as options to confirm rather than fixed features."
+     }
+    ]
+   }
+  ]
+ },
+ "TBS-030": {
+  "sections": [
+   {
+    "heading": "Bright Board As A Colour Reference",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "White sleeves exist because print needs a known starting point. Every colour a press lays down is modified by whatever sits underneath it, and a bright white board is the closest thing to a neutral reference that paperboard offers. A brand red printed on white lands close to the swatch. The same red printed on brown fibre shifts warm and dull."
+     },
+     {
+      "t": "p",
+      "html": "That predictability is the whole argument for white. If the packaging has to match a colour used on signage, uniforms, cups and a shopfront, a bright ground is what makes the match achievable. It also means photographic artwork behaves: skin tones, food photography and gradients all need a light substrate to look like anything other than mud."
+     },
+     {
+      "t": "p",
+      "html": "Brightness itself varies between boards. Coated white board reflects more light and holds ink on the surface, giving denser colour. Uncoated white absorbs more ink, softening edges and lightening the printed result. Neither is better in the abstract, but they are not interchangeable, and a colour approved on one will not reproduce identically on the other."
+     },
+     {
+      "t": "table",
+      "caption": "How the same artwork behaves across board surfaces",
+      "headers": [
+       "Board surface",
+       "Colour density",
+       "Edge sharpness",
+       "Best suited to"
+      ],
+      "rows": [
+       [
+        "Coated white",
+        "High, close to the swatch",
+        "Sharp",
+        "Photography, brand colour matching, fine detail"
+       ],
+       [
+        "Uncoated white",
+        "Softer, slightly lighter",
+        "Slightly absorbed",
+        "Text-led designs, matte natural look"
+       ],
+       [
+        "Recycled white",
+        "Slightly muted, can vary batch to batch",
+        "Moderate",
+        "Simple marks, limited colour work"
+       ],
+       [
+        "Kraft brown",
+        "Shifted warm, pale tints lost",
+        "Moderate",
+        "Single-colour marks, natural styling"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "The Cost Of A Clean Surface",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Everything that makes white good for printing makes it unforgiving in service. A white sleeve is a blank field that records every mark it receives, and in a burger operation there are several."
+     },
+     {
+      "t": "p",
+      "html": "Grease shadowing is the main one. When oil from a bun or a patty migrates into uncoated fibre it darkens the board into a translucent patch. On a dark sleeve nobody notices. On white it reads as a stain, even though nothing has actually failed. This is a presentation problem rather than a hygiene one, but customers judge it as the latter."
+     },
+     {
+      "t": "p",
+      "html": "Handling marks follow the same pattern. Flour dust from a prep bench, a smear of sauce from a gloved thumb, the grey mark left where a sleeve was dragged across a stainless surface — all of these are visible on white and invisible on brown or black. Operators running high-grease menus on white board almost always pair it with <a href=\"/product/grease-resistant-burger-sleeves/\">board treated to slow oil migration</a> plus an inner greaseproof wrap."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Oil migration shows as a darkened translucent patch, most visible at the base panel",
+       "Sauce and condiment contact marks immediately",
+       "Dust and flour settle visibly during prep",
+       "Grey abrasion marks appear from contact with stainless surfaces",
+       "Stacked stock picks up marks from the sleeve above and below it"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Coating Decisions On White Board",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A coating on white board does two separate jobs, and it is worth being clear about which one you are buying. A print coating improves how ink sits on the surface, giving denser colour and sharper edges. A barrier coating slows liquid and oil moving into the fibre. They are not the same treatment and one does not guarantee the other."
+     },
+     {
+      "t": "p",
+      "html": "Because white shows grease so readily, a barrier treatment does more visible good here than on any other stock. It will not make a sleeve leakproof, and no paperboard sleeve should be described that way, but it can move the point at which a visible shadow appears from ten minutes to well past the time a customer takes to eat."
+     },
+     {
+      "t": "p",
+      "html": "Surface finish then sits on top of that decision. Gloss deepens printed colour and gives a wipeable face; matte reduces glare and hides light scuffing. On white specifically, gloss has a secondary benefit, because a sealed surface resists absorbing a smear rather than soaking it in. If your design is colour-led rather than text-led, <a href=\"/product/gloss-finish-burger-sleeves/\">a sealed high-shine face that deepens printed colour</a> is usually the more suitable pairing."
+     }
+    ]
+   },
+   {
+    "heading": "Menus That Suit A White Sleeve",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "White works hardest where the packaging has a job beyond looking good. Chains printing allergen information, franchise operators reproducing an exact brand palette, and businesses running photographic campaign artwork all need a bright predictable ground."
+     },
+     {
+      "t": "p",
+      "html": "It also suits menus where the food is pale. A chicken burger, a fish sandwich or a plant-based patty photographed against dark board can look flat. Against white the contrast falls the other way and the food reads cleanly. This is the opposite of the argument used for dark sleeves, and it is why size and colour decisions are worth making per menu item rather than per brand."
+     },
+     {
+      "t": "p",
+      "html": "Where white struggles is unattended outdoor service and long delivery runs, because there is more time for marks to accumulate before anyone sees the packaging. Operators in those settings often accept a slightly less accurate colour match in exchange for a surface that stays presentable, and look at <a href=\"/product-category/burger-sleeves-styles/\">the range of surface options across the sleeve styles</a> before locking a decision."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Confirm whether your brand colour needs to match an existing printed reference",
+       "Check whether the packaging must carry small text such as allergen information",
+       "Assess how greasy the menu items actually are in service, not in theory",
+       "Decide whether a barrier treatment is needed to keep the surface presentable",
+       "Choose the surface finish last, once print and barrier needs are settled"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "TBS-029": {
+  "sections": [
+   {
+    "heading": "What Unbleached Board Does To Printed Colour",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Kraft brown board has not been bleached, so the natural colour of the wood fibre remains. That brown ground sits under every mark printed on it and acts like a warm filter. A blue prints greener. A red prints earthier. Pale tints — pastels, light greys, soft pinks — mostly vanish, because there is not enough ink density to overcome the substrate underneath."
+     },
+     {
+      "t": "p",
+      "html": "The practical consequence is that kraft rewards designs built for it and punishes designs ported onto it. Artwork developed on white and then applied to brown board rarely survives the move intact. Designers who work with kraft regularly build in one or two strong colours, rely on solid shapes rather than gradients, and treat the brown itself as one of the palette colours rather than as blank space."
+     },
+     {
+      "t": "p",
+      "html": "There is also visible variation in the board. Unbleached fibre carries specks, tonal shifts and occasional darker flecks. Between production batches the base shade can move slightly. For most operators this reads as character; for a brand with tight colour governance it is a genuine constraint that needs acknowledging before a first order."
+     },
+     {
+      "t": "table",
+      "caption": "Ink behaviour on unbleached brown board",
+      "headers": [
+       "Ink choice",
+       "Result on kraft",
+       "Reliability"
+      ],
+      "rows": [
+       [
+        "Solid black",
+        "Strong contrast, clean edges",
+        "High"
+       ],
+       [
+        "Opaque white",
+        "Reads clearly, the usual choice for reversed marks",
+        "High, needs adequate ink density"
+       ],
+       [
+        "Single strong spot colour",
+        "Shifts warm but stays legible",
+        "Good"
+       ],
+       [
+        "Full-colour photography",
+        "Muddied, tonal range collapses",
+        "Poor"
+       ],
+       [
+        "Pale tints and pastels",
+        "Largely absorbed into the brown",
+        "Poor"
+       ],
+       [
+        "Metallic",
+        "High contrast, works well as a small mark",
+        "Good, cost depends on run"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "How Brown Board Handles Grease",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Kraft sits in a useful middle position on grease. Oil migrating into the fibre darkens it, exactly as it does on any paperboard, but the starting colour is already dark and warm, so the resulting patch is far less conspicuous than on white. It is more visible than on black, and it tends to appear as a deepening of tone rather than a defined stain edge."
+     },
+     {
+      "t": "p",
+      "html": "Uncoated kraft absorbs readily. If the menu runs to loaded builds, sauces or anything that sits under a lid and steams, a barrier treatment or an inner greaseproof wrap is doing the real work. A sleeve is a grip and presentation layer; it is not a container, and paperboard should never be described as leakproof."
+     },
+     {
+      "t": "p",
+      "html": "One frequently missed point is that a barrier coating changes the look. Part of what buyers want from kraft is the dry, matte, papery hand-feel. Add a coating and that softens toward something slightly sealed and slightly sheened. If the natural feel is the reason for choosing kraft, it is worth asking to handle a coated sample before committing, and comparing it against <a href=\"/product/kraft-burger-sleeves/\">the wider kraft board options across weights</a>."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Oil shadowing reads as tonal deepening rather than an obvious stain",
+       "Uncoated kraft absorbs faster than coated white board",
+       "A barrier coating reduces absorption but alters the natural matte hand-feel",
+       "Fingerprints and handling marks are largely invisible",
+       "Flour and light dust do not show against a warm brown ground"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Designing A Mark That Works On Brown",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Most successful kraft artwork is deliberately simple. A single-colour logo, a line-drawn illustration, a stamped-looking mark. That is partly a stylistic convention and partly a technical response to what the board can hold."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Reduce the palette to one or two inks before beginning layout",
+       "Convert any gradient to a flat colour or a halftone pattern",
+       "Increase stroke weights, because thin lines lose definition on absorbent fibre",
+       "Test the logo in both solid ink and reversed-out white to see which holds better",
+       "Set a minimum type size larger than you would use on coated white",
+       "Approve a printed sample on the actual kraft board rather than a screen proof"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "Reversing artwork out to leave bare board is a particularly effective kraft technique. Instead of printing the mark, you print the area around it in a solid ink and let the brown show through as the logo. It costs one colour, holds crisp edges, and looks intentional rather than economical. Operators taking that approach usually end up looking at <a href=\"/product/minimal-design-burger-sleeves/\">pared-back layouts that use fewer inks</a> across the rest of the packaging set too."
+     }
+    ]
+   },
+   {
+    "heading": "Service Settings Suited To Kraft",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Brown board reads as informal, handmade and unfussy. That signals well in farmers-market stalls, independent burger bars, brewery kitchens, delis and any menu positioning itself around provenance rather than polish. It reads less well for a franchise operation that needs exact colour reproduction across hundreds of sites."
+     },
+     {
+      "t": "p",
+      "html": "It is also forgiving in messy environments. A market stall in wind and dust, a festival pitch, a kitchen where sleeves are assembled next to a fryer — kraft absorbs these conditions visually in a way that bright white does not. Fewer sleeves get discarded for looking marked before they are even used."
+     },
+     {
+      "t": "p",
+      "html": "Where a brand needs both the natural look and reliable colour reproduction, one common route is kraft for everyday service and a light board for campaign runs where photography or an exact palette matters. Comparing it directly against <a href=\"/product/white-burger-sleeves/\">a bright ground that reproduces colour predictably</a> makes the trade-off concrete rather than theoretical."
+     }
+    ]
+   },
+   {
+    "heading": "Specifying Kraft Brown Sleeves",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Kraft is sold in a range of shades and weights, and \"kraft\" alone is not a specification. Ask what base shade the board runs at, whether it is virgin or recycled fibre, what caliper is available, and whether a barrier option exists at your run size."
+     },
+     {
+      "t": "p",
+      "html": "Set expectations on shade consistency in advance. If a reorder in six months needs to sit beside current stock without an obvious difference, say so at quotation and ask whether the same board can be reserved or matched. Batch variation in unbleached board is normal rather than a defect, so it is better handled as an expectation than as a complaint."
+     },
+     {
+      "t": "p",
+      "html": "Recycled content is worth asking about separately rather than assuming it. Brown appearance and recycled fibre are two different things, and a board can be one without the other. Any disposal or recycling claim should be checked against the finished construction and local facilities rather than assumed from the colour."
+     }
+    ]
+   }
+  ]
+ },
+ "TBS-033": {
+  "sections": [
+   {
+    "heading": "A Gloss Coat Is Protection Before It Is Decoration",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Gloss on a burger sleeve is usually described as a look. Functionally, it is a thin sealed film sitting over the printed ink, and what it mostly does is stop things reaching that ink. A smear of sauce on an uncoated printed surface soaks in and stays. The same smear on a gloss face sits on top and wipes off."
+     },
+     {
+      "t": "p",
+      "html": "That sealing has a second effect that is easy to see side by side. Ink on an absorbent surface sinks slightly and dries lighter. Sealed under gloss, the same ink holds its density, so colours look deeper and blacks look blacker. Nothing has changed about the ink; the surface has stopped it dulling."
+     },
+     {
+      "t": "p",
+      "html": "Gloss also resists light abrasion better than a bare printed surface. Sleeves stacked in a carton and dragged out one at a time rub against each other constantly, and a sealed face survives that better than raw printed board. On dark artwork especially, this is the difference between stock that stays presentable through a case and stock that arrives at the counter looking tired."
+     },
+     {
+      "t": "table",
+      "caption": "What a gloss coating changes",
+      "headers": [
+       "Property",
+       "Uncoated printed face",
+       "Gloss coated face"
+      ],
+      "rows": [
+       [
+        "Colour density",
+        "Slightly lighter, ink sinks in",
+        "Holds close to the proof"
+       ],
+       [
+        "Sauce and smear",
+        "Absorbs and marks",
+        "Sits on the surface, wipeable"
+       ],
+       [
+        "Light abrasion",
+        "Scuffs against stacked stock",
+        "More resistant"
+       ],
+       [
+        "Fingerprints",
+        "Rarely visible",
+        "Visible from warm hands"
+       ],
+       [
+        "Reflection",
+        "None",
+        "Noticeable under downlights"
+       ],
+       [
+        "Hand-feel",
+        "Dry, papery",
+        "Smooth, slightly slick"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "The Lighting Problem Nobody Tests For",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Gloss reflects, and burger counters are lit from above with hard downlights and heat lamps. A sleeve approved flat on a desk under diffuse office light can behave very differently sitting under a pass lamp, where a bright band of reflection can fall directly across the part of the artwork you most wanted read."
+     },
+     {
+      "t": "p",
+      "html": "The same issue affects photography. Customer photos and delivery-app imagery are usually taken from above under whatever light is available, and a gloss face will bounce a hotspot back at the camera. Businesses that rely on customers photographing their food sometimes find a lower-sheen surface performs better commercially even though it looks less impressive in the hand."
+     },
+     {
+      "t": "p",
+      "html": "A practical middle route is spot gloss over a matte base: the sleeve stays low-glare overall, with gloss applied only to a logo or a shape. That gives the tactile contrast without turning the whole face into a mirror. Operators weighing this up usually want to compare it against <a href=\"/product/matte-finish-burger-sleeves/\">a non-reflective face that stays readable under hard lighting</a> before deciding."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Take the printed sample into the actual service area, not a meeting room",
+       "Hold it under the pass lamp at the angle a customer would see it",
+       "Photograph it from directly above with a phone under the same light",
+       "Handle it with warm hands for a minute and look for prints",
+       "Only then decide between full gloss, spot gloss and matte"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Where Gloss Earns Its Place",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Colour-led artwork benefits most. If the design carries photography, saturated brand colours or large areas of flat colour, gloss keeps the printed result close to what was approved. On text-led or single-ink designs the benefit is far smaller and the reflection cost stays the same."
+     },
+     {
+      "t": "p",
+      "html": "Sauce-heavy menus are the other clear case. Anywhere a sleeve is likely to receive a mark during assembly or eating, a wipeable face keeps the packaging presentable rather than recording every contact. That is worth more in dine-in and counter service, where the sleeve sits in front of a customer for the length of a meal, than in a delivery bag nobody sees."
+     },
+     {
+      "t": "p",
+      "html": "Gloss pairs particularly well with bright board, because a coated white surface already reproduces colour accurately and the gloss layer preserves that accuracy through handling. If maximum colour fidelity is the goal, <a href=\"/product/full-color-burger-sleeves/\">edge-to-edge process colour on a bright ground</a> is the combination usually specified."
+     }
+    ]
+   },
+   {
+    "heading": "What To Confirm Before Ordering",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Gloss is achieved several ways and the differences matter. A gloss varnish is a thin coating applied inline on press. A UV coating is cured harder and shinier. A gloss laminate is a film bonded to the board, which is the most durable and the most likely to complicate fibre recycling. These are not interchangeable, and a quotation that just says \"gloss\" has not answered the question. The same question applies across <a href=\"/product-category/burger-sleeves-styles/\">the other surface treatments offered in this range</a>, since each is quoted differently."
+     },
+     {
+      "t": "p",
+      "html": "Ask which is being offered, whether it covers the full face or only one side, and how it interacts with any barrier treatment. A coating applied for appearance is not the same as one applied to slow grease migration, and having one does not mean you have the other."
+     },
+     {
+      "t": "p",
+      "html": "Recycling should be checked against the finished construction rather than the board alone. Laminated faces in particular can affect fibre recovery, and local facilities vary, so treat disposal as something to verify for your specific build and location."
+     }
+    ]
+   }
+  ]
+ },
+ "TBS-034": {
+  "sections": [
+   {
+    "heading": "A Dieline Is The Actual Product",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "On a plain sleeve, the cutting tool is a rectangle with two creases. On a die-cut sleeve, the tool is a shaped steel rule form that cuts curves, notches, tabs and slots in one pass. That tool — the dieline — is what you are really specifying. Board and print sit on top of it, but the dieline decides whether the sleeve assembles in one motion or fights the person holding it."
+     },
+     {
+      "t": "p",
+      "html": "Every dieline separates into two kinds of line. Cut lines remove material. Crease lines compress the board so it folds along a predictable axis without cracking. Getting the crease positions right matters more than the cuts, because a crease in the wrong place by two or three millimetres produces a sleeve that closes crooked every single time."
+     },
+     {
+      "t": "p",
+      "html": "Nick points are the third element and the one most often forgotten. These are tiny uncut bridges that hold a piece in the sheet until it is separated. Too few and parts fall out during production; too many and staff have to tear them apart at the counter, which slows assembly and leaves ragged edges on a customer-facing panel."
+     },
+     {
+      "t": "table",
+      "caption": "Elements of a burger sleeve dieline",
+      "headers": [
+       "Element",
+       "Function",
+       "What goes wrong if it is off"
+      ],
+      "rows": [
+       [
+        "Cut line",
+        "Defines the outer shape and any windows",
+        "Shape does not match the burger footprint"
+       ],
+       [
+        "Crease line",
+        "Sets the fold axis",
+        "Sleeve closes crooked or the board cracks"
+       ],
+       [
+        "Tuck tab",
+        "Holds the closure",
+        "Tab misses the slot or tears on insertion"
+       ],
+       [
+        "Lock slot",
+        "Receives the tab",
+        "Too tight to insert, or too loose to hold"
+       ],
+       [
+        "Nick point",
+        "Holds parts in the sheet during production",
+        "Pieces detach early, or staff tear the panel"
+       ],
+       [
+        "Bleed area",
+        "Extra printed margin beyond the cut",
+        "Unprinted white slivers appear at the edges"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Tabs, Slots And The Tolerance Problem",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "A tuck tab and lock slot look trivial on a drawing and are the single most common source of complaints in service. The reason is tolerance stacking. The board has a thickness tolerance. The cutting tool has a positional tolerance. The press has a registration tolerance. Individually each is small; combined, they can be enough that a tab designed to slide in needs to be forced."
+     },
+     {
+      "t": "p",
+      "html": "A slot cut to the exact width of its tab will bind, because the board also has thickness and the tab has to bend to enter. Slots are normally cut with deliberate clearance, and the amount depends on the board caliper. Thicker board needs more. This is why a tab design lifted from a thin-board carton often fails when the same drawing is run on a heavier sleeve stock."
+     },
+     {
+      "t": "p",
+      "html": "The other failure mode is the tab tearing at its base after a few uses. That happens where the tab meets the panel at a sharp internal corner, which concentrates stress. Rounding that junction distributes the load and is a change costing nothing at the dieline stage. Operators specifying structural sleeves for tall builds usually work through this alongside <a href=\"/product/double-patty-burger-sleeves/\">sleeve geometry sized for stacked two-patty builds</a>, because height and closure interact."
+     },
+     {
+      "t": "ul",
+      "items": [
+       "Slot width needs clearance beyond the tab width, scaled to board thickness",
+       "Sharp internal corners where a tab meets its panel are the usual tear point",
+       "Tab length must clear the slot fully or it works loose during carry",
+       "Heavier board needs deeper creases to fold cleanly without cracking",
+       "A tab that is easy to insert cold may be tight when board absorbs kitchen humidity"
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Assembly Time Is A Real Cost",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Die-cut sleeves arrive flat and are formed at the counter. That is an advantage in storage and a cost in labour, and the second half is usually left out of the calculation. A sleeve that takes six seconds to assemble instead of two costs four seconds on every order for the life of the packaging."
+     },
+     {
+      "t": "p",
+      "html": "At three hundred covers a service, four extra seconds is twenty minutes of staff time a day spent folding cardboard. That is worth measuring before a large order rather than after. The measurement is simple: take the physical sample, hand it to the person who will actually use it during a busy period, and time ten assemblies."
+     },
+     {
+      "t": "ol",
+      "items": [
+       "Request physical samples cut from the proposed dieline on the proposed board",
+       "Have a line member — not a manager — assemble ten of them and time it",
+       "Repeat with warm, slightly greasy hands, which is the real condition",
+       "Load an actual burger and check the tab still closes over the filled height",
+       "Carry it in a bag for the length of a typical delivery and inspect the closure",
+       "Only approve the dieline once all five checks pass"
+      ]
+     },
+     {
+      "t": "p",
+      "html": "If the assembly time cannot be brought down, a simpler wrap-style sleeve may serve the same menu better. Structural complexity is worth paying for when it solves a real handling problem, not when it exists because the drawing looked interesting. Where the structure is genuinely needed, it is usually specified alongside the rest of the build through <a href=\"/product/custom-burger-sleeves/\">a full bespoke specification covering board, print and structure together</a>."
+     }
+    ]
+   },
+   {
+    "heading": "Supplying And Approving The File",
+    "blocks": [
+     {
+      "t": "p",
+      "html": "Die-cut work needs the artwork and the dieline supplied as separate layers in one vector file. The dieline layer should use distinct spot colours for cut, crease and any perforation, named clearly, and set to overprint so it does not knock holes in the artwork underneath."
+     },
+     {
+      "t": "p",
+      "html": "Artwork must extend past every cut line into the bleed. Without that margin, the smallest cutting shift leaves an unprinted sliver along an edge, which is highly visible on dark or heavily printed sleeves. Anything that must not be trimmed — logos, legal text, allergen information — needs to sit well inside a safety margin, not close to the cut."
+     },
+     {
+      "t": "p",
+      "html": "Approve a physical cut sample rather than a flat visual. A drawing cannot tell you whether the tab binds, whether a crease cracks on a heavy board, or whether the assembled sleeve actually fits your burger. If a cut sample is not offered as part of the process, ask for one and treat the request as routine. Most suppliers will discuss this at the <a href=\"/get-free-quote/\">quotation stage where dimensions and structure are confirmed</a>."
      }
     ]
    }
