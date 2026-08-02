@@ -188,12 +188,16 @@ for (const [src, links] of now) {
 }
 
 const REASONS = new Map([
-  ['/product-category/special-sleeves-uses/', 'restored: Logo Printed now links here from "Checking The Mark In Use, Not On A Bench"; the six baseline links were self-referential, every page in the cluster linking up to its own category'],
-  ['/product/food-truck-burger-sleeves/', 'restored: Branded now links here from "Holding A Brand Together Across Locations"'],
-  ['/product/street-food-burger-sleeves/', 'restored: Black Printed now links here from "Menus Where One Ink Is The Right Answer"'],
-  ['/product-category/burger-sleeves-sizes/', 'restored: Custom now links here from "Measuring Before Anyone Draws Anything"; baseline links were each size page linking up to its own parent category'],
+  ['/product-category/special-sleeves-uses/', 'partially restored (0 -> 2): Logo Printed and Eco Friendly now link here. The six baseline links were self-referential, every page in the cluster linking up to its own category. Groups 6-7 owe further links'],
+  ['/product-category/burger-sleeves-materials/', 'partially restored (1 -> 2): Kraft links here from "What The Word Kraft Actually Specifies". The six baseline links were each material page linking up to its own parent category — a closed loop that carried no information. Groups 6-7 owe further links'],
+  ['/product/paper-burger-sleeves/', 'restored (0 -> 1): Cardboard links here from "Cardboard Names A Family, Not A Board", which is where the boundary between the two products is actually drawn. All four baseline links came from inside the Materials cluster'],
+  ['/product/kraft-burger-sleeves/', 'reduced but well supported at 3 incoming. The lost links were intra-cluster references from the other five Materials pages, replaced with cross-cluster links'],
+  ['/product/recycled-burger-sleeves/', 'reduced to 1 incoming from Eco Friendly, which is the genuinely related page. The other baseline links were sibling references inside the Materials cluster'],
+  ['/product/corrugated-burger-sleeves/', 'reduced to 1 incoming from Cardboard, which is the direct alternative a buyer actually weighs it against'],
+  ['/product/street-food-burger-sleeves/', 'partially restored (1 -> 2): Black Printed and Paper now link here'],
+  ['/product/event-burger-sleeves/', 'partially restored (1 -> 2): Corrugated now links here from "When The Rigidity Earns Its Cost". Combo group owes a further link'],
 ]);
-const CLUSTER = 'baseline links were reciprocal sibling links inside one cluster (each size/use page linking to its neighbours); replaced with cross-cluster links that answer a different question. Scheduled for further incoming links from Groups 5-7, which are not yet written';
+const CLUSTER = 'baseline links were reciprocal sibling links inside one cluster (each size/use/material page linking to its neighbours and up to its own category); replaced with cross-cluster links that answer a different question. Scheduled for further incoming links from Groups 6-7, which are not yet written';
 
 const incomingRows = [];
 for (const dest of [...new Set([...incomingBefore.keys(), ...incomingAfter.keys()])].sort()) {

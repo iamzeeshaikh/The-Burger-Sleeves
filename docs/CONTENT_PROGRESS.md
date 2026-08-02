@@ -8,7 +8,7 @@ Authored copy lives in `scripts/content/*.mjs` and is merged by
 fails. Never hand-edit `src/data/product-content.json` for authored groups —
 edit the group file and re-run the merge.
 
-Last updated: 2026-08-01 · Styles, Sizes, Special Uses and Customized complete (26 of 44 products).
+Last updated: 2026-08-02 · Styles, Sizes, Special Uses, Customized and Materials complete (32 of 44 products).
 
 ## Status legend
 
@@ -142,16 +142,54 @@ data rather than guessed:
   brief forbids altering it) and the long copy follows the images and the spec
   table. Raised for the client in `CONTENT_AUDIT.md` § Client decisions.
 
-## Group 5 — Materials (6) — pending
+## Group 5 — Materials (6) — **completed**
 
-| SKU | Product | Current words | Action |
-| --- | --- | ---: | --- |
-| TBS-001 | Kraft Burger Sleeves | 855 | expand to target |
-| TBS-002 | Cardboard Burger Sleeves | 927 | expand to target |
-| TBS-003 | Paper Burger Sleeves | 1,198 | expand slightly |
-| TBS-004 | Corrugated Burger Sleeves | 1,005 | expand to target |
-| TBS-005 | Recycled Burger Sleeves | 1,096 | expand to target |
-| TBS-006 | Eco Friendly Burger Sleeves | 928 | expand to target; duplicate destination already fixed |
+| SKU | Product | Words (was → now) | FAQs | Links | Status |
+| --- | --- | --- | ---: | ---: | --- |
+| TBS-001 | Kraft Burger Sleeves | 855 → 1,516 | 12 | 4 | completed |
+| TBS-002 | Cardboard Burger Sleeves | 927 → 1,397 | 12 | 4 | completed |
+| TBS-003 | Paper Burger Sleeves | 1,198 → 1,409 | 12 | 3 | completed (restructured, lists preserved) |
+| TBS-004 | Corrugated Burger Sleeves | 1,005 → 1,395 | 12 | 3 | completed (construction unverified — see below) |
+| TBS-005 | Recycled Burger Sleeves | 1,096 → 1,353 | 12 | 4 | completed |
+| TBS-006 | Eco Friendly Burger Sleeves | 928 → 1,348 | 12 | 3 | completed |
+
+### The inherited copy was mostly not about materials
+
+The instruction was to preserve accurate inherited content. Measured first, most
+of it did not qualify. Across the six pages the copy was overwhelmingly generic
+wrap-station routine — folding, bagging, stacking, staff training — with tables
+whose cells read `Storage | Flat stack behavior | Quick picking | Prep lines |
+Smooth release`. It also repeated itself across the cluster:
+
+- **11 table rows appeared on more than one page**, three of them on three pages
+- **7 sentences appeared on two pages each**
+- Cardboard ↔ Corrugated measured **11.8 %** similar, the highest pair on the site
+
+So the station-routine filler was replaced and the genuinely specific material
+content kept. TBS-003 Paper kept the most, including both of its step-by-step
+lists, which are concrete and useful; only its templated headings, its
+duplicated filler tables and its "lightweight flexible paper" framing changed.
+
+### Construction verification — what the data actually supports
+
+| Question asked | Finding |
+| --- | --- |
+| Is Corrugated genuinely fluted? | **Not verifiable.** The spec table documents E flute, F flute, single-face and stiffer grades. None of the five product images shows fluting — all show smooth printed board, two carrying third-party branding (White Castle, "Burger Brother") and one a stock mockup template. Flute options are named as quotable options; no thickness, insulation or thermal claim is made |
+| How does Paper differ from Cardboard? | **Materially overlapping.** Paper's own spec reads "Paperboard sleeve structure… medium to heavy calipers"; Cardboard's reads "White SBS board, kraft board… 250–450 GSM". Both are solid paperboard across overlapping ranges. Differentiated honestly by the question each answers — Cardboard by stiffness selection, Paper by format and contact setup — not by an invented weight distinction |
+| Is Recycled content verified? | **No percentage and no post-consumer split is documented.** The spec says only "built using recycled content where suitable for sleeve board". Neither figure is claimed on the page |
+| What does Eco Friendly offer? | **Nothing environmental is documented** beyond "designed around responsible packaging preferences" plus kraft and recycled board. Written as a material-selection and waste-reduction framework rather than a green-claims page |
+| Kraft (material) vs Kraft Brown (style)? | **Real but narrow.** TBS-001's spec uniquely carries absorbent/barrier builds and a 250–400 GSM band; TBS-029 covers the brown surface and printing on it. TBS-001 is written as a stock decision and links to TBS-029 for the appearance question rather than repeating it |
+
+### Unique table per page
+
+Kraft: build options and what each commits you to · Cardboard: board and weight
+against the failure being fixed · Paper: formats and what each asks of the line ·
+Corrugated: documented flute options and what to establish for each · Recycled:
+what to ask a supplier and what a usable answer looks like · Eco Friendly:
+lower-impact decisions and what each requires from you.
+
+No invented GSM, caliper, flute, coating, recycling or thermal figures. Every
+number on these pages comes from the products' own specification tables.
 
 ## Group 6 — Usage (8) — pending
 
@@ -175,8 +213,9 @@ TBS-044 Fast Food Sleeves Packaging.
 | ~~Duplicate FAQ "…for my menu?"~~ | cleared — TBS-036 rewritten | done |
 | Identical `category+product+product+product` link shape | 8 pages not yet rewritten (was 19) | each owning group |
 | Duplicate `metaDescription` | TBS-011 Takeaway and TBS-012 Disposable share one description, inherited from WordPress | Group 6 — Usage |
-| 9 products with zero contextual incoming links | all nine are Group 6 Usage pages, not yet written | Groups 5–7 |
-| Thin incoming support on 11 destinations | see `INTERNAL_LINK_PRESERVATION_REPORT.csv`, incoming rows | Groups 5–7 (18 pages, ~54 links still to allocate) |
+| 8 products with zero contextual incoming links | all eight are Group 6 / 7 pages, not yet written | Groups 6–7 |
+| Thin incoming support on 10 destinations | see `INTERNAL_LINK_PRESERVATION_REPORT.csv`, incoming rows | Groups 6–7 (12 pages, ~36 links still to allocate) |
+| 39 unsupported environmental claims in inherited fields | short descriptions, image alt text and one product name; protected by the migration brief so flagged, not deleted | client decision |
 | ~~1 repeated paragraph, 1 reused anchor~~ | cleared | done |
 
 ## Link allocation owed by the remaining groups
@@ -188,17 +227,20 @@ them, and the check must come back clean before the final checkpoint.
 
 | Destination | Baseline → now | Owed from |
 | --- | --- | --- |
-| `/product/large-burger-sleeves/` | 5 → 1 | Materials, Usage |
-| `/product/medium-burger-sleeves/` | 5 → 2 | Materials, Usage |
-| `/product-category/special-sleeves-uses/` | 6 → 1 | Usage, Combo |
-| `/product/event-burger-sleeves/` | 4 → 1 | Combo |
-| `/product/slider-burger-sleeves/` | 4 → 2 | Usage |
-| `/product/restaurant-burger-sleeves/` | 4 → 2 | Usage |
-| `/product/street-food-burger-sleeves/` | 3 → 1 | Usage |
-| `/product/food-truck-burger-sleeves/` | 2 → 1 | Usage |
+| `/product-category/burger-sleeves-materials/` | 6 → 2 | Usage, Combo |
+| `/product-category/special-sleeves-uses/` | 6 → 2 | Usage, Combo |
+| `/product/large-burger-sleeves/` | 5 → 2 | Usage |
+| `/product/medium-burger-sleeves/` | 5 → 3 | Usage |
+| `/product/kraft-burger-sleeves/` | 5 → 3 | Usage |
+| `/product/event-burger-sleeves/` | 4 → 2 | Combo |
+| `/product/recycled-burger-sleeves/` | 3 → 1 | Combo |
+| `/product/street-food-burger-sleeves/` | 3 → 2 | Usage |
+| `/product/corrugated-burger-sleeves/` | 2 → 1 | Usage |
+| `/product/paper-burger-sleeves/` | 4 → 1 | Usage |
 
-Nine products still have zero contextual incoming links; all nine are Group 6
-Usage pages that have not been written yet.
+Eight products still have zero contextual incoming links; all eight are Group 6
+and Group 7 pages that have not been written yet. Every page that already
+carries upgraded copy has at least one incoming contextual link.
 
 ## Invariants that must hold at every checkpoint
 
@@ -213,3 +255,10 @@ Usage pages that have not been written yet.
 - `node scripts/link-report.mjs` regenerates both link CSVs and re-runs the
   incoming-link check. `OLD_INTERNAL_LINK_BASELINE.csv` is its input and must
   never be regenerated from current content
+- `node scripts/claim-scan.mjs` must report **BLOCK 0**. It exits non-zero on any
+  unqualified environmental, certification or performance claim in authored copy,
+  and separately lists inherited claims for a human decision rather than deleting
+  them
+- The duplication audit compares headings, paragraphs, **list items and table
+  rows**. Comparing only headings and paragraphs hid 11 shared table rows across
+  the Materials cluster; do not narrow the corpus again

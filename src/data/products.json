@@ -740,64 +740,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Kraft Burger Sleeves?",
-    "a": "<p>Kraft burger sleeves are made using brown kraft paper for a natural, straightforward look. They are used to hold burgers with better grip and reduced mess. Many businesses use kraft when they want a simple packaging style.</p>"
+    "q": "1. Does kraft mean the board is brown?",
+    "a": "<p>Not necessarily. Kraft describes the pulping process, and the brown colour comes from leaving that pulp unbleached. Bleached kraft board exists and is pale. Because the word does not fix a shade, a quotation should state the intended appearance separately rather than relying on the material name alone.</p>"
    },
    {
-    "q": "2. Why Do Restaurants Use Kraft Paper For Sleeves?",
-    "a": "<p>Kraft paper has a natural texture and tone that suits simple branding. It can also provide a firmer grip feel during eating. Design styles with bold logos and minimal text often work well on kraft.</p>"
+    "q": "2. Is kraft board automatically recycled board?",
+    "a": "<p>No. Kraft describes how the fibre was pulped; recycled describes where the fibre came from. A kraft board may be virgin fibre, recycled fibre or a blend of both. If recycled content matters to your business, ask for it explicitly and ask for the answer in writing rather than inferring it from the brown appearance.</p>"
    },
    {
-    "q": "3. Do Kraft Sleeves Absorb Grease?",
-    "a": "<p>Standard kraft can absorb some oils, which helps reduce surface smearing. For heavy grease or sauces, a barrier inner layer can slow soak-through. Holding time influences how quickly oil shows.</p>"
+    "q": "3. What is the difference between absorbent and barrier kraft?",
+    "a": "<p>Absorbent kraft lets oil move into the fibre, which shows as a gradual darkening and gradually softens the board. A barrier build slows that migration so the panel stays firmer for longer. The trade is hand-feel: barrier treatment moves the surface away from the dry papery texture that often motivates choosing kraft.</p>"
    },
    {
-    "q": "4. Are Kraft Sleeves Good For Outdoor Events?",
-    "a": "<p>Yes, kraft sleeves are easy to stack, dispense, and handle in outdoor service setups. They also look consistent under different lighting. Keep storage dry to prevent softening.</p>"
+    "q": "4. Will a barrier treatment make the sleeve leakproof?",
+    "a": "<p>No, and it should not be described that way. A barrier slows oil moving into the board. It does not make paperboard a container and does not hold liquid. For sauced or juicy builds an inner greaseproof wrap does the real work, with the sleeve acting as a grip and presentation layer around it.</p>"
    },
    {
-    "q": "5. What Printing Looks Best On Kraft Sleeves?",
-    "a": "<p>Bold logos, simple icons, and strong line art usually read best. Light pastel colors can be muted on kraft because of the brown base tone. Wider line weights and clear spacing improve readability.</p>"
+    "q": "5. Which weight should I choose within the 250 to 400 GSM range?",
+    "a": "<p>Heavier is stiffer rather than better. Lighter suits modest builds and short holds; heavier earns its place under a loaded burger, a one-handed grip or a long staging time. The reliable way to decide is to handle a loaded sample at each candidate weight rather than choosing from the figure alone.</p>"
    },
    {
-    "q": "6. Can Kraft Sleeves Be Used For Gourmet Burgers?",
-    "a": "<p>Yes, deeper sleeve sizes can support gourmet builds with tall toppings. Barrier options help if sauces are heavy. A neat fit keeps the burger stable and presentable.</p>"
+    "q": "6. Why did the printed surface crack along the fold?",
+    "a": "<p>Almost always because the crease was not cut deep enough for the board in front of it. Long kraft fibres fold well, but only along an adequate crease, and heavy ink across the fold makes any split far more visible. Crease depth should be specified against the actual caliper rather than carried over from a lighter stock.</p>"
    },
    {
-    "q": "7. What Is The Minimum Order Quantity For Kraft Sleeves?",
-    "a": "<p>MOQ is 100 units. This supports smaller runs and menu testing. Larger quantities help maintain consistent kraft tone and print match.</p>"
+    "q": "7. How is this different from the kraft brown sleeve option?",
+    "a": "<p>This page covers kraft as a construction: the build, the weight band and how the board takes a crease. The brown style option covers appearance and printing — what unbleached fibre does to printed colour and how to design a mark that reads against it. Most orders settle the build first and the surface second.</p>"
    },
    {
-    "q": "8. Are Kraft Sleeves Compatible With Sticker Seals?",
-    "a": "<p>They can be, especially when the outer surface is not heavily coated. Sticker adhesion can vary by finish type. Testing your sticker type on the sleeve surface helps confirm performance.</p>"
+    "q": "8. Does kraft hide grease marks better than pale board?",
+    "a": "<p>Considerably better. Oil darkens fibre on any paperboard, but against an already warm brown ground the result reads as a slight deepening in tone rather than a defined stain. It is more visible than on a dark printed board and much less visible than on a bright white one.</p>"
    },
    {
-    "q": "9. Do Kraft Sleeves Work For Sliders?",
-    "a": "<p>Yes, slider-sized kraft sleeves are common for mini burgers and sampler trays. Correct sizing prevents the burger from shifting. This helps keep portion presentation consistent.</p>"
+    "q": "9. Will the kraft shade be identical on every reorder?",
+    "a": "<p>Unbleached board varies slightly between production batches, and specks and small tonal shifts are normal in the material rather than defects. If close consistency matters, retain a sample from the approved run, raise the requirement at quotation, and ask whether the same board specification can be held across reorders.</p>"
    },
    {
-    "q": "10. How Do Kraft Sleeves Perform In Delivery Bags?",
-    "a": "<p>They help reduce grease contact inside the bag and improve handling at pickup. For longer delivery routes, an outer carrier that keeps items upright helps. Barrier liners can keep the sleeve outside drier during extended holds.</p>"
+    "q": "10. Can kraft sleeves be recycled after use?",
+    "a": "<p>That depends on the finished construction and on local facilities rather than on the material name. Barrier treatments, laminates and heavy ink coverage can each affect fibre recovery, and food residue can affect whether used packaging is recovered at all. Check what your collection accepts for the specific build you order.</p>"
    },
    {
-    "q": "11. Can Kraft Sleeves Include Order Sorting Marks?",
-    "a": "<p>Yes, blank zones can be included for stamps or shorthand notes. This supports quick order identification. Keeping the marking area away from the main logo prevents messy overlaps.</p>"
+    "q": "11. How should kraft stock be stored before use?",
+    "a": "<p>Keep cases sealed until needed and bring out working quantities rather than leaving a bulk case open. Uncoated board takes up ambient humidity, and stock that has sat open beside a fryer folds differently from stock straight out of a sealed carton. Store flat rather than on edge and rotate older cases first.</p>"
    },
    {
-    "q": "12. Are Kraft Sleeves Recyclable?",
-    "a": "<p>Recyclability depends on coatings and barrier layers. Plain kraft paper is generally easier to recycle than barrier-lined builds. Local recycling rules should guide disposal.</p>"
-   },
-   {
-    "q": "13. How Should Kraft Sleeves Be Stored?",
-    "a": "<p>Store them flat, away from steam, and away from direct kitchen splashes. Moisture can soften kraft paper quickly. Closed cartons help keep the surface clean.</p>"
-   },
-   {
-    "q": "14. What Makes Kraft Sleeves Different From White Sleeves?",
-    "a": "<p>Kraft sleeves have a natural brown base that changes how colors appear. White sleeves offer stronger color accuracy and often show stains sooner. Kraft can hide minor marks but may mute lighter inks.</p>"
-   },
-   {
-    "q": "15. What Information Helps Select Kraft Sleeve Materials?",
-    "a": "<p>Share burger size, sauce level, and expected hold time before eating. If oil control is important, barrier inner layers help. Also share your preferred design style so the print remains readable on kraft.</p>"
+    "q": "12. What should I send a supplier to get an accurate kraft quotation?",
+    "a": "<p>The finished burger dimensions measured as it leaves the kitchen, the weight band you want, whether the build should be absorbent or barrier-treated, whether an inner wrap is part of the setup, and your run size. A photograph of the assembled burger beside a ruler resolves more ambiguity than measurements on their own.</p>"
    }
   ],
   "images": [
@@ -897,64 +885,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What Are Cardboard Burger Sleeves?",
-    "a": "<p>Cardboard burger sleeves are structured sleeves made from food-grade paperboard that wrap around a burger to improve grip and stability. They help reduce direct contact with hot, greasy surfaces and keep the burger easier to hold. Many restaurants use them for takeaway, pickup, and quick-eat service.</p>"
+    "q": "1. Is cardboard the same as corrugated board?",
+    "a": "<p>No, and the distinction matters at quotation. Cardboard here means solid paperboard, a single layer that gets its stiffness from thickness and fibre. Corrugated gets its stiffness from a fluted layer between liners. They differ in bulk, cost behaviour and print surface, so a specification should name which one it means.</p>"
    },
    {
-    "q": "2. How Are Cardboard Sleeves Different From Paper Wrap Sheets?",
-    "a": "<p>A sleeve is pre-formed to hold shape, while a wrap sheet is flat and needs manual folding each time. Cardboard sleeves feel firmer in hand and can hold a burger more steadily. Wrap sheets offer flexibility, but sleeves often speed up assembly lines.</p>"
+    "q": "2. What board weight should a cardboard burger sleeve be?",
+    "a": "<p>The range quoted for this product runs from roughly 250 to 450 GSM, and the right point depends on the failure you are fixing. Bowing under load points higher; adequate rigidity at high volume points lower. The reliable test is holding a loaded sample for as long as an order actually waits.</p>"
    },
    {
-    "q": "3. Do Cardboard Burger Sleeves Help With Grease And Sauce?",
-    "a": "<p>Yes, they can reduce grease transfer to hands, especially when made with a barrier-lined inner surface. Standard board can absorb some oils, while barrier builds slow soak-through. Performance depends on sauce level and how long the burger is held before eating.</p>"
+    "q": "3. What is the difference between white SBS and kraft board here?",
+    "a": "<p>SBS gives a bright smooth face that reproduces detailed artwork and small text accurately but shows marks and grease readily. Kraft board is unbleached and more forgiving in messy settings, but it tints printed colour and limits fine detail. The choice is usually driven by artwork before it is driven by structure.</p>"
    },
    {
-    "q": "4. Are Cardboard Burger Sleeves Food Grade?",
-    "a": "<p>They can be produced using food-contact safe board and approved ink systems with printing kept on the outer side. This supports direct food contact on the inner surfaces. Clean storage and dry handling also matter for food safety.</p>"
+    "q": "4. Why does my sleeve crack along the fold on heavier board?",
+    "a": "<p>Because the crease was not deepened when the caliper went up. Reinforced scoring exists for heavier stock and has to be specified rather than assumed. If closing a sample takes a deliberate press rather than a light fold, the crease is under-specified and the split will appear in service.</p>"
    },
    {
-    "q": "5. What Sizes Are Available For Cardboard Burger Sleeves?",
-    "a": "<p>Sleeves can be made for sliders, standard burgers, double patties, and tall builds. The key measurements are bun diameter and burger height after toppings. Using the correct depth helps prevent slipping and keeps fillings more stable.</p>"
+    "q": "5. Does a thumb notch weaken the sleeve?",
+    "a": "<p>It removes material from a panel that is carrying load, so it can. Placement matters more than size: a notch near a crease weakens the fold more than the same notch mid-panel, and rounding the corners spreads stress rather than concentrating it. On heavier board the added rigidity sometimes removes the need for the notch entirely.</p>"
    },
    {
-    "q": "6. Can Cardboard Sleeves Be Used For Chicken Burgers And Sandwiches?",
-    "a": "<p>Yes, they work well for chicken burgers, fish sandwiches, and plant-based items. Grease and sauce output can be higher for fried items, so barrier options are often helpful. Correct sizing keeps the sandwich from shifting inside the sleeve.</p>"
+    "q": "6. Can one board weight cover a whole burger menu?",
+    "a": "<p>Sometimes, but specifications go wrong most often on the heaviest item rather than the typical one. Where the heaviest build defeats a board that suits everything else, running two boards is usually cheaper than lifting the entire menu onto heavier stock, particularly when the heavy item is a minority of volume.</p>"
    },
    {
-    "q": "7. Do Cardboard Sleeves Hold Up During Delivery?",
-    "a": "<p>They can perform well in delivery when paired with an outer bag or carrier that keeps items upright. The sleeve helps reduce grease contact inside the bag and improves handling at pickup. For longer routes, stable stacking and snug outer packaging help further.</p>"
+    "q": "7. My sleeve holds its shape but the burger still moves. Is that a board problem?",
+    "a": "<p>No, that is a dimensions problem. Stiffness stops bowing and collapse; it does not stop an item shifting inside a sleeve that is too wide or too deep for it. Adding caliper adds cost and storage bulk without addressing the fit, so it is worth diagnosing which of the two you have before upgrading.</p>"
    },
    {
-    "q": "8. Can Cardboard Sleeves Be Printed With Branding?",
-    "a": "<p>Yes, outer panels can carry logos, patterns, short text, and simple icons. White board typically gives higher color clarity, while kraft provides a natural look. Keeping key text away from folds helps maintain readability.</p>"
+    "q": "8. Is a print coating the same as a grease barrier?",
+    "a": "<p>No. A print coating improves how ink sits on the surface for density and sharpness. A barrier treatment is applied to slow oil moving into the board. A sleeve can have one without the other, so ask which treatments are included rather than assuming that a coated board resists grease.</p>"
    },
    {
-    "q": "9. Do Cardboard Sleeves Support Order Marking?",
-    "a": "<p>Yes, a blank zone can be left for stamps, stickers, or handwriting. This helps sort flavors, sizes, and add-ons during rush periods. Uncoated marking zones often accept ink more cleanly.</p>"
+    "q": "9. How should cardboard sleeves be stored?",
+    "a": "<p>Flat, sealed and rotated. Stock stacked on edge takes a set and stops sitting square, stock left open near a prep line collects airborne flour and oil on the top sleeves, and board that has absorbed humidity creases differently from board that has not. Pulling working quantities to the pass covers most of it.</p>"
    },
    {
-    "q": "10. Are Cardboard Burger Sleeves Good For Drive-Thru?",
-    "a": "<p>Yes, the firmer structure supports a better grip in car use and reduces mess on hands and steering surfaces. A clean outer panel also helps customers hold the burger without squeezing too hard. Barrier builds can help keep the outside drier.</p>"
+    "q": "10. Do heavier sleeves cost more to ship and store?",
+    "a": "<p>Yes, on both counts. Caliper raises material cost, shipping weight and the shelf volume a given quantity occupies. That is a fair reason to specify the weight against the heaviest item rather than lifting the whole range, since the difference compounds across every case you hold.</p>"
    },
    {
-    "q": "11. How Should Cardboard Burger Sleeves Be Stored?",
-    "a": "<p>Store them flat in a dry area away from steam, moisture, and grease splashes. Humidity can soften board and reduce stiffness. Keeping cartons closed also helps prevent dust buildup.</p>"
+    "q": "11. Can cardboard sleeves be recycled?",
+    "a": "<p>It depends on the finished construction and on local collection rather than on the board alone. Barrier treatments, laminates and heavy ink coverage can each affect fibre recovery, and food residue can affect whether used packaging is recovered. Confirm the specific build with your supplier and check what your facility accepts.</p>"
    },
    {
-    "q": "12. Can Cardboard Sleeves Include Barcodes Or QR Codes?",
-    "a": "<p>Yes, sleeves can include barcode and QR placement zones with enough clear space for reliable scanning. High contrast improves scan success, especially on kraft stock. Avoid placing codes on fold creases.</p>"
-   },
-   {
-    "q": "13. Do Cardboard Burger Sleeves Help With Presentation On Shelves And Trays?",
-    "a": "<p>Yes, the structured shape helps burgers look more uniform at handoff and on trays. It also supports neat stacking for pickup shelves. Consistent sleeve sizing helps products appear aligned across orders.</p>"
-   },
-   {
-    "q": "14. What Is The Minimum Order Quantity For Cardboard Burger Sleeves?",
-    "a": "<p>MOQ is <strong>100 units</strong>. This suits small runs, trials, pop-ups, and seasonal promotions. Larger quantities are often used for consistent restocking and repeat size matching.</p>"
-   },
-   {
-    "q": "15. What Details Are Helpful To Finalize Cardboard Sleeve Specs?",
-    "a": "<p>Burger diameter, height, sauce level, and how the burger is served (takeaway, drive-thru, delivery) are the most useful details. These points guide board weight, barrier need, and sleeve depth. Artwork placement can then be planned to stay readable around folds.</p>"
+    "q": "12. What does a supplier need to quote cardboard sleeves accurately?",
+    "a": "<p>The finished dimensions of the loaded item as it leaves the kitchen, the board surface you want, the weight, whether reinforced scoring is included, and whether any barrier treatment is needed. Without all five, competing quotations are describing different products and cannot be compared on price.</p>"
    }
   ],
   "images": [],
@@ -1041,64 +1017,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are paper burger sleeves",
-    "a": "<p>Paper burger sleeves are paperboard sleeves used as an outer layer around a wrapped burger. They improve grip and keep the wrap looking controlled during service.</p>"
+    "q": "1. Are paper sleeves used directly against the food?",
+    "a": "<p>This format is specified to sit over an inner wrap rather than against the food. That is why it can be lighter than it would otherwise need to be. If your service has no inner wrap, the specification changes and direct-contact suitability has to be confirmed for the exact construction you order.</p>"
    },
    {
-    "q": "2. How do paper sleeves support burger handling",
-    "a": "<p>They add stiffness around the wrap so the burger is easier to hold and lift. This can reduce squeezing and shifting during handoff.</p>"
+    "q": "2. What is the difference between a slide-on and a wrap-close sleeve?",
+    "a": "<p>A slide-on is a closed band the wrapped item passes into; a wrap-close is applied around the item and folded shut. The board can be identical. Slide-on is faster but needs a tidy wrap underneath, while wrap-close forgives a rough wrap but costs a second or two more per order.</p>"
    },
    {
-    "q": "3. Do paper sleeves require an inner wrap",
-    "a": "<p>Most service setups use an inner wrap for direct contact and moisture control. The sleeve then acts as the handling and presentation layer.</p>"
+    "q": "3. Is \"paper\" a lighter product than the cardboard sleeve option?",
+    "a": "<p>Not necessarily, and this is worth checking rather than assuming. The specification for this product describes a paperboard structure across medium to heavy calipers, which overlaps the cardboard range. Ask for the caliper as a figure rather than relying on the material name to imply a weight.</p>"
    },
    {
-    "q": "4. Can paper sleeves be used for hot burgers",
-    "a": "<p>Yes, they are commonly used for warm items to make holding more comfortable. Board thickness can affect how firm the sleeve feels.</p>"
+    "q": "4. Will a paper sleeve stop grease reaching a customer's hands?",
+    "a": "<p>Not on its own, and it should not be specified as though it will. Grease-resistant paperboard and barrier coatings slow oil moving into the board; they do not make it a container. In this format the inner wrap is doing the containment and the sleeve is a grip and presentation layer.</p>"
    },
    {
-    "q": "5. Do paper sleeves help with grease",
-    "a": "<p>They can when grease resistant or barrier options are selected. These choices help reduce visible marks and softening during normal holding time.</p>"
+    "q": "5. Why does my sleeve keep rotating on the wrap?",
+    "a": "<p>Usually because the panel depth is too generous for the build. A loose sleeve drifts and hides the face panel, which is most visible when orders are staged on a shelf. Check it by holding a sleeved item one-handed rather than looking at it on a bench, since rotation appears under grip.</p>"
    },
    {
-    "q": "6. What foods fit paper burger sleeves besides burgers",
-    "a": "<p>Chicken sandwiches, breakfast buns, and some handheld items can fit when wrapped sizes match. Measuring wrapped dimensions helps confirm suitability.</p>"
+    "q": "6. How much print coverage can a lighter paper stock take?",
+    "a": "<p>Strong marks and readable text across a clear face panel work well. Heavy solid ink across a crease can stiffen the fold and make it show. If a design needs full-bleed colour over the whole face, that is usually a signal to move to a heavier board rather than to push this one.</p>"
    },
    {
-    "q": "7. Can paper sleeves be printed for branding",
-    "a": "<p>Yes, paperboard surfaces can carry logos, icons, and short text. Print placement is usually planned on the faces visible while holding.</p>"
+    "q": "7. Should I test sleeves from a fresh case or from kitchen stock?",
+    "a": "<p>From kitchen stock. Paperboard takes up ambient humidity, and stock that has been sitting in a working kitchen folds, snags and creases differently from board straight out of a sealed carton. Testing a fresh sample tells you how the product behaves in conditions your staff never work in.</p>"
    },
    {
-    "q": "8. Are paper sleeves useful for takeaway bags",
-    "a": "<p>Yes, they add structure that helps items stay centered and easier to grab. A good fit reduces sleeve shifting during carrying.</p>"
+    "q": "8. At what point should I move up to a stiffer board?",
+    "a": "<p>When the sleeve stops holding the wrap and starts being held by it. That is a weight problem and a fold routine will not fix it. If instead the failure is softening after time in a bag with sauce, the answer is a grease-resistant option rather than more caliper.</p>"
    },
    {
-    "q": "9. Do paper sleeves help reduce wrap tearing",
-    "a": "<p>They can reinforce the outer shape and support the inner wrap. This helps when items are heavy or handled quickly.</p>"
+    "q": "9. Do these sleeves work for sandwiches as well as burgers?",
+    "a": "<p>They can, provided the sleeve is sized to the wrapped item rather than to a category. A sandwich with a different footprint needs its dimensions measured the same way a burger would. The format assumption stays the same: an inner wrap underneath and the sleeve as a grip layer.</p>"
    },
    {
-    "q": "10. How do I choose paperboard thickness",
-    "a": "<p>Choose based on burger weight and how long it is held. Heavier builds often benefit from firmer board.</p>"
+    "q": "10. What causes sleeves to snag when bagged?",
+    "a": "<p>Usually a cut edge catching on the bag or on another item, and it is more common with slide-on formats applied over an untidy wrap. The check takes seconds: place a sleeved item in a bag and remove it. If it catches on the way out, it will catch during service too.</p>"
    },
    {
-    "q": "11. What finish is practical for paper sleeves",
-    "a": "<p>Matte finishes can keep text readable and reduce glare. Gloss finishes can make colors appear brighter depending on artwork.</p>"
+    "q": "11. Are paper burger sleeves recyclable?",
+    "a": "<p>That depends on the finished construction and on local facilities rather than on the material name. Any barrier treatment, the ink coverage and food residue can all affect whether fibre is recovered. Ask your supplier what has been applied to the board and check what your collection accepts.</p>"
    },
    {
-    "q": "12. Can paper sleeves support order labeling",
-    "a": "<p>Yes, small icons or short markers can be printed. This helps separate variants during busy service.</p>"
-   },
-   {
-    "q": "13. How should paper sleeves be stored",
-    "a": "<p>Store flat in a dry place and keep cartons closed. This helps maintain clean edges and smooth application.</p>"
-   },
-   {
-    "q": "14. Are paper sleeves suitable for events",
-    "a": "<p>Yes, they work well for events because they keep handling cleaner and speed handout. They also support neat tray presentation.</p>"
-   },
-   {
-    "q": "15. What should be tested before selecting paper sleeves",
-    "a": "<p>Test fit, grip feel, and appearance after a few minutes of holding. Also check that printing remains visible after wrapping and sleeving.</p>"
+    "q": "12. What should I confirm before approving a quotation?",
+    "a": "<p>Whether an inner wrap is assumed, which format is being quoted by name, whether the board is grease-resistant, and the caliper as a number. Two suppliers can use the word \"paper\" for noticeably different products, so a quotation without those four fixed is not comparable on price.</p>"
    }
   ],
   "images": [
@@ -1198,64 +1162,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are corrugated burger sleeves",
-    "a": "<p>Corrugated burger sleeves use a fluted structure to add stiffness and a slightly cushioned feel. They are used as an outer sleeve over a wrapped burger to improve handling.</p>"
+    "q": "1. Is the flute profile on this product confirmed?",
+    "a": "<p>The supplied specification documents E flute, F flute, single-face and stiffer flute grade options. The product photographs currently attached do not show fluting. Treat the profile as something to confirm in writing at quotation and ask for a physical sample of the actual construction before committing to a run.</p>"
    },
    {
-    "q": "2. Why choose corrugated sleeves instead of flat paperboard sleeves",
-    "a": "<p>Corrugated structure can feel firmer and may improve grip due to its texture. It can also help resist bending when burgers are heavier.</p>"
+    "q": "2. How is a fluted sleeve different from a heavier solid board?",
+    "a": "<p>A fluted board gets rigidity from the arch shape of the flute; solid board gets it from thickness. For a given stiffness the fluted option is usually lighter but bulkier in storage, and its outer liner is a less forgiving print surface than smooth solid stock.</p>"
    },
    {
-    "q": "3. Do corrugated sleeves help with hot burgers",
-    "a": "<p>They can improve hand comfort because the fluted layer creates a small air gap. This can reduce heat feel compared to a single flat layer.</p>"
+    "q": "3. Will a fluted sleeve keep a burger warmer?",
+    "a": "<p>That should not be assumed and no thermal figure is offered here. Any effect depends on the specific construction, how long the item is held and how it is bagged. If heat retention is a requirement rather than a preference, ask the supplier for supporting data for the exact build before relying on it.</p>"
    },
    {
-    "q": "4. Are corrugated sleeves good for takeaway",
-    "a": "<p>Yes, they provide extra structure during carrying. This helps keep the wrapped burger aligned in bags and in hand.</p>"
+    "q": "4. What is a single-face construction?",
+    "a": "<p>One liner with the flute layer exposed on the other side, rather than a flute sandwiched between two liners. It gives a visible texture and grip rather than maximum rigidity. Confirm which face is exposed and how the printed side reproduces before ordering.</p>"
    },
    {
-    "q": "5. Can corrugated sleeves be used for tall burgers",
-    "a": "<p>They can, especially when sized with enough height clearance. Stiffer flute profiles can help maintain shape on taller builds.</p>"
+    "q": "5. Which flute profile should I ask for?",
+    "a": "<p>Finer profiles give a flatter print surface and less bulk; coarser ones give more rigidity and more thickness. The choice follows the heaviest build the sleeve has to hold and the shelf space you have. Ask for the finished caliper as a figure rather than choosing from the profile letter alone.</p>"
    },
    {
-    "q": "6. Do corrugated sleeves work with inner wraps",
-    "a": "<p>Yes, they are typically used over greaseproof paper or foil wraps. The inner wrap manages contact and moisture, while corrugated adds structure.</p>"
+    "q": "6. Why does my artwork show faint lines across solid colour?",
+    "a": "<p>The flute beneath can telegraph through the outer liner as subtle ribbing, most visible across large flat areas under raking light. Bold marks and defined shapes handle it well; delicate gradients and fine photographic detail do not. Approve a printed sample on the actual liner rather than a flat proof.</p>"
    },
    {
-    "q": "7. What flute types are common for sleeves",
-    "a": "<p>Lighter flute profiles can be used for compact sleeves, while stronger profiles may suit heavier burgers. Selection depends on the feel and stiffness needed.</p>"
+    "q": "7. Do fluted sleeves take more storage space?",
+    "a": "<p>Yes, and it is the cost most often missed. The structure that provides the rigidity occupies volume, so a given quantity takes more shelf depth than flat board. Work out the case dimensions for the quantity you normally hold before ordering rather than finding out on delivery.</p>"
    },
    {
-    "q": "8. Do corrugated sleeves show grease marks",
-    "a": "<p>They can, depending on liners and coatings. Barrier options can help reduce softening and surface spotting during normal holding time.</p>"
+    "q": "8. Should the whole menu use a structured sleeve?",
+    "a": "<p>Rarely. The construction earns its place on tall, heavy or multi-layer builds and on orders that travel. Running it on those items and a flat board elsewhere keeps the storage penalty proportionate to the number of orders that genuinely need the rigidity.</p>"
    },
    {
-    "q": "9. Can corrugated sleeves be printed",
-    "a": "<p>Yes, outer liners can be printed with logos, icons, and simple text. Bold designs usually read better because the surface has more texture.</p>"
+    "q": "9. Will a fluted sleeve stop my burger being crushed in a bag?",
+    "a": "<p>It resists bending better than flat board, which helps, but it is not a guarantee against crushing under a heavy item stacked on top. Bag packing order matters as much as the sleeve: heavier items below, and the burger not carrying the weight of anything else.</p>"
    },
    {
-    "q": "10. Are corrugated sleeves suitable for food trucks",
-    "a": "<p>Yes, they suit fast moving service because they are easy to hold and help items stay secure. Their added stiffness can help during busy handoff.</p>"
+    "q": "10. Can a barrier treatment be applied to a fluted sleeve?",
+    "a": "<p>The specification lists lined and barrier options. As with any construction, ask which treatment is applied and to which face, and note that a treatment applied for appearance is not the same as one applied to slow oil migration. Having one does not mean you have the other.</p>"
    },
    {
-    "q": "11. Do corrugated sleeves help reduce crushing",
-    "a": "<p>They can add resistance to bending and light pressure compared to very thin wraps. They are not a rigid box, but they can improve handling stability.</p>"
+    "q": "11. Are fluted burger sleeves recyclable?",
+    "a": "<p>It depends on the liner, any barrier treatment, ink coverage, food residue and what your local facility accepts. Multi-layer constructions are not automatically easier or harder to recover than single-layer ones. Confirm the finished build with your supplier rather than assuming an outcome from the material name.</p>"
    },
    {
-    "q": "12. What finish works well on corrugated sleeves",
-    "a": "<p>Matte finishes often suit the textured look and keep text readable. The best option depends on the print style and service environment.</p>"
-   },
-   {
-    "q": "13. How should corrugated sleeves be stored",
-    "a": "<p>Store flat in a dry place and keep stacks protected from humidity. Corrugated can absorb moisture, so dry storage helps maintain stiffness.</p>"
-   },
-   {
-    "q": "14. Can corrugated sleeves support order labeling",
-    "a": "<p>Yes, printed icons or short markers can be placed on visible faces. This helps sorting when multiple burger variants are packed together.</p>"
-   },
-   {
-    "q": "15. What should be tested before finalizing corrugated sleeves",
-    "a": "<p>Test fit on your heaviest burger, check grip feel during carrying, and review appearance after a few minutes of holding. Also check print clarity on the textured surface.</p>"
+    "q": "12. What should a corrugated quotation state explicitly?",
+    "a": "<p>The flute profile, the finished caliper as a figure, whether the construction is single-face or lined both sides, and what barrier treatment is included and on which face. A quotation that says only \"corrugated\" is naming a family of constructions rather than a product, and cannot be compared on price.</p>"
    }
   ],
   "images": [
@@ -1363,64 +1315,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are recycled burger sleeves",
-    "a": "<p>Recycled burger sleeves are outer paperboard sleeves made using recycled content in the board where suitable for food service packaging. They are used over a wrapped burger to improve grip and keep presentation more controlled during service.</p>"
+    "q": "1. What recycled content do these sleeves contain?",
+    "a": "<p>The specification states that board is built using recycled content where suitable for sleeve stock, and lists recycled kraft and recycled paperboard as options. It does not state a percentage. If a figure matters to your business, request it as documented information for the specific board being quoted rather than inferring it from the product name.</p>"
    },
    {
-    "q": "2. How do recycled sleeves help in everyday burger service",
-    "a": "<p>They add structure around the wrap so burgers feel steadier in hand and easier to carry. They also create a clean outer grip area that supports faster handoff at counters.</p>"
+    "q": "2. Is the recycled fibre post-consumer or pre-consumer?",
+    "a": "<p>That is not documented in the available specification, and the two are meaningfully different. Post-consumer fibre has been through a user; pre-consumer is typically mill offcuts. If the distinction matters for your reporting or your customers, ask for it explicitly and ask for the answer in writing.</p>"
    },
    {
-    "q": "3. Do recycled sleeves still need an inner wrap",
-    "a": "<p>Most operations use an inner wrap for direct food contact and moisture control. The recycled sleeve is typically used as the outside handling layer.</p>"
+    "q": "3. Does recycled content mean the sleeve is recyclable?",
+    "a": "<p>No, and keeping these separate matters. Recycled content describes where the fibre came from; recyclability describes what can happen afterwards. A recycled board carrying a heavy laminate and full ink coverage may be harder to recover than a plain virgin one. They are separate claims with separate evidence.</p>"
    },
    {
-    "q": "4. Are recycled sleeves strong enough for heavy burgers",
-    "a": "<p>They can be when the correct board thickness is selected. Heavier caliper options provide more stiffness for loaded burgers and taller builds.</p>"
+    "q": "4. Why does the board colour vary between orders?",
+    "a": "<p>Shade variation is wider in recycled stock than in virgin board because the input fibre varies. Small specks and tonal shifts are inherent to the material rather than defects. If close consistency matters, retain a sample from the approved run and raise the tolerance question at quotation.</p>"
    },
    {
-    "q": "5. Can recycled burger sleeves handle sauces and melted cheese",
-    "a": "<p>They can when grease resistant or barrier options are used. These choices help reduce softening and visible marks during normal holding time.</p>"
+    "q": "5. Will recycled board be as strong as virgin board at the same weight?",
+    "a": "<p>Not always identically. Reclaimed fibres are generally shorter, which can show at the crease and over a long loaded hold. The difference is usually modest and manageable, but it is worth testing against a sample rather than assuming equivalence, and a step up in caliper is sometimes needed to reach the same working stiffness.</p>"
    },
    {
-    "q": "6. Do recycled sleeves print well",
-    "a": "<p>Yes, many recycled boards are suitable for clear logo printing and simple text. Strong contrast and clean layouts usually provide the best readability.</p>"
+    "q": "6. Can I print detailed artwork on recycled board?",
+    "a": "<p>Solid marks, strong single colours and reversed-out shapes hold up well. Pale tints, delicate gradients and fine photographic detail lose definition against a slightly variable, speckled ground. Designing with fewer inks and bolder shapes generally produces a better result than fighting the material.</p>"
    },
    {
-    "q": "7. How do I choose the right size for recycled sleeves",
-    "a": "<p>Measure your wrapped burger width and height, then choose a sleeve with small clearance for easy sliding. Testing with your tallest burger helps confirm fit.</p>"
+    "q": "7. Is recycled board suitable for direct food contact?",
+    "a": "<p>That has to be confirmed for the exact construction rather than assumed. Suitability depends on the board, coatings, inks and whether the sleeve touches food at all. Recycled input streams differ from virgin fibre in what may be present, so ask your supplier to confirm the intended contact type in writing.</p>"
    },
    {
-    "q": "8. Are recycled sleeves suitable for takeaway bags",
-    "a": "<p>Yes, sleeves add structure that helps burgers stay centered and easier to grab from a bag. Proper sizing reduces sleeve shifting during short carries.</p>"
+    "q": "8. Does a barrier coating affect the recycled credentials?",
+    "a": "<p>It does not change the recycled content of the board, but it can affect what happens at end of life, since coatings and laminates influence fibre recovery. These are two separate questions and a supplier should be able to answer both: what the board contains, and what has been applied to it.</p>"
    },
    {
-    "q": "9. Can recycled sleeves be used for sandwiches too",
-    "a": "<p>They can be used for sandwiches when wrapped sizes are similar to burgers. Measuring the wrapped sandwich helps confirm the right sleeve dimensions.</p>"
+    "q": "9. Can I print a recycled percentage on the packaging?",
+    "a": "<p>Only if you can evidence it for the board actually supplied. Printing a figure you cannot document creates exposure unrelated to the quality of the material. Stating what is documented and no more is both safer and more credible than a general environmental claim on a printed sleeve.</p>"
    },
    {
-    "q": "10. What finish options can be used on recycled sleeves",
-    "a": "<p>Matte and light coating options are common, depending on the desired look and handling conditions. Coatings can also support scuff resistance during stacking.</p>"
+    "q": "10. How is this different from the eco friendly sleeve page?",
+    "a": "<p>This page is about fibre source and the evidence behind it. The other is about reducing impact through selection — right-sizing, print coverage, avoiding unnecessary coatings and planning inventory. Recycled content is one option within that wider framework rather than the same subject.</p>"
    },
    {
-    "q": "11. Do recycled sleeves help with order identification",
-    "a": "<p>Yes, a sleeve can include printed markers, icons, or small text to separate burger variants. This supports faster sorting during peak hours.</p>"
+    "q": "11. Will recycled sleeves be accepted by my local recycling collection?",
+    "a": "<p>That depends on the finished construction and on the facility rather than on the fibre source. Barrier treatments, ink coverage and food residue can all affect whether used packaging is recovered, and acceptance varies between collections. Check the specific build against your local rules rather than assuming.</p>"
    },
    {
-    "q": "12. How should recycled sleeves be stored",
-    "a": "<p>Store them flat in a dry area away from humidity. Keeping cartons closed helps protect edges and maintains clean stacks.</p>"
-   },
-   {
-    "q": "13. Are recycled sleeves useful for events",
-    "a": "<p>Yes, they provide a steady grip and consistent presentation during high volume handouts. They also keep handling cleaner when guests are moving.</p>"
-   },
-   {
-    "q": "14. Do recycled sleeves affect customer experience",
-    "a": "<p>They can improve grip comfort and keep hands cleaner by providing an outer holding layer. This can make burgers easier to handle during eating.</p>"
-   },
-   {
-    "q": "15. What should I test before using recycled burger sleeves",
-    "a": "<p>Test fit on your main burger sizes, check appearance after a few minutes of holding, and confirm the sleeve stays aligned during carrying and handoff.</p>"
+    "q": "12. What should a recycled board quotation state?",
+    "a": "<p>The recycled content as a documented figure or an honest range, the post-consumer position, the barrier or coating applied and to which face, the shade tolerance across reorders, and the caliper. Without those, competing quotations are describing different boards under the same label.</p>"
    }
   ],
   "images": [
@@ -1520,64 +1460,52 @@
   ],
   "faqs": [
    {
-    "q": "1. What are eco friendly burger sleeves",
-    "a": "<p>Eco friendly burger sleeves are outer sleeves made from paper based boards that align with responsible packaging preferences. They are used over a wrapped burger to provide better grip and a cleaner hand feel.</p>"
+    "q": "1. Are these sleeves compostable?",
+    "a": "<p>No compostability is claimed, because nothing in the available product documentation supports it. Compostability depends on the specific board, coatings, inks and on an accepting facility existing locally. If it is a requirement rather than a preference, it needs certification for the exact construction, which should be requested and supplied in writing.</p>"
    },
    {
-    "q": "2. How do eco friendly sleeves support burger service",
-    "a": "<p>They help keep wraps aligned, reduce messy handling, and provide a stable grip zone for customers. This improves handoff and makes burgers easier to carry.</p>"
+    "q": "2. Are they biodegradable?",
+    "a": "<p>That is not claimed here for the same reason. Paper-based board behaves differently depending on what has been applied to it and on the conditions it ends up in, and general degradation language describes an outcome nobody can guarantee for a coated, printed, food-contaminated sleeve. Ask for documentation before relying on such a description.</p>"
    },
    {
-    "q": "3. Do eco friendly sleeves still require a food contact wrap",
-    "a": "<p>Most kitchens still use an inner wrap for direct contact. The sleeve is commonly the outer layer that customers hold.</p>"
+    "q": "3. What makes this option lower impact then?",
+    "a": "<p>The decisions rather than a certificate: sizing sleeves to the builds they actually hold, ordering to real usage so stock is not discarded, reducing print coverage, avoiding coatings the menu does not need, and choosing a documented recycled board where one is available. Most of the available reduction is operational.</p>"
    },
    {
-    "q": "4. Are eco friendly sleeves suitable for hot burgers",
-    "a": "<p>Yes, they are used for hot items to improve handling comfort. Board thickness can be selected to match heat feel and burger weight.</p>"
+    "q": "4. How is this different from the recycled sleeve option?",
+    "a": "<p>The recycled page is about fibre source and the evidence behind it. This page is about reducing material and choosing between options — right-sizing, coverage, coatings and inventory discipline. Recycled content is one lever within that framework rather than the whole of it.</p>"
    },
    {
-    "q": "5. Can eco friendly sleeves handle burgers with sauces",
-    "a": "<p>They can when grease resistant or barrier options are selected. These options reduce softening and help the sleeve keep its shape during eating time.</p>"
+    "q": "5. Does using less packaging really outweigh switching material?",
+    "a": "<p>In most cases yes. A sleeve sized to the largest item and used across a whole range wastes board on every smaller order, and stock damaged in storage was manufactured and shipped for nothing. Those quantities typically exceed the difference between two comparable boards.</p>"
    },
    {
-    "q": "6. What materials are commonly used for eco friendly sleeves",
-    "a": "<p>Kraft boards, recycled boards, and other paper based boards are common choices. Material selection depends on stiffness, appearance, and print needs.</p>"
+    "q": "6. Should I avoid lamination entirely?",
+    "a": "<p>Not automatically. Laminates and coatings do real work and are also the treatment most likely to complicate fibre recovery, so the useful question is what specifically fails without one. If the honest answer is that the packaging looks less finished, that is a preference to weigh rather than a performance requirement.</p>"
    },
    {
-    "q": "7. How can eco friendly sleeves help branding",
-    "a": "<p>They provide visible panels for logos and simple messaging. Clean layout placement helps branding remain visible in hand and in takeaway photos.</p>"
+    "q": "7. Is a print coating the same as a barrier coating?",
+    "a": "<p>No, and confusing them is common. A print coating improves how ink sits on the surface. A barrier treatment slows oil moving into the board. A sleeve can carry one without the other, so buying a laminate for appearance and assuming it solves grease will disappoint in service.</p>"
    },
    {
-    "q": "8. Can eco friendly sleeves be used for sandwiches",
-    "a": "<p>Yes, they can be used for sandwiches if sleeve sizing matches the wrapped product. Many menus use one sleeve style across multiple handheld items.</p>"
+    "q": "8. Can reducing print coverage save money as well?",
+    "a": "<p>Usually yes, which makes it one of the few decisions that does not trade cost against impact. Fewer inks mean less material, often a simpler press setup, and sometimes a wider choice of board because heavy coverage is not demanding a bright coated surface to sit on.</p>"
    },
    {
-    "q": "9. What finishes work well for eco friendly sleeves",
-    "a": "<p>Natural matte and light coating options are often used to keep a paper based feel. Coatings can also improve scuff resistance during stacking.</p>"
+    "q": "9. Is it better to order in bulk or more frequently?",
+    "a": "<p>It depends on your storage and turnover, and it is worth calculating rather than assuming. Bulk buying to a price break beyond what turnover supports produces damaged and humidity-affected stock that is discarded unused. Smaller, more frequent orders cost more per unit and often waste less overall.</p>"
    },
    {
-    "q": "10. Do eco friendly sleeves improve takeaway handling",
-    "a": "<p>They add structure around the wrap so the item is easier to grab from a bag and hold while walking. A proper fit reduces shifting.</p>"
+    "q": "10. What can I safely print about the environmental profile?",
+    "a": "<p>Whatever you can evidence for the board actually supplied — typically a documented recycled content figure and a description of what you have chosen not to apply. Point customers to local guidance for disposal rather than making the determination for them, since acceptance varies by facility.</p>"
    },
    {
-    "q": "11. Can sleeves include order markers for variants",
-    "a": "<p>Yes, icons or short text can be printed to separate menu variants. This helps staff sort orders during busy periods.</p>"
+    "q": "11. Which board options are offered on this product?",
+    "a": "<p>The specification lists kraft board and recycled board, with medium caliper options, grease-resistant and barrier coat choices, and natural matte or coated finishes. Which combination suits you follows from the menu and the service rather than from which sounds more responsible.</p>"
    },
    {
-    "q": "12. How should eco friendly sleeves be stored",
-    "a": "<p>Store flat in a dry area and keep cartons closed. This helps maintain clean edges and stable stacks.</p>"
-   },
-   {
-    "q": "13. Are eco friendly sleeves useful for catering",
-    "a": "<p>Yes, they support clean handoff and consistent presentation in catering lines. They also help guests hold burgers without touching the inner wrap.</p>"
-   },
-   {
-    "q": "14. Do eco friendly sleeves affect burger presentation",
-    "a": "<p>They can make burgers look more controlled and uniform in hand. This can help improve appearance on counters, trays, and takeaway setups.</p>"
-   },
-   {
-    "q": "15. What should be checked before selecting eco friendly sleeves",
-    "a": "<p>Check fit, grip comfort, and surface appearance after a few minutes of holding. Also confirm logo visibility and order marking needs.</p>"
+    "q": "12. Do I still need an inner wrap with these sleeves?",
+    "a": "<p>For sauced or juicy builds, generally yes. A sleeve is a grip and presentation layer rather than a container, and that does not change with the board chosen. The wrap does the containment, which is also what allows the sleeve itself to be specified more lightly.</p>"
    }
   ],
   "images": [

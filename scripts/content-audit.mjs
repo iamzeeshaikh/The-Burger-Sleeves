@@ -24,19 +24,30 @@ function docParts(doc) {
   const headings = [];
   const paras = [];
   const links = [];
+  // List items and table rows were originally left out of the comparison
+  // corpus, which hid real duplication: the six Materials pages shared 11
+  // identical table rows and several identical checklist steps while the
+  // report still said "repeated paragraphs: 0". Anything a reader can read
+  // has to be compared.
+  const items = [];
+  const rows = [];
   let tables = 0;
   let lists = 0;
-  if (!doc) return { headings, paras, links, tables, lists, words: 0 };
+  if (!doc) return { headings, paras, links, items, rows, tables, lists, words: 0 };
   for (const s of doc.sections) {
     if (s.heading) headings.push(s.heading);
     for (const b of s.blocks) {
       if (b.t === 'h3') headings.push(b.text);
-      if (b.t === 'table') tables += 1;
+      if (b.t === 'table') {
+        tables += 1;
+        for (const r of b.rows) rows.push(r.map((c) => strip(c)).join(' | '));
+      }
       if (b.t === 'ul' || b.t === 'ol') lists += 1;
       const strs =
         b.t === 'p' ? [b.html] : b.t === 'ul' || b.t === 'ol' ? b.items : [];
       for (const str of strs) {
         if (b.t === 'p') paras.push(strip(str));
+        else items.push(strip(str));
         for (const m of str.matchAll(/<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g))
           links.push({ href: m[1], anchor: strip(m[2]), section: s.heading ?? '(pre)' });
       }
@@ -58,7 +69,7 @@ function docParts(doc) {
     .join(' ')
     .split(/\s+/)
     .filter(Boolean).length;
-  return { headings, paras, links, tables, lists, words };
+  return { headings, paras, links, items, rows, tables, lists, words };
 }
 
 // --------------------------------------------------------------- inventory
@@ -165,7 +176,7 @@ const docs = products
   .filter((p) => content[p.sku])
   .map((p) => {
     const d = docParts(content[p.sku]);
-    return { p, d, tri: trigrams([...d.headings, ...d.paras].join(' ')) };
+    return { p, d, tri: trigrams([...d.headings, ...d.paras, ...d.items, ...d.rows].join(' ')) };
   });
 
 const pairs = [];
@@ -181,6 +192,8 @@ const count = (arr) => arr.reduce((m, k) => ((m[k] = (m[k] ?? 0) + 1), m), {});
 const allHeads = count(docs.flatMap((d) => d.d.headings.map((h) => h.toLowerCase())));
 const allParas = count(docs.flatMap((d) => d.d.paras.map((s) => s.toLowerCase())));
 const allAnchors = count(docs.flatMap((d) => d.d.links.map((l) => l.anchor.toLowerCase())));
+const allItems = count(docs.flatMap((d) => d.d.items.map((s) => s.toLowerCase())));
+const allRows = count(docs.flatMap((d) => d.d.rows.map((s) => s.toLowerCase())));
 const linkShapes = count(
   docs.map((d) =>
     d.d.links
@@ -220,6 +233,8 @@ const templatedHeads = Object.entries(skelCount).filter(([, n]) => n > 1).sort((
 const dupHead = Object.entries(allHeads).filter(([, n]) => n > 1);
 const dupPara = Object.entries(allParas).filter(([, n]) => n > 1);
 const dupAnchor = Object.entries(allAnchors).filter(([, n]) => n > 1);
+const dupItem = Object.entries(allItems).filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
+const dupRow = Object.entries(allRows).filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
 const dupFaq = [...faqSeen].filter(([, n]) => n > 1).sort((a, b) => b[1] - a[1]);
 
 const missing = products.filter((p) => !content[p.sku]);
@@ -228,9 +243,15 @@ const thin = products.filter((p) => content[p.sku] && docParts(content[p.sku]).w
 const md = `# Content Duplication Report
 
 Generated ${new Date().toISOString().slice(0, 10)} from \`src/data/product-content.json\`.
-Similarity is Jaccard overlap of word trigrams across headings and body paragraphs
-only — shared chrome (header, nav, footer, breadcrumbs, spec-table labels, quote
-form, pricing sentence) is excluded because it cannot vary between pages.
+Similarity is Jaccard overlap of word trigrams across everything a reader can read
+in the long description — headings, body paragraphs, list items and table rows.
+Shared chrome (header, nav, footer, breadcrumbs, spec-table labels, quote form,
+pricing sentence) is excluded because it cannot vary between pages.
+
+List items and table rows were added to this corpus at checkpoint 5. Comparing
+headings and paragraphs alone had hidden 11 identical table rows and 7 identical
+checklist steps shared across the Materials pages while this report still said
+"repeated paragraphs: 0".
 
 ## Coverage
 
@@ -251,8 +272,12 @@ ${pairs
   .map((p, i) => `| ${i + 1} | ${p.a.name} | ${p.b.name} | ${(p.sim * 100).toFixed(1)}% |`)
   .join('\n')}
 
-Highest pair is **${(pairs[0].sim * 100).toFixed(1)}%**. Nothing in the existing set
-reads as spun or templated at the paragraph level.
+Highest pair is **${(pairs[0].sim * 100).toFixed(1)}%**.${
+  pairs[0].sim > 0.08
+    ? ` That is high enough to look at: pairs above roughly 8% have so far
+always turned out to share table rows or checklist steps rather than prose.`
+    : ' No pair is close to the level at which shared wording becomes visible to a reader.'
+}
 
 ## Repetition checks
 
@@ -260,6 +285,8 @@ reads as spun or templated at the paragraph level.
 | --- | ---: | --- |
 | Headings used on more than one page | ${dupHead.length} | ${dupHead.length ? 'rewrite' : 'clean'} |
 | Paragraphs appearing on more than one page | ${dupPara.length} | ${dupPara.length ? 'rewrite' : 'clean'} |
+| List items appearing on more than one page | ${dupItem.length} | ${dupItem.length ? 'rewrite' : 'clean'} |
+| Table rows appearing on more than one page | ${dupRow.length} | ${dupRow.length ? 'rewrite' : 'clean'} |
 | Anchor texts reused across pages | ${dupAnchor.length} | ${dupAnchor.length ? 'vary' : 'clean'} |
 | FAQ questions asked on more than one page | ${dupFaq.length} | ${dupFaq.length ? 'rewrite' : 'clean'} |
 | Near-duplicate opening paragraphs | ${introPairs.length} | ${introPairs.length ? 'rewrite' : 'clean'} |
@@ -283,6 +310,17 @@ signal plain word-overlap similarity cannot see.
 ${
   templatedHeads.length
     ? `| Heading shape | Pages |\n| --- | ---: |\n${templatedHeads.slice(0, 15).map(([h, n]) => `| ${h} | ${n} |`).join('\n')}`
+    : 'None.'
+}
+
+### Repeated list items and table rows
+
+${
+  dupItem.length || dupRow.length
+    ? `| Kind | Text | Pages |\n| --- | --- | ---: |\n${[
+        ...dupRow.slice(0, 20).map(([s, n]) => `| table row | ${s} | ${n} |`),
+        ...dupItem.slice(0, 20).map(([s, n]) => `| list item | ${s} | ${n} |`),
+      ].join('\n')}`
     : 'None.'
 }
 
@@ -324,6 +362,8 @@ console.log(`pages with copy           : ${docs.length}`);
 console.log(`highest pair similarity   : ${(pairs[0].sim * 100).toFixed(1)}%`);
 console.log(`repeated headings         : ${dupHead.length}`);
 console.log(`repeated paragraphs       : ${dupPara.length}`);
+console.log(`repeated list items       : ${dupItem.length}`);
+console.log(`repeated table rows       : ${dupRow.length}`);
 console.log(`reused anchors            : ${dupAnchor.length}`);
 console.log(`duplicate FAQ questions   : ${dupFaq.length}`);
 console.log(`near-duplicate intros     : ${introPairs.length}`);

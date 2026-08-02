@@ -98,6 +98,66 @@ unambiguous: its specification table lists a light kraft or white board printed
 in one-colour black, so the name means *black ink*, not *black board*. The page
 answers that ambiguity in an FAQ rather than leaving it implied.
 
+### 8. Unsupported environmental claims across the inherited copy
+
+`node scripts/claim-scan.mjs` finds **39 environmental, certification or
+performance claims in inherited WordPress fields** that no available product
+documentation supports. They sit in short descriptions, image alt text and one
+product name — all fields the migration brief protects — so they are reported
+rather than deleted. The strongest examples:
+
+| Product | Claim in the inherited copy | What the product data actually says |
+| --- | --- | --- |
+| TBS-006 Eco Friendly | "biodegradable materials with compostable coatings that break down naturally", "decomposes in commercial composting facilities within weeks", "plant based construction", "sustainably sourced fibers" | The spec table says only "designed around responsible packaging preferences", with kraft board, recycled board and barrier coat options. Nothing supports any of it |
+| TBS-005 Recycled | "post consumer recycled cardboard materials" | The spec says "built using recycled content where suitable for sleeve board". No percentage, no post-consumer split |
+| TBS-003 Paper | "renewable resources that biodegrade naturally after use", "sustainable alternative" | The spec describes paperboard construction and coating options. Nothing addresses degradation |
+| TBS-004 Corrugated | "superior insulation", "keep burgers warmer longer" | No thermal data exists in any supplied field |
+| TBS-006 image alt | `Biodegradable Burger Sleeve` | The image is a greaseproof gingham wrap sheet. Nothing in it evidences biodegradability |
+
+Several of these terms carry specific regulatory meaning in the US market the
+site ships to, rather than being general descriptions. None of them appears in
+the copy written for this project, and the scan now fails the build if one does.
+
+### 9. Corrugated: the name, the specification and the photographs disagree
+
+The specification for TBS-004 documents fluted construction — E flute, F flute,
+single-face builds, stiffer flute grades, a print-grade outer liner. **None of
+the five product photographs shows fluting.** All five show smooth printed
+board. Two carry third-party branding (a White Castle clamshell and a "Burger
+Brother" tray), one is a free stock mockup template, and several depict open
+trays or holders rather than sleeves at all.
+
+The page is written from the specification, naming the flute options as things
+to confirm at quotation, and asserts no thickness, insulation or thermal
+performance. This needs resolving by the business: either the photography does
+not represent the product, or the specification does.
+
+### 10. Paper and Cardboard are not clearly two products
+
+Both specifications describe solid paperboard across overlapping calipers —
+Paper as "paperboard sleeve structure… medium to heavy calipers", Cardboard as
+"white SBS board, kraft board… 250–450 GSM". The inherited Paper copy calls
+itself a "light, flexible layer", which its own specification table contradicts.
+
+No physical distinction was invented. The two pages are differentiated by the
+question each answers: Cardboard by stiffness and caliper selection, Paper by
+format and contact setup. If these are genuinely one product sold under two
+names, that is a catalogue decision rather than a content one.
+
+### 11. The duplication audit had a blind spot
+
+Until checkpoint 5 the similarity check compared only headings and paragraphs.
+It reported "repeated paragraphs: 0" for the Materials cluster while those six
+pages shared **11 identical table rows** (three of them across three pages) and
+**7 identical sentences**, and while Cardboard ↔ Corrugated sat at **11.8 %**
+similar — the highest pair on the site, invisible to the report meant to catch
+exactly that.
+
+List items and table rows are now part of the comparison corpus, and repeated
+rows and items are reported as their own metrics. The measured sitewide maximum
+moved from a reported 7.3 % to a true 11.8 %, and after the Materials rewrite it
+stands at 3.6 %.
+
 ## Client decisions still open
 
 None of these are being changed unilaterally, because each one alters something
@@ -110,6 +170,10 @@ the brief protects or something only the business can confirm.
 | 3 | TBS-011 Takeaway and TBS-012 Disposable share one `metaDescription` | Metadata is frozen by the migration brief | Rewrite one of the two when the Usage group is written |
 | 4 | TBS-002, TBS-012 and TBS-020 have no photography | A lookalike substitute would misrepresent the product | Supply real photographs; placeholder shown until then |
 | 5 | `/about-us/` repeats the same three paragraphs in two panels | The repetition is visible on the live site and was preserved deliberately | Delete the duplicate panel on approval |
+| 6 | 39 unsupported environmental claims in short descriptions and alt text (defect 8) | Several carry regulatory meaning in the US market; short descriptions are protected by the brief | Either obtain documentation, or rewrite the affected short descriptions and alt text |
+| 7 | Corrugated photography shows no fluting and includes third-party brands and a mockup template (defect 9) | Either the images or the specification misrepresents the product | Supply photographs of the actual construction, or correct the specification |
+| 8 | Paper and Cardboard may be the same product under two names (defect 10) | Their specifications overlap materially | Confirm whether these are two distinct offerings, and if not, decide which URL survives |
+| 9 | TBS-005 "Speckled Recycled" image shows foil-lined bags, not recycled sleeves | The foil lining would itself complicate fibre recovery | Replace with photography of the product being sold |
 
 ## Structural changes made
 

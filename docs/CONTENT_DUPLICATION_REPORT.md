@@ -1,9 +1,15 @@
 # Content Duplication Report
 
-Generated 2026-08-01 from `src/data/product-content.json`.
-Similarity is Jaccard overlap of word trigrams across headings and body paragraphs
-only — shared chrome (header, nav, footer, breadcrumbs, spec-table labels, quote
-form, pricing sentence) is excluded because it cannot vary between pages.
+Generated 2026-08-02 from `src/data/product-content.json`.
+Similarity is Jaccard overlap of word trigrams across everything a reader can read
+in the long description — headings, body paragraphs, list items and table rows.
+Shared chrome (header, nav, footer, breadcrumbs, spec-table labels, quote form,
+pricing sentence) is excluded because it cannot vary between pages.
+
+List items and table rows were added to this corpus at checkpoint 5. Comparing
+headings and paragraphs alone had hidden 11 identical table rows and 7 identical
+checklist steps shared across the Materials pages while this report still said
+"repeated paragraphs: 0".
 
 ## Coverage
 
@@ -12,26 +18,25 @@ form, pricing sentence) is excluded because it cannot vary between pages.
 | Products | 44 |
 | With long-form copy | 32 |
 | **Missing long-form copy** | **12** |
-| Below the 1,200-word target | 6 |
-| Total long-form words | 39,331 |
+| Below the 1,200-word target | 0 |
+| Total long-form words | 41,736 |
 
 ## Similarity between pages that already have copy
 
 | Rank | Page A | Page B | Similarity |
 | ---: | --- | --- | ---: |
-| 1 | Cardboard Burger Sleeves | Corrugated Burger Sleeves | 7.3% |
-| 2 | Kraft Burger Sleeves | Recycled Burger Sleeves | 6.3% |
-| 3 | Cardboard Burger Sleeves | Paper Burger Sleeves | 6.1% |
-| 4 | Kraft Burger Sleeves | Eco Friendly Burger Sleeves | 5.2% |
-| 5 | Paper Burger Sleeves | Corrugated Burger Sleeves | 5.1% |
-| 6 | White Burger Sleeves | White Printed Burger Sleeves | 4.3% |
-| 7 | Recycled Burger Sleeves | Eco Friendly Burger Sleeves | 4.0% |
-| 8 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 3.9% |
-| 9 | Kraft Burger Sleeves | Corrugated Burger Sleeves | 3.7% |
-| 10 | Corrugated Burger Sleeves | Eco Friendly Burger Sleeves | 3.7% |
+| 1 | White Burger Sleeves | White Printed Burger Sleeves | 3.6% |
+| 2 | Small Burger Sleeves | Custom Burger Sleeves | 1.8% |
+| 3 | Kraft Burger Sleeves | Kraft Brown Burger Sleeves | 1.6% |
+| 4 | Logo Printed Burger Sleeves | Promotional Burger Sleeves | 1.5% |
+| 5 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 1.5% |
+| 6 | Cardboard Burger Sleeves | Eco Friendly Burger Sleeves | 1.4% |
+| 7 | Double Patty Burger Sleeves | Custom Burger Sleeves | 1.4% |
+| 8 | Kraft Burger Sleeves | Recycled Burger Sleeves | 1.4% |
+| 9 | Jumbo Burger Sleeves | Double Patty Burger Sleeves | 1.4% |
+| 10 | Kraft Burger Sleeves | Paper Burger Sleeves | 1.3% |
 
-Highest pair is **7.3%**. Nothing in the existing set
-reads as spun or templated at the paragraph level.
+Highest pair is **3.6%**. No pair is close to the level at which shared wording becomes visible to a reader.
 
 ## Repetition checks
 
@@ -39,6 +44,8 @@ reads as spun or templated at the paragraph level.
 | --- | ---: | --- |
 | Headings used on more than one page | 0 | clean |
 | Paragraphs appearing on more than one page | 0 | clean |
+| List items appearing on more than one page | 0 | clean |
+| Table rows appearing on more than one page | 0 | clean |
 | Anchor texts reused across pages | 0 | clean |
 | FAQ questions asked on more than one page | 0 | clean |
 | Near-duplicate opening paragraphs | 0 | clean |
@@ -49,10 +56,10 @@ reads as spun or templated at the paragraph level.
 Every page with copy uses the identical link pattern, which is the clearest
 mass-generation signal in the current set:
 
-- `category+product+product+product` — 8 pages
-- `product+product+product` — 14 pages
-- `product+category+product` — 1 page
-- `product+product+product+product` — 4 pages
+- `category+product+product+product` — 3 pages
+- `product+product+product+product` — 6 pages
+- `product+product+product` — 16 pages
+- `product+category+product` — 2 pages
 - `product+product+category+product` — 2 pages
 - `product+product+product+category` — 2 pages
 - `category+product+category+product` — 1 page
@@ -62,6 +69,10 @@ mass-generation signal in the current set:
 Headings with the product noun stripped out. A shape appearing on more than one
 page means the sentence was reused with only the product name changed — the
 signal plain word-overlap similarity cannot see.
+
+None.
+
+### Repeated list items and table rows
 
 None.
 
@@ -90,9 +101,4 @@ None.
 
 ## Products below the word target
 
-- TBS-001 — Kraft Burger Sleeves: 855 words
-- TBS-002 — Cardboard Burger Sleeves: 927 words
-- TBS-003 — Paper Burger Sleeves: 1198 words
-- TBS-004 — Corrugated Burger Sleeves: 1005 words
-- TBS-005 — Recycled Burger Sleeves: 1096 words
-- TBS-006 — Eco Friendly Burger Sleeves: 932 words
+None.
