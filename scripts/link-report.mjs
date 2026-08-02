@@ -194,8 +194,9 @@ const REASONS = new Map([
   ['/product/kraft-burger-sleeves/', 'reduced but well supported at 3 incoming. The lost links were intra-cluster references from the other five Materials pages, replaced with cross-cluster links'],
   ['/product/recycled-burger-sleeves/', 'reduced to 1 incoming from Eco Friendly, which is the genuinely related page. The other baseline links were sibling references inside the Materials cluster'],
   ['/product/corrugated-burger-sleeves/', 'reduced to 1 incoming from Cardboard, which is the direct alternative a buyer actually weighs it against'],
-  ['/product/street-food-burger-sleeves/', 'partially restored (1 -> 2): Black Printed and Paper now link here'],
+  ['/product/street-food-burger-sleeves/', 'restored to baseline (3): Black Printed, Paper and Takeaway all link here'],
   ['/product/event-burger-sleeves/', 'partially restored (1 -> 2): Corrugated now links here from "When The Rigidity Earns Its Cost". Combo group owes a further link'],
+  ['/product/large-burger-sleeves/', 'partially restored (2 -> 3): Fast Food now links here from "Sizing Fast Without Sizing Badly". Combo group owes a further link'],
 ]);
 const CLUSTER = 'baseline links were reciprocal sibling links inside one cluster (each size/use/material page linking to its neighbours and up to its own category); replaced with cross-cluster links that answer a different question. Scheduled for further incoming links from Groups 6-7, which are not yet written';
 
@@ -229,6 +230,17 @@ for (const [k, v] of tally(preserved, 'status')) console.log(`  ${k}: ${v}`);
 const flaggedRows = incomingRows.filter((r) => r.status.startsWith('incoming reduced >30%'));
 console.log(`  incoming destinations checked: ${incomingRows.length}, flagged >30%: ${flaggedRows.length}`);
 for (const r of flaggedRows) console.log(`    ${r.old_destination}  ${r.old_anchor.split(': ')[1]} -> ${r.final_anchor.split(': ')[1]}`);
+/* Link concentration: a destination absorbing a large share of all contextual
+ * links reads as manipulation rather than as editorial linking, and it starves
+ * everything else. Flag anything above 8% of the total. */
+const totalLinks = mapRows.length;
+const concentrated = [...incomingAfter.entries()]
+  .map(([dest, srcs]) => ({ dest, n: srcs.size, pct: (srcs.size / totalLinks) * 100 }))
+  .filter((x) => x.pct > 8)
+  .sort((a, b) => b.n - a.n);
+console.log(`  link concentration: ${concentrated.length} destination(s) above 8% of all ${totalLinks} contextual links`);
+for (const c of concentrated) console.log(`    ${c.dest}  ${c.n} links (${c.pct.toFixed(1)}%)`);
+
 const zero = products.filter((p) => !incomingAfter.has(p.url)).map((p) => p.url);
 console.log(`  products with zero incoming contextual links: ${zero.length}`);
 for (const u of zero) console.log(`    ${u}${content[products.find((p) => p.url === u).sku] ? '  (page HAS upgraded copy)' : ''}`);

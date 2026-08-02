@@ -8,7 +8,7 @@ Authored copy lives in `scripts/content/*.mjs` and is merged by
 fails. Never hand-edit `src/data/product-content.json` for authored groups —
 edit the group file and re-run the merge.
 
-Last updated: 2026-08-02 · Styles, Sizes, Special Uses, Customized and Materials complete (32 of 44 products).
+Last updated: 2026-08-02 · Styles, Sizes, Special Uses, Customized, Materials and Usage complete (40 of 44 products).
 
 ## Status legend
 
@@ -191,11 +191,98 @@ lower-impact decisions and what each requires from you.
 No invented GSM, caliper, flute, coating, recycling or thermal figures. Every
 number on these pages comes from the products' own specification tables.
 
-## Group 6 — Usage (8) — pending
+## Group 6 — Usage (8) — **completed**
 
-All eight need writing from scratch: TBS-007 Burger Sleeves, TBS-008 Hamburger,
-TBS-009 Cheeseburger, TBS-010 Fast Food Burger, TBS-011 Takeaway,
-TBS-012 Disposable, TBS-013 Grease Resistant, TBS-014 Food Grade.
+### Verified SKU → name → URL mapping
+
+Read from `src/data/products.json` and `PRODUCT_CONTENT_INVENTORY.csv`, not
+inferred from SKU order. All eight carry 0 long-form words and need writing from
+scratch; all eight sit in the `Burger Sleeves Usage` category.
+
+| SKU | Product name | URL | H1 | Images |
+| --- | --- | --- | --- | ---: |
+| TBS-007 | Burger Sleeves | `/product/burger-sleeves/` | Burger Sleeves | 5 |
+| TBS-008 | Hamburger Sleeves | `/product/hamburger-sleeves/` | Hamburger Sleeves | 5 |
+| TBS-009 | Cheeseburger Sleeves | `/product/cheeseburger-sleeves/` | Cheeseburger Sleeves | 4 |
+| TBS-010 | Fast Food Burger Sleeves | `/product/fast-food-burger-sleeves/` | Fast Food Burger Sleeves | 5 |
+| TBS-011 | Takeaway Burger Sleeves | `/product/takeaway-burger-sleeves/` | Takeaway Burger Sleeves | 5 |
+| TBS-012 | Disposable Burger Sleeves | `/product/disposable-burger-sleeves/` | Disposable Burger Sleeves | **0** |
+| TBS-013 | Grease Resistant Burger Sleeves | `/product/grease-resistant-burger-sleeves/` | Grease Resistant Burger Sleeves | 5 |
+| TBS-014 | Food Grade Burger Sleeves | `/product/food-grade-burger-sleeves/` | Food Grade Burger Sleeves | 1 |
+
+### The group splits into two families
+
+The specification tables make the split visible. TBS-007 to TBS-010 share a
+five-column `board / finish / use` shape and describe the same sleeve against
+different burgers or different volumes. TBS-011 to TBS-014 share a six-column
+`Feature | Details | Material | Size Range | Printing | Notes` shape and describe
+service models and material properties. That is the axis the pages are separated
+along.
+
+### Cannibalization plan — one owned question per page
+
+| SKU | Primary intent | Buyer problem | Owned characteristic (from its spec) | Must not target |
+| --- | --- | --- | --- | --- |
+| TBS-007 | `burger sleeves` — the head term | "What is this and which one do I need?" | Baseline: outer sleeve for a wrapped burger | Throughput, specific burger types |
+| TBS-008 | `hamburger sleeves` | "Will it fit a plain, standard build?" | "Classic Fit — sized for standard hamburger builds" | Moisture, cheese, volume |
+| TBS-009 | `cheeseburger sleeves` | "Melted cheese makes a mess of my wrap" | "Moisture Response — reduce softening from melted cheese"; thicker wraps | Generic sizing, barrier engineering |
+| TBS-010 | `fast food burger sleeves` | "My line is too slow at peak" | "Speed Packing", "Stack Handling", mixed size range | What a sleeve is; food contact |
+| TBS-011 | `takeaway burger sleeves` | "Will it survive the journey home?" | "Walk-and-eat"; open-end or half-wrap; **label space for order marking** | Single-use economics, hygiene |
+| TBS-012 | `disposable burger sleeves` | "Cost and hygiene per unit, no washing" | **Absorbent** paper; "Easy pull from stack"; single-use format | Barrier engineering, carry |
+| TBS-013 | `grease resistant burger sleeves` | "Oil is reaching hands and staining" | **Barrier** layer; low-absorb inner liner; no inner print; fold integrity under oil | Disposal, cost per unit |
+| TBS-014 | `food grade burger sleeves` | "Is this safe against food?" | Low-migration inks; ink kept off the food side; odour neutrality | Grease performance, speed |
+
+The two sharpest pairs are handled explicitly. **TBS-012 and TBS-013 are the
+absorbent and barrier answers to the same problem** — 012 lets paper take up
+surface oil, 013 stops oil moving through a liner — and each page states the
+other is the alternative rather than restating it. **TBS-008 and TBS-009** split
+on dimension versus moisture: the plain build's predictable footprint against
+what melt spread does to width and wrap adhesion.
+
+### TBS-011 / TBS-012 differentiation
+
+These two carried a **duplicate `metaDescription`**, and TBS-012's copy was
+plainly wrong — it described takeaway sleeves on the disposable page, a
+copy-paste error inherited from WordPress. Differentiated on every axis:
+
+| | TBS-011 Takeaway | TBS-012 Disposable |
+| --- | --- | --- |
+| Intent | the journey after handoff | single-use economics and hygiene |
+| Oil approach | optional inner barrier | absorbent paper takes up surface oil |
+| Unique spec content | fold style, label space for stamps and order marks | pull-from-stack dispensing, single-use format |
+| Table | the journey in stages | absorbent against barrier, and dispensing |
+| Meta description | unchanged | **rewritten** — it described the wrong product |
+
+### Internal-link allocation
+
+Implemented the outstanding Group 6 debts: materials category, sizes category,
+medium, kraft, paper, large, special-uses category, street food, corrugated and
+recycled all receive a link from this group. Sibling links inside the group were
+used deliberately so that every Usage page ends with at least one incoming
+contextual link.
+
+### Result
+
+| SKU | Product | Words | FAQs | Links out | Links in |
+| --- | --- | ---: | ---: | ---: | ---: |
+| TBS-007 | Burger Sleeves | 1,225 | 12 | 4 | 1 |
+| TBS-008 | Hamburger Sleeves | 1,257 | 12 | 3 | 1 |
+| TBS-009 | Cheeseburger Sleeves | 1,203 | 12 | 4 | 1 |
+| TBS-010 | Fast Food Burger Sleeves | 1,308 | 12 | 3 | 1 |
+| TBS-011 | Takeaway Burger Sleeves | 1,204 | 12 | 3 | 1 |
+| TBS-012 | Disposable Burger Sleeves | 1,313 | 12 | 3 | 1 |
+| TBS-013 | Grease Resistant Burger Sleeves | 1,340 | 12 | 4 | 2 |
+| TBS-014 | Food Grade Burger Sleeves | 1,331 | 12 | 3 | 1 |
+
+Group totals: **10,181 words, 96 FAQs, 27 contextual links out.** Highest
+within-group pair similarity **1.88 %** (Hamburger ↔ Cheeseburger); no repeated
+headings inside the group; every page carries its exact keyword in one H2.
+
+TBS-014's inherited short description claims the product "meets strict FDA
+regulations" and uses "certified safe materials". Nothing in the supplied data
+supports either claim. It is flagged in `CONTENT_AUDIT.md` and the page copy
+says the opposite — that suitability must be confirmed in writing for the
+finished construction.
 
 ## Group 7 — Combo (4) — pending
 

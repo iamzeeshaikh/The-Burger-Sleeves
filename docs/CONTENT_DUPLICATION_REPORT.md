@@ -16,25 +16,25 @@ checklist steps shared across the Materials pages while this report still said
 | Metric | Value |
 | --- | ---: |
 | Products | 44 |
-| With long-form copy | 32 |
-| **Missing long-form copy** | **12** |
+| With long-form copy | 40 |
+| **Missing long-form copy** | **4** |
 | Below the 1,200-word target | 0 |
-| Total long-form words | 41,736 |
+| Total long-form words | 51,994 |
 
 ## Similarity between pages that already have copy
 
 | Rank | Page A | Page B | Similarity |
 | ---: | --- | --- | ---: |
 | 1 | White Burger Sleeves | White Printed Burger Sleeves | 3.6% |
-| 2 | Small Burger Sleeves | Custom Burger Sleeves | 1.8% |
-| 3 | Kraft Burger Sleeves | Kraft Brown Burger Sleeves | 1.6% |
-| 4 | Logo Printed Burger Sleeves | Promotional Burger Sleeves | 1.5% |
-| 5 | Kraft Burger Sleeves | Cardboard Burger Sleeves | 1.5% |
-| 6 | Cardboard Burger Sleeves | Eco Friendly Burger Sleeves | 1.4% |
-| 7 | Double Patty Burger Sleeves | Custom Burger Sleeves | 1.4% |
-| 8 | Kraft Burger Sleeves | Recycled Burger Sleeves | 1.4% |
-| 9 | Jumbo Burger Sleeves | Double Patty Burger Sleeves | 1.4% |
-| 10 | Kraft Burger Sleeves | Paper Burger Sleeves | 1.3% |
+| 2 | Cardboard Burger Sleeves | Burger Sleeves | 3.4% |
+| 3 | Burger Sleeves | Custom Burger Sleeves | 2.4% |
+| 4 | Recycled Burger Sleeves | Food Grade Burger Sleeves | 2.3% |
+| 5 | Hamburger Sleeves | Cheeseburger Sleeves | 1.8% |
+| 6 | Kraft Burger Sleeves | Burger Sleeves | 1.8% |
+| 7 | Small Burger Sleeves | Custom Burger Sleeves | 1.8% |
+| 8 | Paper Burger Sleeves | Burger Sleeves | 1.7% |
+| 9 | Paper Burger Sleeves | Fast Food Burger Sleeves | 1.6% |
+| 10 | Kraft Burger Sleeves | Kraft Brown Burger Sleeves | 1.6% |
 
 Highest pair is **3.6%**. No pair is close to the level at which shared wording becomes visible to a reader.
 
@@ -57,11 +57,12 @@ Every page with copy uses the identical link pattern, which is the clearest
 mass-generation signal in the current set:
 
 - `category+product+product+product` — 3 pages
-- `product+product+product+product` — 6 pages
-- `product+product+product` — 16 pages
-- `product+category+product` — 2 pages
+- `product+product+product+product` — 9 pages
+- `product+product+product` — 19 pages
+- `product+category+product` — 3 pages
 - `product+product+category+product` — 2 pages
 - `product+product+product+category` — 2 pages
+- `category+category+product+product` — 1 page
 - `category+product+category+product` — 1 page
 
 ### Templated heading shapes
@@ -90,14 +91,6 @@ None.
 - TBS-042 — Burger Wrapping Sleeves (`/product/burger-wrapping-sleeves/`)
 - TBS-043 — Burger Sandwich Sleeves (`/product/burger-sandwich-sleeves/`)
 - TBS-044 — Fast Food Sleeves Packaging (`/product/fast-food-sleeves-packaging/`)
-- TBS-007 — Burger Sleeves (`/product/burger-sleeves/`)
-- TBS-008 — Hamburger Sleeves (`/product/hamburger-sleeves/`)
-- TBS-009 — Cheeseburger Sleeves (`/product/cheeseburger-sleeves/`)
-- TBS-010 — Fast Food Burger Sleeves (`/product/fast-food-burger-sleeves/`)
-- TBS-011 — Takeaway Burger Sleeves (`/product/takeaway-burger-sleeves/`)
-- TBS-012 — Disposable Burger Sleeves (`/product/disposable-burger-sleeves/`)
-- TBS-013 — Grease Resistant Burger Sleeves (`/product/grease-resistant-burger-sleeves/`)
-- TBS-014 — Food Grade Burger Sleeves (`/product/food-grade-burger-sleeves/`)
 
 ## Products below the word target
 

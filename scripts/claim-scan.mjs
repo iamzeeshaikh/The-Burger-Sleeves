@@ -58,6 +58,15 @@ const QUALIFIERS =
   /\b(depends?\s+on|check|confirm|ask|verify|varies|may|might|can\s+affect|not\s+all|rather\s+than\s+assum|should\s+not\s+be\s+assumed|no\s+blanket|local\s+facilit|where\s+available|if\s+documented|subject\s+to|cannot\s+be\s+assumed|is\s+not\s+something)\b/i;
 
 /**
+ * Reporting what a supplier document says is not the same as asserting it.
+ * "The specification describes food-safe paper" tells a reader where the claim
+ * comes from and leaves them able to weigh it, which is the behaviour this scan
+ * exists to encourage. Bare assertion in the site's own voice is what it is for.
+ */
+const ATTRIBUTED =
+  /\b(specification|spec table|specifications|supplier|manufacturer|data\s+sheet|documentation)\s+\w{0,8}\s?(describes?|states?|lists?|says?|notes?|records?|names?|offers?|mentions?)\b/i;
+
+/**
  * A sentence that denies a claim is the opposite of a violation — "this does not
  * make the sleeve leakproof" is the sentence we want on the page, so it must not
  * be reported as if it made the claim.
@@ -87,7 +96,7 @@ const check = (severity, sku, field, text, productName = '') => {
     for (const n of names) s = s.replace(n, ' ');
     for (const [label, re] of CLAIMS) {
       if (!re.test(s)) continue;
-      const soft = QUALIFIERS.test(s) || NEGATED(s, re);
+      const soft = QUALIFIERS.test(s) || ATTRIBUTED.test(s) || NEGATED(s, re);
       findings.push({ severity: soft ? 'QUALIFIED' : severity, sku, field, label, text: raw });
     }
   }

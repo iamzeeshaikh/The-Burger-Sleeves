@@ -158,6 +158,36 @@ rows and items are reported as their own metrics. The measured sitewide maximum
 moved from a reported 7.3 % to a true 11.8 %, and after the Materials rewrite it
 stands at 3.6 %.
 
+### 12. TBS-012 carried the wrong product's meta description
+
+`Disposable Burger Sleeves` shipped from WordPress with TBS-011's description
+verbatim — *"Get a quick quote for **takeaway** burger sleeves built for easy
+carry…"* — on the disposable product page. The same string sat on both
+products and it named the wrong one.
+
+This is the **only** meta description changed in the project. The migration
+brief protects inherited metadata, and the justification here is narrow: the
+field described a different product than the page it appeared on. TBS-011's was
+left untouched. The fix lives in `scripts/fix-usage-metadata.mjs` and is
+idempotent. Duplicate meta descriptions across all 44 products: **0**.
+
+### 13. TBS-014 claims FDA approval that nothing supports
+
+`Food Grade Burger Sleeves`' inherited short description states the board
+*"meets strict FDA regulations for direct food contact"* and is *"manufactured
+using certified safe materials"*. No regulatory approval, certification or
+supporting documentation appears anywhere in the supplied product data — the
+specification table says only "food-safe paper stock", "approved ink sets" and
+"low-migration options".
+
+The short description is protected by the brief and is therefore flagged rather
+than rewritten. The page copy written for this project states the opposite
+position: that "food grade" is a category rather than a certification, and that
+contact suitability must be confirmed in writing for the finished construction.
+A page asserting an FDA approval in its short description while its body text
+tells buyers to obtain their own confirmation is not a stable position, and it
+needs resolving by the business.
+
 ## Client decisions still open
 
 None of these are being changed unilaterally, because each one alters something
@@ -174,6 +204,8 @@ the brief protects or something only the business can confirm.
 | 7 | Corrugated photography shows no fluting and includes third-party brands and a mockup template (defect 9) | Either the images or the specification misrepresents the product | Supply photographs of the actual construction, or correct the specification |
 | 8 | Paper and Cardboard may be the same product under two names (defect 10) | Their specifications overlap materially | Confirm whether these are two distinct offerings, and if not, decide which URL survives |
 | 9 | TBS-005 "Speckled Recycled" image shows foil-lined bags, not recycled sleeves | The foil lining would itself complicate fibre recovery | Replace with photography of the product being sold |
+| 10 | TBS-014 short description claims FDA approval and certified materials (defect 13) | Nothing in the product data supports it, and the page body advises the opposite | Produce the documentation, or rewrite the short description |
+| 11 | TBS-012 Disposable has no product photography at all | It is a live indexable page selling a physical product | Supply photographs |
 
 ## Structural changes made
 
