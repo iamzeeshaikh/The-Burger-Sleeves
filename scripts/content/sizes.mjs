@@ -135,7 +135,7 @@ export const sizes = {
         blocks: [
           { t: 'p', html: 'The medium sleeve is rarely chosen for a single item. It is chosen because it has to cover the house burger, the cheeseburger, the chicken sandwich and whatever the special happens to be that week. That makes it a tolerance problem rather than a fit problem, and the two need different thinking.' },
           { t: 'p', html: 'A fit problem asks: does this sleeve suit this burger? A tolerance problem asks: what is the range of builds this sleeve must accept without either crushing the smallest or letting the largest slide out? Answering the second question well is what keeps an operator from stocking four sizes when two would do.' },
-          { t: 'p', html: 'Working that range out starts with measuring the extremes, not the average. Take the smallest item the sleeve will hold and the largest, both assembled and wrapped, and treat those two figures as the boundaries the sleeve has to live between.' },
+          { t: 'p', html: 'Working that range out starts with measuring the extremes, not the average. Take the smallest item the sleeve will hold and the largest, both assembled and wrapped, and treat those two figures as the boundaries the sleeve has to live between. Where that range stretches past round buns into long rolls and toasted sandwiches, the boundaries stop being a size question and become a shape one, which is the problem <a href="/product/burger-sandwich-sleeves/">one sleeve spanning burger and sandwich formats</a> is built around.' },
         ],
       },
       {

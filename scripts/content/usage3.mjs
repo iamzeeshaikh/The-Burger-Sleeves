@@ -79,7 +79,7 @@ export const usage3 = {
               'Specify to the failure you saw, not to the one you expected',
             ],
           },
-          { t: 'p', html: 'Step four is where most tests go wrong. People look at the face, see it clean, and approve a sleeve whose creases were already wicking.' },
+          { t: 'p', html: 'Step four is where most tests go wrong. People look at the face, see it clean, and approve a sleeve whose creases were already wicking. It is also worth remembering which layer is meant to be doing the containment, since <a href="/product/burger-wrapping-sleeves/">the way an inner wrap and an outer sleeve divide the work</a> decides how much the barrier is being asked to carry in the first place.' },
         ],
       },
       {

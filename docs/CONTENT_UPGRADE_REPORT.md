@@ -1,7 +1,7 @@
 # Content Upgrade Report
 
 Running report. Updated at each group checkpoint.
-Status: **6 of 7 groups complete (40 of 44 products).**
+Status: **All seven groups complete — 44 of 44 products.**
 See `CONTENT_PROGRESS.md` for per-product state.
 
 ## Totals so far
@@ -9,14 +9,14 @@ See `CONTENT_PROGRESS.md` for per-product state.
 | Metric | Value |
 | --- | ---: |
 | Products audited | 44 / 44 |
-| Products with long-form copy now | 40 / 44 |
-| Products upgraded in this run | 40 |
-| Products still needing copy written from scratch | 4 |
-| Upgraded pages inside the 1,200–1,600 word target | 39 / 40 |
-| Total long-form words on site | 51,917 |
-| Total FAQs on site | 552 |
+| Products with long-form copy now | **44 / 44** |
+| Products upgraded in this run | 44 |
+| Products still needing copy written from scratch | 0 |
+| Upgraded pages inside the 1,200–1,600 word target | 43 / 44 |
+| Total long-form words on site | 57,504 |
+| Total FAQs on site | 540 |
 | Duplicate FAQ questions sitewide | 0 |
-| Highest page-pair similarity | 3.6 % sitewide; 1.88 % within Group 6 |
+| Highest page-pair similarity | 3.6 % sitewide; 1.23 % within Group 7 |
 | Unqualified claims in authored copy | 0 |
 
 ### Internal links
@@ -30,8 +30,8 @@ other two CSVs from it and from current content.
 | Existing links kept with the anchor rewritten | 15 |
 | Existing contextual links preserved unchanged | 5 |
 | Existing links removed (sentence no longer exists after rewrite) | 60 |
-| New contextual links added | 118 |
-| Contextual links on the site now | 138 across 40 pages |
+| New contextual links added | 138 |
+| Contextual links on the site now | 158 across 44 pages |
 | Broken internal links | 0 |
 | Self-links | 0 |
 | Reused anchors sitewide | 0 |
@@ -43,6 +43,77 @@ rewritten yet, so they counted as preserved by default. Rewriting the group
 reclassified them properly. As the remaining groups land, this number will keep
 falling toward zero and the "newly added" count will keep rising.
 
+
+
+## Group 7 — Combo (4) — complete
+
+All four written from scratch; none had long-form copy and none had a single
+incoming contextual link.
+
+| SKU | Product | URL | Words | FAQs | Out | In |
+| --- | --- | --- | ---: | ---: | ---: | ---: |
+| TBS-041 | Burger and Fries Sleeves | `/product/burger-and-fries-sleeves/` | 1,384 | 11 | 4 | 2 |
+| TBS-042 | Burger Wrapping Sleeves | `/product/burger-wrapping-sleeves/` | 1,242 | 12 | 3 | 2 |
+| TBS-043 | Burger Sandwich Sleeves | `/product/burger-sandwich-sleeves/` | 1,268 | 12 | 4 | 2 |
+| TBS-044 | Fast Food Sleeves Packaging | `/product/fast-food-sleeves-packaging/` | 1,465 | 13 | 5 | 2 |
+
+Group totals: **5,359 words, 48 FAQs, 16 contextual links.**
+
+### Verification before writing — one product failed it
+
+- **TBS-041 has no verifiable combined structure.** Its short description claims
+  the design "holds both burgers and fries in one compact sleeve" and its spec
+  row says "combined sleeve design". All four product images show a single-burger
+  sleeve or wrap; one is a foil bag holding one burger with crisps loose on the
+  tray beside it. No compartment, divider or fry pocket appears anywhere. The
+  page is written as a sleeve used **within** a combo order — workflow, bag
+  order, salt and oil crossover, portion pairing — and says explicitly in its
+  first paragraph that there is no fry compartment. Flagged as defect 14.
+- **TBS-042 verified as an outer sleeve, not wrapping paper.** Its spec reads
+  "designed to sit over inner wrap without slipping" and "sized by wrapped width
+  and height with slide on clearance". The page owns the two-layer relationship.
+- **TBS-043 verified as multi-format**, covering burgers and chicken sandwiches
+  in slide-on and wrap-around styles.
+- **TBS-044 verified as the range product** — the longest specification in the
+  catalogue at 10 rows, and the only one listing straight wrap / open-end /
+  pocket styles, custom width-height-depth, 250–400 GSM and add-ons of cutouts,
+  QR print and batch coding.
+
+### Boundaries
+
+| Page | Owns | Does not target |
+| --- | --- | --- |
+| Burger and Fries | the combo-order workflow: pairing two items, crossover, bag order, tier pairing | any compartment or carrier structure |
+| Burger Wrapping | the two-layer system: seam control, slide-on clearance, applying without crushing | loose wrapping paper; menu formats |
+| Burger Sandwich | format compatibility: round buns against long rolls, bread behaviour, fit tolerance | generic food packaging; combo orders |
+| Fast Food Sleeves Packaging | the range as a system: how many sizes, menu coding, storage, reordering, multi-site | the homepage pitch; setting-specific pages |
+
+Highest within-group pair similarity **1.23 %**. TBS-044 measured against the
+homepage content: **0.08 %**, so the range page does not restate the homepage.
+No repeated headings; every page carries its exact keyword in one H2.
+
+### Closing the incoming-link debt
+
+Every one of the six outstanding destinations received a link from this group:
+Event and Large from TBS-041, Paper from TBS-042, and the Materials category,
+Special Uses category and Recycled from TBS-044.
+
+Four targeted single-sentence edits were made to completed pages to give the
+Combo products their incoming links — to Grease Resistant, Cafe, Fast Food
+Burger Sleeves and Medium. A fifth was attempted on Event Burger Sleeves and
+**rejected by the editorial gate as a duplicate destination**: Event already
+linked to Burger and Fries from "Counting Guests, Not Orders". No existing link
+was displaced and no completed page was rewritten.
+
+**Zero products remain with no incoming contextual link**, down from 3 before
+this group and 12 at the Group 4 checkpoint.
+
+Two destinations still sit below 70 % of baseline: the Materials and Special
+Uses categories, both at 4 incoming against a baseline of 6. Those baseline
+links were the closed-cluster pattern in which every page linked up to its own
+parent category. Both hubs also receive navigation and breadcrumb links from
+every page on the site, so the remaining gap is not worth a forced sentence, and
+the decision is recorded in the preservation report rather than papered over.
 
 ## Group 6 — Usage (8) — complete
 
@@ -245,9 +316,9 @@ pages.
 | `npx astro check` | 0 errors, 0 warnings |
 | `npm run validate` (30+ SEO/schema/link checks) | all passed |
 | Indexable URLs | 61, unchanged |
-| Editorial rule gate (`apply-content.mjs`) | passed for all 38 authored products |
+| Editorial rule gate (`apply-content.mjs`) | passed for all 42 authored products |
 | Unsupported claim scan | BLOCK 0 |
-| Highest page-pair similarity | 3.6 % sitewide; 1.88 % within Group 6 |
+| Highest page-pair similarity | 3.6 % sitewide; 1.23 % within Group 7 |
 | Repeated headings / paragraphs / list items / table rows | 0 / 0 / 0 / 0 |
 | Reused anchors | 0 |
 | Near-duplicate introductions | 0 |
@@ -257,22 +328,27 @@ pages.
 | Duplicate `metaDescription` | **0** — the TBS-011 / TBS-012 pair was resolved |
 | FAQ schema matches visible FAQs after entity decoding | pass on all 44 |
 | Orphan pages | 0 |
+| Products with zero incoming contextual links | **0** |
 | Link concentration above 8 % of all links | 0 destinations |
 | Broken links / self-links | 0 / 0 |
 
 ## Rule violations the gate caught in my own drafts
 
-Now 24 refusals across six groups. This checkpoint added eleven in a single
-run: "discover" on Hamburger and Takeaway, "distinctive" on Grease Resistant,
-"robust" on Food Grade, two links in one paragraph on Hamburger, three anchors
-already used by Cardboard, a duplicate FAQ shared with Paper, and Hamburger
-left with 2 links after the paragraph split. Every one was a real fault.
+Now 34 refusals across seven groups. This final group added ten: seven anchors
+already used by pages written in Groups 5 and 6, two links in one section on
+Fast Food Sleeves Packaging, and a duplicate destination on Event Burger
+Sleeves — that last one usefully, since it revealed the planned targeted edit
+was unnecessary because the link already existed.
+
+Across the whole project the gate caught banned words, reused anchors,
+duplicated FAQs, self-links, over-long FAQ answers, link-density breaches and
+under-linked pages before any of them reached the build. Not one was found by
+reading the copy back.
 
 ## Unresolved
 
-- 4 products still have no long-form copy, all in Group 7
-- 6 destinations remain below 70 % of their baseline incoming links, allocated
-  to Group 7
+- 2 category hubs sit below 70 % of their baseline incoming contextual links,
+  by decision rather than omission — see the Group 7 section
 - 39 inherited environmental claims await a client decision
 - Corrugated construction unverified; Paper and Cardboard may be one product
 - TBS-014's short description claims FDA approval nothing supports
@@ -281,16 +357,17 @@ left with 2 links after the paragraph split. Every one was a real fault.
 - Brand red `#FF0000` still fails WCAG AA contrast at 3.998:1
 - TBS-002, TBS-012 and TBS-020 have no product photography
 
-## Next — the final group
+## Next
 
-**Group 7 — Combo (4):** TBS-041 Burger and Fries Sleeves, TBS-042 Burger
-Wrapping Sleeves, TBS-043 Burger Sandwich Sleeves, TBS-044 Fast Food Sleeves
-Packaging. All four need writing from scratch and all four currently have zero
-incoming contextual links.
+The content upgrade is complete at 44 of 44 products. What remains is a final
+sitewide audit and deployment preparation, neither of which has been started,
+and **nothing has been deployed.**
 
-Two things fall to this group beyond the writing. It owns the last of the
-incoming-link debt — the materials and special-uses categories, Event, Large,
-Paper and Recycled. And TBS-042 and TBS-044 need the same
-distinct-product scrutiny applied to Paper and Cardboard, since "wrapping
-sleeves" and "fast food sleeves packaging" may not describe separate
-constructions.
+Before any deploy, thirteen client decisions are open in `CONTENT_AUDIT.md`. Four
+of them are claims the site currently makes that its own data does not support —
+the FDA statement on Food Grade, the compostability and biodegradability
+language on Eco Friendly, the combined-carrier claim on Burger and Fries, and
+the white-ink-on-dark-kraft description on White Printed. Each sits in a short
+description or alt text that the migration brief protects, so each was flagged
+rather than rewritten. They are worth resolving before the pages are published
+rather than after.

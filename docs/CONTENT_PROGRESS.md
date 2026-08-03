@@ -8,7 +8,7 @@ Authored copy lives in `scripts/content/*.mjs` and is merged by
 fails. Never hand-edit `src/data/product-content.json` for authored groups —
 edit the group file and re-run the merge.
 
-Last updated: 2026-08-02 · Styles, Sizes, Special Uses, Customized, Materials and Usage complete (40 of 44 products).
+Last updated: 2026-08-03 · **All seven groups complete — 44 of 44 products.**
 
 ## Status legend
 
@@ -284,11 +284,96 @@ supports either claim. It is flagged in `CONTENT_AUDIT.md` and the page copy
 says the opposite — that suitability must be confirmed in writing for the
 finished construction.
 
-## Group 7 — Combo (4) — pending
+## Group 7 — Combo (4) — **completed**
 
-All four need writing from scratch: TBS-041 Burger and Fries,
-TBS-042 Burger Wrapping, TBS-043 Burger Sandwich,
-TBS-044 Fast Food Sleeves Packaging.
+### Verified mapping
+
+All four sit in `Burger Sleeves Combo`, all four had 0 long-form words and 0
+incoming contextual links. The WooCommerce CSV confirms empty `Description`
+fields for all four, so nothing was lost in migration.
+
+| SKU | Name | URL | Images |
+| --- | --- | --- | ---: |
+| TBS-041 | Burger and Fries Sleeves | `/product/burger-and-fries-sleeves/` | 4 |
+| TBS-042 | Burger Wrapping Sleeves | `/product/burger-wrapping-sleeves/` | 1 |
+| TBS-043 | Burger Sandwich Sleeves | `/product/burger-sandwich-sleeves/` | 5 |
+| TBS-044 | Fast Food Sleeves Packaging | `/product/fast-food-sleeves-packaging/` | 5 |
+
+### Construction verification, before any writing
+
+- **TBS-041 — no combined structure is verifiable.** The spec table says
+  "Combined sleeve design to hold burger and fries together" and "sized by
+  burger width, burger height, and fries portion width", and the short
+  description claims the design "holds both burgers and fries in one compact
+  sleeve". **All four product images show a single-burger sleeve or wrap** —
+  one kraft wrap on a burger, a second of the same on a tray, a third a
+  foil-lined bag holding one burger with crisps loose on the tray beside it. No
+  compartment, divider, fry pocket or combo carrier appears in any image, and
+  none is named anywhere in the specification. The page is therefore written as
+  a sleeve used **within** a burger-and-fries order workflow, which is what the
+  evidence supports. Flagged for the business in `CONTENT_AUDIT.md`.
+- **TBS-042 — verified as an outer sleeve, not wrapping paper.** Its spec says
+  "designed to sit over inner wrap without slipping" and "sized by wrapped width
+  and height with slide on clearance". The page makes that distinction explicit.
+- **TBS-043 — verified as multi-format.** Spec reads "sleeve format planned for
+  burger and sandwich sizes", "burgers and chicken sandwiches", with slide-on
+  and wrap-around styles and optional die-cut patterns.
+- **TBS-044 — verified as the broad range product.** It carries the longest
+  specification in the catalogue at 10 rows, and is the only one listing
+  "straight wrap, open end sleeve, pocket style", custom width/height/depth,
+  250–400 GSM stocks, and add-ons of cutouts, QR print and batch coding.
+
+### Intent matrix
+
+| SKU | Primary intent | Buyer problem | Owns | Must not target |
+| --- | --- | --- | --- | --- |
+| TBS-041 | `burger and fries sleeves` | "Two items, one order, one bag" | Combo-order workflow: pairing two foods, salt and grease crossover, bag order, portion pairing, counter assembly | Any compartment or carrier structure; single-item fit |
+| TBS-042 | `burger wrapping sleeves` | "How do the wrap and the sleeve work together?" | The two-layer system: seam control, slide-on clearance, applying without crushing, packing sequence | Loose wrapping paper; menu formats |
+| TBS-043 | `burger sandwich sleeves` | "One sleeve across burgers and sandwiches" | Format compatibility: round buns against long rolls, grilled and breakfast sandwiches, fit tolerance across shapes | Generic food packaging; combo orders |
+| TBS-044 | `fast food sleeves packaging` | "Standardise a sleeve family across a menu and several sites" | The range as a system: how many sizes, menu coding, counter storage, reordering, multi-site consistency | The homepage pitch; restaurant or food-truck settings |
+
+### Link plan
+
+Outgoing resolves all six remaining debt destinations exactly once: Event and
+Large from TBS-041, Paper from TBS-042, and the Materials category, Special Uses
+category and Recycled from TBS-044.
+
+Incoming gives each Combo page two links — one from a completed product page via
+a single-sentence targeted edit, one from a Combo sibling:
+
+| Combo page | From a completed page (targeted edit) | From a sibling |
+| --- | --- | --- |
+| TBS-041 | TBS-040 Event Burger Sleeves | TBS-044 |
+| TBS-042 | TBS-013 Grease Resistant | TBS-041 |
+| TBS-043 | TBS-037 Cafe Burger Sleeves | TBS-042 |
+| TBS-044 | TBS-010 Fast Food Burger Sleeves | TBS-043 |
+
+Each target page has free H2 sections and sits at 3–4 links, well inside the
+cap, so no existing link is displaced.
+
+### Result
+
+| SKU | Product | Words | FAQs | Links out | Links in |
+| --- | --- | ---: | ---: | ---: | ---: |
+| TBS-041 | Burger and Fries Sleeves | 1,384 | 11 | 4 | 2 |
+| TBS-042 | Burger Wrapping Sleeves | 1,242 | 12 | 3 | 2 |
+| TBS-043 | Burger Sandwich Sleeves | 1,268 | 12 | 4 | 2 |
+| TBS-044 | Fast Food Sleeves Packaging | 1,465 | 13 | 5 | 2 |
+
+Group totals: **5,359 words, 48 FAQs, 16 contextual links out.** Highest
+within-group pair similarity **1.23 %**; TBS-044 against the homepage **0.08 %**,
+so the range page does not restate the homepage pitch. No repeated headings.
+Every page carries its exact keyword in one H2.
+
+Three of the four planned targeted edits were made — to Grease Resistant, Cafe
+and Fast Food Burger Sleeves. The fourth was **not needed**: Event Burger
+Sleeves already linked to Burger and Fries from "Counting Guests, Not Orders",
+which the editorial gate caught as a duplicate destination when the edit was
+attempted. A fourth edit was made instead to Medium Burger Sleeves, whose
+"One Size Carrying Most Of The Menu" section already named the chicken sandwich,
+to give Burger Sandwich Sleeves its second incoming link.
+
+**Zero products are left with no incoming contextual link.**
 
 ---
 

@@ -188,6 +188,26 @@ A page asserting an FDA approval in its short description while its body text
 tells buyers to obtain their own confirmation is not a stable position, and it
 needs resolving by the business.
 
+### 14. TBS-041 claims a combined burger-and-fries structure that no image shows
+
+`Burger and Fries Sleeves`' short description says the design *"holds both
+burgers and fries in one compact sleeve"*, and its specification table describes
+a *"combined sleeve design to hold burger and fries together"* sized by *"burger
+width, burger height, and fries portion width"*.
+
+**All four product images show a single-burger sleeve or wrap.** One is a kraft
+wrap around one burger, a second is the same product on a tray, a third is a
+foil-lined bag holding one burger with crisps loose on the tray beside it. No
+compartment, divider, fry pocket or two-part carrier appears in any image, and
+none is named anywhere in the specification beyond the word "combined".
+
+The page is written as a sleeve used **within** a burger-and-fries order — the
+combo workflow, bag order, salt and oil crossover, portion pairing and counter
+identification — which is what the evidence supports. It states in its opening
+paragraph that there is no fry compartment. If the business does sell a
+two-compartment carrier, the photography needs to show it; if it does not, the
+short description needs correcting.
+
 ## Client decisions still open
 
 None of these are being changed unilaterally, because each one alters something
@@ -206,6 +226,8 @@ the brief protects or something only the business can confirm.
 | 9 | TBS-005 "Speckled Recycled" image shows foil-lined bags, not recycled sleeves | The foil lining would itself complicate fibre recovery | Replace with photography of the product being sold |
 | 10 | TBS-014 short description claims FDA approval and certified materials (defect 13) | Nothing in the product data supports it, and the page body advises the opposite | Produce the documentation, or rewrite the short description |
 | 11 | TBS-012 Disposable has no product photography at all | It is a live indexable page selling a physical product | Supply photographs |
+| 12 | TBS-041 claims a combined burger-and-fries sleeve; no image shows one (defect 14) | The page copy states the opposite, that there is no fry compartment | Photograph the combined product, or correct the short description and spec row |
+| 13 | TBS-044 reuses TBS-042's image and carries an alt of "Burger Sleeves Materials" on a fast-food image | Alt text was preserved verbatim from WordPress and now mislabels the image | Supply distinct photography and corrected alt text |
 
 ## Structural changes made
 

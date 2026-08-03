@@ -1,6 +1,6 @@
 # Content Duplication Report
 
-Generated 2026-08-02 from `src/data/product-content.json`.
+Generated 2026-08-03 from `src/data/product-content.json`.
 Similarity is Jaccard overlap of word trigrams across everything a reader can read
 in the long description — headings, body paragraphs, list items and table rows.
 Shared chrome (header, nav, footer, breadcrumbs, spec-table labels, quote form,
@@ -16,10 +16,10 @@ checklist steps shared across the Materials pages while this report still said
 | Metric | Value |
 | --- | ---: |
 | Products | 44 |
-| With long-form copy | 40 |
-| **Missing long-form copy** | **4** |
+| With long-form copy | 44 |
+| **Missing long-form copy** | **0** |
 | Below the 1,200-word target | 0 |
-| Total long-form words | 51,994 |
+| Total long-form words | 57,504 |
 
 ## Similarity between pages that already have copy
 
@@ -30,11 +30,11 @@ checklist steps shared across the Materials pages while this report still said
 | 3 | Burger Sleeves | Custom Burger Sleeves | 2.4% |
 | 4 | Recycled Burger Sleeves | Food Grade Burger Sleeves | 2.3% |
 | 5 | Hamburger Sleeves | Cheeseburger Sleeves | 1.8% |
-| 6 | Kraft Burger Sleeves | Burger Sleeves | 1.8% |
-| 7 | Small Burger Sleeves | Custom Burger Sleeves | 1.8% |
-| 8 | Paper Burger Sleeves | Burger Sleeves | 1.7% |
-| 9 | Paper Burger Sleeves | Fast Food Burger Sleeves | 1.6% |
-| 10 | Kraft Burger Sleeves | Kraft Brown Burger Sleeves | 1.6% |
+| 6 | Fast Food Sleeves Packaging | Branded Burger Sleeves | 1.8% |
+| 7 | Kraft Burger Sleeves | Burger Sleeves | 1.8% |
+| 8 | Small Burger Sleeves | Custom Burger Sleeves | 1.8% |
+| 9 | Paper Burger Sleeves | Burger Sleeves | 1.7% |
+| 10 | Paper Burger Sleeves | Fast Food Burger Sleeves | 1.6% |
 
 Highest pair is **3.6%**. No pair is close to the level at which shared wording becomes visible to a reader.
 
@@ -56,13 +56,15 @@ Highest pair is **3.6%**. No pair is close to the level at which shared wording 
 Every page with copy uses the identical link pattern, which is the clearest
 mass-generation signal in the current set:
 
-- `category+product+product+product` — 3 pages
-- `product+product+product+product` — 9 pages
+- `product+product+product+product` — 11 pages
 - `product+product+product` — 19 pages
-- `product+category+product` — 3 pages
-- `product+product+category+product` — 2 pages
+- `category+product+product+category+product` — 1 page
+- `category+product+product+product` — 3 pages
+- `product+category+product` — 1 page
+- `product+product+category+product` — 4 pages
 - `product+product+product+category` — 2 pages
 - `category+category+product+product` — 1 page
+- `product+product+product+product+product` — 1 page
 - `category+product+category+product` — 1 page
 
 ### Templated heading shapes
@@ -87,10 +89,7 @@ None.
 
 ## Products with no long-form copy
 
-- TBS-041 — Burger and Fries Sleeves (`/product/burger-and-fries-sleeves/`)
-- TBS-042 — Burger Wrapping Sleeves (`/product/burger-wrapping-sleeves/`)
-- TBS-043 — Burger Sandwich Sleeves (`/product/burger-sandwich-sleeves/`)
-- TBS-044 — Fast Food Sleeves Packaging (`/product/fast-food-sleeves-packaging/`)
+None.
 
 ## Products below the word target
 

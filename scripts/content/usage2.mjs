@@ -59,7 +59,7 @@ export const usage2 = {
         heading: 'Handling A Mixed Menu On One Line',
         blocks: [
           { t: 'p', html: 'A varied menu creates a choice that quietly decides throughput: one sleeve size that fits everything loosely, or several sizes that fit properly and have to be selected between.' },
-          { t: 'p', html: 'Every additional size adds a decision to every order, and decisions are where a fast line slows down. Two sizes is usually manageable because the choice is binary and obvious. Four is where staff start reaching for the wrong one under pressure, and a wrong sleeve costs more than a loose one.' },
+          { t: 'p', html: 'Every additional size adds a decision to every order, and decisions are where a fast line slows down. Two sizes is usually manageable because the choice is binary and obvious. Four is where staff start reaching for the wrong one under pressure, and a wrong sleeve costs more than a loose one. Deciding how many should exist at all is a separate exercise from choosing any one of them, and <a href="/product/fast-food-sleeves-packaging/">standardising a sleeve family across a whole menu</a> is where that question belongs.' },
           {
             t: 'table',
             caption: 'Where the seconds go, and what recovers them',
