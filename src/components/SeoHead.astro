@@ -28,12 +28,21 @@ const {
 // localhost host, regardless of where the build runs.
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, SITE.origin).href;
 const absoluteOg = ogImage ? new URL(ogImage, SITE.origin).href : undefined;
+
+/**
+ * Only a real production deployment may be indexable. Vercel sets VERCEL_ENV to
+ * "preview" for every non-production deployment, and each deployment runs its
+ * own build, so this is decided at build time and baked into the HTML. Local
+ * builds count as production so that `npm run build` output matches what ships.
+ */
+const vercelEnv = import.meta.env.VERCEL_ENV ?? process.env.VERCEL_ENV;
+const isProduction = !vercelEnv || vercelEnv === 'production';
 ---
 
 <title>{title}</title>
 {description && <meta name="description" content={description} />}
 <link rel="canonical" href={canonicalUrl} />
-<meta name="robots" content={robots} />
+<meta name="robots" content={isProduction ? robots : 'noindex, nofollow'} />
 
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content={ogType} />
