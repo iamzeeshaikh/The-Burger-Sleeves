@@ -208,26 +208,41 @@ paragraph that there is no fry compartment. If the business does sell a
 two-compartment carrier, the photography needs to show it; if it does not, the
 short description needs correcting.
 
-## Client decisions still open
+## Client decisions — all resolved
 
-None of these are being changed unilaterally, because each one alters something
-the brief protects or something only the business can confirm.
+Every open item has been closed conservatively under one rule: a claim that
+available project data does not support is removed or qualified, regardless of
+whether it arrived in a short description, alt text, metadata, a specification
+table or global site content. Only the inaccurate wording was touched. Full
+before/after text for all 40 edits is in `docs/CLAIM_DECISION_LOG.csv`; the
+corrections are applied by `scripts/resolve-claims.mjs`, which is idempotent.
 
-| # | Item | Why it needs a decision | Suggested fix |
-| --- | --- | --- | --- |
-| 1 | TBS-021 short description says "white ink on dark kraft"; images and spec table show colour on white stock | Short descriptions are protected by the brief, but this one misdescribes the product to a buyer | Confirm which product is actually sold, then correct the short description or the images |
-| 2 | Brand red `#FF0000` fails WCAG AA at 3.998:1 | Changing it alters the visual match with the live site | `#ee0000` gives 4.53:1 and is visually indistinguishable at this scale |
-| 3 | TBS-011 Takeaway and TBS-012 Disposable share one `metaDescription` | Metadata is frozen by the migration brief | Rewrite one of the two when the Usage group is written |
-| 4 | TBS-002, TBS-012 and TBS-020 have no photography | A lookalike substitute would misrepresent the product | Supply real photographs; placeholder shown until then |
-| 5 | `/about-us/` repeats the same three paragraphs in two panels | The repetition is visible on the live site and was preserved deliberately | Delete the duplicate panel on approval |
-| 6 | 39 unsupported environmental claims in short descriptions and alt text (defect 8) | Several carry regulatory meaning in the US market; short descriptions are protected by the brief | Either obtain documentation, or rewrite the affected short descriptions and alt text |
-| 7 | Corrugated photography shows no fluting and includes third-party brands and a mockup template (defect 9) | Either the images or the specification misrepresents the product | Supply photographs of the actual construction, or correct the specification |
-| 8 | Paper and Cardboard may be the same product under two names (defect 10) | Their specifications overlap materially | Confirm whether these are two distinct offerings, and if not, decide which URL survives |
-| 9 | TBS-005 "Speckled Recycled" image shows foil-lined bags, not recycled sleeves | The foil lining would itself complicate fibre recovery | Replace with photography of the product being sold |
-| 10 | TBS-014 short description claims FDA approval and certified materials (defect 13) | Nothing in the product data supports it, and the page body advises the opposite | Produce the documentation, or rewrite the short description |
-| 11 | TBS-012 Disposable has no product photography at all | It is a live indexable page selling a physical product | Supply photographs |
-| 12 | TBS-041 claims a combined burger-and-fries sleeve; no image shows one (defect 14) | The page copy states the opposite, that there is no fry compartment | Photograph the combined product, or correct the short description and spec row |
-| 13 | TBS-044 reuses TBS-042's image and carries an alt of "Burger Sleeves Materials" on a fast-food image | Alt text was preserved verbatim from WordPress and now mislabels the image | Supply distinct photography and corrected alt text |
+| # | Item | Resolution |
+| --- | --- | --- |
+| 1 | TBS-021 "white ink on dark kraft" | **Corrected.** Short description rewritten to the product the images and spec table show — artwork on a bright white stock. |
+| 2 | Brand red `#FF0000` fails WCAG AA | **Corrected.** `--red` is now `#ee0000` (4.53:1). It is used as a text colour on `.prose a`, `a:hover` and `.btn--white`, so this was a real failure for body text. `theme-color` updated to match. |
+| 3 | TBS-011 / TBS-012 duplicate `metaDescription` | **Corrected** at the Group 6 checkpoint. TBS-012's described takeaway sleeves on the disposable page. Duplicate meta descriptions across 44 products: 0. |
+| 4 | TBS-002, TBS-012, TBS-020 have no photography | **No false claim to remove.** Placeholder retained; no lookalike substituted. Needs client assets — carried to `DEPLOYMENT_REPORT.md` as an open supply item, not a content defect. |
+| 5 | `/about-us/` repeats three paragraphs in two panels | **Corrected.** The byte-identical duplicate panel was removed. No information lost. |
+| 6 | 39 unsupported environmental claims | **Corrected.** 8 short descriptions rewritten, 5 image alts rewritten, 9 specification cells requalified, plus three sitewide fixes: the homepage "Biodegradable and recyclable materials" card, the "Eco-Friendly Options" card title, the kraft "eco-friendly appearance" table row, and the Materials category meta description. |
+| 7 | Corrugated photography shows no fluting; third-party brands and a mockup | **Claim corrected; imagery still outstanding.** "Superior insulation" and "keep burgers warmer longer" removed from the short description. The photography problem needs client assets and is carried to `DEPLOYMENT_REPORT.md`. |
+| 8 | Paper and Cardboard may be one product | **Both URLs preserved** as the migration brief requires. No false claim exists on either page; they are differentiated by the question each answers. Consolidation remains a catalogue decision for the business. |
+| 9 | TBS-005 "Speckled Recycled" image shows foil-lined bags | **Alt text corrected** to describe what is visible ("Printed paper food bags holding a hot dog"). A second alt on the same product read "Special Sleeves Uses", a category name, and was corrected too. Replacement photography needs client assets. |
+| 10 | TBS-014 claims FDA approval and certified materials | **Corrected.** Short description rewritten to the qualified position the page body already took. The related sitewide FAQ claiming compliance "with FDA and EU food contact regulations" — which also fed FAQPage schema — was rewritten. |
+| 11 | TBS-012 has no product photography | Same as item 4. Carried as a supply item. |
+| 12 | TBS-041 claims a combined burger-and-fries sleeve | **Corrected.** Structural claim removed from the short description; repositioned as sleeve packaging for combo-order workflows, consistent with the page body and with every product image. |
+| 13 | TBS-044 alt text mislabels the image | **Corrected.** "Burger Sleeves Materials" replaced with a description of the visible image. A second mislabel found on TBS-043 ("Logo Printed Burger Sleeves" on a sandwich sleeve) was corrected in the same pass. |
+
+### One claim could not be removed
+
+`TBS-006` is **named** "Eco Friendly Burger Sleeves", and the name is also its
+URL, its H1 and its slug. The migration brief requires every indexable URL to
+survive unchanged, so renaming it would break URL parity. The name is left as
+it is and everything under it has been corrected: the short description, three
+image alts, one specification label and the whole page body, which is written
+as a material-selection framework rather than a green-claims page. This is the
+single remaining flagged item in the claim scan, and it is a naming decision
+for the business rather than a content defect.
 
 ## Structural changes made
 

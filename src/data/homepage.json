@@ -44,8 +44,8 @@
     "text": "Volume discounts available. The more you order, the more you save on per-unit costs."
    },
    {
-    "title": "Eco-Friendly Options",
-    "text": "Biodegradable and recyclable materials available for environmentally conscious businesses."
+    "title": "Lower-Impact Options",
+    "text": "Kraft and recycled content board options available; disposal depends on coatings, food residue and local facilities."
    }
   ]
  },
@@ -145,7 +145,7 @@
  "materials": {
   "eyebrow": "Material & Specifications",
   "h2": "Quality Materials for Superior Performance",
-  "html": "<h3>Paper Options</h3><table><thead><tr><th>Material Type</th><th>Description</th></tr></thead><tbody><tr><td><strong>Greaseproof Paper</strong></td><td>Prevents oil and moisture penetration</td></tr><tr><td><strong>Kraft Paper</strong></td><td>Natural, eco-friendly appearance with excellent strength</td></tr><tr><td><strong>White Food-Grade Paper</strong></td><td>Clean, professional look perfect for full-color printing</td></tr><tr><td><strong>Wax-Coated Options</strong></td><td>Additional moisture resistance for juicy burgers</td></tr></tbody></table><h3>Standard Sizes Available</h3><table><thead><tr><th>Size</th><th>Dimensions</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Small</strong></td><td>12 x 12 cm (4.7″ x 4.7″)</td><td>Sliders and mini burgers</td></tr><tr><td><strong>Medium</strong></td><td>15 x 15 cm (6″ x 6″)</td><td>Standard burgers</td></tr><tr><td><strong>Large</strong></td><td>18 x 18 cm (7″ x 7″)</td><td>Large and gourmet burgers</td></tr><tr><td><strong>Extra Large</strong></td><td>20 x 20 cm (8″ x 8″)</td><td>Double and triple burgers</td></tr><tr><td><strong>Custom Sizes</strong></td><td colspan=\"2\">Tailored to your specific requirements</td></tr></tbody></table><h3>Additional Specifications</h3><table><tbody><tr><td><strong>Paper Weight Options</strong></td><td>35gsm to 80gsm depending on your needs for durability and grease resistance</td></tr><tr><td><strong>Compliance</strong></td><td>All materials comply with FDA and EU food contact regulations</td></tr></tbody></table>",
+  "html": "<h3>Paper Options</h3><table><thead><tr><th>Material Type</th><th>Description</th></tr></thead><tbody><tr><td><strong>Greaseproof Paper</strong></td><td>Prevents oil and moisture penetration</td></tr><tr><td><strong>Kraft Paper</strong></td><td>Natural unbleached appearance with excellent strength</td></tr><tr><td><strong>White Food-Grade Paper</strong></td><td>Clean, professional look perfect for full-color printing</td></tr><tr><td><strong>Wax-Coated Options</strong></td><td>Additional moisture resistance for juicy burgers</td></tr></tbody></table><h3>Standard Sizes Available</h3><table><thead><tr><th>Size</th><th>Dimensions</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Small</strong></td><td>12 x 12 cm (4.7″ x 4.7″)</td><td>Sliders and mini burgers</td></tr><tr><td><strong>Medium</strong></td><td>15 x 15 cm (6″ x 6″)</td><td>Standard burgers</td></tr><tr><td><strong>Large</strong></td><td>18 x 18 cm (7″ x 7″)</td><td>Large and gourmet burgers</td></tr><tr><td><strong>Extra Large</strong></td><td>20 x 20 cm (8″ x 8″)</td><td>Double and triple burgers</td></tr><tr><td><strong>Custom Sizes</strong></td><td colspan=\"2\">Tailored to your specific requirements</td></tr></tbody></table><h3>Additional Specifications</h3><table><tbody><tr><td><strong>Paper Weight Options</strong></td><td>35gsm to 80gsm depending on your needs for durability and grease resistance</td></tr><tr><td><strong>Compliance</strong></td><td>All materials comply with FDA and EU food contact regulations</td></tr></tbody></table>",
   "bgImage": "Logo-Printed-Burger-Sandwich-Sleeves.jpg"
  },
  "faqHeading": "Frequently Asked Questions",

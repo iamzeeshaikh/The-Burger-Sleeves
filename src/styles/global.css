@@ -7,7 +7,10 @@
    Elementor CSS.
 --------------------------------------------------------------------------- */
 :root {
-  --red: #ff0000;          /* --e-global-color-ff0b311 */
+  /* Was #ff0000, the Elementor kit value. It renders at 3.998:1 on white and is
+     used as a text colour (.prose a, a:hover, .btn--white), so it failed WCAG AA
+     for body text. #ee0000 gives 4.53:1 and is indistinguishable at this size. */
+  --red: #ee0000;          /* --e-global-color-ff0b311, contrast-corrected */
   --black: #000000;        /* --e-global-color-c2b381a */
   --grey-600: #7a7a7a;
   --border: #e3e3e3;

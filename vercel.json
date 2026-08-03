@@ -22,16 +22,6 @@
       "source": "/product-category/:slug/page/:n(\\d+)",
       "destination": "/product-category/:slug/",
       "statusCode": 301
-    },
-    {
-      "source": "/feed/",
-      "destination": "/",
-      "statusCode": 302
-    },
-    {
-      "source": "/feed",
-      "destination": "/",
-      "statusCode": 302
     }
   ],
   "headers": [
