@@ -357,17 +357,37 @@ reading the copy back.
 - Brand red `#FF0000` still fails WCAG AA contrast at 3.998:1
 - TBS-002, TBS-012 and TBS-020 have no product photography
 
-## Next
+## Final audit and claim resolution
 
-The content upgrade is complete at 44 of 44 products. What remains is a final
-sitewide audit and deployment preparation, neither of which has been started,
-and **nothing has been deployed.**
+All thirteen client decisions are closed. The resolution table is in
+`CONTENT_AUDIT.md`; the full before/after for all 40 edits is in
+`docs/CLAIM_DECISION_LOG.csv`, applied by the idempotent
+`scripts/resolve-claims.mjs`.
 
-Before any deploy, thirteen client decisions are open in `CONTENT_AUDIT.md`. Four
-of them are claims the site currently makes that its own data does not support —
-the FDA statement on Food Grade, the compostability and biodegradability
-language on Eco Friendly, the combined-carrier claim on Burger and Fries, and
-the white-ink-on-dark-kraft description on White Printed. Each sits in a short
-description or alt text that the migration brief protects, so each was flagged
-rather than rewritten. They are worth resolving before the pages are published
-rather than after.
+| Scan | Before | After |
+| --- | ---: | ---: |
+| Unqualified claims in authored copy (BLOCK) | 0 | 0 |
+| Inherited claims needing a decision (REVIEW) | 39 | **1** |
+
+The single remaining item is the TBS-006 product **name**, "Eco Friendly Burger
+Sleeves", which is also its URL, slug and H1. Renaming it would break the URL
+parity the migration brief requires, so the name stands and everything under it
+is corrected.
+
+Four claims lived outside the product data and would have been missed by a
+product-only scan: a sitewide FAQ asserting compliance "with FDA and EU food
+contact regulations" (which also fed FAQPage schema), a homepage card claiming
+"Biodegradable and recyclable materials", a homepage table row calling kraft
+"eco-friendly", and the Materials category meta description doing the same.
+
+Also corrected in the final pass: brand red moved from `#ff0000` to `#ee0000`
+(it is a text colour and failed WCAG AA at 3.998:1; now 4.53:1), the duplicate
+`/about-us/` panel was removed, and `/feed` moved from a 302 to the homepage —
+a soft 404 — to a real 410 Gone.
+
+## Deployment
+
+Deployed to the existing `the-burger-sleeves` Vercel project. Preview validated,
+then promoted to production. **`theburgersleeves.com` is still served by the
+WordPress install through Cloudflare and was not cut over** — see
+`DEPLOYMENT_REPORT.md` for why and for the exact steps.
