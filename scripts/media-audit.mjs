@@ -21,6 +21,7 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const IMG_DIR = join(root, 'src/assets/images');
+const QUAR_DIR = join(root, 'quarantine/third-party-images');
 const productsPath = join(root, 'src/data/products.json');
 const products = JSON.parse(readFileSync(productsPath, 'utf8'));
 
@@ -74,7 +75,8 @@ const EXCLUDE = new Map(Object.entries({
 }));
 
 const dims = (file) => {
-  const p = join(IMG_DIR, file);
+  let p = join(IMG_DIR, file);
+  if (!existsSync(p)) p = join(QUAR_DIR, file);
   if (!existsSync(p)) return { w: 0, h: 0, bytes: 0 };
   const b = readFileSync(p);
   const bytes = statSync(p).size;
@@ -93,28 +95,32 @@ const dims = (file) => {
 const rows = [];
 let removed = 0;
 
+/* Which product originally referenced each excluded file. Recorded here so the
+ * inventory still reports the exclusions after the data has been cleaned — a
+ * re-run must not quietly drop the audit trail. */
+const ORIGIN = JSON.parse(readFileSync(join(root, 'scripts/excluded-origins.json'), 'utf8'));
+
 for (const p of products) {
   const before = p.images ?? [];
   const kept = before.filter((i) => !EXCLUDE.has(i.file));
-  const dropped = before.filter((i) => EXCLUDE.has(i.file));
-  removed += dropped.length;
+  removed += before.length - kept.length;
+  p.images = kept;
+}
 
-  for (const i of dropped) {
-    const [cat, seen] = EXCLUDE.get(i.file);
-    const d = dims(i.file);
+for (const [file, [cat, seen]] of EXCLUDE) {
+  const d = dims(file);
+  for (const o of ORIGIN[file] ?? [{ sku: '(unknown)', name: '', url: '', alt: '' }]) {
     rows.push({
-      sku: p.sku, product: p.name, url: p.url, role: 'excluded',
-      file: i.file, local_path: `src/assets/images/${i.file}`,
+      sku: o.sku, product: o.name, url: o.url, role: 'excluded',
+      file, local_path: `quarantine/third-party-images/${file}`,
       original_source: 'WordPress wp-content/uploads (migrated)',
-      dimensions: d.w ? `${d.w}x${d.h}` : 'unknown', bytes: d.bytes,
-      alt: i.alt, ownership: 'NOT owned — third-party or template imagery',
+      dimensions: d.w ? `${d.w}x${d.h}` : 'moved out of build',
+      bytes: d.bytes || '', alt: o.alt,
+      ownership: 'NOT owned — third-party or template imagery',
       status: 'excluded from production', third_party: cat,
-      action: `Whole image removed from product data. Visible: ${seen}. Not edited or de-watermarked.`,
+      action: `Whole image removed and moved out of the build glob. Visible: ${seen}. Not edited or de-watermarked.`,
     });
   }
-
-  p.images = kept;
-
 }
 
 /* ---------------------------------------------------------------- one owner per image
@@ -171,6 +177,42 @@ const cell = (v) => { const s = String(v ?? ''); return /[",\n]/.test(s) ? `"${s
 writeFileSync(join(root, 'docs/PRODUCT_IMAGE_INVENTORY.csv'),
   [header.join(','), ...rows.map((r) => header.map((h) => cell(r[h])).join(','))].join('\n') + '\n');
 
-console.log(`excluded ${removed} image reference(s) carrying third-party or template marks`);
+
+/* ---------------------------------------------------------------- sitewide imagery
+ * The homepage hero and the about page also referenced contaminated files —
+ * including White Castle packaging on two hero slides. Replaced with unbranded
+ * photographs already in the library. */
+const SITE_SWAPS = [
+  ['src/data/homepage.json', 'Mini-Small-Burger-Sleeve.jpg', 'Kraft-Medium-Burger-Sleeve.jpg', 'homepage intro image — DOWNTOWNER branded box'],
+  ['src/data/homepage.json', 'Logo-Printed-Small-Burger-Sleeve.jpg', 'Custom-Double-Patty-Burger-Sleeve.jpg', 'homepage printing section — Hamburgesa branded wrap'],
+  ['src/data/homepage.json', 'Single-Wall-Corrugated-Burger-Sleeve.jpg', 'Custom-Jumbo-Burger-Sleeves.jpg', 'homepage hero slide — third-party striped box identity'],
+  ['src/data/homepage.json', 'Corrugated-Burger-Sleeve.jpg', 'Unbleached-Kraft-Burger-Sleeve.jpg', 'homepage hero slides — White Castle branded clamshell'],
+  ['src/data/about.json', 'Corrugated-Burger-Sleeve.jpg', 'Matte-Burger-Sandwich-Sleeve.jpg', 'about page panel — White Castle branded clamshell'],
+  ['src/data/homepage.json', 'Jumbo-Burger-Sleeves.jpg', 'Paper-Double-Patty-Burger-Sleeves.jpg', 'homepage section image — free-mockup template'],
+  // The CTA banner background appears on the homepage, every product, every
+  // category, about and contact — so this one file was on nearly every page.
+  ['src/components/CtaBanner.astro', 'logo-printed-food-sleeves.jpg', 'Natural-Kraft-Brown-Burger-Sleeve.jpg', 'sitewide CTA banner background — BURGER HOUSE branded box'],
+];
+for (const [rel, before, after, why] of SITE_SWAPS) {
+  const fp = join(root, rel);
+  const raw = readFileSync(fp, 'utf8');
+  // Match the quoted filename, not a bare substring: replacing
+  // "Jumbo-Burger-Sleeves.jpg" loosely also rewrites the middle of
+  // "Custom-Jumbo-Burger-Sleeves.jpg" and invents a file that does not exist.
+  const quoted = new RegExp(`(['"\`])${before.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\1`, 'g');
+  if (!quoted.test(raw)) continue;
+  writeFileSync(fp, raw.replace(quoted, (m) => m[0] + after + m[0]));
+  rows.push({
+    sku: 'SITE', product: 'sitewide', url: rel, role: 'excluded',
+    file: before, local_path: `quarantine/third-party-images/${before}`,
+    original_source: 'WordPress wp-content/uploads (migrated)',
+    dimensions: '', bytes: '', alt: '',
+    ownership: 'NOT owned — third-party imagery', status: 'replaced',
+    third_party: 'third-party brand',
+    action: `${why}; replaced with ${after}`,
+  });
+}
+
+console.log(`excluded ${removed} image reference(s)`);
 console.log(`products given the temporary placeholder: ${placeheld}`);
 console.log(`inventory rows written: ${rows.length}`);
