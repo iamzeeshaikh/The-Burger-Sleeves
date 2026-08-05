@@ -30,7 +30,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-src https://maps.google.com https://www.google.com; upgrade-insecure-requests"
+          "value": "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; object-src 'none'; script-src 'self' https://chat.zeeops.dev; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://chat.zeeops.dev; font-src 'self'; connect-src 'self' https://chat.zeeops.dev wss://chat.zeeops.dev; frame-src https://maps.google.com https://www.google.com; upgrade-insecure-requests"
         },
         {
           "key": "X-Content-Type-Options",

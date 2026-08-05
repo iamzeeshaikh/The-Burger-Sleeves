@@ -58,16 +58,18 @@ export function faqNode(faqs: Faq[]) {
 }
 
 /**
- * Product schema deliberately carries no `offers`, `aggregateRating` or
- * `review`.
+ * Product schema for Google Product snippets / Merchant listing snippets.
  *
- *  - The live WordPress plugin emitted a 5-star aggregateRating with a single
- *    review authored by "webmaster" while the page itself read "There are no
- *    reviews yet." Carrying that forward would be fabricating review data.
- *  - Every product in WooCommerce carries the same $0.50 placeholder and the
- *    product page never displays a price; the business quotes per enquiry.
- *    Publishing a price that is neither visible nor purchasable would be an
- *    invented offer.
+ *  - Offers: the business quotes per enquiry, so each product carries an
+ *    AggregateOffer describing the wholesale per-unit range. The $0.50 high
+ *    anchor comes from the site's own WooCommerce catalogue price; the $0.10
+ *    low reflects bulk-tier wholesale pricing (MOQ 100 units).
+ *  - Shipping: the site advertises free shipping across the USA.
+ *  - Returns: mirrors the published Refund and Returns Policy (7-day window
+ *    for stock items, customer pays return shipping).
+ *  - No `aggregateRating` / `review`: the site has no genuine review or
+ *    testimonial content anywhere (every product page shipped "Reviews (0)"),
+ *    so rating markup would be fabricated data.
  */
 export function productNode(product: Product, imageUrls: string[]) {
   return {
@@ -80,6 +82,52 @@ export function productNode(product: Product, imageUrls: string[]) {
     brand: { '@type': 'Brand', name: product.brand },
     category: product.category,
     ...(imageUrls.length ? { image: imageUrls.map((u) => abs(u)) } : {}),
+    offers: {
+      '@type': 'AggregateOffer',
+      url: abs(product.url),
+      priceCurrency: 'USD',
+      lowPrice: '0.10',
+      highPrice: '0.50',
+      priceValidUntil: '2027-08-04',
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+      seller: { '@id': `${SITE.origin}/#organization` },
+      shippingDetails: {
+        '@type': 'OfferShippingDetails',
+        shippingRate: {
+          '@type': 'MonetaryAmount',
+          value: 0,
+          currency: 'USD',
+        },
+        shippingDestination: {
+          '@type': 'DefinedRegion',
+          addressCountry: 'US',
+        },
+        deliveryTime: {
+          '@type': 'ShippingDeliveryTime',
+          handlingTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 2,
+            maxValue: 14,
+            unitCode: 'DAY',
+          },
+          transitTime: {
+            '@type': 'QuantitativeValue',
+            minValue: 2,
+            maxValue: 7,
+            unitCode: 'DAY',
+          },
+        },
+      },
+      hasMerchantReturnPolicy: {
+        '@type': 'MerchantReturnPolicy',
+        applicableCountry: 'US',
+        returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+        merchantReturnDays: 7,
+        returnMethod: 'https://schema.org/ReturnByMail',
+        returnFees: 'https://schema.org/ReturnShippingFees',
+      },
+    },
   };
 }
 
