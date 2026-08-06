@@ -1,12 +1,12 @@
 ---
-import { Image } from 'astro:assets';
+import { getImage as astroImage } from 'astro:assets';
 import { getImage, PLACEHOLDER } from '../lib/images.ts';
 import type { ProductImage } from '../lib/catalog.ts';
 
 /**
  * Main image plus thumbnail strip, matching the WooCommerce gallery layout.
- * Thumbnails are radio inputs so switching works with keyboard and without
- * JavaScript; the CSS `:has()` selector reveals the matching main image.
+ * Clicking a thumbnail swaps the main image in place (src + srcset), and a
+ * small script pre-warms every gallery image so the swap is instant.
  */
 export interface Props {
   images: ProductImage[];
@@ -18,83 +18,131 @@ const { images, productName, id = 'gallery' } = Astro.props;
 const shots = images.length
   ? images
   : [{ file: PLACEHOLDER, alt: `${productName} — product photography coming soon` }];
-const resolved = shots
-  .map((s) => ({ ...s, img: getImage(s.file) }))
-  .filter((s): s is ProductImage & { img: NonNullable<ReturnType<typeof getImage>> } => !!s.img);
+
+const sizes = '(max-width: 900px) 92vw, 400px';
+const resolved = (
+  await Promise.all(
+    shots.map(async (s) => {
+      const meta = getImage(s.file);
+      if (!meta) return null;
+      const main = await astroImage({ src: meta, widths: [400, 800], sizes });
+      const thumb = await astroImage({ src: meta, width: 140 });
+      return { alt: s.alt, main, thumb };
+    }),
+  )
+).filter((s): s is NonNullable<typeof s> => s !== null);
+
+const first = resolved[0];
 ---
 
-<div class="gallery" data-gallery>
-  <div class="gallery__stage">
-    {
-      resolved.map((_s, i) => (
-        <input
-          type="radio"
-          name={`${id}-shot`}
-          id={`${id}-shot-${i}`}
-          class="gallery__radio visually-hidden"
-          checked={i === 0}
+{
+  first && (
+    <div class="gallery" data-gallery>
+      <div class="gallery__stage">
+        <img
+          class="gallery__main"
+          data-main-img
+          src={first.main.src}
+          srcset={first.main.srcSet.attribute}
+          sizes={sizes}
+          alt={first.alt || productName}
+          width={first.main.attributes.width}
+          height={first.main.attributes.height}
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
         />
-      ))
-    }
-    {
-      resolved.map((s, i) => (
-        <figure class="gallery__figure" data-index={i}>
-          <Image
-            src={s.img}
-            alt={s.alt}
-            widths={[400, 800]}
-            sizes="(max-width: 900px) 92vw, 400px"
-            loading={i === 0 ? 'eager' : 'lazy'}
-            fetchpriority={i === 0 ? 'high' : undefined}
-            decoding={i === 0 ? 'sync' : 'async'}
-          />
-        </figure>
-      ))
-    }
-  </div>
+      </div>
 
-  {
-    resolved.length > 1 && (
-      <ul class="gallery__thumbs">
-        {resolved.map((s, i) => (
-          <li>
-            <label class="gallery__thumb" for={`${id}-shot-${i}`}>
-              <span class="visually-hidden">{`Show image ${i + 1} of ${resolved.length}: ${s.alt}`}</span>
-              <Image src={s.img} alt="" widths={[100]} sizes="80px" loading="lazy" />
-            </label>
-          </li>
-        ))}
-      </ul>
-    )
+      {resolved.length > 1 && (
+        <ul class="gallery__thumbs">
+          {resolved.map((s, i) => (
+            <li>
+              <button
+                type="button"
+                class:list={['thumb-btn', { active: i === 0 }]}
+                data-src={s.main.src}
+                data-srcset={s.main.srcSet.attribute}
+                data-alt={s.alt || `${productName} image ${i + 1}`}
+                aria-label={`View image ${i + 1} of ${resolved.length}: ${s.alt || productName}`}
+              >
+                <img
+                  src={s.thumb.src}
+                  alt={s.alt || `${productName} image ${i + 1}`}
+                  width={s.thumb.attributes.width}
+                  height={s.thumb.attributes.height}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  )
+}
+
+<script>
+  function initGallery(gallery: HTMLElement) {
+    const mainImg = gallery.querySelector<HTMLImageElement>('[data-main-img]');
+    const thumbs = Array.from(gallery.querySelectorAll<HTMLButtonElement>('.thumb-btn'));
+    if (!mainImg || thumbs.length === 0) return;
+
+    const warmed = new Set<string>();
+    const warm = (src: string | undefined, srcset?: string) => {
+      if (!src || warmed.has(src)) return;
+      warmed.add(src);
+      const img = new Image();
+      img.fetchPriority = 'low';
+      if (srcset) {
+        img.sizes = mainImg.sizes || '';
+        img.srcset = srcset;
+      }
+      img.src = src;
+    };
+    const warmAll = () => {
+      for (const btn of thumbs) warm(btn.dataset.src, btn.dataset.srcset);
+    };
+
+    // Pre-warm every gallery image when the browser is idle so swaps are instant.
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(warmAll, { timeout: 3000 });
+    } else {
+      window.addEventListener('load', () => setTimeout(warmAll, 500), { once: true });
+    }
+
+    for (const btn of thumbs) {
+      // Warm eagerly on intent, in case idle warming hasn't run yet.
+      btn.addEventListener('pointerenter', () => warm(btn.dataset.src, btn.dataset.srcset), {
+        passive: true,
+      });
+      btn.addEventListener('touchstart', () => warm(btn.dataset.src, btn.dataset.srcset), {
+        passive: true,
+      });
+      btn.addEventListener('click', () => {
+        if (!btn.dataset.src) return;
+        for (const other of thumbs) other.classList.remove('active');
+        btn.classList.add('active');
+        // srcset must be set before src so the browser picks the right candidate.
+        mainImg.srcset = btn.dataset.srcset || '';
+        mainImg.src = btn.dataset.src;
+        if (btn.dataset.alt) mainImg.alt = btn.dataset.alt;
+      });
+    }
   }
-</div>
+
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(initGallery);
+</script>
 
 <style>
   .gallery__stage {
-    position: relative;
     display: grid;
   }
-  .gallery__figure {
-    grid-area: 1 / 1;
-    margin: 0;
-    opacity: 0;
-    visibility: hidden;
-  }
-  .gallery__figure :global(img) {
+  .gallery__main {
     width: 100%;
     height: auto;
     border-radius: 2px;
-  }
-
-  /* Only the checked radio's figure is visible. */
-  .gallery__radio:nth-of-type(1):checked ~ .gallery__figure[data-index='0'],
-  .gallery__radio:nth-of-type(2):checked ~ .gallery__figure[data-index='1'],
-  .gallery__radio:nth-of-type(3):checked ~ .gallery__figure[data-index='2'],
-  .gallery__radio:nth-of-type(4):checked ~ .gallery__figure[data-index='3'],
-  .gallery__radio:nth-of-type(5):checked ~ .gallery__figure[data-index='4'],
-  .gallery__radio:nth-of-type(6):checked ~ .gallery__figure[data-index='5'] {
-    opacity: 1;
-    visibility: visible;
   }
 
   .gallery__thumbs {
@@ -105,33 +153,28 @@ const resolved = shots
     margin: 14px 0 0;
     padding: 0;
   }
-  .gallery__thumb {
+  .thumb-btn {
     display: block;
     width: 70px;
     border: 1px solid transparent;
+    background: none;
     padding: 2px;
     cursor: pointer;
     border-radius: 3px;
   }
-  .gallery__thumb:hover {
+  .thumb-btn:hover {
     border-color: var(--border);
   }
-  .gallery__radio:focus-visible + .gallery__figure,
-  .gallery__thumb:focus-within {
+  .thumb-btn:focus-visible {
     outline: var(--focus);
     outline-offset: 2px;
   }
-  /* Mark the active thumbnail. */
-  .gallery__radio:nth-of-type(1):checked ~ .gallery__thumbs li:nth-child(1) .gallery__thumb,
-  .gallery__radio:nth-of-type(2):checked ~ .gallery__thumbs li:nth-child(2) .gallery__thumb,
-  .gallery__radio:nth-of-type(3):checked ~ .gallery__thumbs li:nth-child(3) .gallery__thumb,
-  .gallery__radio:nth-of-type(4):checked ~ .gallery__thumbs li:nth-child(4) .gallery__thumb,
-  .gallery__radio:nth-of-type(5):checked ~ .gallery__thumbs li:nth-child(5) .gallery__thumb,
-  .gallery__radio:nth-of-type(6):checked ~ .gallery__thumbs li:nth-child(6) .gallery__thumb {
+  .thumb-btn.active {
     border-color: var(--red);
     background: #f3f3f3;
   }
-  .gallery__thumb :global(img) {
+  .thumb-btn img {
+    display: block;
     width: 100%;
     height: auto;
     border-radius: 2px;

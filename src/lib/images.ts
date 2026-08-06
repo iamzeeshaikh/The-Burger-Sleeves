@@ -13,7 +13,8 @@ const modules = import.meta.glob<{ default: ImageMetadata }>(
 const byName = new Map<string, ImageMetadata>();
 for (const [path, mod] of Object.entries(modules)) {
   const name = path.split('/').pop();
-  if (name) byName.set(name, mod.default);
+  // Skip macOS AppleDouble sidecars (._foo.jpg) that can leak in from exFAT drives.
+  if (name && !name.startsWith('._')) byName.set(name, mod.default);
 }
 
 export function getImage(filename: string | undefined): ImageMetadata | undefined {
