@@ -42,6 +42,14 @@ export const ROUTES: Route[] = [
   { path: '/contact-us/', kind: 'page', indexable: true, priority: 0.6 },
   { path: '/get-free-quote/', kind: 'page', indexable: true, priority: 0.7 },
 
+  // Blog listing plus one path per markdown file in src/data/blog/.
+  { path: '/blog/', kind: 'page', indexable: true, priority: 0.6 },
+  { path: '/blog/what-are-burger-sleeves-and-how-do-they-work/', kind: 'page', indexable: true, priority: 0.6 },
+  { path: '/blog/how-to-choose-burger-sleeve-sizes/', kind: 'page', indexable: true, priority: 0.6 },
+  { path: '/blog/kraft-and-greaseproof-burger-sleeves-compared/', kind: 'page', indexable: true, priority: 0.6 },
+  { path: '/blog/how-to-design-custom-printed-burger-sleeves/', kind: 'page', indexable: true, priority: 0.6 },
+  { path: '/blog/burger-sleeves-wrappers-and-boxes-compared/', kind: 'page', indexable: true, priority: 0.6 },
+
   { path: '/privacy-policy/', kind: 'policy', indexable: true, priority: 0.3 },
   { path: '/refund_returns/', kind: 'policy', indexable: true, priority: 0.3 },
   { path: '/shipping-policy/', kind: 'policy', indexable: true, priority: 0.3 },

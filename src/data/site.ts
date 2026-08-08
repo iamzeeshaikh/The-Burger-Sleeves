@@ -68,6 +68,7 @@ export const MAIN_NAV: NavItem[] = [
       { label: 'Small Burger Sleeves', href: '/product/small-burger-sleeves/' },
     ],
   },
+  { label: 'Blog', href: '/blog/' },
 ];
 
 export const FOOTER_QUICK_LINKS = [
@@ -81,6 +82,7 @@ export const FOOTER_QUICK_LINKS = [
 
 export const FOOTER_COMPANY_LINKS = [
   { label: 'About Us', href: '/about-us/' },
+  { label: 'Blog', href: '/blog/' },
   { label: 'Contact Us', href: '/contact-us/' },
   { label: 'Privacy Policy', href: '/privacy-policy/' },
   { label: 'Refund and Returns Policy', href: '/refund_returns/' },
